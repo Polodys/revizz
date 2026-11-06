@@ -1,0 +1,242 @@
+/* ***************************************
+   VARIABLES CSS
+   *************************************** */
+:root {
+  --primary-color: #080682;
+  --bg-main: #f1f1f1;
+  --bg-light: #ffffff;
+  --border-color: lightskyblue;
+  --btn-bg: #486a99;
+  --btn-hover-bg: #000044;
+  --success-bg: #d4eada;
+  --error-bg: #f8d7da;
+}
+
+/* ****************************************
+   BASE & RESET
+   **************************************** */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #628ac2 100%);
+}
+
+/* *************************************
+   LAYOUT & MAIN CONTAINER
+   ************************************* */
+.main-container {
+  width: 95%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: var(--bg-main);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  border-radius: 30px;
+  box-shadow: 1px 2px 15px var( --btn-hover-bg);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-grow: 0;
+  text-align: center;
+}
+
+.params-btn {
+  color: var(--primary-color);
+  opacity: 0.6;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.params-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* *******************************************
+   COMPOSANTS COMMUNS (questions, résultats)
+   ******************************************* */
+.question,
+.result {
+  text-align: center;
+  padding: 10px 5px;
+  width: 100%;
+  border: 1px solid var( --border-color);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.question,
+.result {
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+}
+
+/* *******************************************
+   LISTES & ELEMENTS DE REPONSE
+   ******************************************* */
+.answers-list,
+.review-quiz-list {
+  width: 100%;
+}
+
+.answers-list li,
+.review-quiz-list li {
+  margin: 20px 0px;
+  padding: 10px 5px;
+  background-color: var(--bg-light);
+  border: 1px solid var( --border-color);
+  border-radius: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.answers-list li:hover,
+.review-quiz-list li:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+/* ******************************************
+   ETATS DU QUIZ (correct / incorrect)
+   ****************************************** */
+.answers-list li.right,
+.answers-list li.right:hover,
+.review-quiz-list ul li.correct,
+.review-quiz-list ul:has(> li.correct) {
+  background-color: var( --success-bg);
+  border: 1px solid #d4edda;
+  cursor: default;
+}
+
+.answers-list li.wrong,
+.answers-list li.wrong:hover,
+.review-quiz-list ul li.incorrect,
+.review-quiz-list ul:has(> li.incorrect) {
+  background-color: var( --error-bg);
+  border: 1px solid var( --error-bg);
+  cursor: default;
+}
+
+.review-quiz-list ul li:first-child {
+  font-weight: bold;
+}
+
+.review-quiz-list ul:has(> li.correct):nth-child(1),
+.review-quiz-list ul:has(> li.incorrect):nth-child(1) {
+  border-radius: 15px 15px 0 0;
+}
+
+.review-quiz-list ul:has(> li.correct),
+.review-quiz-list ul:has(> li.incorrect) {
+  box-shadow: 0px 1px 4px #515151;
+  cursor: default;
+}
+
+.review-quiz-list ul:has(> li.correct):nth-last-child(1),
+.review-quiz-list ul:has(> li.incorrect):nth-last-child(1) {
+  border-radius: 0 0 15px 15px;
+}
+
+/* ******************************************
+   MODAL POUR LES PARAMETRES
+   ****************************************** */
+.params-modal {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.params-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+::backdrop {
+  background-image: linear-gradient(
+    45deg,
+    var( --btn-hover-bg)
+  );
+  opacity: 0.75;
+}
+
+.params-form div button:first-child {
+  margin-bottom: 5px;
+}
+
+
+/* ******************************************
+   BOUTONS & CLASSES UTILITAIRES
+   ****************************************** */
+
+.btn {
+    background-color: var( --btn-bg);
+    color: var(--bg-light);
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s;
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 1px solid var( --btn-bg);
+}
+
+.btn:hover {
+    background-color: var( --btn-hover-bg);
+    cursor: pointer;
+}
+
+.pressed {
+  transform: scale(0.98);
+}
+
+.hidden {
+  display: none !important;
+}
