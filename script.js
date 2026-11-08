@@ -1,4 +1,4 @@
-import { maths3e, maths2de, physics3e } from "./quiz-data.js";
+import { maths3e, maths2de, physics3e, biology2de } from "./quiz-data.js";
 
 // --- Etat global de l'application ---
 let index = 0;
@@ -211,9 +211,10 @@ paramsForm.addEventListener("submit", (e) => {
   const selectedTheme1 = formData.get("theme1");
   const selectedTheme2 = formData.get("theme2");
   const selectedTheme3 = formData.get("theme3");
+  const selectedTheme4 = formData.get("theme4");
 
   // Validation : s'assurer qu'au moins un thème est coché
-  if (!selectedTheme1 && !selectedTheme2 && !selectedTheme3) {
+  if (!selectedTheme1 && !selectedTheme2 && !selectedTheme3 && !selectedTheme4) {
     alert("Veuillez sélectionner au moins un thème !");
     return;
   }
@@ -227,6 +228,7 @@ paramsForm.addEventListener("submit", (e) => {
   if (selectedTheme1 === "maths-3e") {quizThemes.push(maths3e);}
   if (selectedTheme2 === "maths-2de") {quizThemes.push(maths2de);}
   if (selectedTheme3 === "physics-3e") {quizThemes.push(physics3e);}
+  if (selectedTheme4 === "biology-2de") {quizThemes.push(biology2de);}
 
   restart();
 });

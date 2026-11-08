@@ -870,368 +870,469 @@ export const maths2de = [
     wrong: ["-1", "1", "Il n'en a pas"],
   },
   {
-      "question": "Comment appelle-t-on la représentation graphique d'une fonction du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
-      "right": "Une parabole",
-      "wrong": ["Une droite", "Une hyperbole", "Un cercle"]
+    question:
+      "Comment appelle-t-on la représentation graphique d'une fonction du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
+    right: "Une parabole",
+    wrong: ["Une droite", "Une hyperbole", "Un cercle"],
   },
   {
-      "question": "Quelles sont les solutions de l'équation <math><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>7</mn></math> ?",
-      "right": "<math><msqrt><mn>7</mn></msqrt></math> et <math><mo>-</mo><msqrt><mn>7</mn></msqrt></math>",
-      "wrong": [
-          "<math><msqrt><mn>7</mn></msqrt></math> uniquement",
-          "7 et -7",
-          "<math><mn>3</mn><mo>,</mo><mn>5</mn></math> et <math><mo>-</mo><mn>3</mn><mo>,</mo><mn>5</mn></math>"
-      ]
+    question:
+      "Quelles sont les solutions de l'équation <math><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>7</mn></math> ?",
+    right:
+      "<math><msqrt><mn>7</mn></msqrt></math> et <math><mo>-</mo><msqrt><mn>7</mn></msqrt></math>",
+    wrong: [
+      "<math><msqrt><mn>7</mn></msqrt></math> uniquement",
+      "7 et -7",
+      "<math><mn>3</mn><mo>,</mo><mn>5</mn></math> et <math><mo>-</mo><mn>3</mn><mo>,</mo><mn>5</mn></math>",
+    ],
   },
   {
-      "question": "Quel est le taux de variation (ou taux d'accroissement) d'une fonction affine <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> entre deux réels distincts <math><msub><mi>u</mi><mn>1</mn></msub></math> et <math><msub><mi>u</mi><mn>2</mn></msub></math> ?",
-      "right": "<math><mi>a</mi></math>",
-      "wrong": ["<math><mi>b</mi></math>", "<math><mi>a</mi><mi>x</mi></math>", "0"]
+    question:
+      "Quel est le taux de variation (ou taux d'accroissement) d'une fonction affine <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> entre deux réels distincts <math><msub><mi>u</mi><mn>1</mn></msub></math> et <math><msub><mi>u</mi><mn>2</mn></msub></math> ?",
+    right: "<math><mi>a</mi></math>",
+    wrong: [
+      "<math><mi>b</mi></math>",
+      "<math><mi>a</mi><mi>x</mi></math>",
+      "0",
+    ],
   },
   {
-      "question": "Dans un repère, si le coefficient directeur <math><mi>a</mi></math> d'une droite est négatif, que dire de la fonction affine associée ?",
-      "right": "Elle est strictement décroissante",
-      "wrong": ["Elle est strictement croissante", "Elle est constante", "Elle est positive"]
+    question:
+      "Dans un repère, si le coefficient directeur <math><mi>a</mi></math> d'une droite est négatif, que dire de la fonction affine associée ?",
+    right: "Elle est strictement décroissante",
+    wrong: [
+      "Elle est strictement croissante",
+      "Elle est constante",
+      "Elle est positive",
+    ],
   },
   {
-      "question": "Comment appelle-t-on deux vecteurs <math><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover></math> et <math><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">→</mo></mover></math> dont la direction est la même ?",
-      "right": "Des vecteurs colinéaires",
-      "wrong": ["Des vecteurs orthogonaux", "Des vecteurs opposés", "Des vecteurs normaux"]
+    question:
+      'Comment appelle-t-on deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> dont la direction est la même ?',
+    right: "Des vecteurs colinéaires",
+    wrong: [
+      "Des vecteurs orthogonaux",
+      "Des vecteurs opposés",
+      "Des vecteurs normaux",
+    ],
   },
   {
-      "question": "Soit deux vecteurs non nuls <math><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et <math><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">→</mo></mover><mo>(</mo><mi>x</mi><mo>'</mo><mo>;</mo><mi>y</mi><mo>'</mo><mo>)</mo></math>. Quelle est la condition de colinéarité à l'aide du déterminant ?",
-      "right": "<math><mi>x</mi><mi>y</mi><mo>'</mo><mo>-</mo><mi>y</mi><mi>x</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
-      "wrong": [
-          "<math><mi>x</mi><mi>x</mi><mo>'</mo><mo>+</mo><mi>y</mi><mi>y</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
-          "<math><mi>x</mi><mi>x</mi><mo>'</mo><mo>-</mo><mi>y</mi><mi>y</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
-          "<math><mi>x</mi><mi>y</mi><mo>'</mo><mo>+</mo><mi>y</mi><mi>x</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>"
-      ]
+    question:
+      'Soit deux vecteurs non nuls <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>\'</mo><mo>;</mo><mi>y</mi><mo>\'</mo><mo>)</mo></math>. Quelle est la condition de colinéarité à l\'aide du déterminant ?',
+    right:
+      "<math><mi>x</mi><mi>y</mi><mo>'</mo><mo>-</mo><mi>y</mi><mi>x</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
+    wrong: [
+      "<math><mi>x</mi><mi>x</mi><mo>'</mo><mo>+</mo><mi>y</mi><mi>y</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
+      "<math><mi>x</mi><mi>x</mi><mo>'</mo><mo>-</mo><mi>y</mi><mi>y</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
+      "<math><mi>x</mi><mi>y</mi><mo>'</mo><mo>+</mo><mi>y</mi><mi>x</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
+    ],
   },
   {
-      "question": "Quelle est la formule des coordonnées du milieu <math><mi>M</mi></math> d'un segment <math><mo>[</mo><mi>A</mi><mi>B</mi><mo>]</mo></math> avec <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> ?",
-      "right": "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>y</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
-      "wrong": [
-          "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
-          "<math><mrow><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></mrow></math>",
-          "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>A</mi></msub><msub><mi>x</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>A</mi></msub><msub><mi>y</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>"
-      ]
+    question:
+      "Quelle est la formule des coordonnées du milieu <math><mi>M</mi></math> d'un segment <math><mo>[</mo><mi>A</mi><mi>B</mi><mo>]</mo></math> avec <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> ?",
+    right:
+      "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>y</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
+    wrong: [
+      "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>A</mi></msub><msub><mi>x</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>A</mi></msub><msub><mi>y</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
+    ],
   },
   {
-      "question": "Que représente graphiquement l'ensemble des solutions d'une inéquation à deux inconnues du premier degré ?",
-      "right": "Un demi-plan",
-      "wrong": ["Une droite", "Un segment", "Un point"]
+    question:
+      "Que représente graphiquement l'ensemble des solutions d'une inéquation à deux inconnues du premier degré ?",
+    right: "Un demi-plan",
+    wrong: ["Une droite", "Un segment", "Un point"],
   },
   {
-      "question": "Quel est le résultat de la factorisation de l'expression <math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math> ?",
-      "right": "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math>",
-      "wrong": [
-          "<math><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
-          "<math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
-          "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></math>"
-      ]
+    question:
+      "Quel est le résultat de la factorisation de l'expression <math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math> ?",
+    right:
+      "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math>",
+    wrong: [
+      "<math><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></math>",
+    ],
   },
   {
-      "question": "Quelle est la forme canonique générale d'une fonction trinôme du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
-      "right": "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>&beta;</mi></math>",
-      "wrong": [
-          "<math><mi>a</mi><mo>(</mi><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></math>",
-          "<math><msup><mrow><mo>(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>&beta;</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
-          "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>-</mo><mi>&beta;</mi></math>"
-      ]
+    question:
+      "Quelle est la forme canonique générale d'une fonction trinôme du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
+    right:
+      "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>&beta;</mi></math>",
+    wrong: [
+      "<math><mi>a</mi><mo>(</mi><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></math>",
+      "<math><msup><mrow><mo>(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>&beta;</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>-</mo><mi>&beta;</mi></math>",
+    ],
   },
   {
-      "question": "Quelle est la définition de la valeur absolue d'un nombre réel <math><mi>x</mi></math>, notée <math><mo>|</mo><mi>x</mi><mo>|</mo></math> ?",
-      "right": "La distance entre <math><mi>x</mi></math> et 0 sur la droite graduée",
-      "wrong": [
-          "Le carré de ce nombre",
-          "L'inverse de ce nombre",
-          "La racine carrée de <math><mo>-</mo><mi>x</mi></math>"
-      ]
+    question:
+      "Quelle est la définition de la valeur absolue d'un nombre réel <math><mi>x</mi></math>, notée <math><mo>|</mo><mi>x</mi><mo>|</mo></math> ?",
+    right:
+      "La distance entre <math><mi>x</mi></math> et 0 sur la droite graduée",
+    wrong: [
+      "Le carré de ce nombre",
+      "L'inverse de ce nombre",
+      "La racine carrée de <math><mo>-</mo><mi>x</mi></math>",
+    ],
   },
   {
-      "question": "Que vaut la distance entre deux points <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> dans un repère orthonormé ?",
-      "right": "<math><msqrt><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></msqrt></math>",
-      "wrong": [
-          "<math><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math>",
-          "<math><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></math>",
-          "<math><msqrt><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></msqrt></math>"
-      ]
+    question:
+      "Que vaut la distance entre deux points <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> dans un repère orthonormé ?",
+    right:
+      "<math><msqrt><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></msqrt></math>",
+    wrong: [
+      "<math><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math>",
+      "<math><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><msqrt><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></msqrt></math>",
+    ],
   },
   {
-      "question": "Quelle est l'équation cartésienne générale d'une droite non verticale dans le plan ?",
-      "right": "<math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>p</mi></math>",
-      "wrong": [
-          "<math><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi></math>",
-          "<math><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>y</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>",
-          "<math><mi>y</mi><mo>=</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></math>"
-      ]
+    question:
+      "Quelle est l'équation cartésienne générale d'une droite non verticale dans le plan ?",
+    right:
+      "<math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>p</mi></math>",
+    wrong: [
+      "<math><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi></math>",
+      "<math><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>y</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>",
+      "<math><mi>y</mi><mo>=</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></math>",
+    ],
   },
   {
-      "question": "Si deux droites ont pour équations réduites respectives <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub></math> et <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub></math>, quelle est la condition pour qu'elles soient parallèles ?",
-      "right": "<math><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub></math>",
-      "wrong": [
-          "<math><msub><mi>m</mi><mn>1</mn></msub><mo>&times;</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mo>-</mo><mn>1</mn></math>",
-          "<math><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></math>",
-          "<math><msub><mi>p</mi><mn>1</mn></msub><mo>=</mo><msub><mi>p</mi><mn>2</mn></msub></math>"
-      ]
+    question:
+      "Si deux droites ont pour équations réduites respectives <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub></math> et <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub></math>, quelle est la condition pour qu'elles soient parallèles ?",
+    right:
+      "<math><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub></math>",
+    wrong: [
+      "<math><msub><mi>m</mi><mn>1</mn></msub><mo>&times;</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mo>-</mo><mn>1</mn></math>",
+      "<math><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></math>",
+      "<math><msub><mi>p</mi><mn>1</mn></msub><mo>=</mo><msub><mi>p</mi><mn>2</mn></msub></math>",
+    ],
   },
   {
-      "question": "Dans un repère orthonormé, quelle est l'équation du cercle trigonométrique centré à l'origine ?",
-      "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
-      "wrong": [
-          "<math><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></math>",
-          "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
-          "<math><mi>x</mi><mi>y</mi><mo>=</mo><mn>1</mn></math>"
-      ]
+    question:
+      "Dans un repère orthonormé, quelle est l'équation du cercle trigonométrique centré à l'origine ?",
+    right:
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
+    wrong: [
+      "<math><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
+      "<math><mi>x</mi><mi>y</mi><mo>=</mo><mn>1</mn></math>",
+    ],
   },
   {
-      "question": "Pour tout angle <math><mi>x</mi></math> du cercle trigonométrique, que vaut la relation fondamentale <math><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></math> ?",
-      "right": "1",
-      "wrong": ["0", "-1", "<math><mi>sin</mi><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></math>"]
+    question:
+      "Pour tout angle <math><mi>x</mi></math> du cercle trigonométrique, que vaut la relation fondamentale <math><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></math> ?",
+    right: "1",
+    wrong: [
+      "0",
+      "-1",
+      "<math><mi>sin</mi><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></math>",
+    ],
   },
   {
-      "question": "Quelle est la valeur remarquable de <math><mi>cos</mi><mo>(</mo><mn>0</mn><mo>)</mo></math> ?",
-      "right": "1",
-      "wrong": ["0", "-1", "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"]
+    question:
+      "Quelle est la valeur remarquable de <math><mi>cos</mi><mo>(</mo><mn>0</mn><mo>)</mo></math> ?",
+    right: "1",
+    wrong: ["0", "-1", "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"],
   },
   {
-      "question": "Quelle est la valeur remarquable de <math><mi>sin</mi><mo>(</mo><mfrac><mi>&pi;</mi><mn>2</mn></mfrac><mo>)</mo></math> ?",
-      "right": "1",
-      "wrong": ["0", "-1", "<math><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>"]
+    question:
+      "Quelle est la valeur remarquable de <math><mi>sin</mi><mo>(</mo><mfrac><mi>&pi;</mi><mn>2</mn></mfrac><mo>)</mo></math> ?",
+    right: "1",
+    wrong: [
+      "0",
+      "-1",
+      "<math><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>",
+    ],
   },
   {
-      "question": "Comment appelle-t-on le coefficient multiplicateur associé à une baisse de 15 % ?",
-      "right": "0,85",
-      "wrong": ["1,15", "-0,15", "0,15"]
+    question:
+      "Comment appelle-t-on le coefficient multiplicateur associé à une baisse de 15 % ?",
+    right: "0,85",
+    wrong: ["1,15", "-0,15", "0,15"],
   },
   {
-      "question": "Si un prix subit deux hausses successives de 10 %, quel est le coefficient multiplicateur global ?",
-      "right": "1,21",
-      "wrong": ["1,20", "1,10", "1,01"]
+    question:
+      "Si un prix subit deux hausses successives de 10 %, quel est le coefficient multiplicateur global ?",
+    right: "1,21",
+    wrong: ["1,20", "1,10", "1,01"],
   },
   {
-      "question": "Quelle est la formule de la fréquence <math><mi>f</mi></math> d'un caractère dans un effectif total <math><mi>N</mi></math> avec un effectif partiel <math><mi>n</mi></math> ?",
-      "right": "<math><mi>f</mi><mo>=</mo><mfrac><mi>n</mi><mi>N</mi></mfrac></math>",
-      "wrong": [
-          "<math><mi>f</mi><mo>=</mo><mi>n</mi><mo>&times;</mo><mi>N</mi></math>",
-          "<math><mi>f</mi><mo>=</mo><mfrac><mi>N</mi><mi>n</mi></mfrac></math>",
-          "<math><mi>f</mi><mo>=</mo><mi>n</mi><mo>-</mo><mi>N</mi></math>"
-      ]
+    question:
+      "Quelle est la formule de la fréquence <math><mi>f</mi></math> d'un caractère dans un effectif total <math><mi>N</mi></math> avec un effectif partiel <math><mi>n</mi></math> ?",
+    right:
+      "<math><mi>f</mi><mo>=</mo><mfrac><mi>n</mi><mi>N</mi></mfrac></math>",
+    wrong: [
+      "<math><mi>f</mi><mo>=</mo><mi>n</mi><mo>&times;</mo><mi>N</mi></math>",
+      "<math><mi>f</mi><mo>=</mo><mfrac><mi>N</mi><mi>n</mi></mfrac></math>",
+      "<math><mi>f</mi><mo>=</mo><mi>n</mi><mo>-</mo><mi>N</mi></math>",
+    ],
   },
   {
-      "question": "Quelle mesure de position sépare une série statistique ordonnée en deux parties de même effectif ?",
-      "right": "La médiane",
-      "wrong": ["La moyenne", "L'étendue", "L'écart-type"]
+    question:
+      "Quelle mesure de position sépare une série statistique ordonnée en deux parties de même effectif ?",
+    right: "La médiane",
+    wrong: ["La moyenne", "L'étendue", "L'écart-type"],
   },
   {
-      "question": "Que représente la variance ou l'écart-type dans une série statistique ?",
-      "right": "La dispersion des valeurs autour de la moyenne",
-      "wrong": [
-          "La valeur centrale de la série",
-          "La différence entre le maximum et le minimum",
-          "Le nombre total d'individus"
-      ]
+    question:
+      "Que représente la variance ou l'écart-type dans une série statistique ?",
+    right: "La dispersion des valeurs autour de la moyenne",
+    wrong: [
+      "La valeur centrale de la série",
+      "La différence entre le maximum et le minimum",
+      "Le nombre total d'individus",
+    ],
   },
   {
-      "question": "Si l'on considère une expérience aléatoire, que vaut la somme des probabilités de tous les issues (événements élémentaires) possibles ?",
-      "right": "1",
-      "wrong": ["0", "100", "Cela dépend de l'expérience"]
+    question:
+      "Si l'on considère une expérience aléatoire, que vaut la somme des probabilités de tous les issues (événements élémentaires) possibles ?",
+    right: "1",
+    wrong: ["0", "100", "Cela dépend de l'expérience"],
   },
   {
-      "question": "Pour deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> d'un même univers, que vaut la probabilité de l'événement contraire de <math><mi>A</mi></math>, noté <math><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover></math> ?",
-      "right": "<math><mi>P</mi><mo>(</mo><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>",
-      "wrong": [
-          "<math><mi>P</mi><mo>(</mo><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>-</mo><mn>1</mn></math>",
-          "<math><mi>P</mi><mo>(</mo><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mfrac></math>",
-          "<math><mi>P</mi><mo>(</mo><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>"
-      ]
+    question:
+      "Pour deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> d'un même univers, que vaut la probabilité de l'événement contraire de <math><mi>A</mi></math>, noté <math><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover></math> ?",
+    right:
+      '<math><mi>P</mi><mo>(</mo><mover accent="true"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>',
+    wrong: [
+      '<math><mi>P</mi><mo>(</mo><mover accent="true"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>-</mo><mn>1</mn></math>',
+      '<math><mi>P</mi><mo>(</mo><mover accent="true"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mfrac></math>',
+      '<math><mi>P</mi><mo>(</mo><mover accent="true"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>',
+    ],
   },
   {
-      "question": "Quelle est la formule de la probabilité de la réunion de deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> ?",
-      "right": "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></math>",
-      "wrong": [
-          "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
-          "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>&times;</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
-          "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></math>"
-      ]
+    question:
+      "Quelle est la formule de la probabilité de la réunion de deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> ?",
+    right:
+      "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></math>",
+    wrong: [
+      "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>&times;</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
+      "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></math>",
+    ],
   },
   {
-      "question": "Comment appelle-t-on deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> tels que <math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> ?",
-      "right": "Des événements incompatibles",
-      "wrong": ["Des événements indépendants", "Des événements contraires", "Des événements élémentaires"]
+    question:
+      "Comment appelle-t-on deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> tels que <math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> ?",
+    right: "Des événements incompatibles",
+    wrong: [
+      "Des événements indépendants",
+      "Des événements contraires",
+      "Des événements élémentaires",
+    ],
   },
   {
-      "question": "Quel est le résultat de la simplification de la puissance <math><msup><mrow><mo>(</mo><msup><mi>a</mi><mi>m</mi></msup><mo>)</mo></mrow><mi>n</mi></msup></math> ?",
-      "right": "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>&times;</mo><mi>n</mi></mrow></msup></math>",
-      "wrong": [
-          "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow></msup></math>",
-          "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>-</mo><mi>n</mi></mrow></msup></math>",
-          "<math><msup><mi>a</mi><mrow><msup><mi>m</mi><mi>n</mi></msup></mrow></msup></math>"
-      ]
+    question:
+      "Quel est le résultat de la simplification de la puissance <math><msup><mrow><mo>(</mo><msup><mi>a</mi><mi>m</mi></msup><mo>)</mo></mrow><mi>n</mi></msup></math> ?",
+    right:
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>&times;</mo><mi>n</mi></mrow></msup></math>",
+    wrong: [
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow></msup></math>",
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>-</mo><mi>n</mi></mrow></msup></math>",
+      "<math><msup><mi>a</mi><mrow><msup><mi>m</mi><mi>n</mi></msup></mrow></msup></math>",
+    ],
   },
   {
-      "question": "Que vaut l'expression <math><mfrac><msup><mi>a</mi><mi>m</mi></msup><msup><mi>a</mi><mi>n</mi></msup></mfrac></math> pour <math><mi>a</mi><mo>≠</mo><mn>0</mn></math> ?",
-      "right": "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>-</mo><mi>n</mi></mrow></msup></math>",
-      "wrong": [
-          "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow></msup></math>",
-          "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>&times;</mo><mi>n</mi></mrow></msup></math>",
-          "<math><msup><mi>a</mi><mfrac><mi>m</mi><mi>n</mi></mfrac></msup></math>"
-      ]
+    question:
+      "Que vaut l'expression <math><mfrac><msup><mi>a</mi><mi>m</mi></msup><msup><mi>a</mi><mi>n</mi></msup></mfrac></math> pour <math><mi>a</mi><mo>≠</mo><mn>0</mn></math> ?",
+    right:
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>-</mo><mi>n</mi></mrow></msup></math>",
+    wrong: [
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow></msup></math>",
+      "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>&times;</mo><mi>n</mi></mrow></msup></math>",
+      "<math><msup><mi>a</mi><mfrac><mi>m</mi><mi>n</mi></mfrac></msup></math>",
+    ],
   },
   {
-      "question": "Quelle est l'écriture de la loi des grands nombres vue en seconde concernant la fréquence et la probabilité ?",
-      "right": "Quand la taille de l'échantillon augmente, la fréquence observée se rapproche de la probabilité théorique",
-      "wrong": [
-          "La probabilité finit toujours par devenir égale à 1",
-          "La fréquence d'un événement est constante quel que soit le nombre d'essais",
-          "Le hasard finit par s'annuler complètement"
-      ]
+    question:
+      "Quelle est l'écriture de la loi des grands nombres vue en seconde concernant la fréquence et la probabilité ?",
+    right:
+      "Quand la taille de l'échantillon augmente, la fréquence observée se rapproche de la probabilité théorique",
+    wrong: [
+      "La probabilité finit toujours par devenir égale à 1",
+      "La fréquence d'un événement est constante quel que soit le nombre d'essais",
+      "Le hasard finit par s'annuler complètement",
+    ],
   },
   {
-      "question": "Qu'exprime la relation de Chasles pour les vecteurs <math><mover accent=\"true\"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy=\"true\">→</mo></mover></math> et <math><mover accent=\"true\"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover></math> ?",
-      "right": "<math><mover accent=\"true\"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>+</mo><mover accent=\"true\"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>=</mo><mover accent=\"true\"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover></math>",
-      "wrong": [
-          "<math><mover accent=\"true\"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>+</mo><mover accent=\"true\"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>=</mo><mover accent=\"true\"><mrow><mi>B</mi><mi>A</mi></mrow><mo stretchy=\"true\">→</mo></mover></math>",
-          "<math><mover accent=\"true\"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>-</mo><mover accent=\"true\"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>=</mo><mover accent=\"true\"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover></math>",
-          "<math><mover accent=\"true\"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>+</mo><mover accent=\"true\"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy=\"true\">→</mo></mover><mo>=</mo><mover accent=\"true\"><mrow><mi>C</mi><mi>A</mi></mrow><mo stretchy=\"true\">→</mo></mover></math>"
-      ]
+    question:
+      'Qu\'exprime la relation de Chasles pour les vecteurs <math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math> ?',
+    right:
+      '<math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover><mo>+</mo><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover><mo>=</mo><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math>',
+    wrong: [
+      '<math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover><mo>+</mo><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover><mo>=</mo><mover accent="true"><mrow><mi>B</mi><mi>A</mi></mrow><mo stretchy="true">→</mo></mover></math>',
+      '<math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover><mo>-</mo><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover><mo>=</mo><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math>',
+      '<math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover><mo>+</mo><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover><mo>=</mo><mover accent="true"><mrow><mi>C</mi><mi>A</mi></mrow><mo stretchy="true">→</mo></mover></math>',
+    ],
   },
   {
-      "question": "Si <math><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et k est un réel, quelles sont les coordonnées du vecteur <math><mi>k</mi><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover></math> ?",
-      "right": "<math><mo>(</mo><mi>k</mi><mi>x</mi><mo>;</mo><mi>k</mi><mi>y</mi><mo>)</mo></math>",
-      "wrong": [
-          "<math><mo>(</mo><mi>x</mi><mo>+</mo><mi>k</mi><mo>;</mo><mi>y</mi><mo>+</mo><mi>k</mi><mo>)</mo></math>",
-          "<math><mo>(</mo><msup><mi>k</mi><mn>2</mn></msup><mi>x</mi><mo>;</mo><msup><mi>k</mi><mn>2</mn></msup><mi>y</mi><mo>)</mo></math>",
-          "<math><mo>(</mo><mfrac><mi>x</mi><mi>k</mi></mfrac><mo>;</mo><mfrac><mi>y</mi><mi>k</mi></mfrac><mo>)</mo></math>"
-      ]
+    question:
+      'Si <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et k est un réel, quelles sont les coordonnées du vecteur <math><mi>k</mi><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> ?',
+    right:
+      "<math><mo>(</mo><mi>k</mi><mi>x</mi><mo>;</mo><mi>k</mi><mi>y</mi><mo>)</mo></math>",
+    wrong: [
+      "<math><mo>(</mo><mi>x</mi><mo>+</mo><mi>k</mi><mo>;</mo><mi>y</mi><mo>+</mo><mi>k</mi><mo>)</mo></math>",
+      "<math><mo>(</mo><msup><mi>k</mi><mn>2</mn></msup><mi>x</mi><mo>;</mo><msup><mi>k</mi><mn>2</mn></msup><mi>y</mi><mo>)</mo></math>",
+      "<math><mo>(</mo><mfrac><mi>x</mi><mi>k</mi></mfrac><mo>;</mo><mfrac><mi>y</mi><mi>k</mi></mfrac><mo>)</mo></math>",
+    ],
   },
   {
-      "question": "Comment définit-on l'image d'un nombre <math><mi>x</mi></math> par une fonction <math><mi>f</mi></math> sur un graphique ? Par...",
-      "right": "L'ordonnée du point de la courbe d'abscisse <math><mi>x</mi></math>",
-      "wrong": [
-          "L'abscisse du point de la courbe d'ordonnée <math><mi>x</mi></math>",
-          "La pente de la tangente en ce point",
-          "La distance entre l'origine et le point"
-      ]
+    question:
+      "Comment définit-on l'image d'un nombre <math><mi>x</mi></math> par une fonction <math><mi>f</mi></math> sur un graphique ? Par...",
+    right:
+      "L'ordonnée du point de la courbe d'abscisse <math><mi>x</mi></math>",
+    wrong: [
+      "L'abscisse du point de la courbe d'ordonnée <math><mi>x</mi></math>",
+      "La pente de la tangente en ce point",
+      "La distance entre l'origine et le point",
+    ],
   },
   {
-      "question": "Qu'appelle-t-on un antécédent d'un nombre <math><mi>y</mi></math> par une fonction <math><mi>f</mi></math> ?",
-      "right": "Tout nombre <math><mi>x</mi></math> tel que <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>y</mi></math>",
-      "wrong": [
-          "Le résultat du calcul <math><mi>f</mi><mo>(</mo><mi>y</mi><mo>)</mo></math>",
-          "La dérivée de la fonction en <math><mi>y</mi></math>",
-          "La valeur maximale de la fonction"
-      ]
+    question:
+      "Qu'appelle-t-on un antécédent d'un nombre <math><mi>y</mi></math> par une fonction <math><mi>f</mi></math> ?",
+    right:
+      "Tout nombre <math><mi>x</mi></math> tel que <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>y</mi></math>",
+    wrong: [
+      "Le résultat du calcul <math><mi>f</mi><mo>(</mo><mi>y</mi><mo>)</mo></math>",
+      "La dérivée de la fonction en <math><mi>y</mi></math>",
+      "La valeur maximale de la fonction",
+    ],
   },
   {
-      "question": "Quelle est la nature de la fonction racine carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></math> sur son ensemble de définition <math><mo>[</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>∞</mi><mo>[</mo></math> ?",
-      "right": "Strictement croissante",
-      "wrong": ["Strictement décroissante", "Constante", "Décroissante puis croissante"]
+    question:
+      "Quelle est la nature de la fonction racine carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></math> sur son ensemble de définition <math><mo>[</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>∞</mi><mo>[</mo></math> ?",
+    right: "Strictement croissante",
+    wrong: [
+      "Strictement décroissante",
+      "Constante",
+      "Décroissante puis croissante",
+    ],
   },
   {
-      "question": "Quel est le résultat du produit remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math> ou de la forme générale <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ? Ici, que vaut <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ?",
-      "right": "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
-      "wrong": [
-          "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
-          "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
-          "<math><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></math>"
-      ]
+    question:
+      "Quel est le résultat du produit remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math> ou de la forme générale <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ? Ici, que vaut <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ?",
+    right:
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+    wrong: [
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></math>",
+    ],
   },
   {
-      "question": "Comment résout-on une inéquation produit du type <math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>⩽</mo><mn>0</mn></math> ?",
-      "right": "À l'aide d'un tableau de signes",
-      "wrong": [
-          "En calculant le discriminant de chaque facteur",
-          "En isolant <math><mi>x</mi></math> directement par addition",
-          "En traçant uniquement un cercle trigonométrique"
-      ]
+    question:
+      "Comment résout-on une inéquation produit du type <math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>⩽</mo><mn>0</mn></math> ?",
+    right: "À l'aide d'un tableau de signes",
+    wrong: [
+      "En calculant le discriminant de chaque facteur",
+      "En isolant <math><mi>x</mi></math> directement par addition",
+      "En traçant uniquement un cercle trigonométrique",
+    ],
   },
   {
-      "question": "Que signifie graphiquement l'égalité <math><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>b</mi><mo>)</mo></math> pour une fonction paire sur un intervalle symétrique ?",
-      "right": "La courbe est symétrique par rapport à l'axe des ordonnées",
-      "wrong": [
-          "La courbe est symétrique par rapport à l'origine du repère",
-          "La fonction est constante",
-          "La fonction est périodique"
-      ]
+    question:
+      "Que signifie graphiquement l'égalité <math><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>b</mi><mo>)</mo></math> pour une fonction paire sur un intervalle symétrique ?",
+    right: "La courbe est symétrique par rapport à l'axe des ordonnées",
+    wrong: [
+      "La courbe est symétrique par rapport à l'origine du repère",
+      "La fonction est constante",
+      "La fonction est périodique",
+    ],
   },
   {
-      "question": "Quelle est la caractéristique de la courbe représentative d'une fonction impaire ?",
-      "right": "Elle est symétrique par rapport à l'origine du repère",
-      "wrong": [
-          "Elle est symétrique par rapport à l'axe des ordonnées",
-          "Elle est symétrique par rapport à l'axe des abscisses",
-          "Elle n'a aucune symétrie particulière"
-      ]
+    question:
+      "Quelle est la caractéristique de la courbe représentative d'une fonction impaire ?",
+    right: "Elle est symétrique par rapport à l'origine du repère",
+    wrong: [
+      "Elle est symétrique par rapport à l'axe des ordonnées",
+      "Elle est symétrique par rapport à l'axe des abscisses",
+      "Elle n'a aucune symétrie particulière",
+    ],
   },
   {
-      "question": "Comment appelle-t-on un encadrement d'un nombre réel par deux nombres décimaux dont la différence est <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math> ?",
-      "right": "Un encadrement d'amplitude <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math>",
-      "wrong": [
-          "Une troncature d'ordre <math><mi>n</mi></math>",
-          "Un arrondi scientifique",
-          "Une valeur approchée par excès absolue"
-      ]
+    question:
+      "Comment appelle-t-on un encadrement d'un nombre réel par deux nombres décimaux dont la différence est <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math> ?",
+    right:
+      "Un encadrement d'amplitude <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math>",
+    wrong: [
+      "Une troncature d'ordre <math><mi>n</mi></math>",
+      "Un arrondi scientifique",
+      "Une valeur approchée par excès absolue",
+    ],
   },
   {
-      "question": "Si on arrondit un nombre à <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> près, à combien de chiffres après la virgule s'arrête-t-on ?",
-      "right": "2 chiffres",
-      "wrong": ["1 chiffre", "3 chiffres", "Cela dépend de la valeur initiale"]
+    question:
+      "Si on arrondit un nombre à <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> près, à combien de chiffres après la virgule s'arrête-t-on ?",
+    right: "2 chiffres",
+    wrong: ["1 chiffre", "3 chiffres", "Cela dépend de la valeur initiale"],
   },
   {
-      "question": "Quelle est la définition de la réunion de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∪</mo><mi>B</mi></math> ?",
-      "right": "L'ensemble des éléments qui appartiennent à <math><mi>A</mi></math> ou à <math><mi>B</mi></math> (ou aux deux)",
-      "wrong": [
-          "L'ensemble des éléments qui appartiennent strictement aux deux à la fois",
-          "L'ensemble des éléments n'appartenant ni à l'un ni à l'autre",
-          "La différence entre la taille de <math><mi>A</mi></math> et de <math><mi>B</mi></math>"
-      ]
+    question:
+      "Quelle est la définition de la réunion de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∪</mo><mi>B</mi></math> ?",
+    right:
+      "L'ensemble des éléments qui appartiennent à <math><mi>A</mi></math> ou à <math><mi>B</mi></math> (ou aux deux)",
+    wrong: [
+      "L'ensemble des éléments qui appartiennent strictement aux deux à la fois",
+      "L'ensemble des éléments n'appartenant ni à l'un ni à l'autre",
+      "La différence entre la taille de <math><mi>A</mi></math> et de <math><mi>B</mi></math>",
+    ],
   },
   {
-      "question": "Quelle est la définition de l'intersection de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∩</mo><mi>B</mi></math> ?",
-      "right": "L'ensemble des éléments qui appartiennent à la fois à <math><mi>A</mi></math> et à <math><mi>B</mi></math>",
-      "wrong": [
-          "L'ensemble des éléments qui appartiennent à <math><mi>A</mi></math> ou à <math><mi>B</mi></math>",
-          "L'ensemble des éléments n'appartenant à aucun des deux",
-          "La somme des effectifs de <math><mi>A</mi></math> et <math><mi>B</mi></math>"
-      ]
+    question:
+      "Quelle est la définition de l'intersection de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∩</mo><mi>B</mi></math> ?",
+    right:
+      "L'ensemble des éléments qui appartiennent à la fois à <math><mi>A</mi></math> et à <math><mi>B</mi></math>",
+    wrong: [
+      "L'ensemble des éléments qui appartiennent à <math><mi>A</mi></math> ou à <math><mi>B</mi></math>",
+      "L'ensemble des éléments n'appartenant à aucun des deux",
+      "La somme des effectifs de <math><mi>A</mi></math> et <math><mi>B</mi></math>",
+    ],
   },
   {
-      "question": "Dans un repère, que dire de deux vecteurs <math><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover></math> et <math><mover accent=\"true\"><mi>v</mi><mo stretchy=\"true\">→</mo></mover></math> si leur produit scalaire (ou l'orthogonalité via les coordonnées) est nul ?",
-      "right": "Ils sont orthogonaux (perpendiculaires)",
-      "wrong": [
-          "Ils sont colinéaires de même sens",
-          "Ils sont colinéaires de sens contraires",
-          "Leurs normes sont obligatoirement égales à 1"
-      ]
+    question:
+      'Dans un repère, que dire de deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> si leur produit scalaire (ou l\'orthogonalité via les coordonnées) est nul ?',
+    right: "Ils sont orthogonaux (perpendiculaires)",
+    wrong: [
+      "Ils sont colinéaires de même sens",
+      "Ils sont colinéaires de sens contraires",
+      "Leurs normes sont obligatoirement égales à 1",
+    ],
   },
   {
-      "question": "Quelle est la formule générale de la norme d'un vecteur <math><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> dans un repère orthonormé ?",
-      "right": "<math><mo>∥</mo><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>∥</mo><mo>=</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></msqrt></math>",
-      "wrong": [
-          "<math><mo>∥</mo><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>∥</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math>",
-          "<math><mo>∥</mo><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>∥</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></math>",
-          "<math><mo>∥</mo><mover accent=\"true\"><mi>u</mi><mo stretchy=\"true\">→</mo></mover><mo>∥</mo><mo>=</mo><msqrt><mi>x</mi><mo>+</mo><mi>y</mi></msqrt></math>"
-      ]
+    question:
+      'Quelle est la formule générale de la norme d\'un vecteur <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> dans un repère orthonormé ?',
+    right:
+      '<math><mo>∥</mo><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>∥</mo><mo>=</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></msqrt></math>',
+    wrong: [
+      '<math><mo>∥</mo><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>∥</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math>',
+      '<math><mo>∥</mo><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>∥</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></math>',
+      '<math><mo>∥</mo><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>∥</mo><mo>=</mo><msqrt><mi>x</mi><mo>+</mo><mi>y</mi></msqrt></math>',
+    ],
   },
   {
-      "question": "Si l'on augmente une grandeur de <math><mi>t</mi></math> %, quel est le coefficient multiplicateur associé ?",
-      "right": "<math><mn>1</mn><mo>+</mo><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
-      "wrong": [
-          "<math><mn>1</mn><mo>-</mo><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
-          "<math><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
-          "<math><mn>1</mn><mo>+</mo><mi>t</mi></math>"
-      ]
+    question:
+      "Si l'on augmente une grandeur de <math><mi>t</mi></math> %, quel est le coefficient multiplicateur associé ?",
+    right:
+      "<math><mn>1</mn><mo>+</mo><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
+    wrong: [
+      "<math><mn>1</mn><mo>-</mo><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
+      "<math><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
+      "<math><mn>1</mn><mo>+</mo><mi>t</mi></math>",
+    ],
   },
   {
-      "question": "Quel algorithme simple étudie-t-on en classe de seconde pour répéter une instruction un nombre déterminé de fois ?",
-      "right": "La boucle pour (ou boucle for)",
-      "wrong": [
-          "La boucle tant que (while)",
-          "L'instruction conditionnelle si... alors",
-          "La récursivité terminale"
-      ]
-  }
+    question:
+      "Quel algorithme simple étudie-t-on en classe de seconde pour répéter une instruction un nombre déterminé de fois ?",
+    right: "La boucle pour (ou boucle for)",
+    wrong: [
+      "La boucle tant que (while)",
+      "L'instruction conditionnelle si... alors",
+      "La récursivité terminale",
+    ],
+  },
 ];
 
 export const physics3e = [
@@ -1256,12 +1357,14 @@ export const physics3e = [
     wrong: ["Positive", "Négative", "Dépend de la température"],
   },
   {
-    question: "Comment appelle-t-on un atome qui a gagné un ou plusieurs électrons\u00a0?",
+    question:
+      "Comment appelle-t-on un atome qui a gagné un ou plusieurs électrons\u00a0?",
     right: "Un anion",
     wrong: ["Un cation", "une molécule", "Un isotope"],
   },
   {
-    question: "Comment appelle-t-on un atome qui a perdu un ou plusieurs électrons\u00a0?",
+    question:
+      "Comment appelle-t-on un atome qui a perdu un ou plusieurs électrons\u00a0?",
     right: "Un cation",
     wrong: ["Un anion", "Un électron", "Un neutron"],
   },
@@ -1294,7 +1397,8 @@ export const physics3e = [
     wrong: ["Basique", "Neutre", "Alcaline"],
   },
   {
-    question: "Que se passe-t-il pour le pH d'une solution acide lorsqu'on la dilue en ajoutant de l'eau\u00a0?",
+    question:
+      "Que se passe-t-il pour le pH d'une solution acide lorsqu'on la dilue en ajoutant de l'eau\u00a0?",
     right: "Il augmente et se rapproche de 7",
     wrong: [
       "Il diminue et se rapproche de 0",
@@ -1303,7 +1407,8 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quel test permet d'identifier la présence de dioxyde de carbone (<math><msub><mi>CO</mi><mn>2</mn></msub></math>)\u00a0?",
+    question:
+      "Quel test permet d'identifier la présence de dioxyde de carbone (<math><msub><mi>CO</mi><mn>2</mn></msub></math>)\u00a0?",
     right: "L'eau de chaux qui se trouble",
     wrong: [
       "La détonation au contact d'une flamme",
@@ -1321,7 +1426,8 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quel réactif forme un précipité bleu en présence d'ions cuivre II (<math><msup><mi>Cu</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></math>)\u00a0?",
+    question:
+      "Quel réactif forme un précipité bleu en présence d'ions cuivre II (<math><msup><mi>Cu</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></math>)\u00a0?",
     right: "La soude (hydroxyde de sodium)",
     wrong: [
       "Le nitrate d'argent",
@@ -1330,12 +1436,14 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quel réactif forme un précipité blanc qui noircit à la lumière en présence d'ions chlorure (<math><msup><mi>Cl</mi><mo>-</mo></msup></math>)\u00a0?",
+    question:
+      "Quel réactif forme un précipité blanc qui noircit à la lumière en présence d'ions chlorure (<math><msup><mi>Cl</mi><mo>-</mo></msup></math>)\u00a0?",
     right: "Le nitrate d'argent",
     wrong: ["La soude", "L'eau de chaux", "Le sulfate de cuivre"],
   },
   {
-    question: "Lors d'une transformation chimique, que font la masse totale et le nombre d'atomes\u00a0?",
+    question:
+      "Lors d'une transformation chimique, que font la masse totale et le nombre d'atomes\u00a0?",
     right: "Ils se conservent",
     wrong: [
       "Ils augmentent",
@@ -1353,15 +1461,18 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quel est l'élément chimique représenté par le symbole <math><mi>Fe</mi></math>\u00a0?",
+    question:
+      "Quel est l'élément chimique représenté par le symbole <math><mi>Fe</mi></math>\u00a0?",
     right: "Le fer",
     wrong: ["Le fluor", "Le francium", "Le phosphore"],
   },
 
   // --- Mouvements et interactions ---
   {
-    question: "Quelle est la formule reliant la vitesse <math><mi>v</mi></math>, la distance <math><mi>d</mi></math> et la durée <math><mi>t</mi></math>\u00a0?",
-    right: "<math><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></math>",
+    question:
+      "Quelle est la formule reliant la vitesse <math><mi>v</mi></math>, la distance <math><mi>d</mi></math> et la durée <math><mi>t</mi></math>\u00a0?",
+    right:
+      "<math><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></math>",
     wrong: [
       "<math><mi>v</mi><mo>=</mo><mi>d</mi><mo>&times;</mo><mi>t</mi></math>",
       "<math><mi>v</mi><mo>=</mo><mfrac><mi>t</mi><mi>d</mi></mfrac></math>",
@@ -1387,16 +1498,14 @@ export const physics3e = [
     ],
   },
   {
-    question: "Comment qualifie-t-on le mouvement d'un objet dont la trajectoire est une droite et la vitesse est constante\u00a0?",
+    question:
+      "Comment qualifie-t-on le mouvement d'un objet dont la trajectoire est une droite et la vitesse est constante\u00a0?",
     right: "Rectiligne uniforme",
-    wrong: [
-      "Rectiligne accéléré",
-      "Circulaire uniforme",
-      "Curviligne ralenti",
-    ],
+    wrong: ["Rectiligne accéléré", "Circulaire uniforme", "Curviligne ralenti"],
   },
   {
-    question: "Si la vitesse d'un objet augmente au cours du temps, son mouvement est qualifié d'...\u00a0?",
+    question:
+      "Si la vitesse d'un objet augmente au cours du temps, son mouvement est qualifié d'...\u00a0?",
     right: "Accéléré",
     wrong: ["Uniforme", "Ralenti", "Statique"],
   },
@@ -1411,8 +1520,10 @@ export const physics3e = [
     wrong: ["Une balance", "Un ampèremètre", "Un manomètre"],
   },
   {
-    question: "Quelle relation lie le poids <math><mi>P</mi></math> d'un corps à sa masse <math><mi>m</mi></math>\u00a0?",
-    right: "<math><mi>P</mi><mo>=</mo><mi>m</mi><mo>&times;</mo><mi>g</mi></math>",
+    question:
+      "Quelle relation lie le poids <math><mi>P</mi></math> d'un corps à sa masse <math><mi>m</mi></math>\u00a0?",
+    right:
+      "<math><mi>P</mi><mo>=</mo><mi>m</mi><mo>&times;</mo><mi>g</mi></math>",
     wrong: [
       "<math><mi>P</mi><mo>=</mo><mfrac><mi>m</mi><mi>g</mi></mfrac></math>",
       "<math><mi>P</mi><mo>=</mo><mfrac><mi>g</mi><mi>m</mi></mfrac></math>",
@@ -1420,7 +1531,8 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quelle est la différence fondamentale entre la masse et le poids d'un objet\u00a0?",
+    question:
+      "Quelle est la différence fondamentale entre la masse et le poids d'un objet\u00a0?",
     right: "La masse ne varie pas selon le lieu, alors que le poids varie",
     wrong: [
       "Le poids ne varie pas, mais la masse varie",
@@ -1429,25 +1541,30 @@ export const physics3e = [
     ],
   },
   {
-    question: "Que vaut approximativement l'intensité de la pesanteur <math><mi>g</mi></math> sur Terre\u00a0?",
+    question:
+      "Que vaut approximativement l'intensité de la pesanteur <math><mi>g</mi></math> sur Terre\u00a0?",
     right: "9,81 N/kg",
     wrong: ["1,62 N/kg", "9,81 kg/N", "100 N/kg"],
   },
   {
-    question: "Comment appelle-t-on la force d'attraction exercée par la Terre sur tout objet possédant une masse à sa proximité\u00a0?",
+    question:
+      "Comment appelle-t-on la force d'attraction exercée par la Terre sur tout objet possédant une masse à sa proximité\u00a0?",
     right: "Le poids",
     wrong: ["La masse", "La poussée d'Archimède", "La tension du fil"],
   },
   {
-    question: "Par quel outil mathématique représente-t-on une force en physique\u00a0?",
+    question:
+      "Par quel outil mathématique représente-t-on une force en physique\u00a0?",
     right: "Un vecteur (une flèche)",
     wrong: ["Un cercle", "Un tableau de valeurs", "Un histogramme"],
   },
 
   // --- L'énergie et ses transformations ---
   {
-    question: "Quelle est l'expression de l'énergie cinétique <math><msub><mi>E</mi><mi>c</mi></msub></math> d'un objet de masse <math><mi>m</mi></math> en mouvement à la vitesse <math><mi>v</mi></math>\u00a0?",
-    right: "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></math>",
+    question:
+      "Quelle est l'expression de l'énergie cinétique <math><msub><mi>E</mi><mi>c</mi></msub></math> d'un objet de masse <math><mi>m</mi></math> en mouvement à la vitesse <math><mi>v</mi></math>\u00a0?",
+    right:
+      "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></math>",
     wrong: [
       "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mi>m</mi><mi>v</mi></math>",
       "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>m</mi><mn>2</mn></msup><mi>v</mi></math>",
@@ -1455,7 +1572,8 @@ export const physics3e = [
     ],
   },
   {
-    question: "Si la vitesse d'un véhicule est doublée, par combien son énergie cinétique est-elle multipliée\u00a0?",
+    question:
+      "Si la vitesse d'un véhicule est doublée, par combien son énergie cinétique est-elle multipliée\u00a0?",
     right: "4",
     wrong: ["2", "8", "6"],
   },
@@ -1465,7 +1583,8 @@ export const physics3e = [
     wrong: ["Le Watt (W)", "Le Volt (V)", "Le Newton (N)"],
   },
   {
-    question: "L'énergie mécanique <math><msub><mi>E</mi><mi>m</mi></msub></math> d'un objet est la somme de quelles énergies\u00a0?",
+    question:
+      "L'énergie mécanique <math><msub><mi>E</mi><mi>m</mi></msub></math> d'un objet est la somme de quelles énergies\u00a0?",
     right: "L'énergie cinétique et l'énergie potentielle",
     wrong: [
       "L'énergie thermique et l'énergie chimique",
@@ -1474,7 +1593,8 @@ export const physics3e = [
     ],
   },
   {
-    question: "Lors de la chute d'un objet en l'absence de frottements, que fait son énergie potentielle de pesanteur\u00a0?",
+    question:
+      "Lors de la chute d'un objet en l'absence de frottements, que fait son énergie potentielle de pesanteur\u00a0?",
     right: "Elle se transforme en énergie cinétique",
     wrong: [
       "Elle augmente",
@@ -1488,18 +1608,22 @@ export const physics3e = [
     wrong: ["Environ 300 000 m/s", "Environ 300 m/s", "Environ 3 000 000 km/h"],
   },
   {
-    question: "Quelle est la vitesse approximative du son dans l'air à température ambiante\u00a0?",
+    question:
+      "Quelle est la vitesse approximative du son dans l'air à température ambiante\u00a0?",
     right: "340 m/s",
     wrong: ["300 000 km/s", "1 500 m/s", "3 000 m/s"],
   },
   {
-    question: "Comment appelle-t-on le signal sonore dont la fréquence est supérieure à 20 000 Hz\u00a0?",
+    question:
+      "Comment appelle-t-on le signal sonore dont la fréquence est supérieure à 20 000 Hz\u00a0?",
     right: "Un ultrason",
     wrong: ["Un infrason", "Un son audible", "Un écho"],
   },
   {
-    question: "Quelle est la relation entre la période <math><mi>T</mi></math> et la fréquence <math><mi>f</mi></math> d'un signal périodique\u00a0?",
-    right: "<math><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac></math>",
+    question:
+      "Quelle est la relation entre la période <math><mi>T</mi></math> et la fréquence <math><mi>f</mi></math> d'un signal périodique\u00a0?",
+    right:
+      "<math><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac></math>",
     wrong: [
       "<math><mi>f</mi><mo>=</mo><mi>T</mi></math>",
       "<math><mi>f</mi><mo>=</mo><msup><mi>T</mi><mn>2</mn></msup></math>",
@@ -1514,8 +1638,10 @@ export const physics3e = [
 
   // --- Circuits électriques et signaux ---
   {
-    question: "Quelle est la relation de la loi d'Ohm pour un conducteur ohmique\u00a0?",
-    right: "<math><mi>U</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><mi>I</mi></math>",
+    question:
+      "Quelle est la relation de la loi d'Ohm pour un conducteur ohmique\u00a0?",
+    right:
+      "<math><mi>U</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><mi>I</mi></math>",
     wrong: [
       "<math><mi>U</mi><mo>=</mo><mfrac><mi>R</mi><mi>I</mi></mfrac></math>",
       "<math><mi>I</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><mi>U</mi></math>",
@@ -1528,17 +1654,20 @@ export const physics3e = [
     wrong: ["Le Volt (V)", "L'Ampère (A)", "Le Watt (W)"],
   },
   {
-    question: "Avec quel appareil branché en série mesure-t-on l'intensité d'un courant électrique\u00a0?",
+    question:
+      "Avec quel appareil branché en série mesure-t-on l'intensité d'un courant électrique\u00a0?",
     right: "Un ampèremètre",
     wrong: ["Un voltmètre", "Un ohmmètre", "Un wattmètre"],
   },
   {
-    question: "Comment se branche un voltmètre dans un circuit électrique\u00a0?",
+    question:
+      "Comment se branche un voltmètre dans un circuit électrique\u00a0?",
     right: "En dérivation (en parallèle)",
     wrong: ["En série", "En boucle simple", "Indifféremment"],
   },
   {
-    question: "Dans un circuit en série, quelle est la propriété de l'intensité du courant électrique\u00a0?",
+    question:
+      "Dans un circuit en série, quelle est la propriété de l'intensité du courant électrique\u00a0?",
     right: "Elle est la même en tout point du circuit",
     wrong: [
       "Elle s'additionne à chaque récepteur",
@@ -1547,13 +1676,16 @@ export const physics3e = [
     ],
   },
   {
-    question: "Dans un circuit en dérivation, la tension aux bornes des différentes branches en parallèle est...\u00a0?",
+    question:
+      "Dans un circuit en dérivation, la tension aux bornes des différentes branches en parallèle est...\u00a0?",
     right: "Identique",
     wrong: ["Egale à zéro", "Partagée équitablement", "Additionnée"],
   },
   {
-    question: "Quelle formule donne la puissance électrique <math><mi>P</mi></math> reçue par un appareil en courant continu\u00a0?",
-    right: "<math><mi>P</mi><mo>=</mo><mi>U</mi><mo>&times;</mo><mi>I</mi></math>",
+    question:
+      "Quelle formule donne la puissance électrique <math><mi>P</mi></math> reçue par un appareil en courant continu\u00a0?",
+    right:
+      "<math><mi>P</mi><mo>=</mo><mi>U</mi><mo>&times;</mo><mi>I</mi></math>",
     wrong: [
       "<math><mi>P</mi><mo>=</mo><mfrac><mi>U</mi><mi>I</mi></mfrac></math>",
       "<math><mi>P</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><msup><mi>I</mi><mn>2</mn></msup></math>",
@@ -1566,8 +1698,10 @@ export const physics3e = [
     wrong: ["Le Joule (J)", "L'Ampère (A)", "Le Volt (V)"],
   },
   {
-    question: "Quelle formule lie l'énergie électrique <math><mi>E</mi></math>, la puissance <math><mi>P</mi></math> et la durée d'utilisation <math><mi>t</mi></math>\u00a0?",
-    right: "<math><mi>E</mi><mo>=</mo><mi>P</mi><mo>&times;</mo><mi>t</mi></math>",
+    question:
+      "Quelle formule lie l'énergie électrique <math><mi>E</mi></math>, la puissance <math><mi>P</mi></math> et la durée d'utilisation <math><mi>t</mi></math>\u00a0?",
+    right:
+      "<math><mi>E</mi><mo>=</mo><mi>P</mi><mo>&times;</mo><mi>t</mi></math>",
     wrong: [
       "<math><mi>E</mi><mo>=</mo><mfrac><mi>P</mi><mi>t</mi></mfrac></math>",
       "<math><mi>E</mi><mo>=</mo><mfrac><mi>t</mi><mi>P</mi></mfrac></math>",
@@ -1575,18 +1709,395 @@ export const physics3e = [
     ],
   },
   {
-    question: "Quelle est l'unité habituellement utilisée par le fournisseur d'électricité sur les factures d'énergie\u00a0?",
+    question:
+      "Quelle est l'unité habituellement utilisée par le fournisseur d'électricité sur les factures d'énergie\u00a0?",
     right: "Le Kilowatt-heure (kWh)",
     wrong: ["Le Watt par heure (W/h)", "Le Joule (J)", "Le Volt (V)"],
   },
   {
-    question: "Quel dispositif de protection ouvre le circuit en cas de surintensité ou de court-circuit domestique\u00a0?",
+    question:
+      "Quel dispositif de protection ouvre le circuit en cas de surintensité ou de court-circuit domestique\u00a0?",
     right: "Un disjoncteur (ou fusible)",
     wrong: ["Un transformateur", "Un alternateur", "Un condensateur"],
   },
   {
-    question: "Quel composant transforme l'énergie mécanique en énergie électrique dans une centrale électrique\u00a0?",
+    question:
+      "Quel composant transforme l'énergie mécanique en énergie électrique dans une centrale électrique\u00a0?",
     right: "Un alternateur",
     wrong: ["Un moteur", "Un transformateur", "Une pile"],
+  },
+];
+
+export const biology2de = [
+  {
+    question:
+      "Quelle est l'organisation structurale de la matière vivante, de la plus grande échelle à la plus petite ?",
+    right: "Organisme > Organe > Tissu > Cellule > Organite > Molécule",
+    wrong: [
+      "Cellule > Tissu > Organe > Organisme > Molécule > Organite",
+      "Organisme > Tissu > Organe > Cellule > Molécule > Organite",
+      "Organe > Organisme > Cellule > Tissu > Organite > Molécule",
+    ],
+  },
+  {
+    question: "Qu'est-ce qu'un tissu chez un être vivant pluricellulaire ?",
+    right:
+      "Un ensemble de cellules spécialisées similaires réalisant une même fonction",
+    wrong: [
+      "Un regroupement d'organes différents travaillant ensemble",
+      "La membrane protectrice qui entoure chaque cellule",
+      "L'ensemble de l'ADN contenu dans un noyau",
+    ],
+  },
+  {
+    question:
+      "Quel organite cellulaire est le siège de la respiration cellulaire chez les eucaryotes ?",
+    right: "La mitochondrie",
+    wrong: ["Le chloroplaste", "Le noyau", "Le réticulum endoplasmique"],
+  },
+  {
+    question:
+      "Quel organite permet la réalisation de la photosynthèse chez les cellules végétales chlorophylliennes ?",
+    right: "Le chloroplaste",
+    wrong: ["La mitochondrie", "La vacuole", "Le lysosome"],
+  },
+  {
+    question:
+      "Comment appelle-t-on la structure qui délimite la cellule et contrôle les échanges avec l'extérieur ?",
+    right: "La membrane plasmique",
+    wrong: [
+      "La paroi pectocellulosique",
+      "La matrice extracellulaire",
+      "L'enveloppe nucléaire",
+    ],
+  },
+  {
+    question:
+      "Qu'est-ce que la matrice extracellulaire chez les animaux (ou paroi chez les végétaux) ?",
+    right:
+      "Un réseau de molécules situées en dehors des cellules permettant l'adhérence et la cohérence des tissus",
+    wrong: [
+      "Le liquide situé à l'intérieur du noyau",
+      "La couche interne du cytoplasme",
+      "Un ensemble de protéines transportant l'oxygène",
+    ],
+  },
+  {
+    question: "Qu'est-ce qui caractérise une cellule spécialisée ?",
+    right:
+      "Une forme, une structure et un contenu en organites adaptés à sa fonction spécifique",
+    wrong: [
+      "Le fait d'avoir un bagage génétique différent des autres cellules",
+      "L'absence totale de noyau et de membrane",
+      "La capacité de se transformer en n'importe quel organe",
+    ],
+  },
+  {
+    question:
+      "Quelle est la principale caractéristique génétique de toutes les cellules somatiques d'un organisme pluricellulaire ?",
+    right:
+      "Elles possèdent toutes exactement la même information génétique (le même génome)",
+    wrong: [
+      "Chaque type cellulaire possède des gènes uniques absents des autres cellules",
+      "Seules les cellules nerveuses possèdent l'intégralité de l'ADN",
+      "L'ADN est modifié à chaque fois qu'une cellule se spécialise",
+    ],
+  },
+  {
+    question:
+      "Comment s'explique la spécialisation d'une cellule si toutes possèdent le même ADN ?",
+    right:
+      "Par l'expression sélective de certains gènes et l'extinction des autres",
+    wrong: [
+      "Par la suppression physique des gènes inutiles",
+      "Par le dédoublement aléatoire des chromosomes",
+      "Par la création de nouveaux gènes après la naissance",
+    ],
+  },
+  {
+    question: "Qu'est-ce qu'une cellule souche ?",
+    right:
+      "Une cellule indifférenciée capable de se multiplier et de se spécialiser en différents types cellulaires",
+    wrong: [
+      "Une cellule morte servant de soutien aux tissus",
+      "Une cellule présente uniquement dans la racine des végétaux",
+      "Une cellule spécialisée exclusivement dans la défense immunitaire",
+    ],
+  },
+  {
+    question:
+      "Où se situe la majorité de l'information génétique dans une cellule eucaryote ?",
+    right: "Dans le noyau",
+    wrong: [
+      "Dans le cytoplasme",
+      "Dans la membrane plasmique",
+      "Dans l'appareil de Golgi",
+    ],
+  },
+  {
+    question: "De quoi est constituée la molécule d'ADN ?",
+    right:
+      "De deux brins en double hélice formés d'un enchaînement de nucléotides",
+    wrong: [
+      "D'un brin unique d'acides aminés repliés",
+      "De trois chaînes de lipides et de glucides",
+      "D'une chaîne linéaire de protéines simples",
+    ],
+  },
+  {
+    question: "Quels sont les quatre nucléotides constituant l'ADN ?",
+    right: "Adénine (A), Thymine (T), Cytosine (C), Guanine (G)",
+    wrong: [
+      "Adénine (A), Uracile (U), Cytosine (C), Guanine (G)",
+      "Alanine (A), Tyrosine (T), Cystéine (C), Glutamine (G)",
+      "Adénine (A), Thiamine (T), Choline (C), Glycine (G)",
+    ],
+  },
+  {
+    question:
+      "Quelle est la règle de complémentarité des bases azotées dans la double hélice d'ADN ?",
+    right:
+      "L'Adénine (A) s'associe toujours avec la Thymine (T), et la Cytosine (C) avec la Guanine (G)",
+    wrong: [
+      "L'Adénine (A) s'associe avec la Cytosine (C), et la Thymine (T) avec la Guanine (G)",
+      "L'Adénine (A) s'associe avec la Guanine (G), et la Thymine (T) avec la Cytosine (C)",
+      "Les bases s'associent de manière totalement aléatoire",
+    ],
+  },
+  {
+    question: "De quoi est composé un nucléotide ?",
+    right:
+      "D'une base azotée, d'un sucre (le désoxyribose) et d'un groupement phosphate",
+    wrong: [
+      "D'une protéine, d'un lipide et d'une molécule d'eau",
+      "D'un acide aminé, d'un glucose et d'un stéroïde",
+      "D'un brin d'ARN, d'un ribosome et de magnésium",
+    ],
+  },
+  {
+    question: "Qu'est-ce qu'un gène ?",
+    right:
+      "Une séquence de nucléotides d'un brin d'ADN portant une information génétique précise",
+    wrong: [
+      "L'intégralité d'un chromosome sous forme condensée",
+      "Une protéine située sur la membrane plasmique",
+      "Un organite chargé de la division cellulaire",
+    ],
+  },
+  {
+    question: "Qu'est-ce que la séquence d'un gène (ou d'un brin d'ADN) ?",
+    right: "L'ordre bien précis dans lequel se succèdent les nucléotides",
+    wrong: [
+      "La longueur totale de la molécule exprimée en micromètres",
+      "Le nombre total de liaisons hydrogène du chromosome",
+      "Le taux de condensation de la chromatine",
+    ],
+  },
+  {
+    question:
+      "Comment l'information contenue dans un gène détermine-t-elle le fonctionnement d'une cellule spécialisée ?",
+    right:
+      "Elle gouverne la synthèse de protéines spécifiques nécessaires à sa fonction",
+    wrong: [
+      "Elle modifie directement la température interne de la cellule",
+      "Elle fabrique directement les lipides de la membrane",
+      "Elle détruit les organites inutiles pour libérer de l'espace",
+    ],
+  },
+  {
+    question:
+      "Quelle est la forme prise par la molécule d'ADN au cours de la division cellulaire lorsqu'elle se condense au maximum ?",
+    right: "Un chromosome",
+    wrong: ["Un nucléosome", "Une chromatine fluide", "Un filament d'ARN"],
+  },
+  {
+    question:
+      "Pourquoi dit-on que l'ADN est le support universel de l'information génétique ?",
+    right:
+      "Parce que sa structure et son langage chimique sont identiques chez tous les êtres vivants",
+    wrong: [
+      "Parce qu'il est présent dans l'air, l'eau et le sol à l'état libre",
+      "Parce qu'il permet de se déplacer d'un milieu à un autre",
+      "Parce qu'il a exactement la même longueur chez toutes les espèces",
+    ],
+  },
+  {
+    question: "À quel niveau d'organisation appartient l'élodée ?",
+    right: "Organisme",
+    wrong: ["Organe", "Tissu", "Cellule"],
+  },
+  {
+    question: "Quelle est la définition d'un organe ?", // D'après le tableau Thème 1 Chapitre 1
+    right: "Une structure qui participe à la réalisation d'une fonction",
+    wrong: [
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme assurant une fonction précise",
+      "Un assemblage d'atomes",
+    ],
+  },
+  {
+    question:
+      "Quel niveau d'organisation est défini comme « la plus petite structure vivante » ?",
+    right: "La cellule",
+    wrong: ["L'organite", "La molécule", "Le tissu"],
+  },
+  {
+    question: "À quel niveau d'organisation se situe le tissu chlorophyllien ?",
+    right: "Tissu",
+    wrong: ["Organe", "Organite", "Cellule"],
+  },
+  {
+    question: "À quel niveau d'organisation appartient le chloroplaste ?",
+    right: "Organite",
+    wrong: ["Cellule", "Molécule", "Tissu"],
+  },
+  {
+    question: "À quel niveau d'organisation appartient la chlorophylle ?",
+    right: "Molécule",
+    wrong: ["Organite", "Atome", "Cellule"],
+  },
+  {
+    question: "Qu'est-ce qu'un atome ?",
+    right: "Un ensemble de protons, électrons et neutrons",
+    wrong: [
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme",
+      "Un assemblage de cellules spécialisées",
+    ],
+  },
+  {
+    question:
+      "Quel niveau d'organisation présente une taille inférieure à 1 nm ?",
+    right: "L'atome",
+    wrong: ["La molécule", "L'organite", "La cellule"],
+  },
+  {
+    question:
+      "Parmi les éléments suivants, lequel est invisible au microscope optique ordinaire ?",
+    right: "La chlorophylle",
+    wrong: [
+      "Le chloroplaste",
+      "La cellule végétale",
+      "Le tissu chlorophyllien",
+    ],
+  },
+  {
+    question: "À quel niveau d'organisation appartient le cerveau ?",
+    right: "Organe",
+    wrong: ["Tissu", "Organisme", "Cellule"],
+  },
+  {
+    question: "À quel niveau d'organisation se situe le tissu nerveux ?",
+    right: "Tissu",
+    wrong: ["Organe", "Cellule", "Organite"],
+  },
+  {
+    question: "Comment peut-on définir un organite ?",
+    right:
+      "Un compartiment délimité dans le cytoplasme assurant une fonction précise",
+    wrong: [
+      "La plus petite structure vivante",
+      "Un ensemble de cellules spécialisées qui réalisent une fonction",
+      "Un assemblage d'atomes",
+    ],
+  },
+  {
+    question:
+      "Quels niveaux d'organisation sont visibles directement à l'œil nu ?",
+    right: "Organisme et Organe",
+    wrong: ["Tissu et Cellule", "Cellule et Organite", "Organite et Molécule"],
+  },
+  {
+    question: "Quels niveaux d'organisation s'observent au microscope ?",
+    right: "Tissu, Cellule et Organite",
+    wrong: ["Organisme et Organe", "Molécule et Atome", "Organe et Tissu"],
+  },
+  {
+    question:
+      "Quels niveaux d'organisation ne sont pas visibles au microscope optique ?",
+    right: "Molécule et Atome",
+    wrong: ["Organite et Cellule", "Tissu et Organite", "Cellule et Molécule"],
+  },
+  {
+    question:
+      "Parmi les définitions suivantes, laquelle retenir pour définir un tissu ?",
+    right: "Un ensemble de cellules spécialisées qui réalisent une fonction",
+    wrong: [
+      "Une structure qui participe à la réalisation d'une fonction",
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme",
+    ],
+  },
+  {
+    question: "Quelle est la définition d'un organisme ?",
+    right: "Une structure qui réalise l'ensemble des fonctions du vivant",
+    wrong: [
+      "Une structure qui participe à la réalisation d'une fonction",
+      "Un ensemble de cellules spécialisées",
+      "La plus petite structure vivante",
+    ],
+  },
+  {
+    question:
+      "Quel est l'ordre de grandeur de la taille d'une feuille d'Élodée ?",
+    right:
+      "1,5 cm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup><mtext> m</mtext></math>)",
+    wrong: [
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+    ],
+  },
+  {
+    question:
+      "Quelle est la taille approximative d'une cellule végétale selon le tableau 1 ?",
+    right:
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    wrong: [
+      "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+    ],
+  },
+  {
+    question:
+      "Quelle est la taille approximative de la molécule de chlorophylle ?",
+    right:
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+    wrong: [
+      "< 1 nm",
+      "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    ],
+  },
+  {
+    question: "Quelle est la taille approximative d'un neurone ?",
+    right:
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    wrong: [
+      "500 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+    ],
+  },
+  {
+    question: "Quelle est la taille approximative de la mitochondrie ?",
+    right:
+      "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    wrong: [
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+    ],
+  },
+  {
+    question: "Que signifie « l'expression génétique » ?",
+    right:
+      "La façon dont les cellules utilisent les informations portées par les gènes",
+    wrong: [
+      "La transmission aléatoire des caractères héréditaires entre générations",
+      "Le processus de modification physique de l'ADN lors du vieillissement",
+      "La vitesse à laquelle les chromosomes se dupliquent avant la mitose",
+    ],
   },
 ];
