@@ -822,7 +822,7 @@ export const maths3e = [
 export const maths2de = [
   {
     question:
-      "À quel ensemble de nombres appartient le nombre <math><mo>-</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math> ?",
+      "À quel ensemble de nombres appartient le nombre <math><mo>-</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>\u00a0?",
     right: '<math><mi mathvariant="mathbb">D</mi></math> (nombres décimaux)',
     wrong: [
       '<math><mi mathvariant="mathbb">N</mi></math> (entiers naturels)',
@@ -832,7 +832,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est l'intersection des intervalles <math><mo>]</mo><mo>-</mo><mi>∞</mi><mo>;</mo><mn>3</mn><mo>]</mo></math> et <math><mo>[</mo><mo>-</mo><mn>1</mn><mo>;</mo><mn>5</mn><mo>[</mo></math> ?",
+      "Quelle est l'intersection des intervalles <math><mo>]</mo><mo>-</mo><mi>∞</mi><mo>;</mo><mn>3</mn><mo>]</mo></math> et <math><mo>[</mo><mo>-</mo><mn>1</mn><mo>;</mo><mn>5</mn><mo>[</mo></math>\u00a0?",
     right:
       "<math><mo>[</mo><mo>-</mo><mn>1</mn><mo>;</mo><mn>3</mn><mo>]</mo></math>",
     wrong: [
@@ -843,7 +843,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quel est le domaine de définition de la fonction inverse <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></math> ?",
+      "Quel est le domaine de définition de la fonction inverse <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></math>\u00a0?",
     right:
       '<math><mi mathvariant="mathbb">R</mi><mo>∖</mo><mo>{</mo><mn>0</mn><mo>}</mo></math> ou <math><msup><mi mathvariant="mathbb">R</mi><mo>*</mo></msup></math>',
     wrong: [
@@ -854,7 +854,7 @@ export const maths2de = [
   },
   {
     question:
-      "Sur quel intervalle la fonction carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> est-elle strictement décroissante ?",
+      "Sur quel intervalle la fonction carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> est-elle strictement décroissante\u00a0?",
     right:
       "<math><mo>]</mo><mo>-</mo><mi>∞</mi><mo>;</mo><mn>0</mn><mo>]</mo></math>",
     wrong: [
@@ -865,19 +865,19 @@ export const maths2de = [
   },
   {
     question:
-      'Quel est le minimum de la fonction carrée sur <math><mi mathvariant="mathbb">R</mi></math> ?',
+      'Quel est le minimum de la fonction carrée sur <math><mi mathvariant="mathbb">R</mi></math>\u00a0?',
     right: "0",
     wrong: ["-1", "1", "Il n'en a pas"],
   },
   {
     question:
-      "Comment appelle-t-on la représentation graphique d'une fonction du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
+      "Comment appelle-t-on la représentation graphique d'une fonction du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>\u00a0?",
     right: "Une parabole",
     wrong: ["Une droite", "Une hyperbole", "Un cercle"],
   },
   {
     question:
-      "Quelles sont les solutions de l'équation <math><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>7</mn></math> ?",
+      "Quelles sont les solutions de l'équation <math><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>7</mn></math>\u00a0?",
     right:
       "<math><msqrt><mn>7</mn></msqrt></math> et <math><mo>-</mo><msqrt><mn>7</mn></msqrt></math>",
     wrong: [
@@ -888,7 +888,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quel est le taux de variation (ou taux d'accroissement) d'une fonction affine <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> entre deux réels distincts <math><msub><mi>u</mi><mn>1</mn></msub></math> et <math><msub><mi>u</mi><mn>2</mn></msub></math> ?",
+      "Quel est le taux de variation (ou taux d'accroissement) d'une fonction affine <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> entre deux réels distincts <math><msub><mi>u</mi><mn>1</mn></msub></math> et <math><msub><mi>u</mi><mn>2</mn></msub></math>\u00a0?",
     right: "<math><mi>a</mi></math>",
     wrong: [
       "<math><mi>b</mi></math>",
@@ -898,7 +898,7 @@ export const maths2de = [
   },
   {
     question:
-      "Dans un repère, si le coefficient directeur <math><mi>a</mi></math> d'une droite est négatif, que dire de la fonction affine associée ?",
+      "Dans un repère, si le coefficient directeur <math><mi>a</mi></math> d'une droite est négatif, que dire de la fonction affine associée\u00a0?",
     right: "Elle est strictement décroissante",
     wrong: [
       "Elle est strictement croissante",
@@ -908,7 +908,7 @@ export const maths2de = [
   },
   {
     question:
-      'Comment appelle-t-on deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> dont la direction est la même ?',
+      'Comment appelle-t-on deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> dont la direction est la même\u00a0?',
     right: "Des vecteurs colinéaires",
     wrong: [
       "Des vecteurs orthogonaux",
@@ -918,7 +918,7 @@ export const maths2de = [
   },
   {
     question:
-      'Soit deux vecteurs non nuls <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>\'</mo><mo>;</mo><mi>y</mi><mo>\'</mo><mo>)</mo></math>. Quelle est la condition de colinéarité à l\'aide du déterminant ?',
+      'Soit deux vecteurs non nuls <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>\'</mo><mo>;</mo><mi>y</mi><mo>\'</mo><mo>)</mo></math>. Quelle est la condition de colinéarité à l\'aide du déterminant\u00a0?',
     right:
       "<math><mi>x</mi><mi>y</mi><mo>'</mo><mo>-</mo><mi>y</mi><mi>x</mi><mo>'</mo><mo>=</mo><mn>0</mn></math>",
     wrong: [
@@ -929,7 +929,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la formule des coordonnées du milieu <math><mi>M</mi></math> d'un segment <math><mo>[</mo><mi>A</mi><mi>B</mi><mo>]</mo></math> avec <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> ?",
+      "Quelle est la formule des coordonnées du milieu <math><mi>M</mi></math> d'un segment <math><mo>[</mo><mi>A</mi><mi>B</mi><mo>]</mo></math> avec <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math>\u00a0?",
     right:
       "<math><mrow><mo>(</mo><mfrac><mrow><msub><mi>x</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>;</mo><mfrac><mrow><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>y</mi><mi>B</mi></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow></math>",
     wrong: [
@@ -940,13 +940,13 @@ export const maths2de = [
   },
   {
     question:
-      "Que représente graphiquement l'ensemble des solutions d'une inéquation à deux inconnues du premier degré ?",
+      "Que représente graphiquement l'ensemble des solutions d'une inéquation à deux inconnues du premier degré\u00a0?",
     right: "Un demi-plan",
     wrong: ["Une droite", "Un segment", "Un point"],
   },
   {
     question:
-      "Quel est le résultat de la factorisation de l'expression <math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math> ?",
+      "Quel est le résultat de la factorisation de l'expression <math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math>\u00a0?",
     right:
       "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math>",
     wrong: [
@@ -957,7 +957,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la forme canonique générale d'une fonction trinôme du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> ?",
+      "Quelle est la forme canonique générale d'une fonction trinôme du second degré <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>\u00a0?",
     right:
       "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>&beta;</mi></math>",
     wrong: [
@@ -968,7 +968,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la définition de la valeur absolue d'un nombre réel <math><mi>x</mi></math>, notée <math><mo>|</mo><mi>x</mi><mo>|</mo></math> ?",
+      "Quelle est la définition de la valeur absolue d'un nombre réel <math><mi>x</mi></math>, notée <math><mo>|</mo><mi>x</mi><mo>|</mo></math>\u00a0?",
     right:
       "La distance entre <math><mi>x</mi></math> et 0 sur la droite graduée",
     wrong: [
@@ -979,7 +979,7 @@ export const maths2de = [
   },
   {
     question:
-      "Que vaut la distance entre deux points <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> dans un repère orthonormé ?",
+      "Que vaut la distance entre deux points <math><mi>A</mi><mo>(</mo><msub><mi>x</mi><mi>A</mi></msub><mo>;</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></math> et <math><mi>B</mi><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>;</mo><msub><mi>y</mi><mi>B</mi></msub><mo>)</mo></math> dans un repère orthonormé\u00a0?",
     right:
       "<math><msqrt><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>B</mi></msub><mo>-</mo><msub><mi>x</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msub><mi>y</mi><mi>B</mi></msub><mo>-</mo><msub><mi>y</mi><mi>A</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></msqrt></math>",
     wrong: [
@@ -990,7 +990,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est l'équation cartésienne générale d'une droite non verticale dans le plan ?",
+      "Quelle est l'équation cartésienne générale d'une droite non verticale dans le plan\u00a0?",
     right:
       "<math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>p</mi></math>",
     wrong: [
@@ -1001,7 +1001,7 @@ export const maths2de = [
   },
   {
     question:
-      "Si deux droites ont pour équations réduites respectives <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub></math> et <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub></math>, quelle est la condition pour qu'elles soient parallèles ?",
+      "Si deux droites ont pour équations réduites respectives <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub></math> et <math><mi>y</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub></math>, quelle est la condition pour qu'elles soient parallèles\u00a0?",
     right:
       "<math><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub></math>",
     wrong: [
@@ -1012,7 +1012,7 @@ export const maths2de = [
   },
   {
     question:
-      "Dans un repère orthonormé, quelle est l'équation du cercle trigonométrique centré à l'origine ?",
+      "Dans un repère orthonormé, quelle est l'équation du cercle trigonométrique centré à l'origine\u00a0?",
     right:
       "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></math>",
     wrong: [
@@ -1023,7 +1023,7 @@ export const maths2de = [
   },
   {
     question:
-      "Pour tout angle <math><mi>x</mi></math> du cercle trigonométrique, que vaut la relation fondamentale <math><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></math> ?",
+      "Pour tout angle <math><mi>x</mi></math> du cercle trigonométrique, que vaut la relation fondamentale <math><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></math>\u00a0?",
     right: "1",
     wrong: [
       "0",
@@ -1033,13 +1033,13 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la valeur remarquable de <math><mi>cos</mi><mo>(</mo><mn>0</mn><mo>)</mo></math> ?",
+      "Quelle est la valeur remarquable de <math><mi>cos</mi><mo>(</mo><mn>0</mn><mo>)</mo></math>\u00a0?",
     right: "1",
     wrong: ["0", "-1", "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"],
   },
   {
     question:
-      "Quelle est la valeur remarquable de <math><mi>sin</mi><mo>(</mo><mfrac><mi>&pi;</mi><mn>2</mn></mfrac><mo>)</mo></math> ?",
+      "Quelle est la valeur remarquable de <math><mi>sin</mi><mo>(</mo><mfrac><mi>&pi;</mi><mn>2</mn></mfrac><mo>)</mo></math>\u00a0?",
     right: "1",
     wrong: [
       "0",
@@ -1049,19 +1049,19 @@ export const maths2de = [
   },
   {
     question:
-      "Comment appelle-t-on le coefficient multiplicateur associé à une baisse de 15 % ?",
+      "Comment appelle-t-on le coefficient multiplicateur associé à une baisse de 15 %\u00a0?",
     right: "0,85",
     wrong: ["1,15", "-0,15", "0,15"],
   },
   {
     question:
-      "Si un prix subit deux hausses successives de 10 %, quel est le coefficient multiplicateur global ?",
+      "Si un prix subit deux hausses successives de 10 %, quel est le coefficient multiplicateur global\u00a0?",
     right: "1,21",
     wrong: ["1,20", "1,10", "1,01"],
   },
   {
     question:
-      "Quelle est la formule de la fréquence <math><mi>f</mi></math> d'un caractère dans un effectif total <math><mi>N</mi></math> avec un effectif partiel <math><mi>n</mi></math> ?",
+      "Quelle est la formule de la fréquence <math><mi>f</mi></math> d'un caractère dans un effectif total <math><mi>N</mi></math> avec un effectif partiel <math><mi>n</mi></math>\u00a0?",
     right:
       "<math><mi>f</mi><mo>=</mo><mfrac><mi>n</mi><mi>N</mi></mfrac></math>",
     wrong: [
@@ -1072,13 +1072,13 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle mesure de position sépare une série statistique ordonnée en deux parties de même effectif ?",
+      "Quelle mesure de position sépare une série statistique ordonnée en deux parties de même effectif\u00a0?",
     right: "La médiane",
     wrong: ["La moyenne", "L'étendue", "L'écart-type"],
   },
   {
     question:
-      "Que représente la variance ou l'écart-type dans une série statistique ?",
+      "Que représente la variance ou l'écart-type dans une série statistique\u00a0?",
     right: "La dispersion des valeurs autour de la moyenne",
     wrong: [
       "La valeur centrale de la série",
@@ -1088,13 +1088,13 @@ export const maths2de = [
   },
   {
     question:
-      "Si l'on considère une expérience aléatoire, que vaut la somme des probabilités de tous les issues (événements élémentaires) possibles ?",
+      "Si l'on considère une expérience aléatoire, que vaut la somme des probabilités de tous les issues (événements élémentaires) possibles\u00a0?",
     right: "1",
     wrong: ["0", "100", "Cela dépend de l'expérience"],
   },
   {
     question:
-      "Pour deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> d'un même univers, que vaut la probabilité de l'événement contraire de <math><mi>A</mi></math>, noté <math><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover></math> ?",
+      "Pour deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> d'un même univers, que vaut la probabilité de l'événement contraire de <math><mi>A</mi></math>, noté <math><mover accent=\"true\"><mi>A</mi><mo>&macr;</mo></mover></math>\u00a0?",
     right:
       '<math><mi>P</mi><mo>(</mo><mover accent="true"><mi>A</mi><mo>&macr;</mo></mover><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>',
     wrong: [
@@ -1105,7 +1105,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la formule de la probabilité de la réunion de deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> ?",
+      "Quelle est la formule de la probabilité de la réunion de deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math>\u00a0?",
     right:
       "<math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></math>",
     wrong: [
@@ -1116,7 +1116,7 @@ export const maths2de = [
   },
   {
     question:
-      "Comment appelle-t-on deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> tels que <math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> ?",
+      "Comment appelle-t-on deux événements <math><mi>A</mi></math> et <math><mi>B</mi></math> tels que <math><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn></math>\u00a0?",
     right: "Des événements incompatibles",
     wrong: [
       "Des événements indépendants",
@@ -1126,7 +1126,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quel est le résultat de la simplification de la puissance <math><msup><mrow><mo>(</mo><msup><mi>a</mi><mi>m</mi></msup><mo>)</mo></mrow><mi>n</mi></msup></math> ?",
+      "Quel est le résultat de la simplification de la puissance <math><msup><mrow><mo>(</mo><msup><mi>a</mi><mi>m</mi></msup><mo>)</mo></mrow><mi>n</mi></msup></math>\u00a0?",
     right:
       "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>&times;</mo><mi>n</mi></mrow></msup></math>",
     wrong: [
@@ -1137,7 +1137,7 @@ export const maths2de = [
   },
   {
     question:
-      "Que vaut l'expression <math><mfrac><msup><mi>a</mi><mi>m</mi></msup><msup><mi>a</mi><mi>n</mi></msup></mfrac></math> pour <math><mi>a</mi><mo>≠</mo><mn>0</mn></math> ?",
+      "Que vaut l'expression <math><mfrac><msup><mi>a</mi><mi>m</mi></msup><msup><mi>a</mi><mi>n</mi></msup></mfrac></math> pour <math><mi>a</mi><mo>≠</mo><mn>0</mn></math>\u00a0?",
     right:
       "<math><msup><mi>a</mi><mrow><mi>m</mi><mo>-</mo><mi>n</mi></mrow></msup></math>",
     wrong: [
@@ -1148,7 +1148,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est l'écriture de la loi des grands nombres vue en seconde concernant la fréquence et la probabilité ?",
+      "Quelle est l'écriture de la loi des grands nombres vue en seconde concernant la fréquence et la probabilité\u00a0?",
     right:
       "Quand la taille de l'échantillon augmente, la fréquence observée se rapproche de la probabilité théorique",
     wrong: [
@@ -1159,7 +1159,7 @@ export const maths2de = [
   },
   {
     question:
-      'Qu\'exprime la relation de Chasles pour les vecteurs <math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math> ?',
+      'Qu\'exprime la relation de Chasles pour les vecteurs <math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math>\u00a0?',
     right:
       '<math><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">→</mo></mover><mo>+</mo><mover accent="true"><mrow><mi>B</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover><mo>=</mo><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">→</mo></mover></math>',
     wrong: [
@@ -1170,7 +1170,7 @@ export const maths2de = [
   },
   {
     question:
-      'Si <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et k est un réel, quelles sont les coordonnées du vecteur <math><mi>k</mi><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> ?',
+      'Si <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> et k est un réel, quelles sont les coordonnées du vecteur <math><mi>k</mi><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math>\u00a0?',
     right:
       "<math><mo>(</mo><mi>k</mi><mi>x</mi><mo>;</mo><mi>k</mi><mi>y</mi><mo>)</mo></math>",
     wrong: [
@@ -1181,7 +1181,7 @@ export const maths2de = [
   },
   {
     question:
-      "Comment définit-on l'image d'un nombre <math><mi>x</mi></math> par une fonction <math><mi>f</mi></math> sur un graphique ? Par...",
+      "Comment définit-on l'image d'un nombre <math><mi>x</mi></math> par une fonction <math><mi>f</mi></math> sur un graphique\u00a0? Par...",
     right:
       "L'ordonnée du point de la courbe d'abscisse <math><mi>x</mi></math>",
     wrong: [
@@ -1192,7 +1192,7 @@ export const maths2de = [
   },
   {
     question:
-      "Qu'appelle-t-on un antécédent d'un nombre <math><mi>y</mi></math> par une fonction <math><mi>f</mi></math> ?",
+      "Qu'appelle-t-on un antécédent d'un nombre <math><mi>y</mi></math> par une fonction <math><mi>f</mi></math>\u00a0?",
     right:
       "Tout nombre <math><mi>x</mi></math> tel que <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>y</mi></math>",
     wrong: [
@@ -1203,7 +1203,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la nature de la fonction racine carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></math> sur son ensemble de définition <math><mo>[</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>∞</mi><mo>[</mo></math> ?",
+      "Quelle est la nature de la fonction racine carrée <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></math> sur son ensemble de définition <math><mo>[</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>∞</mi><mo>[</mo></math>\u00a0?",
     right: "Strictement croissante",
     wrong: [
       "Strictement décroissante",
@@ -1213,7 +1213,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quel est le résultat du produit remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math> ou de la forme générale <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ? Ici, que vaut <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> ?",
+      "Quel est le résultat du produit remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math> ou de la forme générale <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0? Ici, que vaut <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
     right:
       "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
     wrong: [
@@ -1224,7 +1224,7 @@ export const maths2de = [
   },
   {
     question:
-      "Comment résout-on une inéquation produit du type <math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>⩽</mo><mn>0</mn></math> ?",
+      "Comment résout-on une inéquation produit du type <math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>⩽</mo><mn>0</mn></math>\u00a0?",
     right: "À l'aide d'un tableau de signes",
     wrong: [
       "En calculant le discriminant de chaque facteur",
@@ -1234,7 +1234,7 @@ export const maths2de = [
   },
   {
     question:
-      "Que signifie graphiquement l'égalité <math><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>b</mi><mo>)</mo></math> pour une fonction paire sur un intervalle symétrique ?",
+      "Que signifie graphiquement l'égalité <math><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>b</mi><mo>)</mo></math> pour une fonction paire sur un intervalle symétrique\u00a0?",
     right: "La courbe est symétrique par rapport à l'axe des ordonnées",
     wrong: [
       "La courbe est symétrique par rapport à l'origine du repère",
@@ -1244,7 +1244,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la caractéristique de la courbe représentative d'une fonction impaire ?",
+      "Quelle est la caractéristique de la courbe représentative d'une fonction impaire\u00a0?",
     right: "Elle est symétrique par rapport à l'origine du repère",
     wrong: [
       "Elle est symétrique par rapport à l'axe des ordonnées",
@@ -1254,7 +1254,7 @@ export const maths2de = [
   },
   {
     question:
-      "Comment appelle-t-on un encadrement d'un nombre réel par deux nombres décimaux dont la différence est <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math> ?",
+      "Comment appelle-t-on un encadrement d'un nombre réel par deux nombres décimaux dont la différence est <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math>\u00a0?",
     right:
       "Un encadrement d'amplitude <math><msup><mn>10</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup></math>",
     wrong: [
@@ -1265,13 +1265,13 @@ export const maths2de = [
   },
   {
     question:
-      "Si on arrondit un nombre à <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> près, à combien de chiffres après la virgule s'arrête-t-on ?",
+      "Si on arrondit un nombre à <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> près, à combien de chiffres après la virgule s'arrête-t-on\u00a0?",
     right: "2 chiffres",
     wrong: ["1 chiffre", "3 chiffres", "Cela dépend de la valeur initiale"],
   },
   {
     question:
-      "Quelle est la définition de la réunion de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∪</mo><mi>B</mi></math> ?",
+      "Quelle est la définition de la réunion de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∪</mo><mi>B</mi></math>\u00a0?",
     right:
       "L'ensemble des éléments qui appartiennent à <math><mi>A</mi></math> ou à <math><mi>B</mi></math> (ou aux deux)",
     wrong: [
@@ -1282,7 +1282,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quelle est la définition de l'intersection de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∩</mo><mi>B</mi></math> ?",
+      "Quelle est la définition de l'intersection de deux ensembles <math><mi>A</mi></math> et <math><mi>B</mi></math>, notée <math><mi>A</mi><mo>∩</mo><mi>B</mi></math>\u00a0?",
     right:
       "L'ensemble des éléments qui appartiennent à la fois à <math><mi>A</mi></math> et à <math><mi>B</mi></math>",
     wrong: [
@@ -1293,7 +1293,7 @@ export const maths2de = [
   },
   {
     question:
-      'Dans un repère, que dire de deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> si leur produit scalaire (ou l\'orthogonalité via les coordonnées) est nul ?',
+      'Dans un repère, que dire de deux vecteurs <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover></math> et <math><mover accent="true"><mi>v</mi><mo stretchy="true">→</mo></mover></math> si leur produit scalaire (ou l\'orthogonalité via les coordonnées) est nul\u00a0?',
     right: "Ils sont orthogonaux (perpendiculaires)",
     wrong: [
       "Ils sont colinéaires de même sens",
@@ -1303,7 +1303,7 @@ export const maths2de = [
   },
   {
     question:
-      'Quelle est la formule générale de la norme d\'un vecteur <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> dans un repère orthonormé ?',
+      'Quelle est la formule générale de la norme d\'un vecteur <math><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>(</mo><mi>x</mi><mo>;</mo><mi>y</mi><mo>)</mo></math> dans un repère orthonormé\u00a0?',
     right:
       '<math><mo>∥</mo><mover accent="true"><mi>u</mi><mo stretchy="true">→</mo></mover><mo>∥</mo><mo>=</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></msqrt></math>',
     wrong: [
@@ -1314,7 +1314,7 @@ export const maths2de = [
   },
   {
     question:
-      "Si l'on augmente une grandeur de <math><mi>t</mi></math> %, quel est le coefficient multiplicateur associé ?",
+      "Si l'on augmente une grandeur de <math><mi>t</mi></math> %, quel est le coefficient multiplicateur associé\u00a0?",
     right:
       "<math><mn>1</mn><mo>+</mo><mfrac><mi>t</mi><mn>100</mn></mfrac></math>",
     wrong: [
@@ -1325,7 +1325,7 @@ export const maths2de = [
   },
   {
     question:
-      "Quel algorithme simple étudie-t-on en classe de seconde pour répéter une instruction un nombre déterminé de fois ?",
+      "Quel algorithme simple étudie-t-on en classe de seconde pour répéter une instruction un nombre déterminé de fois\u00a0?",
     right: "La boucle pour (ou boucle for)",
     wrong: [
       "La boucle tant que (while)",
@@ -1731,7 +1731,7 @@ export const physics3e = [
 export const biology2de = [
   {
     question:
-      "Quelle est l'organisation structurale de la matière vivante, de la plus grande échelle à la plus petite ?",
+      "Quelle est l'organisation structurale de la matière vivante, de la plus grande échelle à la plus petite\u00a0?",
     right: "Organisme > Organe > Tissu > Cellule > Organite > Molécule",
     wrong: [
       "Cellule > Tissu > Organe > Organisme > Molécule > Organite",
@@ -1740,7 +1740,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Qu'est-ce qu'un tissu chez un être vivant pluricellulaire ?",
+    question: "Qu'est-ce qu'un tissu chez un être vivant pluricellulaire\u00a0?",
     right:
       "Un ensemble de cellules spécialisées similaires réalisant une même fonction",
     wrong: [
@@ -1751,19 +1751,19 @@ export const biology2de = [
   },
   {
     question:
-      "Quel organite cellulaire est le siège de la respiration cellulaire chez les eucaryotes ?",
+      "Quel organite cellulaire est le siège de la respiration cellulaire chez les eucaryotes\u00a0?",
     right: "La mitochondrie",
     wrong: ["Le chloroplaste", "Le noyau", "Le réticulum endoplasmique"],
   },
   {
     question:
-      "Quel organite permet la réalisation de la photosynthèse chez les cellules végétales chlorophylliennes ?",
+      "Quel organite permet la réalisation de la photosynthèse chez les cellules végétales chlorophylliennes\u00a0?",
     right: "Le chloroplaste",
     wrong: ["La mitochondrie", "La vacuole", "Le lysosome"],
   },
   {
     question:
-      "Comment appelle-t-on la structure qui délimite la cellule et contrôle les échanges avec l'extérieur ?",
+      "Comment appelle-t-on la structure qui délimite la cellule et contrôle les échanges avec l'extérieur\u00a0?",
     right: "La membrane plasmique",
     wrong: [
       "La paroi pectocellulosique",
@@ -1773,7 +1773,7 @@ export const biology2de = [
   },
   {
     question:
-      "Qu'est-ce que la matrice extracellulaire chez les animaux (ou paroi chez les végétaux) ?",
+      "Qu'est-ce que la matrice extracellulaire chez les animaux (ou paroi chez les végétaux)\u00a0?",
     right:
       "Un réseau de molécules situées en dehors des cellules permettant l'adhérence et la cohérence des tissus",
     wrong: [
@@ -1783,7 +1783,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Qu'est-ce qui caractérise une cellule spécialisée ?",
+    question: "Qu'est-ce qui caractérise une cellule spécialisée\u00a0?",
     right:
       "Une forme, une structure et un contenu en organites adaptés à sa fonction spécifique",
     wrong: [
@@ -1794,7 +1794,7 @@ export const biology2de = [
   },
   {
     question:
-      "Quelle est la principale caractéristique génétique de toutes les cellules somatiques d'un organisme pluricellulaire ?",
+      "Quelle est la principale caractéristique génétique de toutes les cellules somatiques d'un organisme pluricellulaire\u00a0?",
     right:
       "Elles possèdent toutes exactement la même information génétique (le même génome)",
     wrong: [
@@ -1805,7 +1805,7 @@ export const biology2de = [
   },
   {
     question:
-      "Comment s'explique la spécialisation d'une cellule si toutes possèdent le même ADN ?",
+      "Comment s'explique la spécialisation d'une cellule si toutes possèdent le même ADN\u00a0?",
     right:
       "Par l'expression sélective de certains gènes et l'extinction des autres",
     wrong: [
@@ -1815,7 +1815,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Qu'est-ce qu'une cellule souche ?",
+    question: "Qu'est-ce qu'une cellule souche\u00a0?",
     right:
       "Une cellule indifférenciée capable de se multiplier et de se spécialiser en différents types cellulaires",
     wrong: [
@@ -1826,7 +1826,7 @@ export const biology2de = [
   },
   {
     question:
-      "Où se situe la majorité de l'information génétique dans une cellule eucaryote ?",
+      "Où se situe la majorité de l'information génétique dans une cellule eucaryote\u00a0?",
     right: "Dans le noyau",
     wrong: [
       "Dans le cytoplasme",
@@ -1835,7 +1835,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "De quoi est constituée la molécule d'ADN ?",
+    question: "De quoi est constituée la molécule d'ADN\u00a0?",
     right:
       "De deux brins en double hélice formés d'un enchaînement de nucléotides",
     wrong: [
@@ -1845,7 +1845,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Quels sont les quatre nucléotides constituant l'ADN ?",
+    question: "Quels sont les quatre nucléotides constituant l'ADN\u00a0?",
     right: "Adénine (A), Thymine (T), Cytosine (C), Guanine (G)",
     wrong: [
       "Adénine (A), Uracile (U), Cytosine (C), Guanine (G)",
@@ -1855,7 +1855,7 @@ export const biology2de = [
   },
   {
     question:
-      "Quelle est la règle de complémentarité des bases azotées dans la double hélice d'ADN ?",
+      "Quelle est la règle de complémentarité des bases azotées dans la double hélice d'ADN\u00a0?",
     right:
       "L'Adénine (A) s'associe toujours avec la Thymine (T), et la Cytosine (C) avec la Guanine (G)",
     wrong: [
@@ -1865,7 +1865,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "De quoi est composé un nucléotide ?",
+    question: "De quoi est composé un nucléotide\u00a0?",
     right:
       "D'une base azotée, d'un sucre (le désoxyribose) et d'un groupement phosphate",
     wrong: [
@@ -1875,7 +1875,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Qu'est-ce qu'un gène ?",
+    question: "Qu'est-ce qu'un gène\u00a0?",
     right:
       "Une séquence de nucléotides d'un brin d'ADN portant une information génétique précise",
     wrong: [
@@ -1885,7 +1885,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Qu'est-ce que la séquence d'un gène (ou d'un brin d'ADN) ?",
+    question: "Qu'est-ce que la séquence d'un gène (ou d'un brin d'ADN)\u00a0?",
     right: "L'ordre bien précis dans lequel se succèdent les nucléotides",
     wrong: [
       "La longueur totale de la molécule exprimée en micromètres",
@@ -1895,7 +1895,7 @@ export const biology2de = [
   },
   {
     question:
-      "Comment l'information contenue dans un gène détermine-t-elle le fonctionnement d'une cellule spécialisée ?",
+      "Comment l'information contenue dans un gène détermine-t-elle le fonctionnement d'une cellule spécialisée\u00a0?",
     right:
       "Elle gouverne la synthèse de protéines spécifiques nécessaires à sa fonction",
     wrong: [
@@ -1906,13 +1906,13 @@ export const biology2de = [
   },
   {
     question:
-      "Quelle est la forme prise par la molécule d'ADN au cours de la division cellulaire lorsqu'elle se condense au maximum ?",
+      "Quelle est la forme prise par la molécule d'ADN au cours de la division cellulaire lorsqu'elle se condense au maximum\u00a0?",
     right: "Un chromosome",
     wrong: ["Un nucléosome", "Une chromatine fluide", "Un filament d'ARN"],
   },
   {
     question:
-      "Pourquoi dit-on que l'ADN est le support universel de l'information génétique ?",
+      "Pourquoi dit-on que l'ADN est le support universel de l'information génétique\u00a0?",
     right:
       "Parce que sa structure et son langage chimique sont identiques chez tous les êtres vivants",
     wrong: [
@@ -1922,12 +1922,12 @@ export const biology2de = [
     ],
   },
   {
-    question: "À quel niveau d'organisation appartient l'élodée ?",
+    question: "À quel niveau d'organisation appartient l'élodée\u00a0?",
     right: "Organisme",
     wrong: ["Organe", "Tissu", "Cellule"],
   },
   {
-    question: "Quelle est la définition d'un organe ?", // D'après le tableau Thème 1 Chapitre 1
+    question: "Quelle est la définition d'un organe\u00a0?", // D'après le tableau Thème 1 Chapitre 1
     right: "Une structure qui participe à la réalisation d'une fonction",
     wrong: [
       "La plus petite structure vivante",
@@ -1937,27 +1937,27 @@ export const biology2de = [
   },
   {
     question:
-      "Quel niveau d'organisation est défini comme « la plus petite structure vivante » ?",
+      "Quel niveau d'organisation est défini comme « la plus petite structure vivante »\u00a0?",
     right: "La cellule",
     wrong: ["L'organite", "La molécule", "Le tissu"],
   },
   {
-    question: "À quel niveau d'organisation se situe le tissu chlorophyllien ?",
+    question: "À quel niveau d'organisation se situe le tissu chlorophyllien\u00a0?",
     right: "Tissu",
     wrong: ["Organe", "Organite", "Cellule"],
   },
   {
-    question: "À quel niveau d'organisation appartient le chloroplaste ?",
+    question: "À quel niveau d'organisation appartient le chloroplaste\u00a0?",
     right: "Organite",
     wrong: ["Cellule", "Molécule", "Tissu"],
   },
   {
-    question: "À quel niveau d'organisation appartient la chlorophylle ?",
+    question: "À quel niveau d'organisation appartient la chlorophylle\u00a0?",
     right: "Molécule",
     wrong: ["Organite", "Atome", "Cellule"],
   },
   {
-    question: "Qu'est-ce qu'un atome ?",
+    question: "Qu'est-ce qu'un atome\u00a0?",
     right: "Un ensemble de protons, électrons et neutrons",
     wrong: [
       "La plus petite structure vivante",
@@ -1967,13 +1967,13 @@ export const biology2de = [
   },
   {
     question:
-      "Quel niveau d'organisation présente une taille inférieure à 1 nm ?",
+      "Quel niveau d'organisation présente une taille inférieure à 1 nm\u00a0?",
     right: "L'atome",
     wrong: ["La molécule", "L'organite", "La cellule"],
   },
   {
     question:
-      "Parmi les éléments suivants, lequel est invisible au microscope optique ordinaire ?",
+      "Parmi les éléments suivants, lequel est invisible au microscope optique ordinaire\u00a0?",
     right: "La chlorophylle",
     wrong: [
       "Le chloroplaste",
@@ -1982,17 +1982,17 @@ export const biology2de = [
     ],
   },
   {
-    question: "À quel niveau d'organisation appartient le cerveau ?",
+    question: "À quel niveau d'organisation appartient le cerveau\u00a0?",
     right: "Organe",
     wrong: ["Tissu", "Organisme", "Cellule"],
   },
   {
-    question: "À quel niveau d'organisation se situe le tissu nerveux ?",
+    question: "À quel niveau d'organisation se situe le tissu nerveux\u00a0?",
     right: "Tissu",
     wrong: ["Organe", "Cellule", "Organite"],
   },
   {
-    question: "Comment peut-on définir un organite ?",
+    question: "Comment peut-on définir un organite\u00a0?",
     right:
       "Un compartiment délimité dans le cytoplasme assurant une fonction précise",
     wrong: [
@@ -2003,24 +2003,24 @@ export const biology2de = [
   },
   {
     question:
-      "Quels niveaux d'organisation sont visibles directement à l'œil nu ?",
+      "Quels niveaux d'organisation sont visibles directement à l'œil nu\u00a0?",
     right: "Organisme et Organe",
     wrong: ["Tissu et Cellule", "Cellule et Organite", "Organite et Molécule"],
   },
   {
-    question: "Quels niveaux d'organisation s'observent au microscope ?",
+    question: "Quels niveaux d'organisation s'observent au microscope\u00a0?",
     right: "Tissu, Cellule et Organite",
     wrong: ["Organisme et Organe", "Molécule et Atome", "Organe et Tissu"],
   },
   {
     question:
-      "Quels niveaux d'organisation ne sont pas visibles au microscope optique ?",
+      "Quels niveaux d'organisation ne sont pas visibles au microscope optique\u00a0?",
     right: "Molécule et Atome",
     wrong: ["Organite et Cellule", "Tissu et Organite", "Cellule et Molécule"],
   },
   {
     question:
-      "Parmi les définitions suivantes, laquelle retenir pour définir un tissu ?",
+      "Parmi les définitions suivantes, laquelle retenir pour définir un tissu\u00a0?",
     right: "Un ensemble de cellules spécialisées qui réalisent une fonction",
     wrong: [
       "Une structure qui participe à la réalisation d'une fonction",
@@ -2029,7 +2029,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Quelle est la définition d'un organisme ?",
+    question: "Quelle est la définition d'un organisme\u00a0?",
     right: "Une structure qui réalise l'ensemble des fonctions du vivant",
     wrong: [
       "Une structure qui participe à la réalisation d'une fonction",
@@ -2039,7 +2039,7 @@ export const biology2de = [
   },
   {
     question:
-      "Quel est l'ordre de grandeur de la taille d'une feuille d'Élodée ?",
+      "Quel est l'ordre de grandeur de la taille d'une feuille d'Élodée\u00a0?",
     right:
       "1,5 cm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup><mtext> m</mtext></math>)",
     wrong: [
@@ -2050,7 +2050,7 @@ export const biology2de = [
   },
   {
     question:
-      "Quelle est la taille approximative d'une cellule végétale selon le tableau 1 ?",
+      "Quelle est la taille approximative d'une cellule végétale selon le tableau 1\u00a0?",
     right:
       "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
     wrong: [
@@ -2061,7 +2061,7 @@ export const biology2de = [
   },
   {
     question:
-      "Quelle est la taille approximative de la molécule de chlorophylle ?",
+      "Quelle est la taille approximative de la molécule de chlorophylle\u00a0?",
     right:
       "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
     wrong: [
@@ -2071,7 +2071,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Quelle est la taille approximative d'un neurone ?",
+    question: "Quelle est la taille approximative d'un neurone\u00a0?",
     right:
       "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
     wrong: [
@@ -2081,7 +2081,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Quelle est la taille approximative de la mitochondrie ?",
+    question: "Quelle est la taille approximative de la mitochondrie\u00a0?",
     right:
       "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
     wrong: [
@@ -2091,7 +2091,7 @@ export const biology2de = [
     ],
   },
   {
-    question: "Que signifie « l'expression génétique » ?",
+    question: "Que signifie « l'expression génétique »\u00a0?",
     right:
       "La façon dont les cellules utilisent les informations portées par les gènes",
     wrong: [
