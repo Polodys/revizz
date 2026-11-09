@@ -551,7 +551,7 @@ export const maths3e = [
   },
   {
     question:
-      "Quelles sont les solutions de l'équation <math><mo>(</mi><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mi><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>\u00a0?",
+      "Quelles sont les solutions de l'équation <math><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>\u00a0?",
     right: "3 et -4",
     wrong: ["-3 et 4", "3 et 4", "-3 et -4"],
   },
@@ -961,7 +961,7 @@ export const maths2de = [
     right:
       "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>&beta;</mi></math>",
     wrong: [
-      "<math><mi>a</mi><mo>(</mi><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></math>",
+      "<math><mi>a</mi><mo>(</mi><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mi><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo></math>",
       "<math><msup><mrow><mo>(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>&beta;</mi><mo>)</mo></mrow><mn>2</mn></msup></math>",
       "<math><mi>a</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>&alpha;</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>-</mo><mi>&beta;</mi></math>",
     ],
