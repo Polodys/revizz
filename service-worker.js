@@ -7,8 +7,8 @@ const urlsToCache = [
   "./script.js",
   "./quiz-data.js",
   "./manifest.json",
-  "./icon-rz-192.png",
-  "./icon-rz-512.png",
+  "./assets/icons/icon-rz-192.png",
+  "./assets/icons/icon-rz-512.png",
 ];
 
 // INSTALLATION
