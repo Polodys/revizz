@@ -38,7 +38,7 @@ function generateQuiz() {
   let randomNumbers = [];
   quiz.length = 0; // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
   let quizThemesItems = [];
-  
+
   // Fusionne tous les thèmes actifs choisis
   for (let i = 0; i < quizThemes.length; i++) {
     quizThemesItems = quizThemesItems.concat(quizThemes[i]);
@@ -177,7 +177,11 @@ function displayAnswers(questionIndex) {
   correctAnswersIndex = randomNumber;
 
   // Inère la bonne réponse à une position aléatoire parmi les mauvaises réponses
-  const answers = wrongAnswers.toSpliced(randomNumber, 0, quiz[questionIndex].right);
+  const answers = wrongAnswers.toSpliced(
+    randomNumber,
+    0,
+    quiz[questionIndex].right,
+  );
 
   for (let i = 0; i < answers.length; i++) {
     const li = document.createElement("li");
@@ -244,3 +248,20 @@ restartBtn.classList.add("hidden");
 generateQuiz();
 displayQuestion(index);
 displayAnswers(index);
+
+// --- Enregistrement du Service Worker (PWA) ---
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./service-worker.js")
+      .then((registration) => {
+        console.log(
+          "ServiceWorker enregistré avec succès, scope : ",
+          registration.scope,
+        );
+      })
+      .catch((error) => {
+        console.error("Echec de l'enregistrement du ServiceWorker : ", error);
+      });
+  });
+}
