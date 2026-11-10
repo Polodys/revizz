@@ -19,8 +19,15 @@ self.addEventListener("install", (event) => {
       .then((cache) => {
         return cache.addAll(urlsToCache);
       })
-      .then(() => self.skipWaiting()),
+      // .then(() => self.skipWaiting()),
   );
+});
+
+// Ecoute d'un message venant du script principal pour forcer l'activation
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 // ACTIVATION

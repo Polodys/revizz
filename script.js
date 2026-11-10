@@ -259,9 +259,41 @@ if ("serviceWorker" in navigator) {
           "ServiceWorker enregistré avec succès, scope : ",
           registration.scope,
         );
+
+        registration.addEventListener("updatefound", () => {
+          const newWorker = registration.installing;
+
+          newWorker.addEventListener("statechange", () => {
+            if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
+              showUpdateBanner(newWorker);
+            }
+          });
+        });
       })
       .catch((error) => {
         console.error("Echec de l'enregistrement du ServiceWorker : ", error);
       });
   });
+
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!refreshing) {
+      refreshing = true;
+      window.location.reload();
+    }
+  });
+}
+
+// Affiche la bannière de mise à jour et gère le clic de l'utilisateur
+function showUpdateBanner(worker) {
+  const updateBanner = document.getElementById("update-banner");
+  const updateBtn = document.getElementById("update-btn");
+
+  if (updateBanner) {
+    updateBanner.classList.remove("hidden");
+
+    updateBtn.addEventListener("click", () => {
+      worker.postMessage({ type: "SKIP_WAITING" });
+    });
+  }
 }
