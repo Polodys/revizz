@@ -249,3 +249,31 @@ fieldset {
   height: 1.4em;
   vertical-align: middle;
 }
+
+
+.update-banner {
+  width: 100%;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--bg-light);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 12px #515151;
+}
+
+.update-banner .btn {
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+  padding: 5px 10px;
+  width: auto;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.update-banner .btn:hover {
+  background-color: var(--success-bg);
+}
