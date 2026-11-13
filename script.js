@@ -263,12 +263,18 @@ if ("serviceWorker" in navigator) {
         registration.addEventListener("updatefound", () => {
           const newWorker = registration.installing;
 
+          if (!newWorker) return;
+
           newWorker.addEventListener("statechange", () => {
             if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
               showUpdateBanner(newWorker);
             }
           });
         });
+
+        if (registration.waiting && navigator.serviceWorker.controller) {
+          showUpdateBanner(registration.waiting);
+        }
       })
       .catch((error) => {
         console.error("Echec de l'enregistrement du ServiceWorker : ", error);
