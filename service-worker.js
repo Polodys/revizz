@@ -1,4 +1,4 @@
-const CACHE_NAME = "revizz-v1";
+const CACHE_NAME = "revizz-v2";
 const CACHE_PREFIX = "revizz-";
 const STATIC_ASSETS = [
   // ou urlsToCache
