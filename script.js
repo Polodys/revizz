@@ -200,6 +200,20 @@ function displayAnswers(questionIndex) {
 
 // Gestion de la modale pour les paramètres du quiz
 paramsBtn.addEventListener("click", () => {
+  // 1. Application visuelle au formulaire de l'état réel des paramètres du quiz
+  // Pour le nombre de questions
+  const sizeRadios = paramsForm.querySelectorAll("input[name='size']");
+  sizeRadios.forEach((radio) => {
+    radio.checked = (Number(radio.value) === quizSize);
+  });
+  
+  // Pour le(s) thème(s)
+  document.getElementById("theme1").checked = quizThemes.includes(maths3e);
+  document.getElementById("theme2").checked = quizThemes.includes(maths2de);
+  document.getElementById("theme3").checked = quizThemes.includes(physics3e);
+  document.getElementById("theme4").checked = quizThemes.includes(biology2de);
+
+  // 2. Ouverture de la modale
   paramsModal.showModal();
 });
 
