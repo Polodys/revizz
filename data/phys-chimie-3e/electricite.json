@@ -1,0 +1,90 @@
+[
+  {
+    "id": "phys-chimie-3e-electricite-0001",
+    "question": "Quelle est la relation de la loi d'Ohm pour un conducteur ohmique\u00a0?",
+    "right": "<math><mi>U</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><mi>I</mi></math>",
+    "wrong": [
+      "<math><mi>U</mi><mo>=</mo><mfrac><mi>R</mi><mi>I</mi></mfrac></math>",
+      "<math><mi>I</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><mi>U</mi></math>",
+      "<math><mi>R</mi><mo>=</mo><mi>U</mi><mo>&times;</mo><mi>I</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0002",
+    "question": "Quelle est l'unité de la résistance électrique\u00a0?",
+    "right": "L'Ohm (<math><mo>&Omega;</mo></math>)",
+    "wrong": ["Le Volt (V)", "L'Ampère (A)", "Le Watt (W)"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0003",
+    "question": "Avec quel appareil branché en série mesure-t-on l'intensité d'un courant électrique\u00a0?",
+    "right": "Un ampèremètre",
+    "wrong": ["Un voltmètre", "Un ohmmètre", "Un wattmètre"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0004",
+    "question": "Comment se branche un voltmètre dans un circuit électrique\u00a0?",
+    "right": "En dérivation (en parallèle)",
+    "wrong": ["En série", "En boucle simple", "Indifféremment"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0005",
+    "question": "Dans un circuit en série, quelle est la propriété de l'intensité du courant électrique\u00a0?",
+    "right": "Elle est la même en tout point du circuit",
+    "wrong": [
+      "Elle s'additionne à chaque récepteur",
+      "Elle diminue au fur et à mesure des récepteurs",
+      "Elle dépend de l'ordre des dipôles"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0006",
+    "question": "Dans un circuit en dérivation, la tension aux bornes des différentes branches en parallèle est...\u00a0?",
+    "right": "Identique",
+    "wrong": ["Egale à zéro", "Partagée équitablement", "Additionnée"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0007",
+    "question": "Quelle formule donne la puissance électrique <math><mi>P</mi></math> reçue par un appareil en courant continu\u00a0?",
+    "right": "<math><mi>P</mi><mo>=</mo><mi>U</mi><mo>&times;</mo><mi>I</mi></math>",
+    "wrong": [
+      "<math><mi>P</mi><mo>=</mo><mfrac><mi>U</mi><mi>I</mi></mfrac></math>",
+      "<math><mi>P</mi><mo>=</mo><mi>R</mi><mo>&times;</mo><msup><mi>I</mi><mn>2</mn></msup></math>",
+      "<math><mi>P</mi><mo>=</mo><mi>U</mi><mo>+</mo><mi>I</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0008",
+    "question": "Quelle est l'unité de mesure de la puissance électrique\u00a0?",
+    "right": "Le Watt (W)",
+    "wrong": ["Le Joule (J)", "L'Ampère (A)", "Le Volt (V)"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0009",
+    "question": "Quelle formule lie l'énergie électrique <math><mi>E</mi></math>, la puissance <math><mi>P</mi></math> et la durée d'utilisation <math><mi>t</mi></math>\u00a0?",
+    "right": "<math><mi>E</mi><mo>=</mo><mi>P</mi><mo>&times;</mo><mi>t</mi></math>",
+    "wrong": [
+      "<math><mi>E</mi><mo>=</mo><mfrac><mi>P</mi><mi>t</mi></mfrac></math>",
+      "<math><mi>E</mi><mo>=</mo><mfrac><mi>t</mi><mi>P</mi></mfrac></math>",
+      "<math><mi>E</mi><mo>=</mo><mi>P</mi><mo>+</mo><mi>t</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0010",
+    "question": "Quelle est l'unité habituellement utilisée par le fournisseur d'électricité sur les factures d'énergie\u00a0?",
+    "right": "Le Kilowatt-heure (kWh)",
+    "wrong": ["Le Watt par heure (W/h)", "Le Joule (J)", "Le Volt (V)"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0011",
+    "question": "Quel dispositif de protection ouvre le circuit en cas de surintensité ou de court-circuit domestique\u00a0?",
+    "right": "Un disjoncteur (ou fusible)",
+    "wrong": ["Un transformateur", "Un alternateur", "Un condensateur"]
+  },
+  {
+    "id": "phys-chimie-3e-electricite-0012",
+    "question": "Quel composant transforme l'énergie mécanique en énergie électrique dans une centrale électrique\u00a0?",
+    "right": "Un alternateur",
+    "wrong": ["Un moteur", "Un transformateur", "Une pile"]
+  }
+]

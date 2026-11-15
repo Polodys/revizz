@@ -1,0 +1,502 @@
+[
+  {
+    "id": "maths-2de-nombres-reels-0001",
+    "question": "Quel symbole désigne l'ensemble des entiers naturels\u00a0?",
+    "right": "<math><mi>&#x2115;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x2124;</mi></math>",
+      "<math><mi>&#x211A;</mi></math>",
+      "<math><mi>&#x211D;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0002",
+    "question": "Quel symbole désigne l'ensemble des entiers relatifs\u00a0?",
+    "right": "<math><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x2115;</mi></math>",
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x211D;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0003",
+    "question": "Quel symbole désigne l'ensemble des nombres rationnels\u00a0?",
+    "right": "<math><mi>&#x211A;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0004",
+    "question": "Quel symbole désigne l'ensemble des nombres décimaux\u00a0?",
+    "right": "<math><mi>&#x1D53B;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211A;</mi></math>",
+      "<math><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x2115;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0005",
+    "question": "Quelle chaîne d'inclusions entre les ensembles de nombres est exacte\u00a0?",
+    "right": "<math><mi>&#x2115;</mi><mo>&#x2282;</mo><mi>&#x2124;</mi><mo>&#x2282;</mo><mi>&#x1D53B;</mi><mo>&#x2282;</mo><mi>&#x211A;</mi><mo>&#x2282;</mo><mi>&#x211D;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x2115;</mi><mo>&#x2282;</mo><mi>&#x2124;</mi><mo>&#x2282;</mo><mi>&#x211A;</mi><mo>&#x2282;</mo><mi>&#x1D53B;</mi><mo>&#x2282;</mo><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x2124;</mi><mo>&#x2282;</mo><mi>&#x2115;</mi><mo>&#x2282;</mo><mi>&#x1D53B;</mi><mo>&#x2282;</mo><mi>&#x211A;</mi><mo>&#x2282;</mo><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x2115;</mi><mo>&#x2282;</mo><mi>&#x1D53B;</mi><mo>&#x2282;</mo><mi>&#x2124;</mi><mo>&#x2282;</mo><mi>&#x211A;</mi><mo>&#x2282;</mo><mi>&#x211D;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0006",
+    "question": "À quel plus petit ensemble de nombres appartient <math><mo>-</mo><mn>7</mn></math>\u00a0?",
+    "right": "<math><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x2115;</mi></math>",
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x211A;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0007",
+    "question": "À quel plus petit ensemble de nombres appartient <math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>\u00a0?",
+    "right": "<math><mi>&#x1D53B;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211A;</mi></math>",
+      "<math><mi>&#x2124;</mi></math>",
+      "<math><mi>&#x211D;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0008",
+    "question": "À quel plus petit ensemble de nombres appartient <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>\u00a0?",
+    "right": "<math><mi>&#x211A;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0009",
+    "question": "À quel plus petit ensemble de nombres appartient <math><msqrt><mn>2</mn></msqrt></math>\u00a0?",
+    "right": "<math><mi>&#x211D;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211A;</mi></math>",
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0010",
+    "question": "À quel plus petit ensemble de nombres appartient <math><mfrac><mn>12</mn><mn>4</mn></mfrac></math>\u00a0?",
+    "right": "<math><mi>&#x2115;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211A;</mi></math>",
+      "<math><mi>&#x1D53B;</mi></math>",
+      "<math><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0011",
+    "question": "À quel plus petit ensemble de nombres appartient <math><mo>-</mo><msqrt><mn>16</mn></msqrt></math>\u00a0?",
+    "right": "<math><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mi>&#x211D;</mi></math>",
+      "<math><mi>&#x2115;</mi></math>",
+      "<math><mi>&#x211A;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0012",
+    "question": "Un nombre décimal est un nombre qui peut s'écrire sous la forme\u00a0:",
+    "right": "<math><mfrac><mi>a</mi><msup><mn>10</mn><mi>n</mi></msup></mfrac></math> avec <math><mi>a</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math> et <math><mi>n</mi><mo>&#x2208;</mo><mi>&#x2115;</mi></math>",
+    "wrong": [
+      "<math><mfrac><mi>a</mi><mi>b</mi></mfrac></math> avec <math><mi>a</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math> et <math><mi>b</mi><mo>&#x2208;</mo><msup><mi>&#x2124;</mi><mo>*</mo></msup></math>",
+      "<math><mfrac><mi>a</mi><msup><mn>10</mn><mi>n</mi></msup></mfrac></math> avec <math><mi>a</mi><mo>&#x2208;</mo><mi>&#x2115;</mi></math> et <math><mi>n</mi><mo>&#x2208;</mo><mi>&#x2115;</mi></math>",
+      "<math><mi>a</mi><mo>&#x00D7;</mo><msup><mn>10</mn><mi>n</mi></msup></math> avec <math><mi>a</mi><mo>&#x2208;</mo><mi>&#x211D;</mi></math> et <math><mi>n</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0013",
+    "question": "Parmi ces fractions irréductibles, laquelle représente un nombre décimal\u00a0?",
+    "right": "<math><mfrac><mn>7</mn><mn>20</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>7</mn><mn>15</mn></mfrac></math>",
+      "<math><mfrac><mn>5</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>4</mn><mn>7</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0014",
+    "question": "Parmi ces nombres, lequel est irrationnel\u00a0?",
+    "right": "<math><mfrac><mi>&#x03C0;</mi><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><msqrt><mn>49</mn></msqrt></math>",
+      "<math><mn>0,3333</mn></math>",
+      "<math><mo>-</mo><mfrac><mn>22</mn><mn>7</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0015",
+    "question": "Que vaut <math><mn>0,9999...</mn></math> (avec une infinité de 9)\u00a0?",
+    "right": "<math><mn>1</mn></math>",
+    "wrong": [
+      "Un nombre strictement inférieur à <math><mn>1</mn></math>",
+      "Un nombre irrationnel",
+      "Ce nombre n'existe pas dans <math><mi>&#x211D;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0016",
+    "question": "À quel intervalle correspond l'inégalité <math><mo>-</mo><mn>2</mn><mo>&#x2264;</mo><mi>x</mi><mo>&lt;</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mo>[</mo><mo>-</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>[</mo></math>",
+    "wrong": [
+      "<math><mo>]</mo><mo>-</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>]</mo></math>",
+      "<math><mo>[</mo><mo>-</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>]</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>[</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0017",
+    "question": "À quelle inégalité correspond l'appartenance <math><mi>x</mi><mo>&#x2208;</mo><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>3</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mi>x</mi><mo>&#x2264;</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mi>x</mi><mo>&lt;</mo><mn>3</mn></math>",
+      "<math><mi>x</mi><mo>&#x2265;</mo><mn>3</mn></math>",
+      "<math><mo>-</mo><mi>&#x221E;</mi><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0018",
+    "question": "À quel intervalle correspond l'inégalité <math><mi>x</mi><mo>&gt;</mo><mo>-</mo><mn>4</mn></math>\u00a0?",
+    "right": "<math><mo>]</mo><mo>-</mo><mn>4</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>[</mo></math>",
+    "wrong": [
+      "<math><mo>[</mo><mo>-</mo><mn>4</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>[</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mo>-</mo><mn>4</mn><mo>[</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mn>4</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>]</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0019",
+    "question": "Quelle est l'intersection des intervalles <math><mo>[</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>4</mn><mo>]</mo><mo>&#x2229;</mo><mo>[</mo><mn>1</mn><mo>;</mo><mn>7</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mo>[</mo><mn>1</mn><mo>;</mo><mn>4</mn><mo>]</mo></math>",
+    "wrong": [
+      "<math><mo>[</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>7</mn><mo>]</mo></math>",
+      "<math><mo>]</mo><mn>1</mn><mo>;</mo><mn>4</mn><mo>[</mo></math>",
+      "<math><mo>&#x2205;</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0020",
+    "question": "Quelle est la réunion des intervalles <math><mo>[</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>4</mn><mo>]</mo><mo>&#x222A;</mo><mo>[</mo><mn>1</mn><mo>;</mo><mn>7</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mo>[</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>7</mn><mo>]</mo></math>",
+    "wrong": [
+      "<math><mo>[</mo><mn>1</mn><mo>;</mo><mn>4</mn><mo>]</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>7</mn><mo>[</mo></math>",
+      "<math><mo>[</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>1</mn><mo>]</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0021",
+    "question": "Quelle est l'intersection <math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>2</mn><mo>[</mo><mo>&#x2229;</mo><mo>[</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mo>&#x2205;</mo></math>",
+    "wrong": [
+      "<math><mo>{</mo><mn>2</mn><mo>}</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>5</mn><mo>]</mo></math>",
+      "<math><mo>[</mo><mn>2</mn><mo>;</mo><mn>2</mn><mo>]</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0022",
+    "question": "Quelle est la réunion <math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>2</mn><mo>[</mo><mo>&#x222A;</mo><mo>[</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>5</mn><mo>]</mo></math>",
+    "wrong": [
+      "<math><mo>&#x2205;</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>5</mn><mo>[</mo></math>",
+      "<math><mo>[</mo><mn>2</mn><mo>;</mo><mn>5</mn><mo>]</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0023",
+    "question": "Quelle est l'intersection <math><mo>[</mo><mn>0</mn><mo>;</mo><mn>4</mn><mo>]</mo><mo>&#x2229;</mo><mo>[</mo><mn>4</mn><mo>;</mo><mn>8</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><mo>{</mo><mn>4</mn><mo>}</mo></math>",
+    "wrong": [
+      "<math><mo>&#x2205;</mo></math>",
+      "<math><mo>[</mo><mn>0</mn><mo>;</mo><mn>8</mn><mo>]</mo></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0024",
+    "question": "Quel ensemble représente <math><msup><mi>&#x211D;</mi><mo>*</mo></msup></math>\u00a0?",
+    "right": "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>0</mn><mo>[</mo><mo>&#x222A;</mo><mo>]</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>[</mo></math>",
+    "wrong": [
+      "<math><mo>[</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>[</mo></math>",
+      "<math><mo>]</mo><mn>0</mn><mo>;</mo><mo>+</mo><mi>&#x221E;</mi><mo>[</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mi>&#x221E;</mi><mo>;</mo><mn>0</mn><mo>]</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0025",
+    "question": "Quelle est la valeur de <math><mo>|</mo><mo>-</mo><mn>6,5</mn><mo>|</mo></math>\u00a0?",
+    "right": "<math><mn>6,5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>6,5</mn></math>",
+      "<math><mn>0</mn></math>",
+      "<math><mn>6</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0026",
+    "question": "Quelle est la valeur de <math><mo>|</mo><mn>3</mn><mo>-</mo><mi>&#x03C0;</mi><mo>|</mo></math>\u00a0?",
+    "right": "<math><mi>&#x03C0;</mi><mo>-</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn><mo>-</mo><mi>&#x03C0;</mi></math>",
+      "<math><mn>3</mn><mo>+</mo><mi>&#x03C0;</mi></math>",
+      "<math><mo>-</mo><mn>0,14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0027",
+    "question": "Quelle est la valeur de <math><mo>|</mo><msqrt><mn>5</mn></msqrt><mo>-</mo><mn>2</mn><mo>|</mo></math>\u00a0?",
+    "right": "<math><msqrt><mn>5</mn></msqrt><mo>-</mo><mn>2</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></math>",
+      "<math><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math>",
+      "<math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0028",
+    "question": "Sur une droite graduée, quelle expression donne la distance entre deux réels <math><mi>a</mi></math> et <math><mi>b</mi></math>\u00a0?",
+    "right": "<math><mo>|</mo><mi>b</mi><mo>-</mo><mi>a</mi><mo>|</mo></math>",
+    "wrong": [
+      "<math><mi>b</mi><mo>-</mo><mi>a</mi></math>",
+      "<math><mo>|</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>|</mo></math>",
+      "<math><mo>|</mo><mi>a</mi><mo>|</mo><mo>-</mo><mo>|</mo><mi>b</mi><mo>|</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0029",
+    "question": "Quelle est la distance entre les nombres <math><mo>-</mo><mn>4</mn></math> et <math><mn>9</mn></math> sur une droite graduée\u00a0?",
+    "right": "<math><mn>13</mn></math>",
+    "wrong": [
+      "<math><mn>5</mn></math>",
+      "<math><mo>-</mo><mn>13</mn></math>",
+      "<math><mo>-</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0030",
+    "question": "À quelle double inégalité équivaut <math><mo>|</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>|</mo><mo>&#x2264;</mo><mn>2</mn></math>\u00a0?",
+    "right": "<math><mn>1</mn><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>2</mn><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mn>2</mn></math>",
+      "<math><mo>-</mo><mn>5</mn><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mo>-</mo><mn>1</mn></math>",
+      "<math><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0031",
+    "question": "À quel intervalle équivaut <math><mo>|</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>|</mo><mo>&lt;</mo><mn>3</mn></math>\u00a0?",
+    "right": "<math><mo>]</mo><mo>-</mo><mn>7</mn><mo>;</mo><mo>-</mo><mn>1</mn><mo>[</mo></math>",
+    "wrong": [
+      "<math><mo>]</mo><mn>1</mn><mo>;</mo><mn>7</mn><mo>[</mo></math>",
+      "<math><mo>[</mo><mo>-</mo><mn>7</mn><mo>;</mo><mo>-</mo><mn>1</mn><mo>]</mo></math>",
+      "<math><mo>]</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>3</mn><mo>[</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0032",
+    "question": "Comment traduire l'appartenance <math><mi>x</mi><mo>&#x2208;</mo><mo>[</mo><mn>2</mn><mo>;</mo><mn>10</mn><mo>]</mo></math> à l'aide d'une valeur absolue\u00a0?",
+    "right": "<math><mo>|</mo><mi>x</mi><mo>-</mo><mn>6</mn><mo>|</mo><mo>&#x2264;</mo><mn>4</mn></math>",
+    "wrong": [
+      "<math><mo>|</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>|</mo><mo>&#x2264;</mo><mn>6</mn></math>",
+      "<math><mo>|</mo><mi>x</mi><mo>+</mo><mn>6</mn><mo>|</mo><mo>&#x2264;</mo><mn>4</mn></math>",
+      "<math><mo>|</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>|</mo><mo>&#x2264;</mo><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0033",
+    "question": "Quelles sont les solutions de l'équation <math><mo>|</mo><mi>x</mi><mo>-</mo><mn>5</mn><mo>|</mo><mo>=</mo><mn>3</mn></math>\u00a0?",
+    "right": "<math><mi>S</mi><mo>=</mo><mo>{</mo><mn>2</mn><mo>;</mo><mn>8</mn><mo>}</mo></math>",
+    "wrong": [
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mn>8</mn><mo>}</mo></math>",
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mo>-</mo><mn>8</mn><mo>;</mo><mo>-</mo><mn>2</mn><mo>}</mo></math>",
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mo>-</mo><mn>3</mn><mo>;</mo><mn>3</mn><mo>}</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0034",
+    "question": "Quelles sont les solutions de l'équation <math><mo>|</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>|</mo><mo>=</mo><mo>-</mo><mn>4</mn></math>\u00a0?",
+    "right": "<math><mi>S</mi><mo>=</mo><mo>&#x2205;</mo></math>",
+    "wrong": [
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mo>-</mo><mn>6</mn><mo>;</mo><mn>2</mn><mo>}</mo></math>",
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mo>-</mo><mn>6</mn><mo>}</mo></math>",
+      "<math><mi>S</mi><mo>=</mo><mo>{</mo><mn>2</mn><mo>}</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0035",
+    "question": "Pour tout réel <math><mi>x</mi></math>, à quoi est égal <math><msqrt><msup><mi>x</mi><mn>2</mn></msup></msqrt></math>\u00a0?",
+    "right": "<math><mo>|</mo><mi>x</mi><mo>|</mo></math>",
+    "wrong": [
+      "<math><mi>x</mi></math>",
+      "<math><mo>-</mo><mi>x</mi></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0036",
+    "question": "À quoi est égal <math><msqrt><msup><mrow><mo>(</mo><mo>-</mo><mn>9</mn><mo>)</mo></mrow><mn>2</mn></msup></msqrt></math>\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>9</mn></math>",
+      "<math><mn>81</mn></math>",
+      "<math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0037",
+    "question": "Quel est l'encadrement décimal de <math><mi>&#x03C0;</mi></math> à <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> près\u00a0?",
+    "right": "<math><mn>3,14</mn><mo>&#x2264;</mo><mi>&#x03C0;</mi><mo>&#x2264;</mo><mn>3,15</mn></math>",
+    "wrong": [
+      "<math><mn>3,1</mn><mo>&#x2264;</mo><mi>&#x03C0;</mi><mo>&#x2264;</mo><mn>3,2</mn></math>",
+      "<math><mn>3,141</mn><mo>&#x2264;</mo><mi>&#x03C0;</mi><mo>&#x2264;</mo><mn>3,142</mn></math>",
+      "<math><mn>3,13</mn><mo>&#x2264;</mo><mi>&#x03C0;</mi><mo>&#x2264;</mo><mn>3,15</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0038",
+    "question": "Quel est l'arrondi de <math><msqrt><mn>2</mn></msqrt><mo>&#x2248;</mo><mn>1,41421</mn></math> au millième près\u00a0?",
+    "right": "<math><mn>1,414</mn></math>",
+    "wrong": [
+      "<math><mn>1,415</mn></math>",
+      "<math><mn>1,41</mn></math>",
+      "<math><mn>1,4142</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0039",
+    "question": "Quel est l'arrondi de <math><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>&#x2248;</mo><mn>1,6666</mn></math> au centième près\u00a0?",
+    "right": "<math><mn>1,67</mn></math>",
+    "wrong": [
+      "<math><mn>1,66</mn></math>",
+      "<math><mn>1,7</mn></math>",
+      "<math><mn>1,667</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0040",
+    "question": "Quelle est l'amplitude de l'intervalle <math><mo>[</mo><mo>-</mo><mn>1,25</mn><mo>;</mo><mo>-</mo><mn>1,24</mn><mo>]</mo></math>\u00a0?",
+    "right": "<math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>",
+    "wrong": [
+      "<math><msup><mn>10</mn><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "<math><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>",
+      "<math><mo>-</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0041",
+    "question": "Si <math><mi>a</mi><mo>&lt;</mo><mi>b</mi></math> et <math><mi>c</mi><mo>&lt;</mo><mn>0</mn></math>, quelle inégalité est toujours vraie\u00a0?",
+    "right": "<math><mi>a</mi><mi>c</mi><mo>&gt;</mo><mi>b</mi><mi>c</mi></math>",
+    "wrong": [
+      "<math><mi>a</mi><mi>c</mi><mo>&lt;</mo><mi>b</mi><mi>c</mi></math>",
+      "<math><mi>a</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mi>b</mi><mo>+</mo><mi>c</mi></math>",
+      "<math><mfrac><mi>a</mi><mi>c</mi></mfrac><mo>&lt;</mo><mfrac><mi>b</mi><mi>c</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0042",
+    "question": "Sachant que <math><mn>2</mn><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mn>5</mn></math>, quel encadrement obtient-on pour <math><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>14</mn><mo>&#x2264;</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#x2264;</mo><mo>-</mo><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>5</mn><mo>&#x2264;</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#x2264;</mo><mo>-</mo><mn>14</mn></math>",
+      "<math><mn>7</mn><mo>&#x2264;</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#x2264;</mo><mn>16</mn></math>",
+      "<math><mo>-</mo><mn>15</mn><mo>&#x2264;</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#x2264;</mo><mo>-</mo><mn>6</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0043",
+    "question": "Sachant que <math><mn>1</mn><mo>&#x2264;</mo><mi>x</mi><mo>&#x2264;</mo><mn>4</mn></math> et <math><mn>2</mn><mo>&#x2264;</mo><mi>y</mi><mo>&#x2264;</mo><mn>5</mn></math>, quel encadrement obtient-on pour <math><mi>x</mi><mo>-</mo><mi>y</mi></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>4</mn><mo>&#x2264;</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>&#x2264;</mo><mn>2</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>1</mn><mo>&#x2264;</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>&#x2264;</mo><mo>-</mo><mn>1</mn></math>",
+      "<math><mo>-</mo><mn>2</mn><mo>&#x2264;</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>&#x2264;</mo><mn>4</mn></math>",
+      "<math><mn>3</mn><mo>&#x2264;</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>&#x2264;</mo><mn>9</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0044",
+    "question": "Pour un réel <math><mi>a</mi></math> tel que <math><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></math>, quel est le rangement croissant de <math><mi>a</mi></math>, <math><msup><mi>a</mi><mn>2</mn></msup></math> et <math><msup><mi>a</mi><mn>3</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mi>a</mi><mn>3</mn></msup><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><mi>a</mi></math>",
+    "wrong": [
+      "<math><mi>a</mi><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><msup><mi>a</mi><mn>3</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><msup><mi>a</mi><mn>3</mn></msup><mo>&lt;</mo><mi>a</mi></math>",
+      "<math><mi>a</mi><mo>&lt;</mo><msup><mi>a</mi><mn>3</mn></msup><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0045",
+    "question": "Pour un réel <math><mi>a</mi><mo>&gt;</mo><mn>1</mn></math>, quel est le rangement croissant de <math><mi>a</mi></math>, <math><msup><mi>a</mi><mn>2</mn></msup></math> et <math><msqrt><mi>a</mi></msqrt></math>\u00a0?",
+    "right": "<math><msqrt><mi>a</mi></msqrt><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><msqrt><mi>a</mi></msqrt></math>",
+      "<math><mi>a</mi><mo>&lt;</mo><msqrt><mi>a</mi></msqrt><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup></math>",
+      "<math><msqrt><mi>a</mi></msqrt><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><mi>a</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0046",
+    "question": "Si <math><mi>a</mi></math> et <math><mi>b</mi></math> sont deux entiers pairs, de quelle forme s'écrit leur somme <math><mi>a</mi><mo>+</mo><mi>b</mi></math> (avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>)\u00a0?",
+    "right": "<math><mn>2</mn><mi>k</mi></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>",
+      "<math><mn>4</mn><mi>k</mi></math>",
+      "<math><mi>k</mi><mo>+</mo><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0047",
+    "question": "Quel est le carré d'un nombre entier impair <math><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>\u00a0?",
+    "right": "Toujours un nombre impair",
+    "wrong": [
+      "Toujours un nombre pair",
+      "Pair si <math><mi>k</mi></math> est pair, impair si <math><mi>k</mi></math> est impair",
+      "Toujours un multiple de <math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0048",
+    "question": "Quelle expression littérale traduit le fait qu'un entier <math><mi>n</mi></math> est un multiple de <math><mn>7</mn></math>\u00a0?",
+    "right": "<math><mi>n</mi><mo>=</mo><mn>7</mn><mi>k</mi></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>7</mn></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+      "<math><mi>n</mi><mo>=</mo><mfrac><mn>7</mn><mi>k</mi></mfrac></math> avec <math><mi>k</mi><mo>&#x2208;</mo><msup><mi>&#x2124;</mi><mo>*</mo></msup></math>",
+      "<math><mi>n</mi><mo>=</mo><msup><mn>7</mn><mi>k</mi></msup></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2115;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0049",
+    "question": "Quelle méthode de démonstration classique permet de prouver que <math><msqrt><mn>2</mn></msqrt></math> est un nombre irrationnel\u00a0?",
+    "right": "Le raisonnement par l'absurde",
+    "wrong": [
+      "Le théorème de Thalès",
+      "La factorisation par identité remarquable",
+      "Le calcul d'une moyenne arithmétique"
+    ]
+  },
+  {
+    "id": "maths-2de-nombres-reels-0050",
+    "question": "Quelle est la simplification exacte de <math><msqrt><mn>75</mn></msqrt><mo>-</mo><mn>2</mn><msqrt><mn>12</mn></msqrt></math>\u00a0?",
+    "right": "<math><msqrt><mn>3</mn></msqrt></math>",
+    "wrong": [
+      "<math><mn>9</mn><msqrt><mn>3</mn></msqrt></math>",
+      "<math><mo>-</mo><msqrt><mn>63</mn></msqrt></math>",
+      "<math><mn>3</mn><msqrt><mn>3</mn></msqrt></math>"
+    ]
+  }
+]

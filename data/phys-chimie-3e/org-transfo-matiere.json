@@ -1,0 +1,148 @@
+[
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0001",
+    "question": "De quoi est constitué le noyau d'un atome\u00a0?",
+    "right": "De protons et de neutrons",
+    "wrong": [
+      "De protons et d'électrons",
+      "De neutrons et d'électrons",
+      "D'électrons uniquement"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0002",
+    "question": "Quelle est la charge électrique d'un électron\u00a0?",
+    "right": "Négative",
+    "wrong": ["Positive", "Neutre", "Variable"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0003",
+    "question": "Quelle est la charge électrique globale d'un atome\u00a0?",
+    "right": "Neutre",
+    "wrong": ["Positive", "Négative", "Dépend de la température"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0004",
+    "question":
+      "Comment appelle-t-on un atome qui a gagné un ou plusieurs électrons\u00a0?",
+    "right": "Un anion",
+    "wrong": ["Un cation", "une molécule", "Un isotope"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0005",
+    "question":
+      "Comment appelle-t-on un atome qui a perdu un ou plusieurs électrons\u00a0?",
+    "right": "Un cation",
+    "wrong": ["Un anion", "Un électron", "Un neutron"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0006",
+    "question": "Quel est le symbole de l'ion chlorure\u00a0?",
+    "right": "<math><msup><mi>Cl</mi><mo>-</mo></msup></math>",
+    "wrong": [
+      "<math><msup><mi>Cl</mi><mo>+</mo></msup></math>",
+      "<math><msup><mi>Na</mi><mo>+</mo></msup></math>",
+      "<math><msup><mi>C</mi><mo>-</mo></msup></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0007",
+    "question": "Quel ion responsable de l'acidité est mesuré par le pH\u00a0?",
+    "right": "L'ion hydrogène <math><msup><mi>H</mi><mo>+</mo></msup></math>",
+    "wrong": [
+      "L'ion hydroxyde <math><msup><mi>OH</mi><mo>-</mo></msup></math>",
+      "L'ion sodium <math><msup><mi>Na</mi><mo>+</mo></msup></math>",
+      "L'ion cuivre <math><msup><mi>Cu</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0008",
+    "question": "Une solution dont le pH est égal à 7 est dite...\u00a0?",
+    "right": "Neutre",
+    "wrong": ["Acide", "Basique", "Concentrée"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0009",
+    "question": "Une solution dont le pH est inférieur à 7 est dite...\u00a0?",
+    "right": "Acide",
+    "wrong": ["Basique", "Neutre", "Alcaline"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0010",
+    "question":
+      "Que se passe-t-il pour le pH d'une solution acide lorsqu'on la dilue en ajoutant de l'eau\u00a0?",
+    "right": "Il augmente et se rapproche de 7",
+    "wrong": [
+      "Il diminue et se rapproche de 0",
+      "Il reste strictement identique",
+      "Il dépasse immédiatement 14"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0011",
+    "question":
+      "Quel test permet d'identifier la présence de dioxyde de carbone (<math><msub><mi>CO</mi><mn>2</mn></msub></math>)\u00a0?",
+    "right": "L'eau de chaux qui se trouble",
+    "wrong": [
+      "La détonation au contact d'une flamme",
+      "Le sulfate de cuivre anhydre qui bleuit",
+      "La réinflammation d'une buchette incandescente"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0012",
+    "question": "Quel test permet de mettre en évidence la présence d'eau\u00a0?",
+    "right": "Le sulfate de cuivre anhydre qui devient bleu",
+    "wrong": [
+      "L'eau de chaux qui se trouble",
+      "Le papier pH qui devient rouge",
+      "La liqueur de Fehling qui rougit"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0013",
+    "question":
+      "Quel réactif forme un précipité bleu en présence d'ions cuivre II (<math><msup><mi>Cu</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></math>)\u00a0?",
+    "right": "La soude (hydroxyde de sodium)",
+    "wrong": [
+      "Le nitrate d'argent",
+      "Le chlorure de baryum",
+      "L'acide chlorhydrique"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0014",
+    "question":
+      "Quel réactif forme un précipité blanc qui noircit à la lumière en présence d'ions chlorure (<math><msup><mi>Cl</mi><mo>-</mo></msup></math>)\u00a0?",
+    "right": "Le nitrate d'argent",
+    "wrong": ["La soude", "L'eau de chaux", "Le sulfate de cuivre"]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0015",
+    "question":
+      "Lors d'une transformation chimique, que font la masse totale et le nombre d'atomes\u00a0?",
+    "right": "Ils se conservent",
+    "wrong": [
+      "Ils augmentent",
+      "Ils diminuent",
+      "La masse augmente mais les atomes diminuent"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0016",
+    "question": "Quelle est la formule chimique du gaz dioxygène\u00a0?",
+    "right": "<math><msub><mi>O</mi><mn>2</mn></msub></math>",
+    "wrong": [
+      "<math><msub><mi>H</mi><mn>2</mn></msub><mi>O</mi></math>",
+      "<math><msub><mi>CO</mi><mn>2</mn></msub></math>",
+      "<math><msub><mi>N</mi><mn>2</mn></msub></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-orga-transfo-matiere-0017",
+    "question":
+      "Quel est l'élément chimique représenté par le symbole <math><mi>Fe</mi></math>\u00a0?",
+    "right": "Le fer",
+    "wrong": ["Le fluor", "Le francium", "Le phosphore"]
+  }
+]
