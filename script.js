@@ -1,4 +1,5 @@
 import { maths3e, maths2de, physics3e, biology2de } from "./quiz-data.js";
+import { quizCatalog } from "./quiz-catalog.js";
 
 // --- Etat global de l'application ---
 let index = 0;
@@ -8,7 +9,9 @@ let correctAnswersIndex = null; // Stocke l'index de la bonne réponse dans la l
 let quizSize = 5;
 
 // --- Configuration des thèmes et de la session active ---
-const quizThemes = [maths3e];
+// const quizThemes = [maths3e];
+const quizThemes = [quizCatalog[1].topics[0].file];
+console.log("Thème de départ : ", quizCatalog[1].topics[0].file);
 const quiz = [];
 
 // --- Eléments du DOM ---
@@ -21,6 +24,7 @@ const restartBtn = document.getElementById("restart-btn");
 const paramsBtn = document.getElementById("params-btn");
 const paramsModal = document.getElementById("params-modal");
 const paramsForm = document.getElementById("params-form");
+const questionsParamGroup = document.getElementById("questions-params-group");
 const closeModalBtn = document.getElementById("close-modal-btn");
 
 /**
@@ -29,6 +33,52 @@ const closeModalBtn = document.getElementById("close-modal-btn");
 function getRandomNumber(max) {
   return Math.floor(Math.random() * max);
 }
+
+/**
+ * Fonction pour ajouter plusieurs attributs d'un coup
+ * @param {HTMLElement} element
+ * @param {Object} attributes
+ */
+function setAttributes(element, attributes) {
+  if (!element || typeof attributes !== 'object' || attributes === null) return
+
+  for (const [key, value] of Object.entries(attributes)) {
+    if (value !== null && value !== undefined) {
+      element.setAttribute(key, value);
+    }
+  }
+}
+
+/**
+ * Création du formulaire pour choisir les paramètres du quiz
+ * (nombre de questions & thème(s))
+ */
+function createParamsForm() {
+  // Nombre de questions
+  const numberOfQuestions = [5, 10, 20];
+
+  numberOfQuestions.forEach((element) => {
+    let label = document.createElement("label");
+    let input = document.createElement("input");
+    label.textContent = " " + element + " questions";
+    setAttributes(input, {
+      type: "radio",
+      name: "size",
+      value: element
+    });
+
+    label.insertAdjacentElement("afterbegin", input);
+
+    questionsParamGroup.insertAdjacentElement("beforeend", label);
+  })
+
+  
+  
+
+
+
+}
+
 
 /**
  * Génère une session de quiz aléatoire en fonction de la taille choisie
@@ -42,6 +92,7 @@ function generateQuiz() {
   // Fusionne tous les thèmes actifs choisis
   for (let i = 0; i < quizThemes.length; i++) {
     quizThemesItems = quizThemesItems.concat(quizThemes[i]);
+    // console.log("quizThemesItems : ", quizThemesItems);
   }
 
   // Sélectionne aléatoirement des questions uniques sans dépasser la taille demandée
@@ -176,7 +227,7 @@ function displayAnswers(questionIndex) {
 
   correctAnswersIndex = randomNumber;
 
-  // Inère la bonne réponse à une position aléatoire parmi les mauvaises réponses
+  // Insère la bonne réponse à une position aléatoire parmi les mauvaises réponses
   const answers = wrongAnswers.toSpliced(
     randomNumber,
     0,
@@ -259,6 +310,7 @@ resultPara.classList.add("hidden");
 reviewQuizBtn.classList.add("hidden");
 restartBtn.classList.add("hidden");
 
+createParamsForm()
 generateQuiz();
 displayQuestion(index);
 displayAnswers(index);
