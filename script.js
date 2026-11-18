@@ -25,6 +25,7 @@ const paramsBtn = document.getElementById("params-btn");
 const paramsModal = document.getElementById("params-modal");
 const paramsForm = document.getElementById("params-form");
 const questionsParamGroup = document.getElementById("questions-params-group");
+const subjectsParamGroup = document.getElementById("subjects-params-group");
 const closeModalBtn = document.getElementById("close-modal-btn");
 
 /**
@@ -40,7 +41,7 @@ function getRandomNumber(max) {
  * @param {Object} attributes
  */
 function setAttributes(element, attributes) {
-  if (!element || typeof attributes !== 'object' || attributes === null) return
+  if (!element || typeof attributes !== "object" || attributes === null) return;
 
   for (const [key, value] of Object.entries(attributes)) {
     if (value !== null && value !== undefined) {
@@ -60,25 +61,61 @@ function createParamsForm() {
   numberOfQuestions.forEach((element) => {
     let label = document.createElement("label");
     let input = document.createElement("input");
-    label.textContent = " " + element + " questions";
+    label.textContent = element + " questions";
+    label.classList.add("questions-group");
     setAttributes(input, {
       type: "radio",
       name: "size",
-      value: element
+      value: element,
     });
+
+    if (element == numberOfQuestions[0]) {
+      input.checked = true;
+    }
 
     label.insertAdjacentElement("afterbegin", input);
 
     questionsParamGroup.insertAdjacentElement("beforeend", label);
-  })
+  });
 
-  
-  
+  // Choix des thèmes
+  quizCatalog.forEach((element) => {
+    let divSubjectGroup = document.createElement("div");
+    divSubjectGroup.classList.add("subject-group");
 
+    let h3 = document.createElement("h3");
+    h3.textContent = element.label;
 
+    let divCheckboxGroup = document.createElement("div");
+    divCheckboxGroup.classList.add("checkbox-group");
 
+    divSubjectGroup.insertAdjacentElement("afterbegin", h3);
+    divSubjectGroup.insertAdjacentElement("beforeend", divCheckboxGroup);
+    subjectsParamGroup.insertAdjacentElement("beforeend", divSubjectGroup);
+
+    element.topics.forEach((topic) => {
+      let labelTopic = document.createElement("label");
+      labelTopic.textContent = topic.label;
+
+      let inputTopic = document.createElement("input");
+      setAttributes(inputTopic, {
+        type: "checkbox",
+        name: "topic",
+        value: topic.file,
+      });
+
+      labelTopic.insertAdjacentElement("afterbegin", inputTopic);
+      divCheckboxGroup.insertAdjacentElement("beforeend", labelTopic);
+    });
+
+    const firstCheckbox = subjectsParamGroup.querySelector(
+      'input[type="checkbox"]',
+    );
+    if (firstCheckbox) {
+      firstCheckbox.checked = true;
+    }
+  });
 }
-
 
 /**
  * Génère une session de quiz aléatoire en fonction de la taille choisie
@@ -255,14 +292,21 @@ paramsBtn.addEventListener("click", () => {
   // Pour le nombre de questions
   const sizeRadios = paramsForm.querySelectorAll("input[name='size']");
   sizeRadios.forEach((radio) => {
-    radio.checked = (Number(radio.value) === quizSize);
+    radio.checked = Number(radio.value) === quizSize;
   });
-  
+
   // Pour le(s) thème(s)
-  document.getElementById("theme1").checked = quizThemes.includes(maths3e);
-  document.getElementById("theme2").checked = quizThemes.includes(maths2de);
-  document.getElementById("theme3").checked = quizThemes.includes(physics3e);
-  document.getElementById("theme4").checked = quizThemes.includes(biology2de);
+  /**
+   * ATTENTION : 4 LIGNES COMMENTEES TEMPORAIREMENT
+   * (Utile pendant l'étape de la refactorisation consistant à
+   * mettre au point et tester la génération automatique du choix
+   * des matières dans la modale)
+   *
+   */
+  // document.getElementById("theme1").checked = quizThemes.includes(maths3e);
+  // document.getElementById("theme2").checked = quizThemes.includes(maths2de);
+  // document.getElementById("theme3").checked = quizThemes.includes(physics3e);
+  // document.getElementById("theme4").checked = quizThemes.includes(biology2de);
 
   // 2. Ouverture de la modale
   paramsModal.showModal();
@@ -283,7 +327,12 @@ paramsForm.addEventListener("submit", (e) => {
   const selectedTheme4 = formData.get("theme4");
 
   // Validation : s'assurer qu'au moins un thème est coché
-  if (!selectedTheme1 && !selectedTheme2 && !selectedTheme3 && !selectedTheme4) {
+  if (
+    !selectedTheme1 &&
+    !selectedTheme2 &&
+    !selectedTheme3 &&
+    !selectedTheme4
+  ) {
     alert("Veuillez sélectionner au moins un thème !");
     return;
   }
@@ -294,10 +343,18 @@ paramsForm.addEventListener("submit", (e) => {
 
   // Met à jour dynamiquement les thèmes actifs du quiz
   quizThemes.length = 0;
-  if (selectedTheme1 === "maths-3e") {quizThemes.push(maths3e);}
-  if (selectedTheme2 === "maths-2de") {quizThemes.push(maths2de);}
-  if (selectedTheme3 === "physics-3e") {quizThemes.push(physics3e);}
-  if (selectedTheme4 === "biology-2de") {quizThemes.push(biology2de);}
+  if (selectedTheme1 === "maths-3e") {
+    quizThemes.push(maths3e);
+  }
+  if (selectedTheme2 === "maths-2de") {
+    quizThemes.push(maths2de);
+  }
+  if (selectedTheme3 === "physics-3e") {
+    quizThemes.push(physics3e);
+  }
+  if (selectedTheme4 === "biology-2de") {
+    quizThemes.push(biology2de);
+  }
 
   restart();
 });
@@ -310,10 +367,16 @@ resultPara.classList.add("hidden");
 reviewQuizBtn.classList.add("hidden");
 restartBtn.classList.add("hidden");
 
-createParamsForm()
-generateQuiz();
-displayQuestion(index);
-displayAnswers(index);
+createParamsForm();
+/**
+ * ATTENTION : 3 FONCTIONS COMMENTEES TEMPORAIREMENT
+ * (Utile pendant l'étape de la refactorisation consistant à
+ * mettre au point et tester la génération automatique du choix
+ * des matières dans la modale)
+ */
+// generateQuiz();
+// displayQuestion(index);
+// displayAnswers(index);
 
 // --- Enregistrement du Service Worker (PWA) ---
 if ("serviceWorker" in navigator) {
@@ -332,7 +395,10 @@ if ("serviceWorker" in navigator) {
           if (!newWorker) return;
 
           newWorker.addEventListener("statechange", () => {
-            if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
+            if (
+              newWorker.state === "installed" &&
+              navigator.serviceWorker.controller
+            ) {
               showUpdateBanner(newWorker);
             }
           });
