@@ -10,7 +10,7 @@ let quizSize = 5;
 
 // --- Configuration des thèmes et de la session active ---
 // const quizThemes = [maths3e];
-const quizThemes = [quizCatalog[1].topics[0].file];
+const quizThemes = [quizCatalog[0].topics[0].file];
 console.log("Thème de départ : ", quizCatalog[1].topics[0].file);
 const quiz = [];
 
@@ -69,7 +69,7 @@ function createParamsForm() {
       value: element,
     });
 
-    if (element == numberOfQuestions[0]) {
+    if (element == quizSize) {
       input.checked = true;
     }
 
@@ -78,7 +78,7 @@ function createParamsForm() {
     questionsParamGroup.insertAdjacentElement("beforeend", label);
   });
 
-  // Choix des thèmes
+  // Choix des sujets
   quizCatalog.forEach((element) => {
     let divSubjectGroup = document.createElement("div");
     divSubjectGroup.classList.add("subject-group");
@@ -104,16 +104,17 @@ function createParamsForm() {
         value: topic.file,
       });
 
+      //   console.log((inputTopic.value === quizThemes[0]));
+      //   if (inputTopic.value === quizThemes[0]) {
+      //     inputTopic.setAttribute("checked", "true");
+      // }
+      if (inputTopic.value === quizThemes[0]) {
+        inputTopic.checked = true;
+      }
+
       labelTopic.insertAdjacentElement("afterbegin", inputTopic);
       divCheckboxGroup.insertAdjacentElement("beforeend", labelTopic);
     });
-
-    const firstCheckbox = subjectsParamGroup.querySelector(
-      'input[type="checkbox"]',
-    );
-    if (firstCheckbox) {
-      firstCheckbox.checked = true;
-    }
   });
 }
 
