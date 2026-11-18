@@ -204,7 +204,7 @@ h3 {
   font-weight: 500;
 }
 
-.subject-group {
+.category-group {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -221,7 +221,7 @@ h3 {
   padding: 10px;
 }
 
-.questions-group input,
+.quiz-size-params-group input,
 .checkbox-group input {
   margin-right: 7px;
 }

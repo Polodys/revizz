@@ -9,9 +9,9 @@ let correctAnswersIndex = null; // Stocke l'index de la bonne réponse dans la l
 let quizSize = 5;
 
 // --- Configuration des thèmes et de la session active ---
-// const quizThemes = [maths3e];
-const quizThemes = [quizCatalog[0].topics[0].file];
-console.log("Thème de départ : ", quizCatalog[1].topics[0].file);
+// const quizTopics = [maths3e];
+const selectedTopicIds = [quizCatalog[0].topics[0].id];
+console.log("Topic de départ : ", quizCatalog[1].topics[0].file);
 const quiz = [];
 
 // --- Eléments du DOM ---
@@ -24,8 +24,8 @@ const restartBtn = document.getElementById("restart-btn");
 const paramsBtn = document.getElementById("params-btn");
 const paramsModal = document.getElementById("params-modal");
 const paramsForm = document.getElementById("params-form");
-const questionsParamGroup = document.getElementById("questions-params-group");
-const subjectsParamGroup = document.getElementById("subjects-params-group");
+const quizSizeParamGroup = document.getElementById("quiz-size-params-group");
+const topicsParamGroup = document.getElementById("topics-params-group");
 const closeModalBtn = document.getElementById("close-modal-btn");
 
 /**
@@ -51,11 +51,11 @@ function setAttributes(element, attributes) {
 }
 
 /**
- * Création du formulaire pour choisir les paramètres du quiz
+ * Création dynamique du formulaire pour choisir les paramètres du quiz
  * (nombre de questions & thème(s))
  */
 function createParamsForm() {
-  // Nombre de questions
+  // Nombre de questions (taille du quiz)
   const numberOfQuestions = [5, 10, 20];
 
   numberOfQuestions.forEach((element) => {
@@ -75,13 +75,13 @@ function createParamsForm() {
 
     label.insertAdjacentElement("afterbegin", input);
 
-    questionsParamGroup.insertAdjacentElement("beforeend", label);
+    quizSizeParamGroup.insertAdjacentElement("beforeend", label);
   });
 
-  // Choix des sujets
+  // Choix des sujets (topics)
   quizCatalog.forEach((element) => {
-    let divSubjectGroup = document.createElement("div");
-    divSubjectGroup.classList.add("subject-group");
+    let divCategoryGroup = document.createElement("div");
+    divCategoryGroup.classList.add("category-group");
 
     let h3 = document.createElement("h3");
     h3.textContent = element.label;
@@ -89,9 +89,9 @@ function createParamsForm() {
     let divCheckboxGroup = document.createElement("div");
     divCheckboxGroup.classList.add("checkbox-group");
 
-    divSubjectGroup.insertAdjacentElement("afterbegin", h3);
-    divSubjectGroup.insertAdjacentElement("beforeend", divCheckboxGroup);
-    subjectsParamGroup.insertAdjacentElement("beforeend", divSubjectGroup);
+    divCategoryGroup.insertAdjacentElement("afterbegin", h3);
+    divCategoryGroup.insertAdjacentElement("beforeend", divCheckboxGroup);
+    topicsParamGroup.insertAdjacentElement("beforeend", divCategoryGroup);
 
     element.topics.forEach((topic) => {
       let labelTopic = document.createElement("label");
@@ -101,14 +101,10 @@ function createParamsForm() {
       setAttributes(inputTopic, {
         type: "checkbox",
         name: "topic",
-        value: topic.file,
+        value: topic.id,
       });
 
-      //   console.log((inputTopic.value === quizThemes[0]));
-      //   if (inputTopic.value === quizThemes[0]) {
-      //     inputTopic.setAttribute("checked", "true");
-      // }
-      if (inputTopic.value === quizThemes[0]) {
+      if (selectedTopicIds.includes(topic.id)) {
         inputTopic.checked = true;
       }
 
@@ -125,23 +121,23 @@ function createParamsForm() {
 function generateQuiz() {
   let randomNumbers = [];
   quiz.length = 0; // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
-  let quizThemesItems = [];
+  let quizTopicsItems = [];
 
   // Fusionne tous les thèmes actifs choisis
-  for (let i = 0; i < quizThemes.length; i++) {
-    quizThemesItems = quizThemesItems.concat(quizThemes[i]);
-    // console.log("quizThemesItems : ", quizThemesItems);
+  for (let i = 0; i < quizTopics.length; i++) {
+    quizTopicsItems = quizTopicsItems.concat(quizTopics[i]);
+    // console.log("quizTopicsItems : ", quizTopicsItems);
   }
 
   // Sélectionne aléatoirement des questions uniques sans dépasser la taille demandée
   while (
     randomNumbers.length < quizSize &&
-    randomNumbers.length < quizThemesItems.length
+    randomNumbers.length < quizTopicsItems.length
   ) {
-    const randomNumber = getRandomNumber(quizThemesItems.length);
+    const randomNumber = getRandomNumber(quizTopicsItems.length);
     if (!randomNumbers.includes(randomNumber)) {
       randomNumbers.push(randomNumber);
-      quiz.push({ ...quizThemesItems[randomNumber] });
+      quiz.push({ ...quizTopicsItems[randomNumber] });
     }
   }
 }
@@ -297,17 +293,15 @@ paramsBtn.addEventListener("click", () => {
   });
 
   // Pour le(s) thème(s)
-  /**
-   * ATTENTION : 4 LIGNES COMMENTEES TEMPORAIREMENT
-   * (Utile pendant l'étape de la refactorisation consistant à
-   * mettre au point et tester la génération automatique du choix
-   * des matières dans la modale)
-   *
-   */
-  // document.getElementById("theme1").checked = quizThemes.includes(maths3e);
-  // document.getElementById("theme2").checked = quizThemes.includes(maths2de);
-  // document.getElementById("theme3").checked = quizThemes.includes(physics3e);
-  // document.getElementById("theme4").checked = quizThemes.includes(biology2de);
+
+  const topicCheckboxes = paramsForm.querySelectorAll('input[name="topic"]');
+  topicCheckboxes.forEach((checkbox) => {
+    checkbox.checked = selectedTopicIds.includes(checkbox.value);
+  });
+  // document.getElementById("theme1").checked = quizTopics.includes(maths3e);
+  // document.getElementById("theme2").checked = quizTopics.includes(maths2de);
+  // document.getElementById("theme3").checked = quizTopics.includes(physics3e);
+  // document.getElementById("theme4").checked = quizTopics.includes(biology2de);
 
   // 2. Ouverture de la modale
   paramsModal.showModal();
@@ -322,41 +316,42 @@ paramsForm.addEventListener("submit", (e) => {
 
   const formData = new FormData(paramsForm);
   const selectedSize = formData.get("size");
-  const selectedTheme1 = formData.get("theme1");
-  const selectedTheme2 = formData.get("theme2");
-  const selectedTheme3 = formData.get("theme3");
-  const selectedTheme4 = formData.get("theme4");
+  const selectedTopics = formData.getAll("topic");
+  // const selectedTheme1 = formData.get("theme1");
+  // const selectedTheme2 = formData.get("theme2");
+  // const selectedTheme3 = formData.get("theme3");
+  // const selectedTheme4 = formData.get("theme4");
 
   // Validation : s'assurer qu'au moins un thème est coché
-  if (
-    !selectedTheme1 &&
-    !selectedTheme2 &&
-    !selectedTheme3 &&
-    !selectedTheme4
+  if (selectedTopics.length === 0
+    // !selectedTheme1 &&
+    // !selectedTheme2 &&
+    // !selectedTheme3 &&
+    // !selectedTheme4
   ) {
-    alert("Veuillez sélectionner au moins un thème !");
+    alert("Veuillez sélectionner au moins un sujet !");
     return;
   }
-
-  paramsModal.close();
 
   quizSize = Number(selectedSize);
 
   // Met à jour dynamiquement les thèmes actifs du quiz
-  quizThemes.length = 0;
-  if (selectedTheme1 === "maths-3e") {
-    quizThemes.push(maths3e);
-  }
-  if (selectedTheme2 === "maths-2de") {
-    quizThemes.push(maths2de);
-  }
-  if (selectedTheme3 === "physics-3e") {
-    quizThemes.push(physics3e);
-  }
-  if (selectedTheme4 === "biology-2de") {
-    quizThemes.push(biology2de);
-  }
+  selectedTopicIds.splice(0, selectedTopicIds.length, ...selectedTopics);
+  // quizTopics.length = 0;
+  // if (selectedTheme1 === "maths-3e") {
+  //   quizTopics.push(maths3e);
+  // }
+  // if (selectedTheme2 === "maths-2de") {
+  //   quizTopics.push(maths2de);
+  // }
+  // if (selectedTheme3 === "physics-3e") {
+  //   quizTopics.push(physics3e);
+  // }
+  // if (selectedTheme4 === "biology-2de") {
+  //   quizTopics.push(biology2de);
+  // }
 
+  paramsModal.close();
   restart();
 });
 
