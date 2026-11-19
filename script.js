@@ -11,7 +11,6 @@ let quizSize = 5;
 // --- Configuration des thèmes et de la session active ---
 // const quizTopics = [maths3e];
 const selectedTopicIds = [quizCatalog[0].topics[0].id];
-console.log("Topic de départ : ", quizCatalog[1].topics[0].file);
 const quiz = [];
 
 // --- Eléments du DOM ---
@@ -76,7 +75,7 @@ async function loadSelectedQuestions() {
       throw new Error(`Erreur de chargement ${topicFile} : ${response.status}`);
     }
     loadedSelectedQuestions.push(await response.json());
-  };
+  }
 
   return loadedSelectedQuestions.flat();
 }
@@ -171,7 +170,6 @@ async function generateQuiz() {
   const selectedQuestions = allQuestions.slice(0, quizSize);
 
   quiz.push(...selectedQuestions.map((question) => ({ ...question })));
-  console.log("quiz : ", quiz);
 }
 
 /**
@@ -179,7 +177,7 @@ async function generateQuiz() {
  */
 function restart() {
   restartBtn.classList.add("pressed");
-  setTimeout(() => {
+  setTimeout(async () => {
     restartBtn.classList.remove("pressed");
     questionPara.textContent = "";
     answersList.textContent = "";
@@ -192,13 +190,18 @@ function restart() {
     reviewQuizBtn.classList.add("hidden");
     restartBtn.classList.add("hidden");
 
-    generateQuiz();
-
     index = 0;
     score = 0;
     isAnswerLocked = false;
-    displayQuestion(index);
-    displayAnswers(index);
+
+    try {
+      await generateQuiz();
+      displayQuestion(index);
+      displayAnswers(index);
+    } catch (error) {
+      console.error("Erreur lors du lancement du quiz : ", error);
+      questionPara.textContent = "Impossible de charger les questions.";
+    }
   }, 150);
 }
 
@@ -356,7 +359,6 @@ paramsForm.addEventListener("submit", (e) => {
 
   // Met à jour dynamiquement les thèmes actifs du quiz
   selectedTopicIds.splice(0, selectedTopicIds.length, ...selectedTopics);
-  console.log("selectedTopicIds A : ", selectedTopicIds);
 
   paramsModal.close();
   restart();
@@ -366,20 +368,24 @@ reviewQuizBtn.addEventListener("click", showAnswers);
 restartBtn.addEventListener("click", restart);
 
 // --- Initialisation de l'application au chargement ---
-resultPara.classList.add("hidden");
-reviewQuizBtn.classList.add("hidden");
-restartBtn.classList.add("hidden");
+async function initApp() {
+  resultPara.classList.add("hidden");
+  reviewQuizBtn.classList.add("hidden");
+  restartBtn.classList.add("hidden");
 
-createParamsForm();
-/**
- * ATTENTION : 3 FONCTIONS COMMENTEES TEMPORAIREMENT
- * (Utile pendant l'étape de la refactorisation consistant à
- * mettre au point et tester la génération automatique du choix
- * des matières dans la modale)
- */
-// generateQuiz();
-// displayQuestion(index);
-// displayAnswers(index);
+  createParamsForm();
+
+  try {
+    await generateQuiz();
+    displayQuestion(index);
+    displayAnswers(index);
+  } catch (error) {
+    console.error("Erreur lors de l'initialisation du quiz : ", error);
+    questionPara.textContent = "Erreur lors du chargement du quiz.";
+  }
+}
+
+initApp();
 
 // --- Enregistrement du Service Worker (PWA) ---
 if ("serviceWorker" in navigator) {
