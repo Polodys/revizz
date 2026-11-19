@@ -51,6 +51,20 @@ function setAttributes(element, attributes) {
 }
 
 /**
+ * Chargement des questions correspondant aux sujets choisis
+ */
+async function loadSelectedQuestions() {
+  /**
+   * TO DO !!!!!!!!!!!!!!!!!!!
+   * Function à créer pour fetch les questions correspondant aux topics choisis
+   * -> doit retourner un tableau avec toutes les questions des thèmes choisis
+   * (ce tableau sera ensuite exploité par la fonction generateQuiz() qui génèrera
+   * un quiz en fonction du nombre de questions et des sujets choisis par
+   * l'utilisateur)
+   */
+}
+
+/**
  * Création dynamique du formulaire pour choisir les paramètres du quiz
  * (nombre de questions & thème(s))
  */
@@ -116,30 +130,30 @@ function createParamsForm() {
 
 /**
  * Génère une session de quiz aléatoire en fonction de la taille choisie
- * et des thèmes sélectionnés par l'utilisateur
+ * et des sujets sélectionnés par l'utilisateur
  */
-function generateQuiz() {
-  let randomNumbers = [];
-  quiz.length = 0; // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
-  let quizTopicsItems = [];
+async function generateQuiz() {
+  const allQuestions = await loadSelectedQuestions();
 
-  // Fusionne tous les thèmes actifs choisis
-  for (let i = 0; i < quizTopics.length; i++) {
-    quizTopicsItems = quizTopicsItems.concat(quizTopics[i]);
-    // console.log("quizTopicsItems : ", quizTopicsItems);
+  if (allQuestions.length === 0) {
+    throw new Error("Aucune question n'est disponible sur ce sujet.");
   }
 
-  // Sélectionne aléatoirement des questions uniques sans dépasser la taille demandée
-  while (
-    randomNumbers.length < quizSize &&
-    randomNumbers.length < quizTopicsItems.length
-  ) {
-    const randomNumber = getRandomNumber(quizTopicsItems.length);
-    if (!randomNumbers.includes(randomNumber)) {
-      randomNumbers.push(randomNumber);
-      quiz.push({ ...quizTopicsItems[randomNumber] });
-    }
+  // Mélane aléatoire avec la méthode de Fisher Yates
+  for (let i = allQuestions.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i+1));
+    let k = allQuestions[i];
+    allQuestions[i] = allQuestions[j];
+    allQuestions[j] = k;
   }
+
+  // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
+  quiz.length = 0;
+
+  // Ajout des questions sélectionnées au quiz
+  const selectedQuestions = allQuestions.slice(0, quizSize);
+
+  quiz.push(...selectedQuestions.map((question) => ({ ...question })));
 }
 
 /**
