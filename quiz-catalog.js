@@ -1,3 +1,5 @@
+const dataFile = (path) => new URL(`./data/${path}`, import.meta.url).href;
+
 export const quizCatalog = [
     {
         id: "maths-2de",
@@ -6,17 +8,17 @@ export const quizCatalog = [
             {
                 id: "maths-2de-algebre",
                 label: "Algèbre",
-                file: "/data/maths-2de/nombres-et-calculs-algebre/algebre.json"
+                file: dataFile("maths-2de/nombres-et-calculs-algebre/algebre.json")
             },
             {
                 id: "maths-2de-arithmetique",
                 label: "Arithmétique",
-                file: "/data/maths-2de/nombres-et-calculs-algebre/arithmetique.json"
+                file: dataFile("maths-2de/nombres-et-calculs-algebre/arithmetique.json")
             },
             {
                 id: "maths-2de-nombres-reels",
                 label: "Nombres réels",
-                file: "/data/maths-2de/nombres-et-calculs-algebre/nombres-reels.json"
+                file: dataFile("maths-2de/nombres-et-calculs-algebre/nombres-reels.json")
             },
         ]
     },
@@ -27,7 +29,7 @@ export const quizCatalog = [
             {
                 id: "maths-3e-general",
                 label: "Ensemble du programme",
-                file: "/data/maths-3e/general.json"
+                file: dataFile("maths-3e/general.json")
             }
         ]
     },
@@ -38,22 +40,22 @@ export const quizCatalog = [
             {
                 id: "phys-chimie-3e-phys-chimie-3e-electricite",
                 label: "Electricité",
-                file: "/data/phys-chimie-3e/electricite.json"
+                file: dataFile("phys-chimie-3e/electricite.json")
             },
             {
                 id: "phys-chimie-3e-energie",
                 label: "Energie",
-                file: "/data/phys-chimie-3e/energie.json"
+                file: dataFile("phys-chimie-3e/energie.json")
             },
             {
                 id: "phys-chimie-3e-mvts-et-interactions",
                 label: "Mouvements et interactions",
-                file: "/data/phys-chimie-3e/mvts-et-interactions.json"
+                file: dataFile("phys-chimie-3e/mvts-et-interactions.json")
             },
             {
                 id: "phys-chimie-3e-org-transfo-matiere",
                 label: "Organisation et transformation de la matière",
-                file: "/data/phys-chimie-3e/org-transfo-matiere.json"
+                file: dataFile("phys-chimie-3e/org-transfo-matiere.json")
             }
         ]
     },
@@ -64,7 +66,7 @@ export const quizCatalog = [
             {
                 id: "svt-2de-terre-vie-org-vivant",
                 label: "La Terre, la vie et l'organisation du vivant",
-                file: "/data/svt-2de/terre-vie-org-vivant.json"
+                file: dataFile("svt-2de/terre-vie-org-vivant.json")
             }
         ]
     }
