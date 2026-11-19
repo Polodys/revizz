@@ -1,4 +1,3 @@
-import { maths3e, maths2de, physics3e, biology2de } from "./quiz-data.js";
 import { quizCatalog } from "./quiz-catalog.js";
 
 // --- Etat global de l'application ---
