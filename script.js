@@ -8,7 +8,6 @@ let correctAnswersIndex = null; // Stocke l'index de la bonne réponse dans la l
 let quizSize = 5;
 
 // --- Configuration des thèmes et de la session active ---
-// const quizTopics = [maths3e];
 const selectedTopicIds = [quizCatalog[0].topics[0].id];
 const quiz = [];
 
