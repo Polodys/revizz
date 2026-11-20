@@ -1,15 +1,23 @@
-const CACHE_NAME = "revizz-v2";
+const CACHE_NAME = "revizz-v3";
 const CACHE_PREFIX = "revizz-";
 const STATIC_ASSETS = [
-  // ou urlsToCache
   "./",
   "./index.html",
   "./style.css",
   "./script.js",
-  "./quiz-data.js",
   "./manifest.json",
   "./assets/icons/icon-rz-192.png",
   "./assets/icons/icon-rz-512.png",
+  "./quiz-catalog.js",
+  "./data/maths-2de/nombres-et-calculs-algebre/algebre.json",
+  "./data/maths-2de/nombres-et-calculs-algebre/arithmetique.json",
+  "./data/maths-2de/nombres-et-calculs-algebre/nombres-reels.json",
+  "./data/maths-3e/general.json",
+  "./data/phys-chimie-3e/electricite.json",
+  "./data/phys-chimie-3e/energie.json",
+  "./data/phys-chimie-3e/mvts-et-interactions.json",
+  "./data/phys-chimie-3e/org-transfo-matiere.json",
+  "./data/svt-2de/terre-vie-org-vivant.json"
 ];
 
 // INSTALLATION

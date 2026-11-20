@@ -197,6 +197,42 @@ fieldset {
   border-radius: 10px;
 }
 
+h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.category-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.quiz-size-params-group input,
+.checkbox-group input {
+  margin-right: 7px;
+}
+
+fieldset label:hover,
+fieldset input:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 ::backdrop {
   background-image: linear-gradient(
     45deg,

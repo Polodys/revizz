@@ -1,0 +1,82 @@
+[
+  {
+    "id": "phys-chimie-3e-energie-0001",
+    "question": "Quelle est l'expression de l'énergie cinétique <math><msub><mi>E</mi><mi>c</mi></msub></math> d'un objet de masse <math><mi>m</mi></math> en mouvement à la vitesse <math><mi>v</mi></math>\u00a0?",
+    "right": "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mi>m</mi><mi>v</mi></math>",
+      "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>m</mi><mn>2</mn></msup><mi>v</mi></math>",
+      "<math><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mi>m</mi><mi>g</mi><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0002",
+    "question": "Si la vitesse d'un véhicule est doublée, par combien son énergie cinétique est-elle multipliée\u00a0?",
+    "right": "4",
+    "wrong": ["2", "8", "6"]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0003",
+    "question": "Quelle est l'unité légale (SI) de l'énergie\u00a0?",
+    "right": "Le Joule (J)",
+    "wrong": ["Le Watt (W)", "Le Volt (V)", "Le Newton (N)"]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0004",
+    "question": "L'énergie mécanique <math><msub><mi>E</mi><mi>m</mi></msub></math> d'un objet est la somme de quelles énergies\u00a0?",
+    "right": "L'énergie cinétique et l'énergie potentielle",
+    "wrong": [
+      "L'énergie thermique et l'énergie chimique",
+      "L'énergie électrique et l'énergie lumineuse",
+      "L'énergie nucléaire et l'énergie cinétique"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0005",
+    "question": "Lors de la chute d'un objet en l'absence de frottements, que fait son énergie potentielle de pesanteur\u00a0?",
+    "right": "Elle se transforme en énergie cinétique",
+    "wrong": [
+      "Elle augmente",
+      "Elle reste constante sans rien changer",
+      "Elle disparaît totalement sans se transformer"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0006",
+    "question": "Quelle est la vitesse de la lumière dans le vide\u00a0?",
+    "right": "Environ 300 000 km/s",
+    "wrong": [
+      "Environ 300 000 m/s",
+      "Environ 300 m/s",
+      "Environ 3 000 000 km/h"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0007",
+    "question": "Quelle est la vitesse approximative du son dans l'air à température ambiante\u00a0?",
+    "right": "340 m/s",
+    "wrong": ["300 000 km/s", "1 500 m/s", "3 000 m/s"]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0008",
+    "question": "Comment appelle-t-on le signal sonore dont la fréquence est supérieure à 20 000 Hz\u00a0?",
+    "right": "Un ultrason",
+    "wrong": ["Un infrason", "Un son audible", "Un écho"]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0009",
+    "question": "Quelle est la relation entre la période <math><mi>T</mi></math> et la fréquence <math><mi>f</mi></math> d'un signal périodique\u00a0?",
+    "right": "<math><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac></math>",
+    "wrong": [
+      "<math><mi>f</mi><mo>=</mo><mi>T</mi></math>",
+      "<math><mi>f</mi><mo>=</mo><msup><mi>T</mi><mn>2</mn></msup></math>",
+      "<math><mi>f</mi><mo>=</mo><mn>2</mn><mo>&pi;</mo><mi>T</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-energie-0010",
+    "question": "Quelle est l'unité de mesure de la fréquence d'un signal\u00a0?",
+    "right": "Le Hertz (Hz)",
+    "wrong": ["La seconde (s)", "Le Decibel (dB)", "Le Mètre (m)"]
+  }
+]

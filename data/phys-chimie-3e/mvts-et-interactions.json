@@ -1,0 +1,97 @@
+[
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0001",
+    "question": "Quelle est la formule reliant la vitesse <math><mi>v</mi></math>, la distance <math><mi>d</mi></math> et la durée <math><mi>t</mi></math>\u00a0?",
+    "right": "<math><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></math>",
+    "wrong": [
+      "<math><mi>v</mi><mo>=</mo><mi>d</mi><mo>&times;</mo><mi>t</mi></math>",
+      "<math><mi>v</mi><mo>=</mo><mfrac><mi>t</mi><mi>d</mi></mfrac></math>",
+      "<math><mi>v</mi><mo>=</mo><mi>d</mi><mo>+</mo><mi>t</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0002",
+    "question": "Quelle est l'unité légale (SI) de la vitesse\u00a0?",
+    "right": "Le mètre par seconde (m/s)",
+    "wrong": [
+      "Le kilomètre par heure (km/h)",
+      "Le mètre par minute (m/min)",
+      "Le kilomètre par seconde (km/s)"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0003",
+    "question": "Comment convertir une vitesse de m/s en km/h\u00a0?",
+    "right": "En multipliant par 3,6",
+    "wrong": [
+      "En divisant par 3,6",
+      "En multipliant par 60",
+      "En divisant par 1000"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0004",
+    "question": "Comment qualifie-t-on le mouvement d'un objet dont la trajectoire est une droite et la vitesse est constante\u00a0?",
+    "right": "Rectiligne uniforme",
+    "wrong": [
+      "Rectiligne accéléré",
+      "Circulaire uniforme",
+      "Curviligne ralenti"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0005",
+    "question": "Si la vitesse d'un objet augmente au cours du temps, son mouvement est qualifié d'...\u00a0?",
+    "right": "Accéléré",
+    "wrong": ["Uniforme", "Ralenti", "Statique"]
+  },
+  {
+    "question": "Quelle est l'unité de mesure d'une force\u00a0?",
+    "right": "Le Newton (N)",
+    "wrong": ["Le Kilogramme (kg)", "Le Joule (J)", "Le Watt (W)"]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0006",
+    "question": "Avec quel appareil mesure-t-on l'intensité d'une force\u00a0?",
+    "right": "Un dynamomètre",
+    "wrong": ["Une balance", "Un ampèremètre", "Un manomètre"]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0007",
+    "question": "Quelle relation lie le poids <math><mi>P</mi></math> d'un corps à sa masse <math><mi>m</mi></math>\u00a0?",
+    "right": "<math><mi>P</mi><mo>=</mo><mi>m</mi><mo>&times;</mo><mi>g</mi></math>",
+    "wrong": [
+      "<math><mi>P</mi><mo>=</mo><mfrac><mi>m</mi><mi>g</mi></mfrac></math>",
+      "<math><mi>P</mi><mo>=</mo><mfrac><mi>g</mi><mi>m</mi></mfrac></math>",
+      "<math><mi>P</mi><mo>=</mo><mi>m</mi><mo>+</mo><mi>g</mi></math>"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0008",
+    "question": "Quelle est la différence fondamentale entre la masse et le poids d'un objet\u00a0?",
+    "right": "La masse ne varie pas selon le lieu, alors que le poids varie",
+    "wrong": [
+      "Le poids ne varie pas, mais la masse varie",
+      "La masse s'exprime en Newtons et le poids en kilogrammes",
+      "Il n'y a aucune différence"
+    ]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0009",
+    "question": "Que vaut approximativement l'intensité de la pesanteur <math><mi>g</mi></math> sur Terre\u00a0?",
+    "right": "9,81 N/kg",
+    "wrong": ["1,62 N/kg", "9,81 kg/N", "100 N/kg"]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0010",
+    "question": "Comment appelle-t-on la force d'attraction exercée par la Terre sur tout objet possédant une masse à sa proximité\u00a0?",
+    "right": "Le poids",
+    "wrong": ["La masse", "La poussée d'Archimède", "La tension du fil"]
+  },
+  {
+    "id": "phys-chimie-3e-mvts-et-interaction-0011",
+    "question": "Par quel outil mathématique représente-t-on une force en physique\u00a0?",
+    "right": "Un vecteur (une flèche)",
+    "wrong": ["Un cercle", "Un tableau de valeurs", "Un histogramme"]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "maths-2nde-arithmetique-0001",
+    "question": "Soient <math><mi>a</mi></math> et <math><mi>b</mi></math> deux entiers relatifs. Que signifie que <math><mi>b</mi></math> est un diviseur de <math><mi>a</mi></math>\u00a0?",
+    "right": "Il existe un entier relatif <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math> tel que <math><mi>a</mi><mo>=</mo><mi>b</mi><mi>k</mi></math>",
+    "wrong": [
+      "Il existe un entier relatif <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math> tel que <math><mi>b</mi><mo>=</mo><mi>a</mi><mi>k</mi></math>",
+      "Il existe un nombre réel <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x211D;</mi></math> tel que <math><mi>a</mi><mo>=</mo><mi>b</mi><mi>k</mi></math>",
+      "Le quotient <math><mfrac><mi>b</mi><mi>a</mi></mfrac></math> est un nombre décimal"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0002",
+    "question": "Quelle affirmation est vraie concernant le nombre <math><mn>0</mn></math> et la divisibilité dans <math><mi>&#x2124;</mi></math>\u00a0?",
+    "right": "<math><mn>0</mn></math> est un multiple de tout entier relatif, mais ne divise aucun entier",
+    "wrong": [
+      "<math><mn>0</mn></math> divise tous les entiers relatifs",
+      "<math><mn>0</mn></math> n'a aucun diviseur dans <math><mi>&#x2124;</mi></math>",
+      "<math><mn>0</mn></math> divise uniquement <math><mn>0</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0003",
+    "question": "Quel entier naturel non nul divise tous les entiers relatifs\u00a0?",
+    "right": "<math><mn>1</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>2</mn></math>",
+      "Aucun entier ne divise tous les autres"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0004",
+    "question": "Si un entier <math><mi>d</mi></math> divise deux entiers <math><mi>a</mi></math> et <math><mi>b</mi></math>, quelle affirmation est toujours vraie\u00a0?",
+    "right": "<math><mi>d</mi></math> divise <math><mi>a</mi><mo>+</mo><mi>b</mi></math> et <math><mi>a</mi><mo>-</mo><mi>b</mi></math>",
+    "wrong": [
+      "<math><mi>d</mi></math> divise uniquement <math><mi>a</mi><mo>&#x00D7;</mo><mi>b</mi></math>, pas <math><mi>a</mi><mo>+</mo><mi>b</mi></math>",
+      "<math><mi>a</mi><mo>+</mo><mi>b</mi></math> divise <math><mi>d</mi></math>",
+      "<math><mi>d</mi></math> divise <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0005",
+    "question": "Quels sont tous les diviseurs positifs de <math><mn>36</mn></math>\u00a0?",
+    "right": "<math><mn>1</mn><mo>;</mo><mn>2</mn><mo>;</mo><mn>3</mn><mo>;</mo><mn>4</mn><mo>;</mo><mn>6</mn><mo>;</mo><mn>9</mn><mo>;</mo><mn>12</mn><mo>;</mo><mn>18</mn><mo>;</mo><mn>36</mn></math>",
+    "wrong": [
+      "<math><mn>1</mn><mo>;</mo><mn>2</mn><mo>;</mo><mn>3</mn><mo>;</mo><mn>4</mn><mo>;</mo><mn>6</mn><mo>;</mo><mn>8</mn><mo>;</mo><mn>12</mn><mo>;</mo><mn>18</mn><mo>;</mo><mn>36</mn></math>",
+      "<math><mn>2</mn><mo>;</mo><mn>3</mn><mo>;</mo><mn>4</mn><mo>;</mo><mn>6</mn><mo>;</mo><mn>9</mn><mo>;</mo><mn>12</mn><mo>;</mo><mn>18</mn></math>",
+      "<math><mn>1</mn><mo>;</mo><mn>2</mn><mo>;</mo><mn>3</mn><mo>;</mo><mn>6</mn><mo>;</mo><mn>9</mn><mo>;</mo><mn>12</mn><mo>;</mo><mn>18</mn><mo>;</mo><mn>36</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0006",
+    "question": "Combien le nombre <math><mn>28</mn></math> possède-t-il de diviseurs positifs\u00a0?",
+    "right": "<math><mn>6</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0007",
+    "question": "Quel est le critère de divisibilité d'un entier par <math><mn>3</mn></math>\u00a0?",
+    "right": "La somme de ses chiffres est un multiple de <math><mn>3</mn></math>",
+    "wrong": [
+      "Son chiffre des unités est <math><mn>3</mn></math>, <math><mn>6</mn></math> ou <math><mn>9</mn></math>",
+      "Le nombre formé par ses deux derniers chiffres est un multiple de <math><mn>3</mn></math>",
+      "C'est un nombre impair"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0008",
+    "question": "Quel est le critère de divisibilité d'un entier par <math><mn>4</mn></math>\u00a0?",
+    "right": "Le nombre formé par ses deux derniers chiffres est un multiple de <math><mn>4</mn></math>",
+    "wrong": [
+      "La somme de ses chiffres est un multiple de <math><mn>4</mn></math>",
+      "Son chiffre des unités est <math><mn>0</mn></math>, <math><mn>4</mn></math> ou <math><mn>8</mn></math>",
+      "C'est un nombre pair dont la somme des chiffres est paire"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0009",
+    "question": "Quel est le critère de divisibilité d'un entier par <math><mn>9</mn></math>\u00a0?",
+    "right": "La somme de ses chiffres est un multiple de <math><mn>9</mn></math>",
+    "wrong": [
+      "La somme de ses chiffres est un multiple de <math><mn>3</mn></math>",
+      "Son chiffre des unités est <math><mn>0</mn></math> ou <math><mn>9</mn></math>",
+      "Le nombre formé par ses deux derniers chiffres est divisible par <math><mn>9</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0010",
+    "question": "Parmi ces nombres, lequel est divisible à la fois par <math><mn>3</mn></math> et par <math><mn>4</mn></math>\u00a0?",
+    "right": "<math><mn>1\u2009548</mn></math>",
+    "wrong": [
+      "<math><mn>1\u2009542</mn></math>",
+      "<math><mn>1\u2009544</mn></math>",
+      "<math><mn>2\u2009314</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0011",
+    "question": "Par quel chiffre peut-on remplacer <math><mi>a</mi></math> pour que le nombre à quatre chiffres <math><mn>4\u20093</mn><mi>a</mi><mn>2</mn></math> soit divisible par <math><mn>9</mn></math>\u00a0?",
+    "right": "<math><mn>0</mn></math> ou <math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math> ou <math><mn>6</mn></math>",
+      "<math><mn>1</mn></math> uniquement",
+      "<math><mn>2</mn></math> ou <math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0012",
+    "question": "Dans la division euclidienne d'un entier naturel <math><mi>a</mi></math> par un entier naturel non nul <math><mi>b</mi></math>, quelle relation lie le dividende <math><mi>a</mi></math>, le diviseur <math><mi>b</mi></math>, le quotient <math><mi>q</mi></math> et le reste <math><mi>r</mi></math>\u00a0?",
+    "right": "<math><mi>a</mi><mo>=</mo><mi>b</mi><mi>q</mi><mo>+</mo><mi>r</mi></math> avec <math><mn>0</mn><mo>&#x2264;</mo><mi>r</mi><mo>&lt;</mo><mi>b</mi></math>",
+    "wrong": [
+      "<math><mi>a</mi><mo>=</mo><mi>b</mi><mi>q</mi><mo>+</mo><mi>r</mi></math> avec <math><mn>0</mn><mo>&lt;</mo><mi>r</mi><mo>&#x2264;</mo><mi>b</mi></math>",
+      "<math><mi>b</mi><mo>=</mo><mi>a</mi><mi>q</mi><mo>+</mo><mi>r</mi></math> avec <math><mn>0</mn><mo>&#x2264;</mo><mi>r</mi><mo>&lt;</mo><mi>a</mi></math>",
+      "<math><mi>a</mi><mo>=</mo><mi>b</mi><mi>q</mi><mo>+</mo><mi>r</mi></math> avec <math><mn>0</mn><mo>&#x2264;</mo><mi>r</mi><mo>&lt;</mo><mi>q</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0013",
+    "question": "Quel est le quotient et le reste de la division euclidienne de <math><mn>157</mn></math> par <math><mn>12</mn></math>\u00a0?",
+    "right": "<math><mi>q</mi><mo>=</mo><mn>13</mn></math> et <math><mi>r</mi><mo>=</mo><mn>1</mn></math>",
+    "wrong": [
+      "<math><mi>q</mi><mo>=</mo><mn>12</mn></math> et <math><mi>r</mi><mo>=</mo><mn>13</mn></math>",
+      "<math><mi>q</mi><mo>=</mo><mn>13</mn></math> et <math><mi>r</mi><mo>=</mo><mn>11</mn></math>",
+      "<math><mi>q</mi><mo>=</mo><mn>14</mn></math> et <math><mi>r</mi><mo>=</mo><mo>-</mo><mn>11</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0014",
+    "question": "On écrit l'égalité <math><mn>95</mn><mo>=</mo><mn>8</mn><mo>&#x00D7;</mo><mn>11</mn><mo>+</mo><mn>7</mn></math>. De quelle division euclidienne s'agit-il\u00a0?",
+    "right": "Uniquement celle de <math><mn>95</mn></math> par <math><mn>8</mn></math> (car <math><mn>7</mn><mo>&lt;</mo><mn>8</mn></math>)",
+    "wrong": [
+      "Uniquement celle de <math><mn>95</mn></math> par <math><mn>11</mn></math>",
+      "À la fois celle de <math><mn>95</mn></math> par <math><mn>8</mn></math> et de <math><mn>95</mn></math> par <math><mn>11</mn></math>",
+      "Ce n'est pas une division euclidienne car le reste n'est pas nul"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0015",
+    "question": "Quelle égalité traduit la division euclidienne de <math><mn>230</mn></math> par <math><mn>17</mn></math>\u00a0?",
+    "right": "<math><mn>230</mn><mo>=</mo><mn>17</mn><mo>&#x00D7;</mo><mn>13</mn><mo>+</mo><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>230</mn><mo>=</mo><mn>17</mn><mo>&#x00D7;</mo><mn>12</mn><mo>+</mo><mn>26</mn></math>",
+      "<math><mn>230</mn><mo>=</mo><mn>17</mn><mo>&#x00D7;</mo><mn>14</mn><mo>-</mo><mn>8</mn></math>",
+      "<math><mn>230</mn><mo>=</mo><mn>17</mn><mo>&#x00D7;</mo><mn>13</mn><mo>+</mo><mn>19</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0016",
+    "question": "En Python, quel opérateur calcule le reste de la division euclidienne de <code>a</code> par <code>b</code>\u00a0?",
+    "right": "<code>a % b</code>",
+    "wrong": [
+      "<code>a // b</code>",
+      "<code>a / b</code>",
+      "<code>a ** b</code>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0017",
+    "question": "En Python, quelle condition booléenne teste si un entier positif <code>n</code> est un multiple de <code>7</code>\u00a0?",
+    "right": "<code>n % 7 == 0</code>",
+    "wrong": [
+      "<code>n // 7 == 0</code>",
+      "<code>n / 7 == 0</code>",
+      "<code>7 % n == 0</code>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0018",
+    "question": "Quelle est l'écriture générale d'un nombre entier pair\u00a0?",
+    "right": "<math><mn>2</mn><mi>k</mi></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+      "<math><mi>k</mi><mo>+</mo><mn>2</mn></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+      "<math><msup><mi>k</mi><mn>2</mn></msup></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0019",
+    "question": "Quelle est l'écriture générale d'un nombre entier impair\u00a0?",
+    "right": "<math><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>k</mi></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+      "<math><mn>3</mn><mi>k</mi></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>",
+      "<math><mi>k</mi><mo>+</mo><mn>1</mn></math> avec <math><mi>k</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0020",
+    "question": "Quelle est la parité du produit de deux entiers impairs\u00a0?",
+    "right": "Toujours impair",
+    "wrong": [
+      "Toujours pair",
+      "Pair une fois sur deux",
+      "Toujours un multiple de <math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0021",
+    "question": "Quelle est la parité de la somme de deux entiers impairs\u00a0?",
+    "right": "Toujours pair",
+    "wrong": [
+      "Toujours impair",
+      "Pair uniquement s'ils sont consécutifs",
+      "Cela dépend de leur signe"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0022",
+    "question": "Quelle est la parité du produit <math><mi>n</mi><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math> de deux entiers consécutifs\u00a0?",
+    "right": "Toujours pair",
+    "wrong": [
+      "Toujours impair",
+      "Pair si <math><mi>n</mi></math> est pair, impair si <math><mi>n</mi></math> est impair",
+      "Toujours divisible par <math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0023",
+    "question": "Si le carré <math><msup><mi>n</mi><mn>2</mn></msup></math> d'un entier <math><mi>n</mi></math> est pair, que peut-on en déduire sur <math><mi>n</mi></math>\u00a0?",
+    "right": "<math><mi>n</mi></math> est nécessairement pair",
+    "wrong": [
+      "<math><mi>n</mi></math> est nécessairement impair",
+      "<math><mi>n</mi></math> peut être pair ou impair",
+      "<math><mi>n</mi></math> est un multiple de <math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0024",
+    "question": "Quelle est la définition exacte d'un nombre premier\u00a0?",
+    "right": "Un entier naturel qui admet exactement deux diviseurs positifs distincts : <math><mn>1</mn></math> et lui-même",
+    "wrong": [
+      "Un entier naturel qui n'est divisible que par <math><mn>1</mn></math> et par lui-même",
+      "Un entier naturel impair supérieur à <math><mn>1</mn></math>",
+      "Un entier naturel qui n'a aucun diviseur"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0025",
+    "question": "Pourquoi le nombre <math><mn>1</mn></math> n'est-il pas un nombre premier\u00a0?",
+    "right": "Parce qu'il n'a qu'un seul diviseur positif (lui-même) au lieu de deux",
+    "wrong": [
+      "Parce qu'il est inférieur à <math><mn>2</mn></math>",
+      "Parce qu'il divise tous les autres nombres",
+      "Parce que ce n'est pas un entier naturel"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0026",
+    "question": "Quel est le seul nombre premier pair\u00a0?",
+    "right": "<math><mn>2</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>1</mn></math>",
+      "Il n'existe aucun nombre premier pair"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0027",
+    "question": "Parmi cette liste, quel nombre est premier\u00a0?",
+    "right": "<math><mn>47</mn></math>",
+    "wrong": [
+      "<math><mn>51</mn></math>",
+      "<math><mn>57</mn></math>",
+      "<math><mn>91</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0028",
+    "question": "Parmi cette liste, quel nombre n'est PAS premier\u00a0?",
+    "right": "<math><mn>87</mn></math>",
+    "wrong": [
+      "<math><mn>83</mn></math>",
+      "<math><mn>89</mn></math>",
+      "<math><mn>97</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0029",
+    "question": "Pour vérifier qu'un entier <math><mi>n</mi><mo>&#x2265;</mo><mn>2</mn></math> est premier, jusqu'à quelle limite suffit-il de tester sa divisibilité par les nombres premiers\u00a0?",
+    "right": "Jusqu'à <math><msqrt><mi>n</mi></msqrt></math>",
+    "wrong": [
+      "Jusqu'à <math><mfrac><mi>n</mi><mn>2</mn></mfrac></math>",
+      "Jusqu'à <math><mi>n</mi><mo>-</mo><mn>1</mn></math>",
+      "Jusqu'à <math><mn>11</mn></math> quel que soit <math><mi>n</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0030",
+    "question": "Pour tester si <math><mn>131</mn></math> est un nombre premier, quel est le plus grand nombre premier par lequel il faut tester la divisibilité\u00a0?",
+    "right": "<math><mn>11</mn></math>",
+    "wrong": [
+      "<math><mn>13</mn></math>",
+      "<math><mn>7</mn></math>",
+      "<math><mn>65</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0031",
+    "question": "Combien existe-t-il de nombres premiers\u00a0?",
+    "right": "Une infinité",
+    "wrong": [
+      "Un nombre fini, le plus grand étant connu",
+      "Autant que de nombres pairs",
+      "Exactement <math><mn>100</mn></math> inférieurs à <math><mn>1\u2009000</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0032",
+    "question": "Quelle est la décomposition en produit de facteurs premiers de <math><mn>60</mn></math>\u00a0?",
+    "right": "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>5</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>5</mn></math>",
+      "<math><mn>2</mn><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>10</mn></math>",
+      "<math><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0033",
+    "question": "Quelle est la décomposition en produit de facteurs premiers de <math><mn>180</mn></math>\u00a0?",
+    "right": "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>5</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>10</mn></math>",
+      "<math><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>5</mn></math>",
+      "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>9</mn><mo>&#x00D7;</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0034",
+    "question": "Quelle est la décomposition en produit de facteurs premiers de <math><mn>504</mn></math>\u00a0?",
+    "right": "<math><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>7</mn></math>",
+    "wrong": [
+      "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#x00D7;</mo><mn>7</mn></math>",
+      "<math><mn>8</mn><mo>&#x00D7;</mo><mn>9</mn><mo>&#x00D7;</mo><mn>7</mn></math>",
+      "<math><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><mn>3</mn><mo>&#x00D7;</mo><mn>21</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0035",
+    "question": "À partir de la décomposition <math><mi>n</mi><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><msup><mn>5</mn><mn>2</mn></msup></math>, combien de diviseurs positifs possède l'entier <math><mi>n</mi></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0036",
+    "question": "Quelle est la forme irréductible de la fraction <math><mfrac><mn>84</mn><mn>126</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>4</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>14</mn><mn>21</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0037",
+    "question": "Quelle est la forme irréductible de la fraction <math><mfrac><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>5</mn></mrow><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#x00D7;</mo><mn>7</mn></mrow></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>20</mn><mn>21</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>4</mn><mn>21</mn></mfrac></math>",
+      "<math><mfrac><mn>10</mn><mn>21</mn></mfrac></math>",
+      "<math><mfrac><mn>20</mn><mn>7</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0038",
+    "question": "Quel est le plus grand diviseur commun (<math><mtext>PGCD</mtext></math>) de <math><mn>48</mn></math> et <math><mn>72</mn></math>\u00a0?",
+    "right": "<math><mn>24</mn></math>",
+    "wrong": [
+      "<math><mn>12</mn></math>",
+      "<math><mn>144</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0039",
+    "question": "Quel est le <math><mtext>PGCD</mtext></math> de <math><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>5</mn></math> et <math><mi>b</mi><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>4</mn></msup><mo>&#x00D7;</mo><mn>7</mn></math>\u00a0?",
+    "right": "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mn>2</mn><mn>3</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>4</mn></msup><mo>&#x00D7;</mo><mn>5</mn><mo>&#x00D7;</mo><mn>7</mn></math>",
+      "<math><mn>2</mn><mo>&#x00D7;</mo><mn>3</mn></math>",
+      "<math><msup><mn>2</mn><mn>2</mn></msup><mo>&#x00D7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#x00D7;</mo><mn>5</mn><mo>&#x00D7;</mo><mn>7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0040",
+    "question": "Quel est le plus petit multiple commun (<math><mtext>PPCM</mtext></math>) de <math><mn>12</mn></math> et <math><mn>18</mn></math>\u00a0?",
+    "right": "<math><mn>36</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>216</mn></math>",
+      "<math><mn>72</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0041",
+    "question": "Que signifie que deux entiers naturels non nuls <math><mi>a</mi></math> et <math><mi>b</mi></math> sont premiers entre eux\u00a0?",
+    "right": "Leur seul diviseur positif commun est <math><mn>1</mn></math> (c'est-à-dire <math><mtext>PGCD</mtext><mo>(</mo><mi>a</mi><mo>;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>)",
+    "wrong": [
+      "<math><mi>a</mi></math> et <math><mi>b</mi></math> sont tous les deux des nombres premiers",
+      "<math><mi>a</mi></math> et <math><mi>b</mi></math> sont deux entiers consécutifs impairs",
+      "<math><mi>a</mi></math> ne divise pas <math><mi>b</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0042",
+    "question": "Parmi ces couples d'entiers, lesquels sont premiers entre eux\u00a0?",
+    "right": "<math><mn>15</mn></math> et <math><mn>28</mn></math>",
+    "wrong": [
+      "<math><mn>15</mn></math> et <math><mn>21</mn></math>",
+      "<math><mn>14</mn></math> et <math><mn>35</mn></math>",
+      "<math><mn>27</mn></math> et <math><mn>51</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0043",
+    "question": "Une fraction <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math> (avec <math><mi>a</mi><mo>&#x2208;</mo><mi>&#x2124;</mi></math> et <math><mi>b</mi><mo>&#x2208;</mo><msup><mi>&#x2115;</mi><mo>*</mo></msup></math>) est irréductible si et seulement si\u00a0:",
+    "right": "<math><mtext>PGCD</mtext><mo>(</mo><mo>|</mo><mi>a</mi><mo>|</mo><mo>;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>",
+    "wrong": [
+      "<math><mi>a</mi></math> et <math><mi>b</mi></math> sont deux nombres premiers",
+      "<math><mi>a</mi><mo>&lt;</mo><mi>b</mi></math>",
+      "<math><mi>b</mi></math> n'est pas un multiple de <math><mi>a</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0044",
+    "question": "Quelle est la simplification exacte de <math><msqrt><mn>72</mn></msqrt></math> à l'aide de la décomposition en facteurs premiers\u00a0?",
+    "right": "<math><mn>6</mn><msqrt><mn>2</mn></msqrt></math>",
+    "wrong": [
+      "<math><mn>2</mn><msqrt><mn>6</mn></msqrt></math>",
+      "<math><mn>36</mn><msqrt><mn>2</mn></msqrt></math>",
+      "<math><mn>3</mn><msqrt><mn>8</mn></msqrt></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0045",
+    "question": "Par quel plus petit entier naturel non nul faut-il multiplier <math><mn>45</mn></math> pour obtenir un carré parfait\u00a0?",
+    "right": "<math><mn>5</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>45</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0046",
+    "question": "On dispose de <math><mn>90</mn></math> roses et <math><mn>126</mn></math> tulipes pour réaliser un maximum de bouquets identiques sans reste. Combien de bouquets peut-on faire\u00a0?",
+    "right": "<math><mn>18</mn></math> bouquets",
+    "wrong": [
+      "<math><mn>9</mn></math> bouquets",
+      "<math><mn>6</mn></math> bouquets",
+      "<math><mn>36</mn></math> bouquets"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0047",
+    "question": "Un phare émet un flash toutes les <math><mn>15</mn></math> secondes et un autre toutes les <math><mn>25</mn></math> secondes. S'ils brillent ensemble à <math><mn>20</mn><mtext> h </mtext><mn>00</mn></math>, au bout de combien de temps brilleront-ils de nouveau ensemble\u00a0?",
+    "right": "<math><mn>1</mn><mtext> min </mtext><mn>15</mn><mtext> s</mtext></math> (<math><mn>75</mn><mtext> s</mtext></math>)",
+    "wrong": [
+      "<math><mn>5</mn><mtext> s</mtext></math>",
+      "<math><mn>40</mn><mtext> s</mtext></math>",
+      "<math><mn>6</mn><mtext> min </mtext><mn>15</mn><mtext> s</mtext></math> (<math><mn>375</mn><mtext> s</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0048",
+    "question": "Quelle est la somme de trois entiers consécutifs <math><mi>n</mi><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mo>+</mo><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>3</mn><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>, donc toujours un multiple de <math><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn></math>, donc jamais un multiple de <math><mn>3</mn></math>",
+      "<math><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn></math>, donc toujours impair",
+      "<math><msup><mi>n</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0049",
+    "question": "Soit <math><mi>n</mi></math> un entier impair (<math><mi>n</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>). Par quel entier <math><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></math> est-il toujours divisible\u00a0?",
+    "right": "<math><mn>8</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-2nde-arithmetique-0050",
+    "question": "Dans la démonstration par l'absurde de l'irrationalité de <math><msqrt><mn>2</mn></msqrt></math>, on suppose <math><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mi>p</mi><mi>q</mi></mfrac></math> irréductible, ce qui mène à <math><msup><mi>p</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>q</mi><mn>2</mn></msup></math>. Quelle contradiction obtient-on ensuite\u00a0?",
+    "right": "<math><mi>p</mi></math> et <math><mi>q</mi></math> sont tous les deux pairs, donc la fraction <math><mfrac><mi>p</mi><mi>q</mi></mfrac></math> n'est pas irréductible",
+    "wrong": [
+      "<math><msup><mi>p</mi><mn>2</mn></msup></math> est à la fois pair et impair",
+      "<math><mi>q</mi></math> est égal à <math><mn>0</mn></math>",
+      "<math><mn>2</mn></math> n'est pas un nombre premier"
+    ]
+  }
+]

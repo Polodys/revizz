@@ -1,4 +1,4 @@
-import { maths3e, maths2de, physics3e, biology2de } from "./quiz-data.js";
+import { quizCatalog } from "./quiz-catalog.js";
 
 // --- Etat global de l'application ---
 let index = 0;
@@ -8,7 +8,7 @@ let correctAnswersIndex = null; // Stocke l'index de la bonne réponse dans la l
 let quizSize = 5;
 
 // --- Configuration des thèmes et de la session active ---
-const quizThemes = [maths3e];
+const selectedTopicIds = [quizCatalog[0].topics[0].id];
 const quiz = [];
 
 // --- Eléments du DOM ---
@@ -21,6 +21,8 @@ const restartBtn = document.getElementById("restart-btn");
 const paramsBtn = document.getElementById("params-btn");
 const paramsModal = document.getElementById("params-modal");
 const paramsForm = document.getElementById("params-form");
+const quizSizeParamGroup = document.getElementById("quiz-size-params-group");
+const topicsParamGroup = document.getElementById("topics-params-group");
 const closeModalBtn = document.getElementById("close-modal-btn");
 
 /**
@@ -31,30 +33,141 @@ function getRandomNumber(max) {
 }
 
 /**
- * Génère une session de quiz aléatoire en fonction de la taille choisie
- * et des thèmes sélectionnés par l'utilisateur
+ * Fonction pour ajouter plusieurs attributs d'un coup
+ * @param {HTMLElement} element
+ * @param {Object} attributes
  */
-function generateQuiz() {
-  let randomNumbers = [];
-  quiz.length = 0; // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
-  let quizThemesItems = [];
+function setAttributes(element, attributes) {
+  if (!element || typeof attributes !== "object" || attributes === null) return;
 
-  // Fusionne tous les thèmes actifs choisis
-  for (let i = 0; i < quizThemes.length; i++) {
-    quizThemesItems = quizThemesItems.concat(quizThemes[i]);
-  }
-
-  // Sélectionne aléatoirement des questions uniques sans dépasser la taille demandée
-  while (
-    randomNumbers.length < quizSize &&
-    randomNumbers.length < quizThemesItems.length
-  ) {
-    const randomNumber = getRandomNumber(quizThemesItems.length);
-    if (!randomNumbers.includes(randomNumber)) {
-      randomNumbers.push(randomNumber);
-      quiz.push({ ...quizThemesItems[randomNumber] });
+  for (const [key, value] of Object.entries(attributes)) {
+    if (value !== null && value !== undefined) {
+      element.setAttribute(key, value);
     }
   }
+}
+
+/**
+ * Chargement des questions correspondant aux sujets choisis
+ */
+async function loadSelectedQuestions() {
+  const topicsById = new Map();
+
+  for (const category of quizCatalog) {
+    for (const topic of category.topics ?? []) {
+      if (topic.id && topic.file) {
+        topicsById.set(topic.id, topic.file);
+      }
+    }
+  }
+
+  const topicFiles = selectedTopicIds
+    .map((id) => topicsById.get(id))
+    .filter((file) => typeof file === "string" && file.length > 0);
+
+  const loadedSelectedQuestions = [];
+
+  for (const topicFile of topicFiles) {
+    const response = await fetch(topicFile);
+    if (!response.ok) {
+      throw new Error(`Erreur de chargement ${topicFile} : ${response.status}`);
+    }
+    loadedSelectedQuestions.push(await response.json());
+  }
+
+  return loadedSelectedQuestions.flat();
+}
+
+/**
+ * Création dynamique du formulaire pour choisir les paramètres du quiz
+ * (nombre de questions & thème(s))
+ */
+function createParamsForm() {
+  // Nombre de questions (taille du quiz)
+  const numberOfQuestions = [5, 10, 20];
+
+  numberOfQuestions.forEach((element) => {
+    let label = document.createElement("label");
+    let input = document.createElement("input");
+    label.textContent = element + " questions";
+    label.classList.add("questions-group");
+    setAttributes(input, {
+      type: "radio",
+      name: "size",
+      value: element,
+    });
+
+    if (element == quizSize) {
+      input.checked = true;
+    }
+
+    label.insertAdjacentElement("afterbegin", input);
+
+    quizSizeParamGroup.insertAdjacentElement("beforeend", label);
+  });
+
+  // Choix des sujets (topics)
+  quizCatalog.forEach((element) => {
+    let divCategoryGroup = document.createElement("div");
+    divCategoryGroup.classList.add("category-group");
+
+    let h3 = document.createElement("h3");
+    h3.textContent = element.label;
+
+    let divCheckboxGroup = document.createElement("div");
+    divCheckboxGroup.classList.add("checkbox-group");
+
+    divCategoryGroup.insertAdjacentElement("afterbegin", h3);
+    divCategoryGroup.insertAdjacentElement("beforeend", divCheckboxGroup);
+    topicsParamGroup.insertAdjacentElement("beforeend", divCategoryGroup);
+
+    element.topics.forEach((topic) => {
+      let labelTopic = document.createElement("label");
+      labelTopic.textContent = topic.label;
+
+      let inputTopic = document.createElement("input");
+      setAttributes(inputTopic, {
+        type: "checkbox",
+        name: "topic",
+        value: topic.id,
+      });
+
+      if (selectedTopicIds.includes(topic.id)) {
+        inputTopic.checked = true;
+      }
+
+      labelTopic.insertAdjacentElement("afterbegin", inputTopic);
+      divCheckboxGroup.insertAdjacentElement("beforeend", labelTopic);
+    });
+  });
+}
+
+/**
+ * Génère une session de quiz aléatoire en fonction de la taille choisie
+ * et des sujets sélectionnés par l'utilisateur
+ */
+async function generateQuiz() {
+  const allQuestions = await loadSelectedQuestions();
+
+  if (allQuestions.length === 0) {
+    throw new Error("Aucune question n'est disponible sur ce sujet.");
+  }
+
+  // Mélane aléatoire avec la méthode de Fisher Yates
+  for (let i = allQuestions.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    let k = allQuestions[i];
+    allQuestions[i] = allQuestions[j];
+    allQuestions[j] = k;
+  }
+
+  // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
+  quiz.length = 0;
+
+  // Ajout des questions sélectionnées au quiz
+  const selectedQuestions = allQuestions.slice(0, quizSize);
+
+  quiz.push(...selectedQuestions.map((question) => ({ ...question })));
 }
 
 /**
@@ -62,7 +175,7 @@ function generateQuiz() {
  */
 function restart() {
   restartBtn.classList.add("pressed");
-  setTimeout(() => {
+  setTimeout(async () => {
     restartBtn.classList.remove("pressed");
     questionPara.textContent = "";
     answersList.textContent = "";
@@ -75,13 +188,18 @@ function restart() {
     reviewQuizBtn.classList.add("hidden");
     restartBtn.classList.add("hidden");
 
-    generateQuiz();
-
     index = 0;
     score = 0;
     isAnswerLocked = false;
-    displayQuestion(index);
-    displayAnswers(index);
+
+    try {
+      await generateQuiz();
+      displayQuestion(index);
+      displayAnswers(index);
+    } catch (error) {
+      console.error("Erreur lors du lancement du quiz : ", error);
+      questionPara.textContent = "Impossible de charger les questions.";
+    }
   }, 150);
 }
 
@@ -176,7 +294,7 @@ function displayAnswers(questionIndex) {
 
   correctAnswersIndex = randomNumber;
 
-  // Inère la bonne réponse à une position aléatoire parmi les mauvaises réponses
+  // Insère la bonne réponse à une position aléatoire parmi les mauvaises réponses
   const answers = wrongAnswers.toSpliced(
     randomNumber,
     0,
@@ -204,14 +322,15 @@ paramsBtn.addEventListener("click", () => {
   // Pour le nombre de questions
   const sizeRadios = paramsForm.querySelectorAll("input[name='size']");
   sizeRadios.forEach((radio) => {
-    radio.checked = (Number(radio.value) === quizSize);
+    radio.checked = Number(radio.value) === quizSize;
   });
-  
+
   // Pour le(s) thème(s)
-  document.getElementById("theme1").checked = quizThemes.includes(maths3e);
-  document.getElementById("theme2").checked = quizThemes.includes(maths2de);
-  document.getElementById("theme3").checked = quizThemes.includes(physics3e);
-  document.getElementById("theme4").checked = quizThemes.includes(biology2de);
+
+  const topicCheckboxes = paramsForm.querySelectorAll('input[name="topic"]');
+  topicCheckboxes.forEach((checkbox) => {
+    checkbox.checked = selectedTopicIds.includes(checkbox.value);
+  });
 
   // 2. Ouverture de la modale
   paramsModal.showModal();
@@ -226,28 +345,20 @@ paramsForm.addEventListener("submit", (e) => {
 
   const formData = new FormData(paramsForm);
   const selectedSize = formData.get("size");
-  const selectedTheme1 = formData.get("theme1");
-  const selectedTheme2 = formData.get("theme2");
-  const selectedTheme3 = formData.get("theme3");
-  const selectedTheme4 = formData.get("theme4");
+  const selectedTopics = formData.getAll("topic");
 
   // Validation : s'assurer qu'au moins un thème est coché
-  if (!selectedTheme1 && !selectedTheme2 && !selectedTheme3 && !selectedTheme4) {
-    alert("Veuillez sélectionner au moins un thème !");
+  if (selectedTopics.length === 0) {
+    alert("Veuillez sélectionner au moins un sujet !");
     return;
   }
-
-  paramsModal.close();
 
   quizSize = Number(selectedSize);
 
   // Met à jour dynamiquement les thèmes actifs du quiz
-  quizThemes.length = 0;
-  if (selectedTheme1 === "maths-3e") {quizThemes.push(maths3e);}
-  if (selectedTheme2 === "maths-2de") {quizThemes.push(maths2de);}
-  if (selectedTheme3 === "physics-3e") {quizThemes.push(physics3e);}
-  if (selectedTheme4 === "biology-2de") {quizThemes.push(biology2de);}
+  selectedTopicIds.splice(0, selectedTopicIds.length, ...selectedTopics);
 
+  paramsModal.close();
   restart();
 });
 
@@ -255,13 +366,24 @@ reviewQuizBtn.addEventListener("click", showAnswers);
 restartBtn.addEventListener("click", restart);
 
 // --- Initialisation de l'application au chargement ---
-resultPara.classList.add("hidden");
-reviewQuizBtn.classList.add("hidden");
-restartBtn.classList.add("hidden");
+async function initApp() {
+  resultPara.classList.add("hidden");
+  reviewQuizBtn.classList.add("hidden");
+  restartBtn.classList.add("hidden");
 
-generateQuiz();
-displayQuestion(index);
-displayAnswers(index);
+  createParamsForm();
+
+  try {
+    await generateQuiz();
+    displayQuestion(index);
+    displayAnswers(index);
+  } catch (error) {
+    console.error("Erreur lors de l'initialisation du quiz : ", error);
+    questionPara.textContent = "Erreur lors du chargement du quiz.";
+  }
+}
+
+initApp();
 
 // --- Enregistrement du Service Worker (PWA) ---
 if ("serviceWorker" in navigator) {
@@ -280,7 +402,10 @@ if ("serviceWorker" in navigator) {
           if (!newWorker) return;
 
           newWorker.addEventListener("statechange", () => {
-            if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
+            if (
+              newWorker.state === "installed" &&
+              navigator.serviceWorker.controller
+            ) {
               showUpdateBanner(newWorker);
             }
           });

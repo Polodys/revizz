@@ -1,0 +1,376 @@
+[
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0001",
+    "question": "Quelle est l'organisation structurale de la matière vivante, de la plus grande échelle à la plus petite\u00a0?",
+    "right": "Organisme > Organe > Tissu > Cellule > Organite > Molécule",
+    "wrong": [
+      "Cellule > Tissu > Organe > Organisme > Molécule > Organite",
+      "Organisme > Tissu > Organe > Cellule > Molécule > Organite",
+      "Organe > Organisme > Cellule > Tissu > Organite > Molécule"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0002",
+    "question": "Qu'est-ce qu'un tissu chez un être vivant pluricellulaire\u00a0?",
+    "right": "Un ensemble de cellules spécialisées similaires réalisant une même fonction",
+    "wrong": [
+      "Un regroupement d'organes différents travaillant ensemble",
+      "La membrane protectrice qui entoure chaque cellule",
+      "L'ensemble de l'ADN contenu dans un noyau"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0003",
+    "question": "Quel organite cellulaire est le siège de la respiration cellulaire chez les eucaryotes\u00a0?",
+    "right": "La mitochondrie",
+    "wrong": ["Le chloroplaste", "Le noyau", "Le réticulum endoplasmique"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0004",
+    "question": "Quel organite permet la réalisation de la photosynthèse chez les cellules végétales chlorophylliennes\u00a0?",
+    "right": "Le chloroplaste",
+    "wrong": ["La mitochondrie", "La vacuole", "Le lysosome"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0005",
+    "question": "Comment appelle-t-on la structure qui délimite la cellule et contrôle les échanges avec l'extérieur\u00a0?",
+    "right": "La membrane plasmique",
+    "wrong": [
+      "La paroi pectocellulosique",
+      "La matrice extracellulaire",
+      "L'enveloppe nucléaire"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0006",
+    "question": "Qu'est-ce que la matrice extracellulaire chez les animaux (ou paroi chez les végétaux)\u00a0?",
+    "right": "Un réseau de molécules situées en dehors des cellules permettant l'adhérence et la cohérence des tissus",
+    "wrong": [
+      "Le liquide situé à l'intérieur du noyau",
+      "La couche interne du cytoplasme",
+      "Un ensemble de protéines transportant l'oxygène"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0007",
+    "question": "Qu'est-ce qui caractérise une cellule spécialisée\u00a0?",
+    "right": "Une forme, une structure et un contenu en organites adaptés à sa fonction spécifique",
+    "wrong": [
+      "Le fait d'avoir un bagage génétique différent des autres cellules",
+      "L'absence totale de noyau et de membrane",
+      "La capacité de se transformer en n'importe quel organe"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0008",
+    "question": "Quelle est la principale caractéristique génétique de toutes les cellules somatiques d'un organisme pluricellulaire\u00a0?",
+    "right": "Elles possèdent toutes exactement la même information génétique (le même génome)",
+    "wrong": [
+      "Chaque type cellulaire possède des gènes uniques absents des autres cellules",
+      "Seules les cellules nerveuses possèdent l'intégralité de l'ADN",
+      "L'ADN est modifié à chaque fois qu'une cellule se spécialise"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0009",
+    "question": "Comment s'explique la spécialisation d'une cellule si toutes possèdent le même ADN\u00a0?",
+    "right": "Par l'expression sélective de certains gènes et l'extinction des autres",
+    "wrong": [
+      "Par la suppression physique des gènes inutiles",
+      "Par le dédoublement aléatoire des chromosomes",
+      "Par la création de nouveaux gènes après la naissance"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0010",
+    "question": "Qu'est-ce qu'une cellule souche\u00a0?",
+    "right": "Une cellule indifférenciée capable de se multiplier et de se spécialiser en différents types cellulaires",
+    "wrong": [
+      "Une cellule morte servant de soutien aux tissus",
+      "Une cellule présente uniquement dans la racine des végétaux",
+      "Une cellule spécialisée exclusivement dans la défense immunitaire"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0011",
+    "question": "Où se situe la majorité de l'information génétique dans une cellule eucaryote\u00a0?",
+    "right": "Dans le noyau",
+    "wrong": [
+      "Dans le cytoplasme",
+      "Dans la membrane plasmique",
+      "Dans l'appareil de Golgi"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0012",
+    "question": "De quoi est constituée la molécule d'ADN\u00a0?",
+    "right": "De deux brins en double hélice formés d'un enchaînement de nucléotides",
+    "wrong": [
+      "D'un brin unique d'acides aminés repliés",
+      "De trois chaînes de lipides et de glucides",
+      "D'une chaîne linéaire de protéines simples"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0013",
+    "question": "Quels sont les quatre nucléotides constituant l'ADN\u00a0?",
+    "right": "Adénine (A), Thymine (T), Cytosine (C), Guanine (G)",
+    "wrong": [
+      "Adénine (A), Uracile (U), Cytosine (C), Guanine (G)",
+      "Alanine (A), Tyrosine (T), Cystéine (C), Glutamine (G)",
+      "Adénine (A), Thiamine (T), Choline (C), Glycine (G)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0014",
+    "question": "Quelle est la règle de complémentarité des bases azotées dans la double hélice d'ADN\u00a0?",
+    "right": "L'Adénine (A) s'associe toujours avec la Thymine (T), et la Cytosine (C) avec la Guanine (G)",
+    "wrong": [
+      "L'Adénine (A) s'associe avec la Cytosine (C), et la Thymine (T) avec la Guanine (G)",
+      "L'Adénine (A) s'associe avec la Guanine (G), et la Thymine (T) avec la Cytosine (C)",
+      "Les bases s'associent de manière totalement aléatoire"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0015",
+    "question": "De quoi est composé un nucléotide\u00a0?",
+    "right": "D'une base azotée, d'un sucre (le désoxyribose) et d'un groupement phosphate",
+    "wrong": [
+      "D'une protéine, d'un lipide et d'une molécule d'eau",
+      "D'un acide aminé, d'un glucose et d'un stéroïde",
+      "D'un brin d'ARN, d'un ribosome et de magnésium"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0016",
+    "question": "Qu'est-ce qu'un gène\u00a0?",
+    "right": "Une séquence de nucléotides d'un brin d'ADN portant une information génétique précise",
+    "wrong": [
+      "L'intégralité d'un chromosome sous forme condensée",
+      "Une protéine située sur la membrane plasmique",
+      "Un organite chargé de la division cellulaire"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0017",
+    "question": "Qu'est-ce que la séquence d'un gène (ou d'un brin d'ADN)\u00a0?",
+    "right": "L'ordre bien précis dans lequel se succèdent les nucléotides",
+    "wrong": [
+      "La longueur totale de la molécule exprimée en micromètres",
+      "Le nombre total de liaisons hydrogène du chromosome",
+      "Le taux de condensation de la chromatine"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0018",
+    "question": "Comment l'information contenue dans un gène détermine-t-elle le fonctionnement d'une cellule spécialisée\u00a0?",
+    "right": "Elle gouverne la synthèse de protéines spécifiques nécessaires à sa fonction",
+    "wrong": [
+      "Elle modifie directement la température interne de la cellule",
+      "Elle fabrique directement les lipides de la membrane",
+      "Elle détruit les organites inutiles pour libérer de l'espace"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0019",
+    "question": "Quelle est la forme prise par la molécule d'ADN au cours de la division cellulaire lorsqu'elle se condense au maximum\u00a0?",
+    "right": "Un chromosome",
+    "wrong": ["Un nucléosome", "Une chromatine fluide", "Un filament d'ARN"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0020",
+    "question": "Pourquoi dit-on que l'ADN est le support universel de l'information génétique\u00a0?",
+    "right": "Parce que sa structure et son langage chimique sont identiques chez tous les êtres vivants",
+    "wrong": [
+      "Parce qu'il est présent dans l'air, l'eau et le sol à l'état libre",
+      "Parce qu'il permet de se déplacer d'un milieu à un autre",
+      "Parce qu'il a exactement la même longueur chez toutes les espèces"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0021",
+    "question": "À quel niveau d'organisation appartient l'élodée\u00a0?",
+    "right": "Organisme",
+    "wrong": ["Organe", "Tissu", "Cellule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0022",
+    "question": "Quelle est la définition d'un organe\u00a0?",
+    "right": "Une structure qui participe à la réalisation d'une fonction",
+    "wrong": [
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme assurant une fonction précise",
+      "Un assemblage d'atomes"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0023",
+    "question": "Quel niveau d'organisation est défini comme « la plus petite structure vivante »\u00a0?",
+    "right": "La cellule",
+    "wrong": ["L'organite", "La molécule", "Le tissu"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0024",
+    "question": "À quel niveau d'organisation se situe le tissu chlorophyllien\u00a0?",
+    "right": "Tissu",
+    "wrong": ["Organe", "Organite", "Cellule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0025",
+    "question": "À quel niveau d'organisation appartient le chloroplaste\u00a0?",
+    "right": "Organite",
+    "wrong": ["Cellule", "Molécule", "Tissu"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0026",
+    "question": "À quel niveau d'organisation appartient la chlorophylle\u00a0?",
+    "right": "Molécule",
+    "wrong": ["Organite", "Atome", "Cellule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0027",
+    "question": "Qu'est-ce qu'un atome\u00a0?",
+    "right": "Un ensemble de protons, électrons et neutrons",
+    "wrong": [
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme",
+      "Un assemblage de cellules spécialisées"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0028",
+    "question": "Quel niveau d'organisation présente une taille inférieure à 1 nm\u00a0?",
+    "right": "L'atome",
+    "wrong": ["La molécule", "L'organite", "La cellule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0029",
+    "question": "Parmi les éléments suivants, lequel est invisible au microscope optique ordinaire\u00a0?",
+    "right": "La chlorophylle",
+    "wrong": [
+      "Le chloroplaste",
+      "La cellule végétale",
+      "Le tissu chlorophyllien"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0030",
+    "question": "À quel niveau d'organisation appartient le cerveau\u00a0?",
+    "right": "Organe",
+    "wrong": ["Tissu", "Organisme", "Cellule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0031",
+    "question": "À quel niveau d'organisation se situe le tissu nerveux\u00a0?",
+    "right": "Tissu",
+    "wrong": ["Organe", "Cellule", "Organite"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0032",
+    "question": "Comment peut-on définir un organite\u00a0?",
+    "right": "Un compartiment délimité dans le cytoplasme assurant une fonction précise",
+    "wrong": [
+      "La plus petite structure vivante",
+      "Un ensemble de cellules spécialisées qui réalisent une fonction",
+      "Un assemblage d'atomes"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0033",
+    "question": "Quels niveaux d'organisation sont visibles directement à l'œil nu\u00a0?",
+    "right": "Organisme et Organe",
+    "wrong": ["Tissu et Cellule", "Cellule et Organite", "Organite et Molécule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0034",
+    "question": "Quels niveaux d'organisation s'observent au microscope\u00a0?",
+    "right": "Tissu, Cellule et Organite",
+    "wrong": ["Organisme et Organe", "Molécule et Atome", "Organe et Tissu"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0035",
+    "question": "Quels niveaux d'organisation ne sont pas visibles au microscope optique\u00a0?",
+    "right": "Molécule et Atome",
+    "wrong": ["Organite et Cellule", "Tissu et Organite", "Cellule et Molécule"]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0036",
+    "question": "Parmi les définitions suivantes, laquelle retenir pour définir un tissu\u00a0?",
+    "right": "Un ensemble de cellules spécialisées qui réalisent une fonction",
+    "wrong": [
+      "Une structure qui participe à la réalisation d'une fonction",
+      "La plus petite structure vivante",
+      "Un compartiment délimité dans le cytoplasme"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0037",
+    "question": "Quelle est la définition d'un organisme\u00a0?",
+    "right": "Une structure qui réalise l'ensemble des fonctions du vivant",
+    "wrong": [
+      "Une structure qui participe à la réalisation d'une fonction",
+      "Un ensemble de cellules spécialisées",
+      "La plus petite structure vivante"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0038",
+    "question": "Quel est l'ordre de grandeur de la taille d'une feuille d'Élodée\u00a0?",
+    "right": "1,5 cm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup><mtext> m</mtext></math>)",
+    "wrong": [
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0039",
+    "question": "Quelle est la taille approximative d'une cellule végétale selon le tableau 1\u00a0?",
+    "right": "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    "wrong": [
+      "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0040",
+    "question": "Quelle est la taille approximative de la molécule de chlorophylle\u00a0?",
+    "right": "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+    "wrong": [
+      "< 1 nm",
+      "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0041",
+    "question": "Quelle est la taille approximative d'un neurone\u00a0?",
+    "right": "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    "wrong": [
+      "500 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0042",
+    "question": "Quelle est la taille approximative de la mitochondrie\u00a0?",
+    "right": "5 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+    "wrong": [
+      "20 µm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mtext> m</mtext></math>)",
+      "8 nm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mtext> m</mtext></math>)",
+      "1,5 mm (<math><mo>&approx;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> m</mtext></math>)"
+    ]
+  },
+  {
+    "id": "svt-2de-terre-vie-org-vivant-0043",
+    "question": "Que signifie « l'expression génétique »\u00a0?",
+    "right": "La façon dont les cellules utilisent les informations portées par les gènes",
+    "wrong": [
+      "La transmission aléatoire des caractères héréditaires entre générations",
+      "Le processus de modification physique de l'ADN lors du vieillissement",
+      "La vitesse à laquelle les chromosomes se dupliquent avant la mitose"
+    ]
+  }
+]
