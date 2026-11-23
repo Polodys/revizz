@@ -46,10 +46,13 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* gap: 40px; */
   gap: 1.5rem;
   border-radius: 30px;
   box-shadow: 1px 2px 15px var(--btn-hover-bg);
+}
+
+.main-container.is-result {
+  min-height: 0;
 }
 
 header {
@@ -59,7 +62,7 @@ header {
   align-items: center;
   position: relative;
   padding-top: 20px;
-  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -123,7 +126,6 @@ h1 {
 .answers-list li,
 .review-quiz-list li {
   margin: 20px 0px;
-  /* padding: 10px 5px; */
   padding: 0.8rem 0.5rem;
   background-color: var(--bg-light);
   border: 1px solid var(--border-color);

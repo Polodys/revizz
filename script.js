@@ -12,6 +12,7 @@ const selectedTopicIds = [quizCatalog[0].topics[0].id];
 const quiz = [];
 
 // --- Eléments du DOM ---
+const mainContainer = document.querySelector(".main-container");
 const questionPara = document.getElementById("question");
 const questionSlot = document.getElementById("question-slot");
 const answersList = document.getElementById("answers-list");
@@ -180,9 +181,9 @@ function restart() {
     restartBtn.classList.remove("pressed");
     questionPara.textContent = "";
     answersList.textContent = "";
-    // questionPara.classList.remove("hidden");
     questionSlot.classList.remove("hidden");
     answersList.classList.remove("hidden");
+    mainContainer.classList.remove("is-result");
     reviewQuizList.innerHTML = "";
     reviewQuizList.classList.add("hidden");
     resultPara.innerHTML = "";
@@ -268,9 +269,9 @@ function selectAnswer() {
     } else {
       questionPara.textContent = "";
       answersList.textContent = "";
-      // questionPara.classList.add("hidden");
       questionSlot.classList.add("hidden");
       answersList.classList.add("hidden");
+      mainContainer.classList.add("is-result");
       resultPara.innerText = `Votre score : ${score} sur ${quiz.length}`;
       resultPara.classList.remove("hidden");
       reviewQuizBtn.classList.remove("hidden");
