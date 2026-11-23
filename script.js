@@ -13,6 +13,7 @@ const quiz = [];
 
 // --- Eléments du DOM ---
 const questionPara = document.getElementById("question");
+const questionSlot = document.getElementById("question-slot");
 const answersList = document.getElementById("answers-list");
 const resultPara = document.getElementById("result");
 const reviewQuizList = document.getElementById("review-quiz-list");
@@ -179,7 +180,8 @@ function restart() {
     restartBtn.classList.remove("pressed");
     questionPara.textContent = "";
     answersList.textContent = "";
-    questionPara.classList.remove("hidden");
+    // questionPara.classList.remove("hidden");
+    questionSlot.classList.remove("hidden");
     answersList.classList.remove("hidden");
     reviewQuizList.innerHTML = "";
     reviewQuizList.classList.add("hidden");
@@ -266,7 +268,8 @@ function selectAnswer() {
     } else {
       questionPara.textContent = "";
       answersList.textContent = "";
-      questionPara.classList.add("hidden");
+      // questionPara.classList.add("hidden");
+      questionSlot.classList.add("hidden");
       answersList.classList.add("hidden");
       resultPara.innerText = `Votre score : ${score} sur ${quiz.length}`;
       resultPara.classList.remove("hidden");
