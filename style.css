@@ -87,20 +87,16 @@ h1 {
   cursor: pointer;
 }
 
+.params-btn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 3px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
 /* *******************************************
    Questions, réponses, listes, résultat
    ******************************************* */
-.result {
-  text-align: center;
-  padding: 0.8rem 0.3rem;
-  width: 100%;
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  font-size: 1rem;
-  background-color: var(--bg-light);
-  color: var(--primary-color);
-}
-
 .question-slot {
   width: 100%;
   min-height: 5rem;
@@ -122,10 +118,11 @@ h1 {
   width: 100%;
 }
 
-.answers-list li,
+/* .answers-list li, */
+.answer-option,
 .review-quiz-list li {
   margin: 20px 0px;
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem 0.7rem;
   background-color: var(--bg-light);
   border: 1px solid var(--border-color);
   border-radius: 10px;
@@ -133,17 +130,47 @@ h1 {
   list-style-type: none;
 }
 
-.answers-list li:hover,
-.review-quiz-list li:hover {
+.answers-list li {
+  list-style-type: none;
+}
+
+/* .answers-list li:hover, */
+/* .review-quiz-list li:hover, */
+.answer-option:hover {
   cursor: pointer;
   background-color: lightblue;
 }
 
+.answer-option {
+  width: 100%;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+
+.answer-option:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 3px;
+}
+
+.result {
+  text-align: center;
+  padding: 0.8rem 0.3rem;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+} 
+
 /* ******************************************
    ETATS DU QUIZ (correct / incorrect)
    ****************************************** */
-.answers-list li.right,
-.answers-list li.right:hover,
+/* .answers-list li.right,
+.answers-list li.right:hover, */
+.answer-option.right,
+.answer-option.right:hover,
 .review-quiz-list ul li.correct,
 .review-quiz-list ul:has(> li.correct) {
   background-color: var(--success-bg);
@@ -151,8 +178,8 @@ h1 {
   cursor: default;
 }
 
-.answers-list li.wrong,
-.answers-list li.wrong:hover,
+.answer-option.wrong,
+.answer-option.wrong:hover,
 .review-quiz-list ul li.incorrect,
 .review-quiz-list ul:has(> li.incorrect) {
   background-color: var(--error-bg);
@@ -286,6 +313,12 @@ fieldset input:hover {
   transform: scale(0.98);
 }
 
+.btn:focus-visible {
+  outline: 3px  solid var(--primary-color);
+  outline-offset: 1px;
+  background-color: var(--primary-color);
+}
+
 .pressed {
   transform: scale(0.98);
 }
@@ -302,7 +335,6 @@ fieldset input:hover {
   height: 1.4em;
   vertical-align: middle;
 }
-
 
 .update-banner {
   width: 100%;

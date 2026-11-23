@@ -299,11 +299,17 @@ function displayAnswers(questionIndex) {
 
   for (let i = 0; i < answers.length; i++) {
     const li = document.createElement("li");
-    li.innerHTML = answers[i];
+    const button = document.createElement("button");
 
-    li.dataset.answerIndex = i;
+    button.type = "button";
+    button.classList.add("answer-option");
 
-    li.addEventListener("click", selectAnswer);
+    button.innerHTML = answers[i];
+    button.dataset.answerIndex = i;
+
+    button.addEventListener("click", selectAnswer);
+
+    li.appendChild(button);
     answersList.appendChild(li);
   }
 }
