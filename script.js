@@ -155,7 +155,7 @@ async function generateQuiz() {
     throw new Error("Aucune question n'est disponible sur ce sujet.");
   }
 
-  // Mélane aléatoire avec la méthode de Fisher Yates
+  // Mélange aléatoire avec la méthode de Fisher Yates
   for (let i = allQuestions.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     let k = allQuestions[i];
@@ -163,27 +163,26 @@ async function generateQuiz() {
     allQuestions[j] = k;
   }
 
-  // Remise à zéro du quiz (nécessaire s'il y a eu une partie avant)
-  quiz.length = 0;
-
-  // Ajout des questions sélectionnées au quiz
-  const selectedQuestions = allQuestions.slice(0, quizSize);
-
-  quiz.push(...selectedQuestions.map((question) => ({ ...question })));
+  return allQuestions.slice(0, quizSize).map((question) => ({ ...question }));
 }
 
 /**
  * Réinitialise l'état du jeu pour lancer une nouvelle partie
  */
-function restart() {
-  restartBtn.classList.add("pressed");
-  setTimeout(async () => {
-    restartBtn.classList.remove("pressed");
+async function restart() {
+  try {
+    const newQuiz = await generateQuiz();
+    quiz.splice(0, quiz.length, ...newQuiz);
+
+    index = 0;
+    score = 0;
+    isAnswerLocked = false;
+
     questionPara.textContent = "";
     answersList.textContent = "";
+    mainContainer.classList.remove("is-result");
     questionSlot.classList.remove("hidden");
     answersList.classList.remove("hidden");
-    mainContainer.classList.remove("is-result");
     reviewQuizList.innerHTML = "";
     reviewQuizList.classList.add("hidden");
     resultPara.innerHTML = "";
@@ -191,19 +190,12 @@ function restart() {
     reviewQuizBtn.classList.add("hidden");
     restartBtn.classList.add("hidden");
 
-    index = 0;
-    score = 0;
-    isAnswerLocked = false;
-
-    try {
-      await generateQuiz();
-      displayQuestion(index);
-      displayAnswers(index);
-    } catch (error) {
-      console.error("Erreur lors du lancement du quiz : ", error);
-      questionPara.textContent = "Impossible de charger les questions.";
-    }
-  }, 150);
+    displayQuestion(index);
+    displayAnswers(index);
+  } catch (error) {
+    console.error("Erreur lors du lancement du quiz : ", error);
+    questionPara.textContent = "Impossible de charger les questions.";
+  }
 }
 
 /**
@@ -371,6 +363,8 @@ restartBtn.addEventListener("click", restart);
 
 // --- Initialisation de l'application au chargement ---
 async function initApp() {
+  const newQuiz = await generateQuiz();
+  quiz.push(...newQuiz);
   resultPara.classList.add("hidden");
   reviewQuizBtn.classList.add("hidden");
   restartBtn.classList.add("hidden");
