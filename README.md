@@ -35,7 +35,7 @@ Mais puisque **Revizz** est une Progressive Web App (PWA), il est aussi possible
 Quand une nouvelle version de Revizz est disponible :
 
 1. Le navigateur détecte et installe le Service Worker en arrière-plan.
-2. Une fois cette installation terminée, le nouveau Service Worker reste en attente et unebannière informe l'utilisateur qu'une mise à jour est disponible.
+2. Une fois cette installation terminée, le nouveau Service Worker reste en attente et une bannière informe l'utilisateur qu'une mise à jour est disponible.
 3. L'utilisateur clique sur **Mettre à jour** quand il souhaite appliquer la mise à jour.
 4. Le nouveau Service Worker est alors activé. Il prend le contrôle de l'application et provoque le rechargement automatique de la page.
 

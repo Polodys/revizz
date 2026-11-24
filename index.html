@@ -42,15 +42,15 @@
         <form id="params-form" class="params-form">
           <h2>Paramètres du quiz</h2>
 
-          <fieldset id="quiz-size-params-group">
-            <legend>&nbspNombre de questions&nbsp</legend>
+          <fieldset id="quiz-size-params-group" class="quiz-size-params-group">
+            <legend>Nombre de questions</legend>
           </fieldset>
 
-          <fieldset id="topics-params-group">
-            <legend>&nbsp&nbspMatières&nbsp&nbsp</legend>
+          <fieldset id="topics-params-group" class="topics-params-group">
+            <legend>Matières</legend>
           </fieldset>
 
-          <div>
+          <div class="modal-btns">
             <button type="submit" class="btn">Valider et relancer</button>
             <button type="button" id="close-modal-btn" class="btn">
               Annuler
@@ -60,11 +60,13 @@
       </dialog>
 
       <!-- Zone de jeu principale -->
-      <p id="question" class="question"></p>
+      <div id="question-slot" class="question-slot">
+        <p id="question" class="question"></p>
+      </div>
       <ul id="answers-list" class="answers-list"></ul>
 
       <!-- Zone de fin de partie et correction du quiz -->
-      <p id="result" class="result"></p>
+      <p id="result-para" class="result-para"></p>
       <ul id="review-quiz-list" class="review-quiz-list"></ul>
       <button id="review-quiz-btn" class="btn">Voir le corrigé</button>
       <button id="restart-btn" class="btn">Rejouer</button>
