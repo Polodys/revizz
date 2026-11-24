@@ -182,7 +182,7 @@ h1 {
 
 .review-item {
   box-shadow: 0px 1px 4px #515151;
-  padding: 0.8rem 0.7rem;
+  padding: 1.25rem 0.7rem;
   list-style-type: none;
 }
 
@@ -206,7 +206,7 @@ h1 {
 
 .review-question {
   font-weight: bold;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.25rem;
 }
 
 /* ******************************************
@@ -371,5 +371,44 @@ h1 {
 @media (max-height: 35rem) {
   .main-container {
     min-height: 0;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 35rem) and (min-width: 34rem) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .main-container {
+    width: 96vw;
+    max-width: 60rem;
+    /* min-height: 0; déjà pris en charge dans @media (max-height: 35 rem) */
+    margin: 0.5rem auto;
+    padding: 0.85rem 1.25rem;
+    justify-content: flex-start;
+  }
+
+  .question-slot {
+    min-height: 3.25rem;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.4;
+  }
+
+  .answers-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .answers-list-li {
+    display: flex;
+    min-width: 0;
+  }
+
+  .answer-option {
+    flex: 1;
+    min-height: 2.75rem;
+    padding: 0.6rem 0.75rem;    
+    line-height: 1.4;
   }
 }
