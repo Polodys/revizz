@@ -94,7 +94,7 @@ h1 {
 }
 
 /* *******************************************
-   Questions, réponses, listes, résultat
+   QUIZ : QUESTIONS & REPONSES
    ******************************************* */
 .question-slot {
   width: 100%;
@@ -112,44 +112,15 @@ h1 {
   line-height: 1.6rem;
 }
 
-.answers-list,
-.review-quiz-list {
+.answers-list {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.answers-list {
   gap: 1.2rem;
 }
 
-.review-quiz-list {
-  gap: 0;
-}
-
-.answer-option,
-.review-quiz-list li {
-  padding: 0.8rem 0.7rem;
-  background-color: var(--bg-light);
-  border: 1px solid var(--border-color);
-}
-
-.answer-option {
-  border-radius: 10px;
-}
-
-.review-quiz-list li {
-  text-decoration: none;
+.answers-list-li {
   list-style-type: none;
-}
-
-.answers-list li {
-  list-style-type: none;
-}
-
-.answer-option:hover {
-  cursor: pointer;
-  background-color: lightblue;
 }
 
 .answer-option {
@@ -157,6 +128,15 @@ h1 {
   text-align: left;
   color: inherit;
   font: inherit;
+  padding: 0.8rem 0.7rem;
+  background-color: var(--bg-light);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.answer-option:hover {
+  cursor: pointer;
+  background-color: lightblue;
 }
 
 .answer-option:focus-visible {
@@ -164,6 +144,23 @@ h1 {
   outline-offset: 3px;
 }
 
+.answer-option.right,
+.answer-option.right:hover {
+  background-color: var(--success-bg);
+  border: 1px solid #d4edda;
+  cursor: default;
+}
+
+.answer-option.wrong,
+.answer-option.wrong:hover {
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-bg);
+  cursor: default;
+}
+
+/* *******************************************
+   QUIZ : RESULTAT & CORRIGE
+   ******************************************* */
 .result-para {
   text-align: center;
   padding: 0.8rem 0.3rem;
@@ -175,32 +172,35 @@ h1 {
   color: var(--primary-color);
 }
 
-/* ******************************************
-   ETATS DU QUIZ (correct / incorrect)
-   ****************************************** */
 .review-quiz-list {
-  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px #515151;
 }
 
 .review-item {
   box-shadow: 0px 1px 4px #515151;
+  padding: 0.8rem 0.7rem;
+  list-style-type: none;
 }
 
-.answer-option.right,
-.answer-option.right:hover,
+.review-item:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.review-item:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
 .review-item.correct {
   background-color: var(--success-bg);
-  border: 1px solid #d4edda;
   cursor: default;
 }
 
-.answer-option.wrong,
-.answer-option.wrong:hover,
 .review-item.incorrect {
   background-color: var(--error-bg);
-  border: 1px solid var(--error-bg);
   cursor: default;
 }
 
@@ -212,6 +212,11 @@ h1 {
 /* ******************************************
    MODALE POUR LES PARAMETRES
    ****************************************** */
+::backdrop {
+  background-image: linear-gradient(45deg, var(--btn-hover-bg));
+  opacity: 0.75;
+}
+
 .params-modal {
   width: min(92vw, 31.5rem);
   max-height: 95dvh;
@@ -238,8 +243,20 @@ h1 {
   border-radius: 10px;
 }
 
+.params-form fieldset label:hover,
+.params-form fieldset input:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .params-form legend {
   padding-inline: 0.6rem;
+}
+
+.quiz-size-params-group input,
+.checkbox-group input {
+  margin-right: 7px;
 }
 
 .topics-params-group h3 {
@@ -264,23 +281,6 @@ h1 {
   text-align: left;
   gap: 0.6rem;
   padding: 0.6rem;
-}
-
-.quiz-size-params-group input,
-.checkbox-group input {
-  margin-right: 7px;
-}
-
-fieldset label:hover,
-fieldset input:hover {
-  cursor: pointer;
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-::backdrop {
-  background-image: linear-gradient(45deg, var(--btn-hover-bg));
-  opacity: 0.75;
 }
 
 .modal-btns {

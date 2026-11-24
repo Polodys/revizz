@@ -299,6 +299,8 @@ function displayAnswers(questionIndex) {
 
   for (let i = 0; i < answers.length; i++) {
     const li = document.createElement("li");
+    li.classList.add("answers-list-li");
+
     const button = document.createElement("button");
 
     button.type = "button";
