@@ -44,7 +44,7 @@ body {
   color: var(--primary-color);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   gap: 1.5rem;
   border-radius: 30px;
@@ -53,6 +53,8 @@ body {
 
 .main-container.is-result {
   min-height: 0;
+  gap: 2rem;
+  padding: 30px 20px;
 }
 
 header {
@@ -61,8 +63,6 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding-top: 20px;
-  margin-bottom: 20px;
 }
 
 h1 {
@@ -84,7 +84,6 @@ h1 {
 
 .params-btn:hover {
   opacity: 1;
-  cursor: pointer;
 }
 
 .params-btn:focus-visible {
@@ -110,22 +109,36 @@ h1 {
   color: var(--primary-color);
   font-size: 1rem;
   text-align: center;
-  line-height: 1.6rem;  
+  line-height: 1.6rem;
 }
 
 .answers-list,
 .review-quiz-list {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-/* .answers-list li, */
+.answers-list {
+  gap: 1.2rem;
+}
+
+.review-quiz-list {
+  gap: 0;
+}
+
 .answer-option,
 .review-quiz-list li {
-  margin: 20px 0px;
   padding: 0.8rem 0.7rem;
   background-color: var(--bg-light);
   border: 1px solid var(--border-color);
+}
+
+.answer-option {
   border-radius: 10px;
+}
+
+.review-quiz-list li {
   text-decoration: none;
   list-style-type: none;
 }
@@ -134,8 +147,6 @@ h1 {
   list-style-type: none;
 }
 
-/* .answers-list li:hover, */
-/* .review-quiz-list li:hover, */
 .answer-option:hover {
   cursor: pointer;
   background-color: lightblue;
@@ -153,7 +164,7 @@ h1 {
   outline-offset: 3px;
 }
 
-.result {
+.result-para {
   text-align: center;
   padding: 0.8rem 0.3rem;
   width: 100%;
@@ -162,17 +173,24 @@ h1 {
   font-size: 1rem;
   background-color: var(--bg-light);
   color: var(--primary-color);
-} 
+}
 
 /* ******************************************
    ETATS DU QUIZ (correct / incorrect)
    ****************************************** */
-/* .answers-list li.right,
-.answers-list li.right:hover, */
+.review-quiz-list {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px #515151;
+}
+
+.review-item {
+  box-shadow: 0px 1px 4px #515151;
+}
+
 .answer-option.right,
 .answer-option.right:hover,
-.review-quiz-list ul li.correct,
-.review-quiz-list ul:has(> li.correct) {
+.review-item.correct {
   background-color: var(--success-bg);
   border: 1px solid #d4edda;
   cursor: default;
@@ -180,31 +198,15 @@ h1 {
 
 .answer-option.wrong,
 .answer-option.wrong:hover,
-.review-quiz-list ul li.incorrect,
-.review-quiz-list ul:has(> li.incorrect) {
+.review-item.incorrect {
   background-color: var(--error-bg);
   border: 1px solid var(--error-bg);
   cursor: default;
 }
 
-.review-quiz-list ul li:first-child {
+.review-question {
   font-weight: bold;
-}
-
-.review-quiz-list ul:has(> li.correct):nth-child(1),
-.review-quiz-list ul:has(> li.incorrect):nth-child(1) {
-  border-radius: 15px 15px 0 0;
-}
-
-.review-quiz-list ul:has(> li.correct),
-.review-quiz-list ul:has(> li.incorrect) {
-  box-shadow: 0px 1px 4px #515151;
-  cursor: default;
-}
-
-.review-quiz-list ul:has(> li.correct):nth-last-child(1),
-.review-quiz-list ul:has(> li.incorrect):nth-last-child(1) {
-  border-radius: 0 0 15px 15px;
+  margin-bottom: 0.8rem;
 }
 
 /* ******************************************
@@ -230,8 +232,7 @@ h1 {
 .params-form fieldset {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items:flex-start;
+  align-items: flex-start;
   gap: 0.6rem;
   padding: 1rem;
   border-radius: 10px;
@@ -278,10 +279,7 @@ fieldset input:hover {
 }
 
 ::backdrop {
-  background-image: linear-gradient(
-    45deg,
-    var(--btn-hover-bg)
-  );
+  background-image: linear-gradient(45deg, var(--btn-hover-bg));
   opacity: 0.75;
 }
 
@@ -291,28 +289,26 @@ fieldset input:hover {
   gap: 1rem;
 }
 
-
 /* ******************************************
    BOUTONS & CLASSES UTILITAIRES
    ****************************************** */
-
 .btn {
-    background-color: var(--btn-bg);
-    color: var(--bg-light);
-    font-weight: 600;
-    letter-spacing: 0.05rem;
-    transition: background-color 0.3s;
-    text-align: center;
-    padding: 10px 5px;
-    width: 100%;
-    border-radius: 10px;
-    font-size: 1rem;
-    border: 1px solid var(--btn-bg);
+  background-color: var(--btn-bg);
+  color: var(--bg-light);
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  transition: background-color 0.3s;
+  text-align: center;
+  padding: 10px 5px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--btn-bg);
 }
 
 .btn:hover {
-    background-color: var(--btn-hover-bg);
-    cursor: pointer;
+  background-color: var(--btn-hover-bg);
+  cursor: pointer;
 }
 
 .btn:active {
@@ -320,7 +316,7 @@ fieldset input:hover {
 }
 
 .btn:focus-visible {
-  outline: 3px  solid var(--primary-color);
+  outline: 3px solid var(--primary-color);
   outline-offset: 1px;
   background-color: var(--primary-color);
 }

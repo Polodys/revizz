@@ -16,7 +16,7 @@ const mainContainer = document.querySelector(".main-container");
 const questionPara = document.getElementById("question");
 const questionSlot = document.getElementById("question-slot");
 const answersList = document.getElementById("answers-list");
-const resultPara = document.getElementById("result");
+const resultPara = document.getElementById("result-para");
 const reviewQuizList = document.getElementById("review-quiz-list");
 const reviewQuizBtn = document.getElementById("review-quiz-btn");
 const restartBtn = document.getElementById("restart-btn");
@@ -205,24 +205,24 @@ function showAnswers() {
   reviewQuizList.textContent = "";
 
   for (let i = 0; i < quiz.length; i++) {
-    const ul = document.createElement("ul");
-    const liQuestion = document.createElement("li");
-    const liRightAnswer = document.createElement("li");
+    const liReview = document.createElement("li");
+    const pQuestion = document.createElement("p");
+    const pRightAnswer = document.createElement("p");
 
-    liQuestion.innerHTML = quiz[i].question;
-    liRightAnswer.innerHTML = `Bonne réponse : ${quiz[i].right}`;
+    liReview.classList.add("review-item");
 
     if (quiz[i].answered === "correct") {
-      liQuestion.classList.add("correct");
-      liRightAnswer.classList.add("correct");
+      liReview.classList.add("correct");
     } else {
-      liQuestion.classList.add("incorrect");
-      liRightAnswer.classList.add("incorrect");
+      liReview.classList.add("incorrect");
     }
 
-    reviewQuizList.appendChild(ul);
-    ul.appendChild(liQuestion);
-    ul.appendChild(liRightAnswer);
+    pQuestion.classList.add("review-question");
+    pQuestion.innerHTML = quiz[i].question;
+    pRightAnswer.innerHTML = `Bonne réponse : ${quiz[i].right}`;
+
+    liReview.append(pQuestion, pRightAnswer);
+    reviewQuizList.append(liReview);
   }
 
   reviewQuizList.classList.remove("hidden");
@@ -372,6 +372,7 @@ async function initApp() {
   const newQuiz = await generateQuiz();
   quiz.push(...newQuiz);
   resultPara.classList.add("hidden");
+  reviewQuizList.classList.add("hidden");
   reviewQuizBtn.classList.add("hidden");
   restartBtn.classList.add("hidden");
 
