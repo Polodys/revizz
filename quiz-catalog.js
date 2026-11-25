@@ -35,6 +35,11 @@ export const quizCatalog = [
                 id: "maths-3e-nombres-calculs",
                 label: "Nombres et calculs",
                 file: dataFile("maths-3e/nombres-calculs.json")
+            },
+            {
+                id: "maths-3e-donnees-fonctions",
+                label: "Organisation et gestion de données, fonctions",
+                file: dataFile("maths-3e/donnees-fonctions.json")
             }
         ]
     },

@@ -1,0 +1,690 @@
+[
+  {
+    "id": "maths-3e-donnees-fonctions-0001",
+    "question": "Dans une série statistique d'effectif total <math><mn>40</mn></math>, une valeur apparaît <math><mn>10</mn></math> fois. Quelle est sa fréquence\u00a0?",
+    "right": "<math><mn>0,25</mn></math> (soit <math><mn>25</mn><mtext> %</mtext></math>)",
+    "wrong": [
+      "<math><mn>4</mn></math> (soit <math><mn>400</mn><mtext> %</mtext></math>)",
+      "<math><mn>0,10</mn></math> (soit <math><mn>10</mn><mtext> %</mtext></math>)",
+      "<math><mn>0,40</mn></math> (soit <math><mn>40</mn><mtext> %</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0002",
+    "question": "Quelle est la somme de toutes les fréquences d'une série statistique\u00a0?",
+    "right": "<math><mn>1</mn></math> (ou <math><mn>100</mn><mtext> %</mtext></math>)",
+    "wrong": [
+      "L'effectif total de la série",
+      "<math><mn>0</mn></math>",
+      "<math><mn>0,5</mn></math> (ou <math><mn>50</mn><mtext> %</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0003",
+    "question": "Quelle est la moyenne de la série suivante\u00a0: <math><mn>8</mn><mo>\u00a0;</mo><mn>12</mn><mo>\u00a0;</mo><mn>15</mn><mo>\u00a0;</mo><mn>17</mn></math>\u00a0?",
+    "right": "<math><mn>13</mn></math>",
+    "wrong": [
+      "<math><mn>13,5</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0004",
+    "question": "Quelle est l'étendue de la série suivante\u00a0: <math><mn>14</mn><mo>\u00a0;</mo><mn>7</mn><mo>\u00a0;</mo><mn>19</mn><mo>\u00a0;</mo><mn>11</mn><mo>\u00a0;</mo><mn>16</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn></math>",
+      "<math><mn>13,4</mn></math>",
+      "<math><mn>14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0005",
+    "question": "Quelle est la médiane de la série ordonnée\u00a0: <math><mn>4</mn><mo>\u00a0;</mo><mn>6</mn><mo>\u00a0;</mo><mn>9</mn><mo>\u00a0;</mo><mn>15</mn><mo>\u00a0;</mo><mn>21</mn></math>\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>11</mn></math>",
+      "<math><mn>17</mn></math>",
+      "<math><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0006",
+    "question": "Quelle est la médiane de la série ordonnée\u00a0: <math><mn>5</mn><mo>\u00a0;</mo><mn>8</mn><mo>\u00a0;</mo><mn>12</mn><mo>\u00a0;</mo><mn>16</mn></math>\u00a0?",
+    "right": "<math><mn>10</mn></math>",
+    "wrong": [
+      "<math><mn>8</mn></math>",
+      "<math><mn>12</mn></math>",
+      "<math><mn>10,25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0007",
+    "question": "Dans une classe, <math><mn>10</mn></math> élèves ont eu <math><mn>12</mn></math> et <math><mn>15</mn></math> élèves ont eu <math><mn>17</mn></math>. Quelle est la moyenne pondérée de la classe\u00a0?",
+    "right": "<math><mn>15</mn></math>",
+    "wrong": [
+      "<math><mn>14,5</mn></math>",
+      "<math><mn>12,5</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0008",
+    "question": "Quel indicateur statistique mesure la dispersion des valeurs d'une série\u00a0?",
+    "right": "L'étendue",
+    "wrong": [
+      "La médiane",
+      "La moyenne",
+      "L'effectif total"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0009",
+    "question": "Une série de <math><mn>25</mn></math> valeurs rangées par ordre croissant a pour médiane <math><mn>14</mn></math>. Quelle position occupe cette médiane\u00a0?",
+    "right": "La <math><mn>13</mn><mtext>e</mtext></math> valeur",
+    "wrong": [
+      "La <math><mn>12</mn><mtext>e</mtext></math> valeur",
+      "La <math><mn>12,5</mn><mtext>e</mtext></math> valeur",
+      "La <math><mn>14</mn><mtext>e</mtext></math> valeur"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0010",
+    "question": "Dans un histogramme dont les classes ont la même amplitude, à quoi est proportionnelle la hauteur de chaque rectangle\u00a0?",
+    "right": "À l'effectif (ou à la fréquence) de la classe",
+    "wrong": [
+      "À la moyenne de la classe",
+      "À l'étendue de la série",
+      "À la borne supérieure de la classe"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0011",
+    "question": "Vrai ou faux\u00a0? Si on ajoute <math><mn>5</mn></math> à toutes les valeurs d'une série statistique, son étendue augmente de <math><mn>5</mn></math>.",
+    "right": "Faux",
+    "wrong": [
+      "Vrai"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0012",
+    "question": "Sur un diagramme circulaire, une catégorie représente <math><mn>20</mn><mtext> %</mtext></math> de l'effectif total. Quel est l'angle du secteur correspondant\u00a0?",
+    "right": "<math><mn>72</mn><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>20</mn><mo>°</mo></math>",
+      "<math><mn>36</mn><mo>°</mo></math>",
+      "<math><mn>18</mn><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0013",
+    "question": "Une enquête porte sur <math><mn>2500</mn></math> personnes, dont <math><mn>1100</mn></math> ont trouvé un emploi entre <math><mn>30</mn></math> et <math><mn>34</mn></math> ans. Quelle est la fréquence correspondante\u00a0?",
+    "right": "<math><mn>0,44</mn></math> (soit <math><mn>44</mn><mtext> %</mtext></math>)",
+    "wrong": [
+      "<math><mn>0,11</mn></math> (soit <math><mn>11</mn><mtext> %</mtext></math>)",
+      "<math><mn>2,27</mn></math>",
+      "<math><mn>0,25</mn></math> (soit <math><mn>25</mn><mtext> %</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0014",
+    "question": "La probabilité d'un événement <math><mi>A</mi></math> est égale à <math><mn>0,35</mn></math>. Quelle est la probabilité de l'événement contraire <math><mover><mi>A</mi><mo>¯</mo></mover></math>\u00a0?",
+    "right": "<math><mn>0,65</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>0,35</mn></math>",
+      "<math><mfrac><mn>1</mn><mrow><mn>0,35</mn></mrow></mfrac></math>",
+      "<math><mn>0,35</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0015",
+    "question": "Quelle est la probabilité d'un événement impossible\u00a0?",
+    "right": "<math><mn>0</mn></math>",
+    "wrong": [
+      "<math><mn>1</mn></math>",
+      "<math><mo>-</mo><mn>1</mn></math>",
+      "<math><mn>0,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0016",
+    "question": "Quelle est la probabilité d'un événement certain\u00a0?",
+    "right": "<math><mn>1</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>0,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0017",
+    "question": "On lance un dé équilibré à <math><mn>6</mn></math> faces. Quelle est la probabilité d'obtenir un multiple de <math><mn>3</mn></math>\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0018",
+    "question": "Un sac contient <math><mn>3</mn></math> boules rouges, <math><mn>5</mn></math> boules bleues et <math><mn>2</mn></math> boules vertes. On tire une boule au hasard. Quelle est la probabilité de ne pas tirer une boule bleue\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>10</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0019",
+    "question": "Un couple souhaite avoir deux enfants (on suppose équiprobable d'avoir une fille ou un garçon). Quelle est la probabilité qu'il ait deux garçons\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0020",
+    "question": "Un couple souhaite avoir deux enfants. Sachant que la probabilité d'avoir deux garçons est <math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, quelle est la probabilité d'avoir au moins une fille\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0021",
+    "question": "Une urne contient <math><mn>1</mn></math> boule bleue et <math><mn>2</mn></math> boules violettes. On tire deux boules successivement avec remise. Quelle est la probabilité de tirer deux boules violettes\u00a0?",
+    "right": "<math><mfrac><mn>4</mn><mn>9</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>9</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0022",
+    "question": "On lance deux pièces de monnaie équilibrées. Quelle est la probabilité d'obtenir une fois Pile et une fois Face\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0023",
+    "question": "Vrai ou faux\u00a0? Lorsqu'on répète un très grand nombre de fois une expérience aléatoire, la fréquence d'apparition d'une issue se stabilise autour de sa probabilité théorique.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0024",
+    "question": "Une probabilité peut-elle être égale à <math><mn>1,2</mn></math>\u00a0?",
+    "right": "Non, une probabilité est toujours comprise entre <math><mn>0</mn></math> et <math><mn>1</mn></math>",
+    "wrong": [
+      "Oui, si l'événement est très probable",
+      "Oui, si l'expérience est répétée plusieurs fois",
+      "Oui, cela correspond à <math><mn>12</mn><mtext> %</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0025",
+    "question": "Dans un jeu de <math><mn>32</mn></math> cartes, on tire une carte au hasard. Quelle est la probabilité de tirer un roi ou un cœur\u00a0?",
+    "right": "<math><mfrac><mn>11</mn><mn>32</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>12</mn><mn>32</mn></mfrac></math>",
+      "<math><mfrac><mn>4</mn><mn>32</mn></mfrac></math>",
+      "<math><mfrac><mn>8</mn><mn>32</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0026",
+    "question": "Dans un tableau de proportionnalité, <math><mn>4</mn></math> correspond à <math><mn>14</mn></math>. À quoi correspond <math><mn>10</mn></math>\u00a0?",
+    "right": "<math><mn>35</mn></math>",
+    "wrong": [
+      "<math><mn>20</mn></math>",
+      "<math><mn>28</mn></math>",
+      "<math><mn>40</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0027",
+    "question": "Dire que deux nombres <math><mi>a</mi></math> et <math><mi>b</mi></math> sont dans le ratio <math><mn>2</mn><mo>:</mo><mn>3</mn></math> signifie que\u00a0:",
+    "right": "<math><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>b</mi><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mi>a</mi><mn>3</mn></mfrac><mo>=</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>",
+      "<math><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+      "<math><mi>a</mi><mo>-</mo><mi>b</mi><mo>=</mo><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0028",
+    "question": "On partage une somme de <math><mn>150</mn><mtext> €</mtext></math> entre Léa et Tom selon le ratio <math><mn>2</mn><mo>:</mo><mn>3</mn></math>. Quelle somme reçoit Léa\u00a0?",
+    "right": "<math><mn>60</mn><mtext> €</mtext></math>",
+    "wrong": [
+      "<math><mn>75</mn><mtext> €</mtext></math>",
+      "<math><mn>50</mn><mtext> €</mtext></math>",
+      "<math><mn>90</mn><mtext> €</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0029",
+    "question": "Pour préparer une vinaigrette, on mélange de l'huile et du vinaigre dans le ratio <math><mn>3</mn><mo>:</mo><mn>1</mn></math>. Quelle quantité d'huile faut-il pour <math><mn>200</mn><mtext> mL</mtext></math> de vinaigrette au total\u00a0?",
+    "right": "<math><mn>150</mn><mtext> mL</mtext></math>",
+    "wrong": [
+      "<math><mn>50</mn><mtext> mL</mtext></math>",
+      "<math><mn>66,7</mn><mtext> mL</mtext></math>",
+      "<math><mn>100</mn><mtext> mL</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0030",
+    "question": "Trois amis se partagent <math><mn>240</mn><mtext> €</mtext></math> selon le ratio <math><mn>2</mn><mo>:</mo><mn>3</mn><mo>:</mo><mn>7</mn></math>. Quelle est la plus grande part\u00a0?",
+    "right": "<math><mn>140</mn><mtext> €</mtext></math>",
+    "wrong": [
+      "<math><mn>120</mn><mtext> €</mtext></math>",
+      "<math><mn>168</mn><mtext> €</mtext></math>",
+      "<math><mn>70</mn><mtext> €</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0031",
+    "question": "Par quel coefficient multiplicateur traduit-on une augmentation de <math><mn>5</mn><mtext> %</mtext></math>\u00a0?",
+    "right": "<math><mn>1,05</mn></math>",
+    "wrong": [
+      "<math><mn>1,5</mn></math>",
+      "<math><mn>0,05</mn></math>",
+      "<math><mn>0,95</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0032",
+    "question": "Par quel coefficient multiplicateur traduit-on une diminution de <math><mn>20</mn><mtext> %</mtext></math>\u00a0?",
+    "right": "<math><mn>0,8</mn></math>",
+    "wrong": [
+      "<math><mn>0,2</mn></math>",
+      "<math><mn>1,2</mn></math>",
+      "<math><mo>-</mo><mn>0,2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0033",
+    "question": "Un article coûte <math><mn>80</mn><mtext> €</mtext></math>. Après une remise de <math><mn>15</mn><mtext> %</mtext></math>, quel est son nouveau prix\u00a0?",
+    "right": "<math><mn>68</mn><mtext> €</mtext></math>",
+    "wrong": [
+      "<math><mn>65</mn><mtext> €</mtext></math>",
+      "<math><mn>12</mn><mtext> €</mtext></math>",
+      "<math><mn>92</mn><mtext> €</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0034",
+    "question": "Multiplier un nombre par <math><mn>1,35</mn></math> revient à lui appliquer\u00a0:",
+    "right": "Une augmentation de <math><mn>35</mn><mtext> %</mtext></math>",
+    "wrong": [
+      "Une augmentation de <math><mn>135</mn><mtext> %</mtext></math>",
+      "Une diminution de <math><mn>35</mn><mtext> %</mtext></math>",
+      "Une augmentation de <math><mn>3,5</mn><mtext> %</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0035",
+    "question": "Multiplier un nombre par <math><mn>0,72</mn></math> revient à lui appliquer\u00a0:",
+    "right": "Une diminution de <math><mn>28</mn><mtext> %</mtext></math>",
+    "wrong": [
+      "Une diminution de <math><mn>72</mn><mtext> %</mtext></math>",
+      "Une augmentation de <math><mn>72</mn><mtext> %</mtext></math>",
+      "Une diminution de <math><mn>2,8</mn><mtext> %</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0036",
+    "question": "Vrai ou faux\u00a0? Augmenter un prix de <math><mn>10</mn><mtext> %</mtext></math> puis le diminuer de <math><mn>10</mn><mtext> %</mtext></math> permet de retrouver le prix initial.",
+    "right": "Faux",
+    "wrong": [
+      "Vrai"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0037",
+    "question": "Un prix passe de <math><mn>50</mn><mtext> €</mtext></math> à <math><mn>60</mn><mtext> €</mtext></math>. Quel est le pourcentage d'augmentation\u00a0?",
+    "right": "<math><mn>20</mn><mtext> %</mtext></math>",
+    "wrong": [
+      "<math><mn>10</mn><mtext> %</mtext></math>",
+      "<math><mn>16,7</mn><mtext> %</mtext></math>",
+      "<math><mn>120</mn><mtext> %</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0038",
+    "question": "Sur une carte à l'échelle <math><mfrac><mn>1</mn><mn>25000</mn></mfrac></math>, deux villages sont distants de <math><mn>4</mn><mtext> cm</mtext></math>. Quelle est la distance réelle entre ces deux villages\u00a0?",
+    "right": "<math><mn>1</mn><mtext> km</mtext></math>",
+    "wrong": [
+      "<math><mn>100</mn><mtext> m</mtext></math>",
+      "<math><mn>10</mn><mtext> km</mtext></math>",
+      "<math><mn>6,25</mn><mtext> km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0039",
+    "question": "Un train roule à la vitesse constante de <math><mn>180</mn><mtext> km/h</mtext></math>. Quelle distance parcourt-il en <math><mn>20</mn></math> minutes\u00a0?",
+    "right": "<math><mn>60</mn><mtext> km</mtext></math>",
+    "wrong": [
+      "<math><mn>9</mn><mtext> km</mtext></math>",
+      "<math><mn>36</mn><mtext> km</mtext></math>",
+      "<math><mn>90</mn><mtext> km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0040",
+    "question": "On écrit <math><mi>g</mi><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mo>=</mo><mn>15</mn></math>. Quelle affirmation est exacte\u00a0?",
+    "right": "<math><mn>15</mn></math> est l'image de <math><mn>3</mn></math> par la fonction <math><mi>g</mi></math>",
+    "wrong": [
+      "<math><mn>3</mn></math> est l'image de <math><mn>15</mn></math> par la fonction <math><mi>g</mi></math>",
+      "<math><mn>15</mn></math> est un antécédent de <math><mn>3</mn></math> par la fonction <math><mi>g</mi></math>",
+      "<math><mi>g</mi></math> est la variable et <math><mn>3</mn></math> est la fonction"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0041",
+    "question": "Soit la fonction <math><mi>f</mi></math> définie par <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>7</mn></math>. Quelle est l'image de <math><mo>-</mo><mn>2</mn></math> par <math><mi>f</mi></math>\u00a0?",
+    "right": "<math><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>19</mn></math>",
+      "<math><mn>29</mn></math>",
+      "<math><mo>-</mo><mn>1</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0042",
+    "question": "Soit la fonction <math><mi>h</mi><mo>:</mo><mi>x</mi><mo>↦</mo><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>9</mn></math>. Quelle est l'image de <math><mn>5</mn></math> par <math><mi>h</mi></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>11</mn></math>",
+    "wrong": [
+      "<math><mn>29</mn></math>",
+      "<math><mn>1</mn></math>",
+      "<math><mo>-</mo><mn>29</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0043",
+    "question": "Soit la fonction <math><mi>f</mi></math> définie par <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>4</mn></math>. Quel est l'antécédent de <math><mn>10</mn></math> par <math><mi>f</mi></math>\u00a0?",
+    "right": "<math><mo>-</mo><mfrac><mn>14</mn><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>34</mn></math>",
+      "<math><mo>-</mo><mn>2</mn></math>",
+      "<math><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0044",
+    "question": "Quels sont les antécédents de <math><mn>0</mn></math> par la fonction <math><mi>g</mi></math> définie par <math><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>9</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>2</mn></math> et <math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn></math> et <math><mo>-</mo><mn>9</mn></math>",
+      "<math><mo>-</mo><mn>54</mn></math>",
+      "<math><mo>-</mo><mn>6</mn></math> et <math><mn>9</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0045",
+    "question": "Vrai ou faux\u00a0? Un nombre peut avoir plusieurs antécédents par une fonction, mais il a au plus une seule image.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0046",
+    "question": "Sur la courbe représentative d'une fonction <math><mi>f</mi></math>, où lit-on l'image d'un nombre <math><mi>x</mi></math>\u00a0?",
+    "right": "Sur l'axe des ordonnées (vertical)",
+    "wrong": [
+      "Sur l'axe des abscisses (horizontal)",
+      "Uniquement à l'origine du repère",
+      "À l'intersection avec l'axe des abscisses"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0047",
+    "question": "Le point <math><mi>A</mi><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>\u00a0;</mo><mn>7</mn><mo>)</mo></mrow></math> appartient à la courbe représentative de la fonction <math><mi>f</mi></math>. Quelle égalité cela traduit-il\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mn>7</mn></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mn>7</mn><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>2</mn></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>7</mn></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mn>7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0048",
+    "question": "Quelle est la forme générale d'une fonction linéaire\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>a</mi><mi>x</mi></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> avec <math><mi>b</mi><mo>≠</mo><mn>0</mn></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0049",
+    "question": "Parmi ces fonctions, laquelle est une fonction linéaire\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></math>",
+    "wrong": [
+      "<math><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+      "<math><mi>h</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+      "<math><mi>k</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0050",
+    "question": "Quelle est la représentation graphique d'une fonction linéaire dans un repère\u00a0?",
+    "right": "Une droite passant par l'origine du repère",
+    "wrong": [
+      "Une droite ne passant pas par l'origine",
+      "Une parabole passant par l'origine",
+      "Une droite horizontale"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0051",
+    "question": "Soit <math><mi>f</mi></math> une fonction linéaire telle que <math><mi>f</mi><mrow><mo>(</mo><mn>4</mn><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>12</mn></math>. Quelle est l'expression de <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>3</mn><mi>x</mi></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>x</mi><mo>-</mo><mn>16</mn></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>3</mn><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0052",
+    "question": "Dans l'expression de la fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>5</mn><mi>x</mi><mo>-</mo><mn>1</mn></math>, que représente le nombre <math><mo>-</mo><mn>1</mn></math>\u00a0?",
+    "right": "L'ordonnée à l'origine",
+    "wrong": [
+      "Le coefficient directeur",
+      "L'antécédent de <math><mn>0</mn></math>",
+      "La variable"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0053",
+    "question": "Dans l'expression de la fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn></math>, quel est le coefficient directeur de la droite représentative\u00a0?",
+    "right": "<math><mo>-</mo><mn>2</mn></math>",
+    "wrong": [
+      "<math><mn>7</mn></math>",
+      "<math><mn>2</mn></math>",
+      "<math><mfrac><mn>7</mn><mn>2</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0054",
+    "question": "Par quel point passe nécessairement la droite représentant la fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>3</mn></math>\u00a0?",
+    "right": "<math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mo>-</mo><mn>3</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mrow><mo>(</mo><mo>-</mo><mn>3</mn><mo>\u00a0;</mo><mn>0</mn><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mn>4</mn><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mn>0</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0055",
+    "question": "La droite représentant une fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> «\u00a0descend\u00a0» de gauche à droite et coupe l'axe des ordonnées au-dessus de l'origine. Que peut-on dire des signes de <math><mi>a</mi></math> et <math><mi>b</mi></math>\u00a0?",
+    "right": "<math><mi>a</mi><mo>&lt;</mo><mn>0</mn></math> et <math><mi>b</mi><mo>&gt;</mo><mn>0</mn></math>",
+    "wrong": [
+      "<math><mi>a</mi><mo>&gt;</mo><mn>0</mn></math> et <math><mi>b</mi><mo>&lt;</mo><mn>0</mn></math>",
+      "<math><mi>a</mi><mo>&lt;</mo><mn>0</mn></math> et <math><mi>b</mi><mo>&lt;</mo><mn>0</mn></math>",
+      "<math><mi>a</mi><mo>&gt;</mo><mn>0</mn></math> et <math><mi>b</mi><mo>&gt;</mo><mn>0</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0056",
+    "question": "Vrai ou faux\u00a0? Toute fonction linéaire est un cas particulier de fonction affine.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0057",
+    "question": "Quelle est la représentation graphique de la fonction constante <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>6</mn></math>\u00a0?",
+    "right": "Une droite parallèle à l'axe des abscisses passant par <math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mn>6</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "Une droite parallèle à l'axe des ordonnées passant par <math><mrow><mo>(</mo><mn>6</mn><mo>\u00a0;</mo><mn>0</mn><mo>)</mo></mrow></math>",
+      "Une droite passant par l'origine et <math><mrow><mo>(</mo><mn>1</mn><mo>\u00a0;</mo><mn>6</mn><mo>)</mo></mrow></math>",
+      "Un point unique de coordonnées <math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mn>6</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0058",
+    "question": "Un mobile se déplace à la vitesse constante de <math><mn>5</mn><mtext> m/s</mtext></math>. Quelle fonction modélise la distance parcourue (en mètres) en fonction du temps <math><mi>x</mi></math> (en secondes)\u00a0?",
+    "right": "<math><mi>d</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>5</mn><mi>x</mi></math>",
+    "wrong": [
+      "<math><mi>d</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mn>5</mn><mi>x</mi></mfrac></math>",
+      "<math><mi>d</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>x</mi><mo>+</mo><mn>5</mn></math>",
+      "<math><mi>d</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mi>x</mi><mn>5</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0059",
+    "question": "Un abonnement téléphonique coûte <math><mn>12</mn><mtext> €</mtext></math> par mois plus <math><mn>0,10</mn><mtext> €</mtext></math> par minute de communication hors forfait. Quelle fonction modélise la facture mensuelle pour <math><mi>x</mi></math> minutes hors forfait\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>0,10</mn><mi>x</mi><mo>+</mo><mn>12</mn></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>12</mn><mi>x</mi><mo>+</mo><mn>0,10</mn></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>12,10</mn><mi>x</mi></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>0,10</mn><mi>x</mi><mo>-</mo><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0060",
+    "question": "Un rectangle a un périmètre égal à <math><mn>30</mn><mtext> cm</mtext></math> et un côté de longueur <math><mi>x</mi></math> (en cm). Quelle fonction donne l'aire de ce rectangle en fonction de <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>x</mi><mrow><mo>(</mo><mn>15</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>x</mi><mrow><mo>(</mo><mn>30</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow></math>",
+      "<math><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mrow><mo>(</mo><mn>15</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow></math>",
+      "<math><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>15</mn><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0061",
+    "question": "On considère le programme de calcul\u00a0: «\u00a0Choisir un nombre, le multiplier par <math><mn>4</mn></math>, puis soustraire <math><mn>7</mn></math>\u00a0». Quelle fonction associe le résultat au nombre choisi <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>7</mn></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>7</mn><mo>-</mo><mn>4</mn><mi>x</mi></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>3</mn><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0062",
+    "question": "La longueur d'un cercle en fonction de son rayon <math><mi>r</mi></math> est donnée par <math><mi>P</mi><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>π</mi><mi>r</mi></math>. S'agit-il d'une situation de proportionnalité\u00a0?",
+    "right": "Oui, modélisée par une fonction linéaire de coefficient <math><mn>2</mn><mi>π</mi></math>",
+    "wrong": [
+      "Non, car <math><mi>π</mi></math> n'est pas un nombre décimal",
+      "Oui, modélisée par une fonction affine non linéaire",
+      "Non, car le périmètre dépend du carré du rayon"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0063",
+    "question": "L'aire d'un disque en fonction de son rayon <math><mi>r</mi></math> est donnée par <math><mi>A</mi><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>. L'aire d'un disque est-elle proportionnelle à son rayon\u00a0?",
+    "right": "Non, car la fonction n'est pas linéaire (<math><mi>r</mi></math> est au carré)",
+    "wrong": [
+      "Oui, le coefficient de proportionnalité est <math><mi>π</mi></math>",
+      "Oui, car si on double le rayon, l'aire double aussi",
+      "Oui, c'est une fonction affine"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0064",
+    "question": "On enlève quatre carrés identiques de côté <math><mi>x</mi></math> aux quatre coins d'un rectangle de <math><mn>20</mn><mtext> cm</mtext></math> sur <math><mn>13</mn><mtext> cm</mtext></math>. Quelle fonction donne l'aire restante (en <math><msup><mtext>cm</mtext><mn>2</mn></msup></math>)\u00a0?",
+    "right": "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>260</mn><mo>-</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>260</mn><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>66</mn><mo>-</mo><mn>8</mn><mi>x</mi></math>",
+      "<math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>260</mn><mo>-</mo><mn>16</mn><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0065",
+    "question": "Soit <math><mi>f</mi></math> une fonction affine telle que <math><mi>f</mi><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mo>=</mo><mn>5</mn></math> et <math><mi>f</mi><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mo>=</mo><mn>11</mn></math>. Quel est son coefficient directeur <math><mi>a</mi></math>\u00a0?",
+    "right": "<math><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>2</mn></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0066",
+    "question": "À quelle abscisse la droite représentant la fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>8</mn></math> coupe-t-elle l'axe des abscisses\u00a0?",
+    "right": "<math><mi>x</mi><mo>=</mo><mn>4</mn></math>",
+    "wrong": [
+      "<math><mi>x</mi><mo>=</mo><mo>-</mo><mn>8</mn></math>",
+      "<math><mi>x</mi><mo>=</mo><mo>-</mo><mn>4</mn></math>",
+      "<math><mi>x</mi><mo>=</mo><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0067",
+    "question": "Un triangle est agrandi à l'échelle <math><mi>k</mi><mo>=</mo><mn>3</mn></math>. Par combien son aire est-elle multipliée\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>6</mn></math>",
+      "<math><mn>27</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0068",
+    "question": "On applique une réduction de rapport <math><mi>k</mi><mo>=</mo><mn>0,5</mn></math> à un cube. Par combien son volume est-il multiplié\u00a0?",
+    "right": "<math><mn>0,125</mn></math> (soit <math><mfrac><mn>1</mn><mn>8</mn></mfrac></math>)",
+    "wrong": [
+      "<math><mn>0,5</mn></math> (soit <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>)",
+      "<math><mn>0,25</mn></math> (soit <math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>)",
+      "<math><mn>1,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0069",
+    "question": "D'après la loi d'Ohm <math><mi>U</mi><mo>=</mo><mi>R</mi><mo>×</mo><mi>I</mi></math> pour une résistance fixe <math><mi>R</mi><mo>=</mo><mn>50</mn><mtext> Ω</mtext></math>, quelle est la tension <math><mi>U</mi></math> si l'intensité vaut <math><mi>I</mi><mo>=</mo><mn>0,2</mn><mtext> A</mtext></math>\u00a0?",
+    "right": "<math><mn>10</mn><mtext> V</mtext></math>",
+    "wrong": [
+      "<math><mn>250</mn><mtext> V</mtext></math>",
+      "<math><mn>100</mn><mtext> V</mtext></math>",
+      "<math><mn>0,004</mn><mtext> V</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-donnees-fonctions-0070",
+    "question": "Vrai ou faux\u00a0? Si une fonction linéaire vérifie <math><mi>f</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mn>5</mn></math> et <math><mi>f</mi><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mo>=</mo><mn>7,5</mn></math>, alors <math><mi>f</mi><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow><mo>=</mo><mn>12,5</mn></math>.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  }
+]
