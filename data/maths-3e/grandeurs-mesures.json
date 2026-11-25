@@ -1,0 +1,774 @@
+[
+  {
+    "id": "maths-3e-grandeurs-mesures-0001",
+    "question": "Quel est l'ordre de grandeur de la circonférence de la Terre\u00a0?",
+    "right": "Environ <math><mn>40\u00a0000</mn><mtext>\u00a0km</mtext></math>",
+    "wrong": [
+      "Environ <math><mn>4\u00a0000</mn><mtext>\u00a0km</mtext></math>",
+      "Environ <math><mn>400\u00a0000</mn><mtext>\u00a0km</mtext></math>",
+      "Environ <math><mn>12\u00a0700</mn><mtext>\u00a0km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0002",
+    "question": "Quelle est la correspondance exacte entre le litre et le décimètre cube\u00a0?",
+    "right": "<math><mn>1</mn><mtext>\u00a0L</mtext><mo>=</mo><mn>1</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>1</mn><mtext>\u00a0L</mtext><mo>=</mo><mn>1</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>1</mn><mtext>\u00a0L</mtext><mo>=</mo><mn>1</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>",
+      "<math><mn>1</mn><mtext>\u00a0L</mtext><mo>=</mo><mn>10</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0003",
+    "question": "Combien de litres d'eau correspondent à un volume de <math><mn>1</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>\u00a0?",
+    "right": "<math><mn>1\u00a0000</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>100</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>10</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>10\u00a0000</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0004",
+    "question": "Combien font <math><mn>2,5</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math> en décimètres cubes\u00a0?",
+    "right": "<math><mn>2\u00a0500</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>250</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>25\u00a0000</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>0,0025</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0005",
+    "question": "Combien font <math><mn>450</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math> en centilitres\u00a0?",
+    "right": "<math><mn>45</mn><mtext>\u00a0cL</mtext></math>",
+    "wrong": [
+      "<math><mn>450</mn><mtext>\u00a0cL</mtext></math>",
+      "<math><mn>4,5</mn><mtext>\u00a0cL</mtext></math>",
+      "<math><mn>4\u00a0500</mn><mtext>\u00a0cL</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0006",
+    "question": "Combien font <math><mn>1,8</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math> en décimètres carrés\u00a0?",
+    "right": "<math><mn>180</mn><msup><mtext>\u00a0dm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>18</mn><msup><mtext>\u00a0dm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>1\u00a0800</mn><msup><mtext>\u00a0dm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>0,18</mn><msup><mtext>\u00a0dm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0007",
+    "question": "Vrai ou faux\u00a0? <math><mn>3,4</mn><msup><mtext>\u00a0km</mtext><mn>2</mn></msup><mo>=</mo><mn>340</mn><msup><mtext>\u00a0hm</mtext><mn>2</mn></msup></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0008",
+    "question": "Quelle est l'aire d'un parallélogramme de base <math><mn>9</mn><mtext>\u00a0cm</mtext></math> et de hauteur relative <math><mn>4</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>36</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>18</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>26</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>13</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0009",
+    "question": "Quelle est l'aire d'un triangle de base <math><mn>10</mn><mtext>\u00a0cm</mtext></math> et de hauteur associée <math><mn>6</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>30</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>60</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>16</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>120</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0010",
+    "question": "Quelle formule donne le volume d'une boule de rayon <math><mi>R</mi></math>\u00a0?",
+    "right": "<math><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup></math>",
+      "<math><mi>V</mi><mo>=</mo><mn>4</mn><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup></math>",
+      "<math><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0011",
+    "question": "Quelle est la valeur exacte du volume d'une boule de rayon <math><mn>3</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>36</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>12</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>108</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>36</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0012",
+    "question": "Quelle formule donne le volume d'une pyramide ou d'un cône de révolution d'aire de base <math><mi>B</mi></math> et de hauteur <math><mi>h</mi></math>\u00a0?",
+    "right": "<math><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+    "wrong": [
+      "<math><mi>V</mi><mo>=</mo><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>×</mo><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>×</mo><mi>B</mi><mo>×</mo><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0013",
+    "question": "Quel est le volume d'une pyramide de base carrée de côté <math><mn>4</mn><mtext>\u00a0cm</mtext></math> et de hauteur <math><mn>9</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>48</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>144</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>36</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>108</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0014",
+    "question": "Quel est le volume exact d'un cylindre de révolution de rayon <math><mn>2</mn><mtext>\u00a0cm</mtext></math> et de hauteur <math><mn>5</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>20</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>10</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>40</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mfrac><mn>20</mn><mn>3</mn></mfrac><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0015",
+    "question": "Quel est le volume exact d'un cône de révolution de rayon <math><mn>3</mn><mtext>\u00a0cm</mtext></math> et de hauteur <math><mn>6</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>18</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>54</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>36</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>12</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0016",
+    "question": "Un prisme droit a une base d'aire <math><mn>15</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math> et une hauteur de <math><mn>8</mn><mtext>\u00a0cm</mtext></math>. Quel est son volume\u00a0?",
+    "right": "<math><mn>120</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>40</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>60</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>23</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0017",
+    "question": "Quel est le volume exact d'une demi-boule de rayon <math><mn>6</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>144</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>288</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>72</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>48</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0018",
+    "question": "Une boîte cylindrique de hauteur <math><mn>30</mn><mtext>\u00a0cm</mtext></math> et de rayon <math><mn>5</mn><mtext>\u00a0cm</mtext></math> a pour volume exact\u00a0:",
+    "right": "<math><mn>750</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>150</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>250</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>300</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0019",
+    "question": "Dans une boîte cylindrique de volume <math><mn>750</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>, on place <math><mn>3</mn></math> boules de rayon <math><mn>5</mn><mtext>\u00a0cm</mtext></math> (volume total des <math><mn>3</mn></math> boules\u00a0: <math><mn>500</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>). Quel est le volume exact restant dans la boîte\u00a0?",
+    "right": "<math><mn>250</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>1\u00a0250</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>500</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>150</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0020",
+    "question": "Vrai ou faux\u00a0? Le volume d'un cône est le tiers du volume d'un cylindre de même base et de même hauteur.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0021",
+    "question": "Laquelle de ces grandeurs est une grandeur quotient\u00a0?",
+    "right": "La vitesse moyenne (en <math><mtext>km/h</mtext></math> ou <math><mtext>m/s</mtext></math>)",
+    "wrong": [
+      "L'énergie électrique (en <math><mtext>kWh</mtext></math>)",
+      "L'aire d'un rectangle (en <math><msup><mtext>m</mtext><mn>2</mn></msup></math>)",
+      "Le volume d'un cube (en <math><msup><mtext>m</mtext><mn>3</mn></msup></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0022",
+    "question": "Laquelle de ces grandeurs est une grandeur produit\u00a0?",
+    "right": "L'énergie consommée (puissance <math><mo>×</mo></math> durée, en <math><mtext>kWh</mtext></math>)",
+    "wrong": [
+      "Le débit d'une rivière (en <math><msup><mtext>m</mtext><mn>3</mn></msup><mtext>/s</mtext></math>)",
+      "La masse volumique (en <math><msup><mtext>g/cm</mtext><mn>3</mn></msup></math>)",
+      "La vitesse moyenne (en <math><mtext>m/s</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0023",
+    "question": "À quelle vitesse en <math><mtext>m/s</mtext></math> correspond une vitesse de <math><mn>72</mn><mtext>\u00a0km/h</mtext></math>\u00a0?",
+    "right": "<math><mn>20</mn><mtext>\u00a0m/s</mtext></math>",
+    "wrong": [
+      "<math><mn>72</mn><mtext>\u00a0m/s</mtext></math>",
+      "<math><mn>259,2</mn><mtext>\u00a0m/s</mtext></math>",
+      "<math><mn>12</mn><mtext>\u00a0m/s</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0024",
+    "question": "À quelle vitesse en <math><mtext>km/h</mtext></math> correspond une vitesse de <math><mn>15</mn><mtext>\u00a0m/s</mtext></math>\u00a0?",
+    "right": "<math><mn>54</mn><mtext>\u00a0km/h</mtext></math>",
+    "wrong": [
+      "<math><mn>4,17</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>900</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>27</mn><mtext>\u00a0km/h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0025",
+    "question": "Un conducteur met <math><mn>1</mn><mtext>\u00a0s</mtext></math> pour réagir et roule à <math><mn>80</mn><mtext>\u00a0km/h</mtext></math>. Quelle distance parcourt-il pendant ce temps de réaction\u00a0?",
+    "right": "Environ <math><mn>22,2</mn><mtext>\u00a0m</mtext></math>",
+    "wrong": [
+      "Environ <math><mn>80</mn><mtext>\u00a0m</mtext></math>",
+      "Environ <math><mn>288</mn><mtext>\u00a0m</mtext></math>",
+      "Environ <math><mn>1,33</mn><mtext>\u00a0m</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0026",
+    "question": "Une voiture parcourt <math><mn>135</mn><mtext>\u00a0km</mtext></math> en <math><mn>1</mn><mtext>\u00a0h\u00a0</mtext><mn>30</mn><mtext>\u00a0min</mtext></math>. Quelle est sa vitesse moyenne\u00a0?",
+    "right": "<math><mn>90</mn><mtext>\u00a0km/h</mtext></math>",
+    "wrong": [
+      "<math><mn>103,8</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>202,5</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>75</mn><mtext>\u00a0km/h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0027",
+    "question": "Combien de temps met un cycliste roulant à <math><mn>24</mn><mtext>\u00a0km/h</mtext></math> pour parcourir <math><mn>18</mn><mtext>\u00a0km</mtext></math>\u00a0?",
+    "right": "<math><mn>45</mn><mtext>\u00a0min</mtext></math> (soit <math><mn>0,75</mn><mtext>\u00a0h</mtext></math>)",
+    "wrong": [
+      "<math><mn>1</mn><mtext>\u00a0h </mtext><mn>20</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>30</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>75</mn><mtext>\u00a0min</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0028",
+    "question": "Un robinet a un débit de <math><mn>12</mn><mtext>\u00a0L/min</mtext></math>. Quel volume d'eau s'écoule en <math><mn>5</mn><mtext>\u00a0min</mtext></math>\u00a0?",
+    "right": "<math><mn>60</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>2,4</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>720</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>17</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0029",
+    "question": "Le débit d'un cours d'eau est de <math><mn>300</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup><mtext>/s</mtext></math>. Quel volume d'eau s'écoule en <math><mn>3</mn><mtext>\u00a0min</mtext></math> (en mètres cubes)\u00a0?",
+    "right": "<math><mn>54\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>900</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>",
+      "<math><mn>10\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>",
+      "<math><mn>90\u00a0000\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0030",
+    "question": "Combien font <math><mn>2,5</mn><mtext>\u00a0heures</mtext></math> en heures et minutes\u00a0?",
+    "right": "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>30</mn><mtext>\u00a0min</mtext></math>",
+    "wrong": [
+      "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>50</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>05</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>15</mn><mtext>\u00a0min</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0031",
+    "question": "Un appareil électrique d'une puissance de <math><mn>2</mn><mtext>\u00a0kW</mtext></math> fonctionne pendant <math><mn>3</mn><mtext>\u00a0h</mtext></math>. Quelle énergie consomme-t-il\u00a0?",
+    "right": "<math><mn>6</mn><mtext>\u00a0kWh</mtext></math>",
+    "wrong": [
+      "<math><mn>0,67</mn><mtext>\u00a0kWh</mtext></math>",
+      "<math><mn>5</mn><mtext>\u00a0kWh</mtext></math>",
+      "<math><mn>1,5</mn><mtext>\u00a0kWh</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0032",
+    "question": "Un bloc de métal a une masse de <math><mn>270</mn><mtext>\u00a0g</mtext></math> et un volume de <math><mn>100</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>. Quelle est sa masse volumique\u00a0?",
+    "right": "<math><mn>2,7</mn><msup><mtext>\u00a0g/cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>27\u00a0000</mn><msup><mtext>\u00a0g/cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>0,37</mn><msup><mtext>\u00a0g/cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>370</mn><msup><mtext>\u00a0g/cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0033",
+    "question": "Vrai ou faux\u00a0? Une vitesse de <math><mn>36</mn><mtext>&nbsp;km/h</mtext></math> est égale à une vitesse de <math><mn>10</mn><mtext>&nbsp;m/s</mtext></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0034",
+    "question": "On applique une symétrie axiale à un triangle de périmètre <math><mn>18</mn><mtext>\u00a0cm</mtext></math> et d'aire <math><mn>12</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>. Quel est le périmètre du triangle image\u00a0?",
+    "right": "<math><mn>18</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>36</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>9</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0035",
+    "question": "Quelle propriété est conservée par une translation, une rotation ou une symétrie\u00a0?",
+    "right": "La conservation des longueurs, des alignements, des angles, des aires et des volumes",
+    "wrong": [
+      "La multiplication des longueurs par le rapport de transformation",
+      "La multiplication des aires par le carré du rapport",
+      "Uniquement la conservation des angles"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0036",
+    "question": "On agrandit une figure géométrique d'un facteur <math><mi>k</mi><mo>=</mo><mn>4</mn></math>. Par quel nombre sont multipliées les longueurs\u00a0?",
+    "right": "<math><mn>4</mn></math>",
+    "wrong": [
+      "<math><mn>16</mn></math>",
+      "<math><mn>64</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0037",
+    "question": "On agrandit une figure géométrique d'un facteur <math><mi>k</mi><mo>=</mo><mn>4</mn></math>. Par quel nombre sont multipliées les aires\u00a0?",
+    "right": "<math><mn>16</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>64</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0038",
+    "question": "On agrandit un solide d'un facteur <math><mi>k</mi><mo>=</mo><mn>4</mn></math>. Par quel nombre est multiplié le volume\u00a0?",
+    "right": "<math><mn>64</mn></math>",
+    "wrong": [
+      "<math><mn>16</mn></math>",
+      "<math><mn>4</mn></math>",
+      "<math><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0039",
+    "question": "On applique une réduction de rapport <math><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> à un cône de volume <math><mn>54</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>. Quel est le volume du cône réduit\u00a0?",
+    "right": "<math><mn>2</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>18</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>6</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>162</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0040",
+    "question": "Sur une carte routière à l'échelle <math><mfrac><mn>1</mn><mrow><mn>250</mn><mtext>\u00a0</mtext><mn>000</mn></mrow></mfrac></math>, deux villes sont distantes de <math><mn>12</mn><mtext>\u00a0cm</mtext></math>. Quelle est la distance réelle entre ces deux villes\u00a0?",
+    "right": "<math><mn>30</mn><mtext>\u00a0km</mtext></math>",
+    "wrong": [
+      "<math><mn>3\u00a0000</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>300</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>3</mn><mtext>\u00a0km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0041",
+    "question": "Vrai ou faux\u00a0? Lors d'un agrandissement de rapport <math><mi>k</mi><mo>=</mo><mn>2,5</mn></math>, la mesure d'un angle de <math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math> devient <math><mn>150</mn><mtext>\u00a0</mtext><mo>°</mo></math>.",
+    "right": "Faux",
+    "wrong": ["Vrai"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0042",
+    "question": "Une maquette de bâtiment est construite à l'échelle <math><mfrac><mn>1</mn><mn>200</mn></mfrac></math>. Une façade mesure <math><mn>14</mn><mtext>\u00a0cm</mtext></math> sur la maquette. Quelle est sa hauteur réelle\u00a0?",
+    "right": "<math><mn>28</mn><mtext>\u00a0m</mtext></math>",
+    "wrong": [
+      "<math><mn>2\u00a0800</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>7</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>2,8</mn><mtext>\u00a0m</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0043",
+    "question": "Sur une maquette à l'échelle <math><mfrac><mn>1</mn><mn>200</mn></mfrac></math>, une pièce a une aire de <math><mn>12</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>. Quelle est son aire réelle en mètres carrés\u00a0?",
+    "right": "<math><mn>48</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>24</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+      "<math><mn>480\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+      "<math><mn>0,24</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0044",
+    "question": "Le côté d'un carré mesure <math><mn>6</mn><mtext>\u00a0cm</mtext></math>. On applique une homothétie de centre <math><mi>O</mi></math> et de rapport <math><mn>1,5</mn></math>. Quelle est la longueur du côté du carré image\u00a0?",
+    "right": "<math><mn>9</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>4</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>13,5</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>7,5</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0045",
+    "question": "Combien font <math><mn>0,075</mn><mtext>\u00a0km</mtext></math> en mètres\u00a0?",
+    "right": "<math><mn>75</mn><mtext>\u00a0m</mtext></math>",
+    "wrong": [
+      "<math><mn>750</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>7,5</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>7\u00a0500</mn><mtext>\u00a0m</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0046",
+    "question": "Combien font <math><mn>650</mn><mtext>\u00a0mL</mtext></math> en décimètres cubes\u00a0?",
+    "right": "<math><mn>0,65</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>650</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>6,5</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>0,065</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0047",
+    "question": "Combien font <math><mn>4,5</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math> en centimètres carrés\u00a0?",
+    "right": "<math><mn>45\u00a0000</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>450</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>4\u00a0500</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>450\u00a0000</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0048",
+    "question": "Combien font <math><mn>2,4</mn><mtext>\u00a0h</mtext></math> en heures et minutes\u00a0?",
+    "right": "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>24</mn><mtext>\u00a0min</mtext></math>",
+    "wrong": [
+      "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>40</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>04</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>14</mn><mtext>\u00a0min</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0049",
+    "question": "Combien font <math><mn>350</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math> en litres\u00a0?",
+    "right": "<math><mn>0,35</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>3,5</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>35</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>0,035</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0050",
+    "question": "Combien font <math><mn>1,8</mn><mtext>\u00a0t</mtext></math> en kilogrammes\u00a0?",
+    "right": "<math><mn>1\u00a0800</mn><mtext>\u00a0kg</mtext></math>",
+    "wrong": [
+      "<math><mn>180</mn><mtext>\u00a0kg</mtext></math>",
+      "<math><mn>18\u00a0000</mn><mtext>\u00a0kg</mtext></math>",
+      "<math><mn>18</mn><mtext>\u00a0kg</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0051",
+    "question": "Combien font <math><mn>0,04</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math> en litres\u00a0?",
+    "right": "<math><mn>40</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>4</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>400</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>0,4</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0052",
+    "question": "Combien font <math><mn>250</mn><msup><mtext>\u00a0mm</mtext><mn>2</mn></msup></math> en centimètres carrés\u00a0?",
+    "right": "<math><mn>2,5</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>25</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>0,25</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>2\u00a0500</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0053",
+    "question": "Combien font <math><mn>1</mn><mtext>\u00a0h\u00a0</mtext><mn>45</mn><mtext>\u00a0min</mtext></math> en heures décimales\u00a0?",
+    "right": "<math><mn>1,75</mn><mtext>\u00a0h</mtext></math>",
+    "wrong": [
+      "<math><mn>1,45</mn><mtext>\u00a0h</mtext></math>",
+      "<math><mn>1,25</mn><mtext>\u00a0h</mtext></math>",
+      "<math><mn>1,5</mn><mtext>\u00a0h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0054",
+    "question": "Combien font <math><mn>3,2</mn><mtext>\u00a0ha</mtext></math> en mètres carrés\u00a0?",
+    "right": "<math><mn>32\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>3\u00a0200</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+      "<math><mn>320</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>",
+      "<math><mn>320\u00a0000</mn><msup><mtext>\u00a0m</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0055",
+    "question": "Combien font <math><mn>450</mn><mtext>\u00a0mg</mtext></math> en grammes\u00a0?",
+    "right": "<math><mn>0,45</mn><mtext>\u00a0g</mtext></math>",
+    "wrong": [
+      "<math><mn>4,5</mn><mtext>\u00a0g</mtext></math>",
+      "<math><mn>45</mn><mtext>\u00a0g</mtext></math>",
+      "<math><mn>0,045</mn><mtext>\u00a0g</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0056",
+    "question": "Combien font <math><mn>1,5</mn><msup><mtext>\u00a0dm</mtext><mn>3</mn></msup></math> en centimètres cubes\u00a0?",
+    "right": "<math><mn>1\u00a0500</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>150</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>15</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>15\u00a0000</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0057",
+    "question": "Quel est le périmètre exact d'un cercle de diamètre <math><mn>10</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>10</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>20</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>25</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>100</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0058",
+    "question": "Quelle est l'aire exacte d'un disque de rayon <math><mn>7</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>49</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>14</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>28</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>49</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0059",
+    "question": "Un parallélépipède rectangle a pour dimensions <math><mn>5</mn><mtext>\u00a0cm</mtext></math>, <math><mn>4</mn><mtext>\u00a0cm</mtext></math> et <math><mn>3</mn><mtext>\u00a0cm</mtext></math>. Quel est son volume\u00a0?",
+    "right": "<math><mn>60</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>12</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>47</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>94</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0060",
+    "question": "Quel est le volume exact d'un cylindre de diamètre <math><mn>6</mn><mtext>\u00a0cm</mtext></math> et de hauteur <math><mn>10</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>90</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>360</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>60</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>30</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0061",
+    "question": "Un solide est formé d'un cylindre de volume <math><mn>120</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math> surmonté d'une demi-boule de volume <math><mn>18</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>. Quel est le volume total du solide\u00a0?",
+    "right": "<math><mn>138</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>102</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>156</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>138</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0062",
+    "question": "Vrai ou faux\u00a0? Si on double le rayon d'une boule, son volume est multiplié par <math><mn>8</mn></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0063",
+    "question": "Un réservoir de forme cubique a une arête de <math><mn>2</mn><mtext>\u00a0m</mtext></math>. Quelle contenance maximale en litres peut-il contenir\u00a0?",
+    "right": "<math><mn>8\u00a0000</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>8</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>6\u00a0000</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>12\u00a0000</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0064",
+    "question": "Combien font <math><mn>42</mn><mtext>\u00a0minutes</mtext></math> en fraction d'heure irréductible\u00a0?",
+    "right": "<math><mfrac><mn>7</mn><mn>10</mn></mfrac><mtext>\u00a0h</mtext></math>",
+    "wrong": [
+      "<math><mfrac><mn>42</mn><mn>100</mn></mfrac><mtext>\u00a0h</mtext></math>",
+      "<math><mfrac><mn>10</mn><mn>7</mn></mfrac><mtext>\u00a0h</mtext></math>",
+      "<math><mfrac><mn>3</mn><mn>5</mn></mfrac><mtext>\u00a0h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0065",
+    "question": "Une course à pied de <math><mn>10</mn><mtext>\u00a0km</mtext></math> est effectuée en <math><mn>50</mn><mtext>\u00a0minutes</mtext></math>. Quelle est la vitesse moyenne en <math><mtext>km/h</mtext></math>\u00a0?",
+    "right": "<math><mn>12</mn><mtext>\u00a0km/h</mtext></math>",
+    "wrong": [
+      "<math><mn>5</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>20</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>8,33</mn><mtext>\u00a0km/h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0066",
+    "question": "Un bassin a un volume de <math><mn>36</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>. Une pompe le remplit au débit de <math><mn>6</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup><mtext>/h</mtext></math>. En combien d'heures le bassin est-il rempli\u00a0?",
+    "right": "<math><mn>6</mn><mtext>\u00a0h</mtext></math>",
+    "wrong": [
+      "<math><mn>216</mn><mtext>\u00a0h</mtext></math>",
+      "<math><mn>30</mn><mtext>\u00a0h</mtext></math>",
+      "<math><mn>0,17</mn><mtext>\u00a0h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0067",
+    "question": "Combien de secondes y a-t-il dans <math><mn>2</mn><mtext>\u00a0h\u00a0</mtext><mn>15</mn><mtext>\u00a0min</mtext></math>\u00a0?",
+    "right": "<math><mn>8\u00a0100</mn><mtext>\u00a0s</mtext></math>",
+    "wrong": [
+      "<math><mn>7\u00a0215</mn><mtext>\u00a0s</mtext></math>",
+      "<math><mn>7\u00a0650</mn><mtext>\u00a0s</mtext></math>",
+      "<math><mn>135</mn><mtext>\u00a0s</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0068",
+    "question": "On réduit un rectangle de longueur <math><mn>12</mn><mtext>\u00a0cm</mtext></math> et de largeur <math><mn>8</mn><mtext>\u00a0cm</mtext></math> avec un rapport <math><mi>k</mi><mo>=</mo><mn>0,25</mn></math>. Quelle est la largeur du rectangle réduit\u00a0?",
+    "right": "<math><mn>2</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>3</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>0,5</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>4</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0069",
+    "question": "Un rectangle a une aire initiale de <math><mn>64</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>. On lui applique une réduction de rapport <math><mi>k</mi><mo>=</mo><mn>0,25</mn></math>. Quelle est l'aire du rectangle obtenu\u00a0?",
+    "right": "<math><mn>4</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>24</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>1,5</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>48</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>"
+    ]
+},
+  {
+    "id": "maths-3e-grandeurs-mesures-0070",
+    "question": "Vrai ou faux\u00a0? Si une homothétie a un rapport <math><mi>k</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>, les longueurs sont multipliées par <math><mn>2</mn></math> (et non par <math><mo>-</mo><mn>2</mn></math>).",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0071",
+    "question": "Une pyramide a un volume de <math><mn>20</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>. On effectue un agrandissement de rapport <math><mi>k</mi><mo>=</mo><mn>3</mn></math>. Quel est le volume de la nouvelle pyramide\u00a0?",
+    "right": "<math><mn>540</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>60</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>180</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>120</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0072",
+    "question": "Un parallélogramme a une aire de <math><mn>28</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math> et une base de <math><mn>7</mn><mtext>\u00a0cm</mtext></math>. Quelle est la hauteur relative à cette base\u00a0?",
+    "right": "<math><mn>4</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>8</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>196</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>21</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0073",
+    "question": "Combien de centimètres cubes y a-t-il dans <math><mn>3,2</mn><mtext>\u00a0L</mtext></math>\u00a0?",
+    "right": "<math><mn>3\u00a0200</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>320</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>3,2</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>32\u00a0000</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0074",
+    "question": "Quelle est la valeur exacte du volume d'une boule de diamètre <math><mn>6</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>36</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>288</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>72</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>18</mn><mi>π</mi><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0075",
+    "question": "Un solide est composé d'un pavé droit de volume <math><mn>150</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math> surmonté d'une pyramide de volume <math><mn>30</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>. Quel est le volume total du solide\u00a0?",
+    "right": "<math><mn>180</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>120</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>4\u00a0500</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>",
+      "<math><mn>160</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0076",
+    "question": "Quelle est l'unité légale de longueur dans le Système international (SI)\u00a0?",
+    "right": "Le mètre (<math><mtext>m</mtext></math>)",
+    "wrong": [
+      "Le kilomètre (<math><mtext>km</mtext></math>)",
+      "Le centimètre (<math><mtext>cm</mtext></math>)",
+      "Le décimètre (<math><mtext>dm</mtext></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0077",
+    "question": "Un avion vole à la vitesse constante de <math><mn>840</mn><mtext>\u00a0km/h</mtext></math>. Quelle distance parcourt-il en <math><mn>45</mn><mtext>\u00a0minutes</mtext></math>\u00a0?",
+    "right": "<math><mn>630</mn><mtext>\u00a0km</mtext></math>",
+    "wrong": [
+      "<math><mn>1\u00a0120</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>37\u00a0800</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>420</mn><mtext>\u00a0km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0078",
+    "question": "On agrandit un carré de côté <math><mn>5</mn><mtext>\u00a0cm</mtext></math> pour obtenir un carré d'aire <math><mn>100</mn><msup><mtext>\u00a0cm</mtext><mn>2</mn></msup></math>. Quel est le rapport d'agrandissement <math><mi>k</mi></math>\u00a0?",
+    "right": "<math><mn>2</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>20</mn></math>",
+      "<math><mn>0,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0079",
+    "question": "Vrai ou faux\u00a0? <math><mn>1</mn><mtext>\u00a0mL</mtext><mo>=</mo><mn>1</mn><msup><mtext>\u00a0cm</mtext><mn>3</mn></msup></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-grandeurs-mesures-0080",
+    "question": "Un volume est égal à <math><mn>0,04</mn><msup><mtext>\u00a0m</mtext><mn>3</mn></msup></math>. Combien cela représente-t-il de litres\u00a0?",
+    "right": "<math><mn>40</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>400</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>4</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>0,04</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  }
+]
