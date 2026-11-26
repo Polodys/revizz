@@ -27,9 +27,9 @@ export const quizCatalog = [
         label: "Mathématiques - 3e",
         topics: [
             {
-                id: "maths-3e-general",
-                label: "Ensemble du programme",
-                file: dataFile("maths-3e/general.json")
+                id: "maths-3e-automatismes",
+                label: "Automatismes",
+                file: dataFile("maths-3e/automatismes.json")
             },
             {
                 id: "maths-3e-nombres-calculs",

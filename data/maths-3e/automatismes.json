@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "maths-3e-automatismes-0001",
+    "question": "Quel est le résultat de <math><mo>-</mo><mn>7</mn><mo>+</mo><mn>12</mn></math>\u00a0?",
+    "right": "<math><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>5</mn></math>",
+      "<math><mn>19</mn></math>",
+      "<math><mo>-</mo><mn>19</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0002",
+    "question": "Quel est le résultat de <math><mo>-</mo><mn>8</mn><mo>-</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>13</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>3</mn></math>",
+      "<math><mn>3</mn></math>",
+      "<math><mn>13</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0003",
+    "question": "Quel est le résultat de <math><mn>4</mn><mo>-</mo><mrow><mo>(</mo><mo>-</mo><mn>9</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>13</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>5</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mo>-</mo><mn>13</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0004",
+    "question": "Quel est le produit <math><mrow><mo>(</mo><mo>-</mo><mn>6</mn><mo>)</mo></mrow><mo>×</mo><mrow><mo>(</mo><mo>-</mo><mn>7</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>42</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>42</mn></math>",
+      "<math><mo>-</mo><mn>13</mn></math>",
+      "<math><mn>13</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0005",
+    "question": "Quel est le quotient <math><mfrac><mrow><mo>-</mo><mn>36</mn></mrow><mn>4</mn></mfrac></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>9</mn></math>",
+      "<math><mo>-</mo><mn>8</mn></math>",
+      "<math><mo>-</mo><mn>32</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0006",
+    "question": "Quel est le résultat de <math><mn>3</mn><mo>+</mo><mn>4</mn><mo>×</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mn>23</mn></math>",
+    "wrong": [
+      "<math><mn>35</mn></math>",
+      "<math><mn>19</mn></math>",
+      "<math><mn>60</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0007",
+    "question": "Quel est le résultat de <math><mn>20</mn><mo>-</mo><mn>12</mn><mo>÷</mo><mn>4</mn></math>\u00a0?",
+    "right": "<math><mn>17</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0008",
+    "question": "Quel est le résultat de <math><mn>2</mn><mo>×</mo><msup><mn>3</mn><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mn>18</mn></math>",
+    "wrong": [
+      "<math><mn>36</mn></math>",
+      "<math><mn>12</mn></math>",
+      "<math><mn>24</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0009",
+    "question": "À quoi est égal <math><msup><mrow><mo>(</mo><mo>-</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mn>25</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>25</mn></math>",
+      "<math><mo>-</mo><mn>10</mn></math>",
+      "<math><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0010",
+    "question": "À quoi est égal <math><mo>-</mo><msup><mn>4</mn><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>16</mn></math>",
+    "wrong": [
+      "<math><mn>16</mn></math>",
+      "<math><mo>-</mo><mn>8</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0011",
+    "question": "Quelle est la valeur de <math><msup><mn>10</mn><mn>4</mn></msup></math>\u00a0?",
+    "right": "<math><mn>10\u00a0000</mn></math>",
+    "wrong": [
+      "<math><mn>40</mn></math>",
+      "<math><mn>1\u00a0000</mn></math>",
+      "<math><mn>100\u00a0000</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0012",
+    "question": "Quelle est l'écriture décimale de <math><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>\u00a0?",
+    "right": "<math><mn>0,001</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>30</mn></math>",
+      "<math><mn>0,01</mn></math>",
+      "<math><mo>-</mo><mn>1\u00a0000</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0013",
+    "question": "Quelle est l'écriture simplifiée de <math><msup><mn>10</mn><mn>5</mn></msup><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>\u00a0?",
+    "right": "<math><msup><mn>10</mn><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mn>10</mn><mrow><mo>-</mo><mn>10</mn></mrow></msup></math>",
+      "<math><msup><mn>10</mn><mn>7</mn></msup></math>",
+      "<math><msup><mn>100</mn><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0014",
+    "question": "Quelle est l'écriture scientifique de <math><mn>45\u00a0000</mn></math>\u00a0?",
+    "right": "<math><mn>4,5</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></math>",
+    "wrong": [
+      "<math><mn>45</mn><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup></math>",
+      "<math><mn>0,45</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup></math>",
+      "<math><mn>4,5</mn><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0015",
+    "question": "Quelle est l'écriture scientifique de <math><mn>0,0072</mn></math>\u00a0?",
+    "right": "<math><mn>7,2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>",
+    "wrong": [
+      "<math><mn>72</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>",
+      "<math><mn>7,2</mn><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup></math>",
+      "<math><mn>7,2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0016",
+    "question": "Quel est le résultat de <math><mn>3,47</mn><mo>×</mo><mn>100</mn></math>\u00a0?",
+    "right": "<math><mn>347</mn></math>",
+    "wrong": [
+      "<math><mn>34,7</mn></math>",
+      "<math><mn>3\u00a0470</mn></math>",
+      "<math><mn>0,0347</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0017",
+    "question": "Quel est le résultat de <math><mn>58,2</mn><mo>÷</mo><mn>1\u00a0000</mn></math>\u00a0?",
+    "right": "<math><mn>0,0582</mn></math>",
+    "wrong": [
+      "<math><mn>0,582</mn></math>",
+      "<math><mn>58\u00a0200</mn></math>",
+      "<math><mn>0,00582</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0018",
+    "question": "Quel est le résultat de <math><mn>14</mn><mo>×</mo><mn>0,5</mn></math>\u00a0?",
+    "right": "<math><mn>7</mn></math>",
+    "wrong": [
+      "<math><mn>28</mn></math>",
+      "<math><mn>14,5</mn></math>",
+      "<math><mn>0,7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0019",
+    "question": "Quel est le résultat de <math><mn>18</mn><mo>÷</mo><mn>0,25</mn></math>\u00a0?",
+    "right": "<math><mn>72</mn></math>",
+    "wrong": [
+      "<math><mn>4,5</mn></math>",
+      "<math><mn>36</mn></math>",
+      "<math><mn>18,25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0020",
+    "question": "Quelle est la forme irréductible de la fraction <math><mfrac><mn>24</mn><mn>36</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>12</mn><mn>18</mn></mfrac></math>",
+      "<math><mfrac><mn>4</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>2</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0021",
+    "question": "Quel est le résultat de <math><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>10</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>25</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0022",
+    "question": "Quel est le résultat de <math><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>2</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0023",
+    "question": "Quel est le résultat de <math><mn>1</mn><mo>-</mo><mfrac><mn>3</mn><mn>7</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>4</mn><mn>7</mn></mfrac></math>",
+    "wrong": [
+      "<math><mo>-</mo><mfrac><mn>2</mn><mn>7</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>7</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0024",
+    "question": "Quel est le produit <math><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>×</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>15</mn><mn>8</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>8</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>6</mn><mn>20</mn></mfrac></math>",
+      "<math><mfrac><mn>15</mn><mn>6</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0025",
+    "question": "Quel est le quotient <math><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>÷</mo><mfrac><mn>5</mn><mn>7</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>14</mn><mn>15</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>10</mn><mn>21</mn></mfrac></math>",
+      "<math><mfrac><mn>15</mn><mn>14</mn></mfrac></math>",
+      "<math><mfrac><mn>7</mn><mn>10</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0026",
+    "question": "Combien font les <math><mfrac><mn>3</mn><mn>4</mn></mfrac></math> de <math><mn>60</mn></math>\u00a0?",
+    "right": "<math><mn>45</mn></math>",
+    "wrong": [
+      "<math><mn>80</mn></math>",
+      "<math><mn>15</mn></math>",
+      "<math><mn>20</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0027",
+    "question": "Quelle est la valeur de <math><msqrt><mn>81</mn></msqrt></math>\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>40,5</mn></math>",
+      "<math><mn>18</mn></math>",
+      "<math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0028",
+    "question": "Entre quels deux entiers consécutifs se situe <math><msqrt><mn>50</mn></msqrt></math>\u00a0?",
+    "right": "Entre <math><mn>7</mn></math> et <math><mn>8</mn></math>",
+    "wrong": [
+      "Entre <math><mn>6</mn></math> et <math><mn>7</mn></math>",
+      "Entre <math><mn>8</mn></math> et <math><mn>9</mn></math>",
+      "Entre <math><mn>24</mn></math> et <math><mn>25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0029",
+    "question": "Combien vaut <math><mn>25</mn><mtext>\u00a0%</mtext></math> de <math><mn>84</mn></math>\u00a0?",
+    "right": "<math><mn>21</mn></math>",
+    "wrong": [
+      "<math><mn>42</mn></math>",
+      "<math><mn>25</mn></math>",
+      "<math><mn>63</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0030",
+    "question": "Combien vaut <math><mn>10</mn><mtext>\u00a0%</mtext></math> de <math><mn>235</mn></math>\u00a0?",
+    "right": "<math><mn>23,5</mn></math>",
+    "wrong": [
+      "<math><mn>2,35</mn></math>",
+      "<math><mn>225</mn></math>",
+      "<math><mn>2\u00a0350</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0031",
+    "question": "Un article coûte <math><mn>50</mn><mtext>\u00a0€</mtext></math>. Son prix augmente de <math><mn>20</mn><mtext>\u00a0%</mtext></math>. Quel est son nouveau prix\u00a0?",
+    "right": "<math><mn>60</mn><mtext>\u00a0€</mtext></math>",
+    "wrong": [
+      "<math><mn>70</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>52</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>40</mn><mtext>\u00a0€</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0032",
+    "question": "Un article coûte <math><mn>80</mn><mtext>\u00a0€</mtext></math>. Il est soldé à <math><mo>-</mo><mn>30</mn><mtext>\u00a0%</mtext></math>. Quel est son prix soldé\u00a0?",
+    "right": "<math><mn>56</mn><mtext>\u00a0€</mtext></math>",
+    "wrong": [
+      "<math><mn>50</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>24</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>77</mn><mtext>\u00a0€</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0033",
+    "question": "Par quel coefficient multiplicateur traduit-on une hausse de <math><mn>15</mn><mtext>\u00a0%</mtext></math>\u00a0?",
+    "right": "<math><mn>1,15</mn></math>",
+    "wrong": [
+      "<math><mn>0,15</mn></math>",
+      "<math><mn>0,85</mn></math>",
+      "<math><mn>15</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0034",
+    "question": "Par quel coefficient multiplicateur traduit-on une baisse de <math><mn>8</mn><mtext>\u00a0%</mtext></math>\u00a0?",
+    "right": "<math><mn>0,92</mn></math>",
+    "wrong": [
+      "<math><mn>0,08</mn></math>",
+      "<math><mn>0,2</mn></math>",
+      "<math><mn>1,08</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0035",
+    "question": "Quelle proportion en pourcentage correspond à la fraction <math><mfrac><mn>3</mn><mn>5</mn></mfrac></math>\u00a0?",
+    "right": "<math><mn>60</mn><mtext>\u00a0%</mtext></math>",
+    "wrong": [
+      "<math><mn>35</mn><mtext>\u00a0%</mtext></math>",
+      "<math><mn>30</mn><mtext>\u00a0%</mtext></math>",
+      "<math><mn>75</mn><mtext>\u00a0%</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0036",
+    "question": "Dans un tableau de proportionnalité, <math><mn>3</mn><mtext>\u00a0kg</mtext></math> de pommes coûtent <math><mn>7,50</mn><mtext>\u00a0€</mtext></math>. Combien coûtent <math><mn>5</mn><mtext>\u00a0kg</mtext></math> de ces mêmes pommes\u00a0?",
+    "right": "<math><mn>12,50</mn><mtext>\u00a0€</mtext></math>",
+    "wrong": [
+      "<math><mn>9,50</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>15</mn><mtext>\u00a0€</mtext></math>",
+      "<math><mn>10,50</mn><mtext>\u00a0€</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0037",
+    "question": "Quelle est l'expression réduite de <math><mn>5</mn><mi>x</mi><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>2</mn></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mi>x</mi></math>",
+      "<math><mn>13</mn><mi>x</mi><mo>+</mo><mn>2</mn></math>",
+      "<math><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0038",
+    "question": "Quelle est l'expression réduite de <math><mn>3</mn><mi>x</mi><mo>×</mo><mn>4</mn><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>12</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>12</mn><mi>x</mi></math>",
+      "<math><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+      "<math><mn>7</mn><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0039",
+    "question": "Quelle est l'expression développée de <math><mn>4</mn><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>8</mn><mi>x</mi><mo>-</mo><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>8</mn><mi>x</mi><mo>-</mo><mn>3</mn></math>",
+      "<math><mn>6</mn><mi>x</mi><mo>-</mo><mn>7</mn></math>",
+      "<math><mn>8</mn><mi>x</mi><mo>+</mo><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0040",
+    "question": "Quelle est l'expression développée et réduite de <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></math>",
+    "wrong": [
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>25</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi><mo>-</mo><mn>25</mn></math>",
+      "<math><mn>2</mn><mi>x</mi><mo>-</mo><mn>25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0041",
+    "question": "Quelle est la forme factorisée de <math><mn>6</mn><mi>x</mi><mo>+</mo><mn>15</mn></math>\u00a0?",
+    "right": "<math><mn>3</mn><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mn>3</mn><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>15</mn><mo>)</mo></mrow></math>",
+      "<math><mn>21</mn><mi>x</mi></math>",
+      "<math><mn>6</mn><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0042",
+    "question": "Quelle est la forme factorisée de <math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>49</mn></math>\u00a0?",
+    "right": "<math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>49</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>49</mn><mo>)</mo></mrow></math>",
+      "<math><mi>x</mi><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>49</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0043",
+    "question": "Quelle est la valeur de <math><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math> pour <math><mi>x</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>\u00a0?",
+    "right": "<math><mn>15</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>1</mn></math>",
+      "<math><mn>3</mn></math>",
+      "<math><mn>23</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0044",
+    "question": "Quelle est la solution de l'équation <math><mn>3</mn><mi>x</mi><mo>-</mo><mn>7</mn><mo>=</mo><mn>11</mn></math>\u00a0?",
+    "right": "<math><mi>x</mi><mo>=</mo><mn>6</mn></math>",
+    "wrong": [
+      "<math><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math>",
+      "<math><mi>x</mi><mo>=</mo><mn>18</mn></math>",
+      "<math><mi>x</mi><mo>=</mo><mn>54</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0045",
+    "question": "Quelles sont les solutions de l'équation produit <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow><mo>=</mo><mn>0</mn></math>\u00a0?",
+    "right": "<math><mn>4</mn></math> et <math><mo>-</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>4</mn></math> et <math><mn>3</mn></math>",
+      "<math><mn>4</mn></math> et <math><mn>3</mn></math>",
+      "<math><mn>4</mn></math> et <math><mo>-</mo><mn>6</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0046",
+    "question": "Soit la fonction <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn></math>. Quelle est l'image de <math><mn>3</mn></math> par <math><mi>f</mi></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>7</mn></math>",
+    "wrong": [
+      "<math><mn>17</mn></math>",
+      "<math><mn>0,5</mn></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0047",
+    "question": "Soit la fonction linéaire <math><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>2,5</mn><mi>x</mi></math>. Quel est l'antécédent de <math><mn>15</mn></math> par <math><mi>g</mi></math>\u00a0?",
+    "right": "<math><mn>6</mn></math>",
+    "wrong": [
+      "<math><mn>37,5</mn></math>",
+      "<math><mn>12,5</mn></math>",
+      "<math><mn>17,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0048",
+    "question": "Quelle est la conversion de <math><mn>2,4</mn><mtext>\u00a0km</mtext></math> en mètres\u00a0?",
+    "right": "<math><mn>2\u00a0400</mn><mtext>\u00a0m</mtext></math>",
+    "wrong": [
+      "<math><mn>240</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>24\u00a0000</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>0,0024</mn><mtext>\u00a0m</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0049",
+    "question": "Quelle est la conversion de <math><mn>3,5</mn><mtext>\u00a0</mtext><msup><mtext>m</mtext><mn>2</mn></msup></math> en <math><msup><mtext>cm</mtext><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mn>35\u00a0000</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>350</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>3\u00a0500</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>350\u00a0000</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0050",
+    "question": "À combien de litres correspond un volume de <math><mn>1</mn><mtext>\u00a0</mtext><msup><mtext>m</mtext><mn>3</mn></msup></math>\u00a0?",
+    "right": "<math><mn>1\u00a0000</mn><mtext>\u00a0L</mtext></math>",
+    "wrong": [
+      "<math><mn>100</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>10</mn><mtext>\u00a0L</mtext></math>",
+      "<math><mn>1</mn><mtext>\u00a0L</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0051",
+    "question": "Quelle durée en heures et minutes correspond à <math><mn>2,25</mn><mtext>\u00a0h</mtext></math>\u00a0?",
+    "right": "<math><mn>2</mn><mtext>\u00a0h </mtext><mn>15</mn><mtext>\u00a0min</mtext></math>",
+    "wrong": [
+      "<math><mn>2</mn><mtext>\u00a0h </mtext><mn>25</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0h </mtext><mn>45</mn><mtext>\u00a0min</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0h </mtext><mn>12</mn><mtext>\u00a0min</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0052",
+    "question": "Un cycliste roule à la vitesse moyenne de <math><mn>24</mn><mtext>\u00a0km/h</mtext></math>. Quelle distance parcourt-il en <math><mn>45</mn><mtext>\u00a0min</mtext></math>\u00a0?",
+    "right": "<math><mn>18</mn><mtext>\u00a0km</mtext></math>",
+    "wrong": [
+      "<math><mn>32</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>16</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>10,8</mn><mtext>\u00a0km</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0053",
+    "question": "Quelle est l'aire d'un triangle de base <math><mn>8</mn><mtext>\u00a0cm</mtext></math> et de hauteur relative <math><mn>5</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>20</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>40</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>13</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>",
+      "<math><mn>26</mn><mtext>\u00a0</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0054",
+    "question": "Quelle est la valeur exacte du périmètre d'un cercle de rayon <math><mn>6</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><mn>12</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>36</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>6</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>24</mn><mi>π</mi><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0055",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>A</mi></math> tel que <math><mi>AB</mi><mo>=</mo><mn>3</mn><mtext>\u00a0cm</mtext></math> et <math><mi>AC</mi><mo>=</mo><mn>4</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur <math><mi>BC</mi></math>\u00a0?",
+    "right": "<math><mn>5</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>7</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>25</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><msqrt><mn>7</mn></msqrt><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0056",
+    "question": "Dans un triangle, deux angles mesurent <math><mn>65</mn><mtext>\u00a0</mtext><mo>°</mo></math> et <math><mn>45</mn><mtext>\u00a0</mtext><mo>°</mo></math>. Quelle est la mesure du troisième angle\u00a0?",
+    "right": "<math><mn>70</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>110</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>80</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>250</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0057",
+    "question": "Si l'on multiplie par <math><mn>3</mn></math> toutes les dimensions d'un rectangle, par combien son aire est-elle multipliée\u00a0?",
+    "right": "Par <math><mn>9</mn></math>",
+    "wrong": [
+      "Par <math><mn>3</mn></math>",
+      "Par <math><mn>6</mn></math>",
+      "Par <math><mn>27</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0058",
+    "question": "Quelle est la moyenne de la série de notes suivante\u00a0: <math><mn>8</mn><mo>\u00a0;</mo><mn>11</mn><mo>\u00a0;</mo><mn>14</mn><mo>\u00a0;</mo><mn>15</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>12,5</mn></math>",
+      "<math><mn>11</mn></math>",
+      "<math><mn>13</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0059",
+    "question": "Quelle est la médiane de la série ordonnée suivante\u00a0: <math><mn>4</mn><mo>\u00a0;</mo><mn>7</mn><mo>\u00a0;</mo><mn>9</mn><mo>\u00a0;</mo><mn>15</mn><mo>\u00a0;</mo><mn>21</mn></math>\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>11,2</mn></math>",
+      "<math><mn>17</mn></math>",
+      "<math><mn>7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0060",
+    "question": "Une urne contient <math><mn>3</mn></math> boules rouges et <math><mn>5</mn></math> boules bleues indiscernables au toucher. Quelle est la probabilité de tirer une boule rouge\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>8</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>5</mn><mn>8</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0061",
+    "question": "On lance un dé cubique équilibré à <math><mn>6</mn></math> faces numérotées de <math><mn>1</mn></math> à <math><mn>6</mn></math>. Quelle est la probabilité d'obtenir un nombre pair\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0062",
+    "question": "Dans une expérience aléatoire, la probabilité de gagner est égale à <math><mn>0,35</mn></math>. Quelle est la probabilité de ne pas gagner\u00a0?",
+    "right": "<math><mn>0,65</mn></math>",
+    "wrong": [
+      "<math><mn>0,35</mn></math>",
+      "<math><mn>1,35</mn></math>",
+      "<math><mn>0,15</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0063",
+    "question": "Vrai ou faux\u00a0? La probabilité d'un événement peut être égale à <math><mn>1,2</mn></math>.",
+    "right": "Faux",
+    "wrong": [
+      "Vrai"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0064",
+    "question": "Un sac contient <math><mn>4</mn></math> jetons verts, <math><mn>6</mn></math> jetons jaunes et <math><mn>10</mn></math> jetons bleus indiscernables au toucher. Quelle est la probabilité de tirer un jeton vert\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>4</mn><mn>16</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "<math><mfrac><mn>4</mn><mn>10</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0065",
+    "question": "On fait tourner une roue équilibrée divisée en <math><mn>8</mn></math> secteurs identiques dont <math><mn>3</mn></math> sont rouges. Quelle est la probabilité de ne pas obtenir un secteur rouge\u00a0?",
+    "right": "<math><mfrac><mn>5</mn><mn>8</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>8</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>5</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0066",
+    "question": "Quel est le résultat de l'identité remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0067",
+    "question": "Quel est le PGCD de <math><mn>24</mn></math> et de <math><mn>36</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0068",
+    "question": "Quelle est la racine carrée de <math><mn>144</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>14</mn></math>",
+      "<math><mn>11</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0069",
+    "question": "Quel est le théorème à utiliser pour calculer une longueur dans un triangle rectangle lorsque l'on connaît les deux autres\u00a0?",
+    "right": "Le théorème de Pythagore",
+    "wrong": [
+      "Le théorème de Thalès",
+      "La trigonométrie",
+      "La propriété des milieux"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0070",
+    "question": "Dans un triangle rectangle, que vaut le cosinus d'un angle aigu\u00a0?",
+    "right": "<math><mfrac><mtext>côté adjacent</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>côté adjacent</mtext></mfrac></math>",
+      "<math><mfrac><mtext>hypoténuse</mtext><mtext>côté adjacent</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0071",
+    "question": "Quel nombre premier vient immédiatement après <math><mn>7</mn></math>\u00a0?",
+    "right": "<math><mn>11</mn></math>",
+    "wrong": [
+      "<math><mn>9</mn></math>",
+      "<math><mn>13</mn></math>",
+      "<math><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0072",
+    "question": "Quel est le développement de <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></math>",
+    "wrong": [
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>9</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0073",
+    "question": "Comment appelle-t-on une fraction qui ne peut plus être simplifiée\u00a0?",
+    "right": "Une fraction irréductible",
+    "wrong": [
+      "Une fraction décimale",
+      "Une fraction primaire",
+      "Une fraction unitaire"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0074",
+    "question": "Quelle est la valeur de <math><msup><mn>2</mn><mn>3</mn></msup></math>\u00a0?",
+    "right": "<math><mn>8</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0075",
+    "question": "Quel est le volume d'une boule de rayon <math><mi>r</mi></math>\u00a0?",
+    "right": "<math><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><mn>4</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>",
+      "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0076",
+    "question": "Quelle est la solution de l'équation <math><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></math>\u00a0?",
+    "right": "<math><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>2</mn></math>",
+      "<math><mn>4</mn></math>",
+      "<math><mn>7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0077",
+    "question": "Quelle est l'écriture scientifique de <math><mn>450\u00a0000</mn></math>\u00a0?",
+    "right": "<math><mn>4,5</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup></math>",
+    "wrong": [
+      "<math><mn>45</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></math>",
+      "<math><mn>4,5</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></math>",
+      "<math><mn>0,45</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0078",
+    "question": "Que vaut <math><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math> sous forme décimale\u00a0?",
+    "right": "<math><mn>0,01</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>100</mn></math>",
+      "<math><mo>-</mo><mn>0,02</mn></math>",
+      "<math><mn>0,1</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0079",
+    "question": "Quel est le résultat de <math><mrow><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo></mrow><mo>×</mo><mrow><mo>(</mo><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>12</mn></math>",
+      "<math><mn>7</mn></math>",
+      "<math><mo>-</mo><mn>7</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0080",
+    "question": "Dans une configuration de Thalès, que permettent de comparer les rapports de longueurs\u00a0?",
+    "right": "Des droites parallèles",
+    "wrong": [
+      "Des angles droits",
+      "Des aires de triangles",
+      "Des périmètres"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0081",
+    "question": "Quelle est la formule de l'aire d'un disque de rayon <math><mi>r</mi></math>\u00a0?",
+    "right": "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>π</mi><mi>r</mi></math>",
+      "<math><mi>π</mi><mi>r</mi></math>",
+      "<math><mn>4</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0082",
+    "question": "Quel est le coefficient directeur de la fonction affine <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>5</mn></math>",
+      "<math><mn>3</mn></math>",
+      "<math><mo>-</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0083",
+    "question": "Quelle est l'ordonnée à l'origine de la fonction linéaire <math><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>0</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>1</mn></math>",
+      "<math><mi>x</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0084",
+    "question": "Si on effectue un agrandissement de rapport <math><mi>k</mi><mo>=</mo><mn>3</mn></math> sur une figure, par combien est multipliée son aire\u00a0?",
+    "right": "<math><mn>9</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>6</mn></math>",
+      "<math><mn>27</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0085",
+    "question": "Si on effectue une réduction de rapport <math><mi>k</mi><mo>=</mo><mn>2</mn></math> sur un solide, par combien est divisé son volume\u00a0?",
+    "right": "<math><mn>8</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>2</mn></math>",
+      "<math><mn>16</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0086",
+    "question": "Quel est le résultat de la factorisation de <math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></math>\u00a0?",
+    "right": "<math><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>",
+      "<math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0087",
+    "question": "Combien vaut <math><msup><mn>5</mn><mn>0</mn></msup></math> pour tout nombre non nul\u00a0?",
+    "right": "<math><mn>1</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>50</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0088",
+    "question": "Quel est le nombre de faces d'un tétraèdre régulier\u00a0?",
+    "right": "<math><mn>4</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0089",
+    "question": "Comment appelle-t-on une fonction de la forme <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>a</mi><mi>x</mi></math>\u00a0?",
+    "right": "Une fonction linéaire",
+    "wrong": [
+      "Une fonction affine",
+      "Une fonction constante",
+      "Une fonction carrée"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0090",
+    "question": "Quelle est la médiane d'une série statistique ordonnée <math><mn>2</mn><mo>\u00a0;</mo><mn>4</mn><mo>\u00a0;</mo><mn>6</mn><mo>\u00a0;</mo><mn>8</mn><mo>\u00a0;</mo><mn>10</mn></math>\u00a0?",
+    "right": "<math><mn>6</mn></math>",
+    "wrong": [
+      "<math><mn>5</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0091",
+    "question": "Quelle est l'étendue de la série statistique <math><mn>3</mn><mo>\u00a0;</mo><mn>7</mn><mo>\u00a0;</mo><mn>12</mn><mo>\u00a0;</mo><mn>19</mn><mo>\u00a0;</mo><mn>25</mn></math>\u00a0?",
+    "right": "<math><mn>22</mn></math>",
+    "wrong": [
+      "<math><mn>19</mn></math>",
+      "<math><mn>25</mn></math>",
+      "<math><mn>14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0092",
+    "question": "Que vaut le sinus d'un angle aigu dans un triangle rectangle\u00a0?",
+    "right": "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>côté adjacent</mtext></mfrac></math>",
+      "<math><mfrac><mtext>hypoténuse</mtext><mtext>côté opposé</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0093",
+    "question": "Quelle est la somme des mesures des trois angles d'un triangle dans le plan\u00a0?",
+    "right": "<math><mn>180</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>360</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>270</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0094",
+    "question": "Quel est le résultat de <math><msqrt><mn>50</mn></msqrt></math> écrit sous la forme <math><mi>a</mi><msqrt><mi>b</mi></msqrt></math> avec <math><mi>b</mi></math> entier le plus petit possible\u00a0?",
+    "right": "<math><mn>5</mn><msqrt><mn>2</mn></msqrt></math>",
+    "wrong": [
+      "<math><mn>2</mn><msqrt><mn>5</mn></msqrt></math>",
+      "<math><mn>25</mn><msqrt><mn>2</mn></msqrt></math>",
+      "<math><mn>10</mn><msqrt><mn>5</mn></msqrt></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0095",
+    "question": "Quelle est la forme développée et réduite de <math><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>",
+      "<math><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+      "<math><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0096",
+    "question": "Quel est le nombre de diviseurs positifs du nombre <math><mn>12</mn></math>\u00a0?",
+    "right": "<math><mn>6</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0097",
+    "question": "Quelle est la probabilité de tirer un roi dans un jeu classique de <math><mn>52</mn></math> cartes\u00a0?",
+    "right": "<math><mfrac><mn>4</mn><mn>52</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>52</mn></mfrac></math>",
+      "<math><mfrac><mn>13</mn><mn>52</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0098",
+    "question": "Quel est le volume d'un cône de révolution de rayon <math><mi>r</mi></math> et de hauteur <math><mi>h</mi></math>\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>",
+    "wrong": [
+      "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>",
+      "<math><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></math>",
+      "<math><mi>π</mi><mi>r</mi><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0099",
+    "question": "Si deux droites sont perpendiculaires à une même troisième droite, quelle est leur position relative\u00a0?",
+    "right": "Elles sont parallèles entre elles",
+    "wrong": [
+      "Elles sont sécantes",
+      "Elles sont confondues",
+      "Elles sont perpendiculaires entre elles"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0100",
+    "question": "Quel est le résultat de l'addition de fractions <math><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>2</mn><mn>9</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>9</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0101",
+    "question": "Que vaut la tangente d'un angle aigu dans un triangle rectangle\u00a0?",
+    "right": "<math><mfrac><mtext>côté opposé</mtext><mtext>côté adjacent</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>côté opposé</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>hypoténuse</mtext><mtext>côté adjacent</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0102",
+    "question": "Quel est le plus petit multiple commun (PPCM) de <math><mn>4</mn></math> et de <math><mn>6</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>24</mn></math>",
+      "<math><mn>2</mn></math>",
+      "<math><mn>18</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0103",
+    "question": "Quel est le résultat de l'opération <math><mn>3</mn><mo>+</mo><mn>4</mn><mo>×</mo><mn>2</mn></math>\u00a0?",
+    "right": "<math><mn>11</mn></math>",
+    "wrong": [
+      "<math><mn>14</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>24</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0104",
+    "question": "Comment appelle-t-on une transformation géométrique qui fait tourner une figure autour d'un point\u00a0?",
+    "right": "Une rotation",
+    "wrong": [
+      "Une translation",
+      "Une symétrie axiale",
+      "Une homothétie"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0105",
+    "question": "Quel est le nombre de sommets d'un cube\u00a0?",
+    "right": "<math><mn>8</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>12</mn></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0106",
+    "question": "Quelle est la valeur de <math><msqrt><mn>9</mn></msqrt><mo>+</mo><msqrt><mn>16</mn></msqrt></math>\u00a0?",
+    "right": "<math><mn>7</mn></math>",
+    "wrong": [
+      "<math><mn>5</mn></math>",
+      "<math><mn>25</mn></math>",
+      "<math><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0107",
+    "question": "Quel est l'opposé du nombre <math><mo>-</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "<math><mo>-</mo><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0108",
+    "question": "Quel est l'inverse du nombre <math><mn>4</mn></math>\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>4</mn></math>",
+      "<math><mo>-</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "<math><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0109",
+    "question": "Quelle est la moyenne de la série de notes\u00a0: <math><mn>10</mn><mo>\u00a0;</mo><mn>12</mn><mo>\u00a0;</mo><mn>14</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>11</mn></math>",
+      "<math><mn>13</mn></math>",
+      "<math><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0110",
+    "question": "Quelle est l'écriture simplifiée de <math><msup><mn>10</mn><mn>3</mn></msup><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mn>10</mn><mn>7</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mn>10</mn><mn>12</mn></msup></math>",
+      "<math><msup><mn>10</mn><mn>1</mn></msup></math>",
+      "<math><msup><mn>10</mn><mn>34</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0111",
+    "question": "Si on lance un dé équilibré à <math><mn>6</mn></math> faces, quelle est la probabilité d'obtenir un nombre pair\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0112",
+    "question": "Quel est le périmètre d'un cercle de rayon <math><mi>r</mi></math>\u00a0?",
+    "right": "<math><mn>2</mn><mi>π</mi><mi>r</mi></math>",
+    "wrong": [
+      "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+      "<math><mi>π</mi><mi>r</mi></math>",
+      "<math><mn>4</mn><mi>π</mi><mi>r</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0113",
+    "question": "Quelles sont les solutions de l'équation produit <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mo>=</mo><mn>0</mn></math>\u00a0?",
+    "right": "<math><mn>2</mn></math> et <math><mo>-</mo><mn>5</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>2</mn></math> et <math><mn>5</mn></math>",
+      "<math><mo>-</mo><mn>2</mn></math> et <math><mo>-</mo><mn>5</mn></math>",
+      "<math><mn>2</mn></math> et <math><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0114",
+    "question": "Quel est le résultat de l'identité remarquable <math><msup><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0115",
+    "question": "Quel est le résultat de l'identité remarquable <math><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0116",
+    "question": "Quel est le résultat de l'addition de fractions <math><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>2</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>4</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0117",
+    "question": "Quel est le produit <math><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>6</mn><mn>15</mn></mfrac></math>",
+      "<math><mfrac><mn>5</mn><mn>8</mn></mfrac></math>",
+      "<math><mfrac><mn>5</mn><mn>15</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0118",
+    "question": "Quel est le quotient <math><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>÷</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>8</mn></mfrac></math>",
+      "<math><mfrac><mn>4</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0119",
+    "question": "Quel est le quotient <math><mfrac><msup><mn>10</mn><mn>5</mn></msup><msup><mn>10</mn><mn>2</mn></msup></mfrac></math>\u00a0?",
+    "right": "<math><msup><mn>10</mn><mn>3</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mn>10</mn><mn>7</mn></msup></math>",
+      "<math><msup><mn>10</mn><mn>10</mn></msup></math>",
+      "<math><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0120",
+    "question": "Quelle est l'écriture scientifique de <math><mn>0,00037</mn></math>\u00a0?",
+    "right": "<math><mn>3,7</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>",
+    "wrong": [
+      "<math><mn>37</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></math>",
+      "<math><mn>3,7</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></math>",
+      "<math><mn>0,37</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0121",
+    "question": "Que vaut <math><msqrt><mn>9</mn><mo>×</mo><mn>16</mn></msqrt></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>7</mn></math>",
+      "<math><mn>144</mn></math>",
+      "<math><mn>25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0122",
+    "question": "Quel est le développement de <math><mn>3</mn><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>3</mn><mi>x</mi><mo>-</mo><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn><mi>x</mi><mo>-</mo><mn>4</mn></math>",
+      "<math><mn>3</mn><mi>x</mi><mo>+</mo><mn>12</mn></math>",
+      "<math><mi>x</mi><mo>-</mo><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0123",
+    "question": "Quel est l'opposé de <math><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>\u00a0?",
+    "right": "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+    "wrong": [
+      "<math><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+      "<math><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mrow><mo>-</mo><mn>3</mn></mrow></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0124",
+    "question": "Quelle est la solution de l'équation <math><mn>3</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>=</mo><mn>4</mn></math>\u00a0?",
+    "right": "<math><mn>3</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>3</mn></math>",
+      "<math><mn>1</mn></math>",
+      "<math><mn>9</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0125",
+    "question": "Quelle est la forme développée de <math><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>16</mn></math>",
+    "wrong": [
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>16</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0126",
+    "question": "Quelle est la factorisation de <math><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>5</mn><mi>x</mi><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mn>5</mn><mrow><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow></math>",
+      "<math><mn>5</mn><mi>x</mi><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>10</mn><mo>)</mo></mrow></math>",
+      "<math><mi>x</mi><mrow><mo>(</mo><mn>5</mn><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0127",
+    "question": "Quel est le développement de <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></math>",
+    "wrong": [
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>5</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0128",
+    "question": "Si <math><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>2</mn></math>, que vaut <math><mi>f</mi><mrow><mo>(</mo><mn>4</mn><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mn>10</mn></math>",
+    "wrong": [
+      "<math><mn>12</mn></math>",
+      "<math><mn>6</mn></math>",
+      "<math><mn>14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0129",
+    "question": "Quelles sont les solutions de l'équation produit <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow><mo>=</mo><mn>0</mn></math>\u00a0?",
+    "right": "<math><mn>3</mn></math> et <math><mo>-</mo><mn>4</mn></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>3</mn></math> et <math><mn>4</mn></math>",
+      "<math><mn>3</mn></math> et <math><mn>4</mn></math>",
+      "<math><mo>-</mo><mn>3</mn></math> et <math><mo>-</mo><mn>4</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0130",
+    "question": "Quel est le développement de <math><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn></math>",
+    "wrong": [
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>25</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn></math>",
+      "<math><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>25</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0131",
+    "question": "Quelle est la forme réduite de <math><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></math>\u00a0?",
+    "right": "<math><mn>2</mn><mi>x</mi><mo>+</mo><mn>8</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn><mi>x</mi><mo>+</mo><mn>8</mn></math>",
+      "<math><mn>10</mn><mi>x</mi></math>",
+      "<math><mn>2</mn><mi>x</mi><mo>-</mo><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0132",
+    "question": "Dans un triangle rectangle dont les côtés de l'angle droit mesurent <math><mn>3</mn><mtext>\u00a0cm</mtext></math> et <math><mn>4</mn><mtext>\u00a0cm</mtext></math>, que vaut l'hypoténuse\u00a0?",
+    "right": "<math><mn>5</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>7</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>25</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>6</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0133",
+    "question": "Que permet de démontrer la réciproque du théorème de Pythagore dans un triangle\u00a0?",
+    "right": "Qu'un triangle est rectangle",
+    "wrong": [
+      "Que des droites sont parallèles",
+      "Qu'un triangle est isocèle",
+      "Que des longueurs sont égales"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0134",
+    "question": "Si deux angles d'un triangle mesurent <math><mn>50</mn><mtext>\u00a0</mtext><mo>°</mo></math> et <math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math>, que mesure le troisième angle\u00a0?",
+    "right": "<math><mn>70</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>80</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0135",
+    "question": "Si on applique une homothétie de rapport <math><mi>k</mi><mo>=</mo><mn>4</mn></math> à une figure, par combien sont multipliées les aires\u00a0?",
+    "right": "<math><mn>16</mn></math>",
+    "wrong": [
+      "<math><mn>4</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>64</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0136",
+    "question": "Si on applique une réduction de rapport <math><mi>k</mi><mo>=</mo><mn>3</mn></math> à un solide, par combien est divisé son volume\u00a0?",
+    "right": "<math><mn>27</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>81</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0137",
+    "question": "Comment sont les diagonales d'un losange\u00a0?",
+    "right": "Perpendiculaires et de longueur différente",
+    "wrong": [
+      "Parallèles et de même longueur",
+      "Perpendiculaires et de même longueur",
+      "Égales et sécantes en leur milieu sans être perpendiculaires"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0138",
+    "question": "Quelle est la mesure d'un angle intérieur d'un hexagone régulier\u00a0?",
+    "right": "<math><mn>120</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>108</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>135</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0139",
+    "question": "Quel est le volume d'un cylindre de rayon <math><mi>r</mi></math> et de hauteur <math><mi>h</mi></math>\u00a0?",
+    "right": "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>π</mi><mi>r</mi><mi>h</mi></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></math>",
+      "<math><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0140",
+    "question": "Quel est le volume d'une pyramide de hauteur <math><mi>h</mi></math> et dont l'aire de la base est <math><mi>B</mi></math>\u00a0?",
+    "right": "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+    "wrong": [
+      "<math><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>B</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>B</mi><mo>×</mo><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0141",
+    "question": "À combien de <math><msup><mtext>cm</mtext><mn>2</mn></msup></math> correspond <math><mn>1</mn><mtext>\u00a0</mtext><msup><mtext>dm</mtext><mn>2</mn></msup></math>\u00a0?",
+    "right": "<math><mn>100</mn></math>",
+    "wrong": [
+      "<math><mn>10</mn></math>",
+      "<math><mn>1\u00a0000</mn></math>",
+      "<math><mn>10\u00a0000</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0142",
+    "question": "Combien de litres y a-t-il dans <math><mn>1</mn><mtext>\u00a0</mtext><msup><mtext>m</mtext><mn>3</mn></msup></math>\u00a0?",
+    "right": "<math><mn>1\u00a0000</mn></math>",
+    "wrong": [
+      "<math><mn>100</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>1\u00a0000\u00a0000</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0143",
+    "question": "Si un véhicule parcourt <math><mn>150</mn><mtext>\u00a0km</mtext></math> en <math><mn>2</mn><mtext>\u00a0heures</mtext></math>, quelle est sa vitesse moyenne\u00a0?",
+    "right": "<math><mn>75</mn><mtext>\u00a0km/h</mtext></math>",
+    "wrong": [
+      "<math><mn>150</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>300</mn><mtext>\u00a0km/h</mtext></math>",
+      "<math><mn>50</mn><mtext>\u00a0km/h</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0144",
+    "question": "Quelle est la nature de la section d'un pavé droit par un plan parallèle à une face\u00a0?",
+    "right": "Un rectangle identique à cette face",
+    "wrong": [
+      "Un cercle",
+      "Un triangle rectangle",
+      "Un losange"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0145",
+    "question": "Quelle est la nature de la section d'une sphère par un plan\u00a0?",
+    "right": "Un cercle",
+    "wrong": [
+      "Un carré",
+      "Une ellipse",
+      "Un rectangle"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0146",
+    "question": "Quelle est la longueur d'un demi-cercle de rayon <math><mi>r</mi></math>\u00a0?",
+    "right": "<math><mi>π</mi><mi>r</mi></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>π</mi><mi>r</mi></math>",
+      "<math><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0147",
+    "question": "Quelle est la formule de l'aire d'un triangle de base <math><mi>b</mi></math> et de hauteur <math><mi>h</mi></math>\u00a0?",
+    "right": "<math><mfrac><mrow><mi>b</mi><mo>×</mo><mi>h</mi></mrow><mn>2</mn></mfrac></math>",
+    "wrong": [
+      "<math><mi>b</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>b</mi><mo>×</mo><mi>h</mi></math>",
+      "<math><mn>2</mn><mi>b</mi><mo>×</mo><mi>h</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0148",
+    "question": "Que vaut la somme des angles d'un quadrilatère quelconque dans le plan\u00a0?",
+    "right": "<math><mn>360</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>180</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>540</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0149",
+    "question": "Quelle est la moyenne pondérée de la série\u00a0: <math><mn>10</mn></math> (coef <math><mn>2</mn></math>) et <math><mn>15</mn></math> (coef <math><mn>3</mn></math>)\u00a0?",
+    "right": "<math><mn>13</mn></math>",
+    "wrong": [
+      "<math><mn>12,5</mn></math>",
+      "<math><mn>12</mn></math>",
+      "<math><mn>14</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0150",
+    "question": "Si la probabilité d'un événement est <math><mn>0,3</mn></math>, quelle est la probabilité de son événement contraire\u00a0?",
+    "right": "<math><mn>0,7</mn></math>",
+    "wrong": [
+      "<math><mn>0,3</mn></math>",
+      "<math><mn>1</mn></math>",
+      "<math><mn>0,03</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0151",
+    "question": "Dans un sac contenant <math><mn>3</mn></math> boules rouges et <math><mn>2</mn></math> boules vertes, quelle est la probabilité de tirer une boule verte\u00a0?",
+    "right": "<math><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+      "<math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+      "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0152",
+    "question": "Dans une classe de <math><mn>25</mn></math> élèves, <math><mn>10</mn></math> élèves ont eu une note supérieure à <math><mn>15</mn></math>. Quelle est la fréquence de cette note\u00a0?",
+    "right": "<math><mn>0,4</mn></math>",
+    "wrong": [
+      "<math><mn>0,25</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>2,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0153",
+    "question": "Quelle est la médiane de la série statistique triée <math><mn>2</mn><mo>\u00a0;</mo><mn>4</mn><mo>\u00a0;</mo><mn>6</mn><mo>\u00a0;</mo><mn>8</mn><mo>\u00a0;</mo><mn>10</mn><mo>\u00a0;</mo><mn>12</mn></math>\u00a0?",
+    "right": "<math><mn>7</mn></math>",
+    "wrong": [
+      "<math><mn>6</mn></math>",
+      "<math><mn>8</mn></math>",
+      "<math><mn>6,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0154",
+    "question": "Quelle est l'étendue de la série de notes\u00a0: <math><mn>5</mn><mo>\u00a0;</mo><mn>12</mn><mo>\u00a0;</mo><mn>8</mn><mo>\u00a0;</mo><mn>17</mn><mo>\u00a0;</mo><mn>9</mn></math>\u00a0?",
+    "right": "<math><mn>12</mn></math>",
+    "wrong": [
+      "<math><mn>17</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>8</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0155",
+    "question": "Lors d'un tirage successif avec remise dans une urne, que vaut la somme des probabilités des branches issues d'un même nœud\u00a0?",
+    "right": "<math><mn>1</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>0,5</mn></math>",
+      "<math><mn>100</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0156",
+    "question": "Quelle est la décomposition en produit de facteurs premiers du nombre <math><mn>18</mn></math>\u00a0?",
+    "right": "<math><mn>2</mn><mo>×</mo><msup><mn>3</mn><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><msup><mn>2</mn><mn>2</mn></msup><mo>×</mo><mn>3</mn></math>",
+      "<math><mn>3</mn><mo>×</mo><mn>6</mn></math>",
+      "<math><msup><mn>2</mn><mn>3</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0157",
+    "question": "Un nombre entier est divisible par <math><mn>9</mn></math> si…\u00a0?",
+    "right": "La somme de ses chiffres est un multiple de <math><mn>9</mn></math>",
+    "wrong": [
+      "Son dernier chiffre est pair",
+      "Son dernier chiffre est <math><mn>0</mn></math> ou <math><mn>5</mn></math>",
+      "La somme de ses chiffres est un multiple de <math><mn>3</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-automatismes-0158",
+    "question": "Que signifie le fait que deux nombres entiers soient premiers entre eux\u00a0?",
+    "right": "Leur PGCD est égal à <math><mn>1</mn></math>",
+    "wrong": [
+      "Ce sont tous les deux des nombres premiers",
+      "Leur somme est un nombre premier",
+      "Leur produit est impair"
+    ]
+  }
+]
