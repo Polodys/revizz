@@ -1,0 +1,686 @@
+[
+  {
+    "id": "maths-3e-espace-geometrie-0001",
+    "question": "Sur un globe terrestre, quelle coordonnée indique la position au nord ou au sud de l'équateur\u00a0?",
+    "right": "La latitude",
+    "wrong": ["La longitude", "L'altitude", "L'abscisse"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0002",
+    "question": "Sur un globe terrestre, quelle coordonnée indique la position à l'est ou à l'ouest du méridien de Greenwich\u00a0?",
+    "right": "La longitude",
+    "wrong": ["La latitude", "L'ordonnée", "L'altitude"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0003",
+    "question": "Quel est le rayon d'un grand cercle tracé sur une sphère de rayon <math><mn>6\u00a0371</mn><mtext>\u00a0km</mtext></math>\u00a0?",
+    "right": "<math><mn>6\u00a0371</mn><mtext>\u00a0km</mtext></math>",
+    "wrong": [
+      "<math><mn>3\u00a0185,5</mn><mtext>\u00a0km</mtext></math>",
+      "<math><mn>12\u00a0742</mn><mtext>\u00a0km</mtext></math>",
+      "Il dépend de la latitude du parallèle"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0004",
+    "question": "Vrai ou faux\u00a0? Tous les parallèles (autre que l'équateur) sont de grands cercles de la sphère terrestre.",
+    "right": "Faux",
+    "wrong": ["Vrai"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0005",
+    "question": "Quelle est la nature de la section d'une sphère par un plan\u00a0?",
+    "right": "Un cercle (ou un point si le plan est tangent)",
+    "wrong": [
+      "Un rectangle",
+      "Une ellipse toujours allongée",
+      "Un disque d'aire constante"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0006",
+    "question": "Quelle est la nature de la section d'un cylindre de révolution par un plan parallèle à son axe\u00a0?",
+    "right": "Un rectangle",
+    "wrong": ["Un cercle", "Un triangle isocèle", "Un trapèze"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0007",
+    "question": "Quelle est la nature de la section d'un cylindre de révolution par un plan perpendiculaire à son axe\u00a0?",
+    "right": "Un disque de même rayon que la base",
+    "wrong": ["Un rectangle", "Un triangle", "Un carré"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0008",
+    "question": "Quelle est la nature de la section d'une pyramide par un plan parallèle à sa base\u00a0?",
+    "right": "Un polygone de même nature que la base (réduction de la base)",
+    "wrong": ["Toujours un triangle", "Toujours un rectangle", "Un cercle"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0009",
+    "question": "Quelle est la nature de la section d'un cône de révolution par un plan parallèle à sa base\u00a0?",
+    "right": "Un disque (réduction du disque de base)",
+    "wrong": ["Un triangle", "Un cylindre", "Un rectangle"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0010",
+    "question": "Quelle est la nature de la section d'un pavé droit par un plan parallèle à une face\u00a0?",
+    "right": "Un rectangle identique à cette face",
+    "wrong": ["Un triangle rectangle", "Un cercle", "Un losange"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0011",
+    "question": "Dans un repère de l'espace (pavé droit), combien faut-il de coordonnées pour repérer un point\u00a0?",
+    "right": "<math><mn>3</mn></math> coordonnées",
+    "wrong": [
+      "<math><mn>2</mn></math> coordonnées",
+      "<math><mn>1</mn></math> coordonnée",
+      "<math><mn>4</mn></math> coordonnées"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0012",
+    "question": "Vrai ou faux\u00a0? En perspective cavalière, deux arêtes parallèles et de même longueur dans la réalité sont représentées par deux segments parallèles et de même longueur.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0013",
+    "question": "Quelle est la somme des mesures des trois angles d'un triangle dans le plan\u00a0?",
+    "right": "<math><mn>180</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>360</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>270</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0014",
+    "question": "Dans un triangle <math><mi>ABC</mi></math>, <math><mover><mi>A</mi><mo>^</mo></mover><mo>=</mo><mn>52</mn><mtext>\u00a0</mtext><mo>°</mo></math> et <math><mover><mi>B</mi><mo>^</mo></mover><mo>=</mo><mn>73</mn><mtext>\u00a0</mtext><mo>°</mo></math>. Quelle est la mesure de l'angle <math><mover><mi>C</mi><mo>^</mo></mover></math>\u00a0?",
+    "right": "<math><mn>55</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>125</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>65</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>45</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0015",
+    "question": "Deux droites parallèles coupées par une sécante forment des angles alternes-internes\u00a0:",
+    "right": "De même mesure",
+    "wrong": [
+      "Complémentaires (somme égale à <math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>)",
+      "Toujours droits",
+      "Opposement supplémentaires sans égalité"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0016",
+    "question": "Vrai ou faux\u00a0? Si deux droites coupées par une sécante forment deux angles correspondants de même mesure, alors ces deux droites sont parallèles.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0017",
+    "question": "Quelle droite remarquable d'un triangle est perpendiculaire à un côté en son milieu\u00a0?",
+    "right": "La médiatrice de ce côté",
+    "wrong": [
+      "La hauteur issue du sommet opposé",
+      "La médiane",
+      "La bissectrice"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0018",
+    "question": "Quelle droite remarquable d'un triangle passe par un sommet et est perpendiculaire au côté opposé\u00a0?",
+    "right": "Une hauteur du triangle",
+    "wrong": ["La médiatrice du côté opposé", "Une diagonale", "Une sécante"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0019",
+    "question": "Parmi ces triplets de longueurs, lequel permet de construire un triangle\u00a0?",
+    "right": "<math><mn>4</mn><mtext>\u00a0cm</mtext></math>, <math><mn>6</mn><mtext>\u00a0cm</mtext></math> et <math><mn>9</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>3</mn><mtext>\u00a0cm</mtext></math>, <math><mn>4</mn><mtext>\u00a0cm</mtext></math> et <math><mn>8</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0cm</mtext></math>, <math><mn>5</mn><mtext>\u00a0cm</mtext></math> et <math><mn>7</mn><mtext>\u00a0cm</mtext></math> (points alignés)",
+      "<math><mn>1</mn><mtext>\u00a0cm</mtext></math>, <math><mn>2</mn><mtext>\u00a0cm</mtext></math> et <math><mn>10</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0020",
+    "question": "Comment appelle-t-on deux triangles qui ont des angles deux à deux de même mesure\u00a0?",
+    "right": "Des triangles semblables",
+    "wrong": [
+      "Des triangles symétriques",
+      "Des triangles isocèles",
+      "Des triangles équilatéraux"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0021",
+    "question": "Vrai ou faux\u00a0? Deux triangles semblables ont nécessairement des côtés de mêmes longueurs.",
+    "right": "Faux",
+    "wrong": ["Vrai"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0022",
+    "question": "Deux triangles semblables ont des longueurs de côtés proportionnelles. Si les côtés du petit triangle mesurent <math><mn>3</mn><mtext>\u00a0cm</mtext></math>, <math><mn>4</mn><mtext>\u00a0cm</mtext></math> et <math><mn>5</mn><mtext>\u00a0cm</mtext></math> et que le plus grand côté du second mesure <math><mn>15</mn><mtext>\u00a0cm</mtext></math>, quel est le coefficient d'agrandissement\u00a0?",
+    "right": "<math><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>10</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0023",
+    "question": "Quel quadrilatère a ses diagonales qui se coupent en leur milieu\u00a0?",
+    "right": "Un parallélogramme",
+    "wrong": [
+      "Un trapèze quelconque",
+      "Un cerf-volant quelconque",
+      "Tout quadrilatère convexe"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0024",
+    "question": "Dans la configuration de Thalès où <math><mrow><mo>(</mo><mi>MN</mi><mo>)</mo></mrow></math> et <math><mrow><mo>(</mo><mi>BC</mi><mo>)</mo></mrow></math> sont parallèles avec <math><mi>M</mi><mo>∈</mo><mrow><mo>[</mo><mi>AB</mi><mo>]</mo></mrow></math> et <math><mi>N</mi><mo>∈</mo><mrow><mo>[</mo><mi>AC</mi><mo>]</mo></mrow></math>, quelle égalité de quotients est vraie\u00a0?",
+    "right": "<math><mfrac><mi>AM</mi><mi>AB</mi></mfrac><mo>=</mo><mfrac><mi>AN</mi><mi>AC</mi></mfrac><mo>=</mo><mfrac><mi>MN</mi><mi>BC</mi></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mi>AB</mi><mi>AM</mi></mfrac><mo>=</mo><mfrac><mi>AN</mi><mi>AC</mi></mfrac><mo>=</mo><mfrac><mi>MN</mi><mi>BC</mi></mfrac></math>",
+      "<math><mfrac><mi>AM</mi><mi>MB</mi></mfrac><mo>=</mo><mfrac><mi>AN</mi><mi>NC</mi></mfrac><mo>=</mo><mfrac><mi>MN</mi><mi>BC</mi></mfrac></math>",
+      "<math><mfrac><mi>AM</mi><mi>AB</mi></mfrac><mo>=</mo><mfrac><mi>AC</mi><mi>AN</mi></mfrac><mo>=</mo><mfrac><mi>BC</mi><mi>MN</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0025",
+    "question": "Dans une configuration de Thalès, on a <math><mfrac><mi>OA</mi><mi>OB</mi></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math> et <math><mi>OA</mi><mo>=</mo><mn>6</mn><mtext>\u00a0cm</mtext></math>. Quelle est la longueur <math><mi>OB</mi></math>\u00a0?",
+    "right": "<math><mn>10</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>3,6</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>8</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>18</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0026",
+    "question": "À quoi sert la réciproque du théorème de Thalès\u00a0?",
+    "right": "À démontrer que deux droites sont parallèles",
+    "wrong": [
+      "À calculer la longueur d'une hypoténuse",
+      "À démontrer qu'un triangle est rectangle",
+      "À calculer l'aire d'un disque"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0027",
+    "question": "Vrai ou faux\u00a0? Dans une configuration «\u00a0papillon\u00a0», l'égalité <math><mfrac><mi>OA</mi><mi>OM</mi></mfrac><mo>=</mo><mfrac><mi>OB</mi><mi>ON</mi></mfrac></math> suffit toujours pour conclure au parallélisme sans vérifier l'ordre des points.",
+    "right": "Faux",
+    "wrong": ["Vrai"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0028",
+    "question": "Dans un triangle <math><mi>RST</mi></math> rectangle en <math><mi>S</mi></math>, quel est le côté le plus long\u00a0?",
+    "right": "L'hypoténuse <math><mrow><mo>[</mo><mi>RT</mi><mo>]</mo></mrow></math>",
+    "wrong": [
+      "Le côté <math><mrow><mo>[</mo><mi>RS</mi><mo>]</mo></mrow></math>",
+      "Le côté <math><mrow><mo>[</mo><mi>ST</mi><mo>]</mo></mrow></math>",
+      "Les trois côtés ont la même longueur"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0029",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>A</mi></math> avec <math><mi>AB</mi><mo>=</mo><mn>6</mn><mtext>\u00a0cm</mtext></math> et <math><mi>AC</mi><mo>=</mo><mn>8</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur <math><mi>BC</mi></math>\u00a0?",
+    "right": "<math><mn>10</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>14</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>100</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><msqrt><mn>28</mn></msqrt><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0030",
+    "question": "Dans un triangle <math><mi>DEF</mi></math> rectangle en <math><mi>E</mi></math> avec <math><mi>DF</mi><mo>=</mo><mn>13</mn><mtext>\u00a0cm</mtext></math> et <math><mi>EF</mi><mo>=</mo><mn>5</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur <math><mi>DE</mi></math>\u00a0?",
+    "right": "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>8</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><msqrt><mn>194</mn></msqrt><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>18</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0031",
+    "question": "Un triangle a pour côtés <math><mn>5</mn><mtext>\u00a0cm</mtext></math>, <math><mn>12</mn><mtext>\u00a0cm</mtext></math> et <math><mn>13</mn><mtext>\u00a0cm</mtext></math>. Quelle est sa nature\u00a0?",
+    "right": "Un triangle rectangle",
+    "wrong": [
+      "Un triangle équilatéral",
+      "Un triangle isocèle non rectangle",
+      "Ce triangle n'existe pas"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0032",
+    "question": "À quoi sert la réciproque du théorème de Pythagore\u00a0?",
+    "right": "À démontrer qu'un triangle est rectangle",
+    "wrong": [
+      "À démontrer que deux droites sont parallèles",
+      "À calculer la mesure d'un angle aigu",
+      "À calculer l'aire d'un triangle"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0033",
+    "question": "Vrai ou faux\u00a0? Dans un triangle <math><mi>ABC</mi></math> où <math><msup><mi>BC</mi><mn>2</mn></msup><mo>≠</mo><msup><mi>AB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>AC</mi><mn>2</mn></msup></math>, on utilise le théorème de Thalès pour conclure.",
+    "right": "Faux",
+    "wrong": ["Vrai"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0034",
+    "question": "Dans un triangle rectangle, quel quotient définit le cosinus d'un angle aigu\u00a0?",
+    "right": "<math><mfrac><mtext>côté adjacent</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>côté adjacent</mtext></mfrac></math>",
+      "<math><mfrac><mtext>hypoténuse</mtext><mtext>côté adjacent</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0035",
+    "question": "Dans un triangle rectangle, quel quotient définit le sinus d'un angle aigu\u00a0?",
+    "right": "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>côté opposé</mtext></mfrac></math>",
+      "<math><mfrac><mtext>hypoténuse</mtext><mtext>côté opposé</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0036",
+    "question": "Dans un triangle rectangle, quel quotient définit la tangente d'un angle aigu\u00a0?",
+    "right": "<math><mfrac><mtext>côté opposé</mtext><mtext>côté adjacent</mtext></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté opposé</mtext><mtext>hypoténuse</mtext></mfrac></math>",
+      "<math><mfrac><mtext>côté adjacent</mtext><mtext>côté opposé</mtext></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0037",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>A</mi></math>, à quoi est égal <math><mi>cos</mi><mrow><mo>(</mo><mover><mi>B</mi><mo>^</mo></mover><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mfrac><mi>AB</mi><mi>BC</mi></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mi>AC</mi><mi>BC</mi></mfrac></math>",
+      "<math><mfrac><mi>AC</mi><mi>AB</mi></mfrac></math>",
+      "<math><mfrac><mi>BC</mi><mi>AB</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0038",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>A</mi></math>, à quoi est égal <math><mi>tan</mi><mrow><mo>(</mo><mover><mi>C</mi><mo>^</mo></mover><mo>)</mo></mrow></math>\u00a0?",
+    "right": "<math><mfrac><mi>AB</mi><mi>AC</mi></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mi>AC</mi><mi>AB</mi></mfrac></math>",
+      "<math><mfrac><mi>AB</mi><mi>BC</mi></mfrac></math>",
+      "<math><mfrac><mi>AC</mi><mi>BC</mi></mfrac></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0039",
+    "question": "Pour un angle aigu <math><mi>α</mi></math> dans un triangle rectangle, entre quelles valeurs est compris <math><mi>sin</mi><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow></math>\u00a0?",
+    "right": "Entre <math><mn>0</mn></math> et <math><mn>1</mn></math>",
+    "wrong": [
+      "Entre <math><mo>-</mo><mn>1</mn></math> et <math><mn>1</mn></math>",
+      "Supérieur ou égal à <math><mn>1</mn></math>",
+      "Toujours inférieur à <math><mn>0</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0040",
+    "question": "Vrai ou faux\u00a0? La tangente d'un angle aigu peut être supérieure à <math><mn>1</mn></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0041",
+    "question": "Dans un triangle rectangle, on connaît le côté adjacent (<math><mn>5</mn><mtext>\u00a0cm</mtext></math>) à un angle de <math><mn>40</mn><mtext>\u00a0</mtext><mo>°</mo></math> et on cherche l'hypoténuse. Quelle ligne trigonométrique utilise-t-on\u00a0?",
+    "right": "Le cosinus",
+    "wrong": ["Le sinus", "La tangente", "Aucune, on utilise Thalès"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0042",
+    "question": "Dans un triangle rectangle, on connaît le côté opposé (<math><mn>7</mn><mtext>\u00a0cm</mtext></math>) à un angle de <math><mn>35</mn><mtext>\u00a0</mtext><mo>°</mo></math> et on cherche le côté adjacent. Quelle ligne trigonométrique utilise-t-on\u00a0?",
+    "right": "La tangente",
+    "wrong": ["Le cosinus", "Le sinus", "La réciproque de Pythagore"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0043",
+    "question": "Quelle transformation géométrique fait «\u00a0glisser\u00a0» une figure sans la faire tourner ni la retourner\u00a0?",
+    "right": "La translation",
+    "wrong": [
+      "La symétrie axiale",
+      "La rotation",
+      "L'homothétie de rapport négatif"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0044",
+    "question": "Quelle transformation géométrique est définie par un centre, un angle et un sens de rotation\u00a0?",
+    "right": "La rotation",
+    "wrong": ["La translation", "La symétrie axiale", "L'homothétie"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0045",
+    "question": "Quelle transformation géométrique est définie par un centre et un rapport <math><mi>k</mi></math> non nul\u00a0?",
+    "right": "L'homothétie",
+    "wrong": ["La translation", "La symétrie centrale", "La rotation"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0046",
+    "question": "Vrai ou faux\u00a0? Une homothétie de rapport <math><mi>k</mi><mo>=</mo><mo>-</mo><mn>1</mn></math> équivaut à une symétrie centrale.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0047",
+    "question": "Vrai ou faux\u00a0? Une homothétie de rapport <math><mi>k</mi><mo>=</mo><mn>1</mn></math> laisse chaque point de la figure inchangé.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0048",
+    "question": "Dans une rosace régulière à <math><mn>6</mn></math> pétales identiques centrée en <math><mi>O</mi></math>, quel est l'angle de la rotation de centre <math><mi>O</mi></math> qui permet de passer d'un pétale au pétale suivant\u00a0?",
+    "right": "<math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>30</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>120</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0049",
+    "question": "Dans une frise obtenue par répétition régulière d'un motif le long d'une droite, quelle transformation permet de passer d'un motif au suivant sans retournement\u00a0?",
+    "right": "Une translation",
+    "wrong": [
+      "Une homothétie de rapport <math><mn>2</mn></math>",
+      "Une symétrie axiale",
+      "Une rotation de <math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0050",
+    "question": "Quelle propriété est commune à toutes les transformations étudiées en 3e (symétries, translation, rotation, homothétie)\u00a0?",
+    "right": "Elles conservent l'alignement, les mesures d'angles et le parallélisme",
+    "wrong": [
+      "Elles conservent toujours les longueurs",
+      "Elles conservent toujours les aires",
+      "Elles transforment toujours une droite en un cercle"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0051",
+    "question": "Dans quel cas peut-on affirmer avec certitude que deux triangles sont égaux\u00a0?",
+    "right": "S'ils ont un angle de même mesure compris entre deux côtés deux à deux de même longueur",
+    "wrong": [
+      "S'ils ont leurs trois angles deux à deux de même mesure",
+      "S'ils ont deux côtés deux à deux de même longueur et un angle quelconque de même mesure",
+      "S'ils ont un côté de même longueur et un angle de même mesure"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0052",
+    "question": "Vrai ou faux\u00a0? Deux triangles qui ont des longueurs de côtés proportionnelles sont semblables.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0053",
+    "question": "Quel solide possède deux bases circulaires parallèles et superposables et une surface latérale courbe\u00a0?",
+    "right": "Un cylindre de révolution",
+    "wrong": ["Un cône de révolution", "Une pyramide", "Une boule"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0054",
+    "question": "Quel solide possède une base polygonale et des faces latérales triangulaires ayant un sommet commun\u00a0?",
+    "right": "Une pyramide",
+    "wrong": ["Un prisme droit", "Un cylindre", "Un pavé droit"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0055",
+    "question": "Quel solide possède deux bases polygonales parallèles et superposables et des faces latérales rectangulaires\u00a0?",
+    "right": "Un prisme droit",
+    "wrong": ["Une pyramide", "Un cône de révolution", "Une sphère"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0056",
+    "question": "Sur une sphère de centre <math><mi>O</mi></math> et de rayon <math><mn>10</mn><mtext>\u00a0cm</mtext></math>, un plan coupe la sphère selon un cercle de centre <math><mi>H</mi></math> tel que <math><mi>OH</mi><mo>=</mo><mn>6</mn><mtext>\u00a0cm</mtext></math>. Quel est le rayon de ce cercle section\u00a0?",
+    "right": "<math><mn>8</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>4</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>16</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><msqrt><mn>136</mn></msqrt><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0057",
+    "question": "Une échelle de <math><mn>5</mn><mtext>\u00a0m</mtext></math> est appuyée contre un mur vertical perpendiculaire au sol horizontal. Le pied de l'échelle est à <math><mn>3</mn><mtext>\u00a0m</mtext></math> du mur. À quelle hauteur le haut de l'échelle touche-t-il le mur\u00a0?",
+    "right": "<math><mn>4</mn><mtext>\u00a0m</mtext></math>",
+    "wrong": [
+      "<math><mn>8</mn><mtext>\u00a0m</mtext></math>",
+      "<math><mn>2</mn><mtext>\u00a0m</mtext></math>",
+      "<math><msqrt><mn>34</mn></msqrt><mtext>\u00a0m</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0058",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>B</mi></math>, on sait que <math><mi>BC</mi><mo>=</mo><mn>6</mn><mtext>\u00a0cm</mtext></math> et <math><mover><mi>A</mi><mo>^</mo></mover><mo>=</mo><mn>30</mn><mtext>\u00a0</mtext><mo>°</mo></math>. Quelle est la longueur de l'hypoténuse <math><mi>AC</mi></math>\u00a0?",
+    "right": "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>3</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>6</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>9</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0059",
+    "question": "Vrai ou faux\u00a0? Dans un triangle rectangle, la somme des deux angles aigus est égale à <math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0060",
+    "question": "Si <math><mi>sin</mi><mrow><mo>(</mo><mover><mi>B</mi><mo>^</mo></mover><mo>)</mo></mrow><mo>=</mo><mn>0,6</mn></math> dans un triangle rectangle avec une hypoténuse de <math><mn>10</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur du côté opposé à l'angle <math><mover><mi>B</mi><mo>^</mo></mover></math>\u00a0?",
+    "right": "<math><mn>6</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>0,6</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>16,7</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>8</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0061",
+    "question": "Si <math><mi>cos</mi><mrow><mo>(</mo><mover><mi>C</mi><mo>^</mo></mover><mo>)</mo></mrow><mo>=</mo><mn>0,8</mn></math> dans un triangle rectangle avec une hypoténuse de <math><mn>15</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur du côté adjacent à l'angle <math><mover><mi>C</mi><mo>^</mo></mover></math>\u00a0?",
+    "right": "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>9</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>18,75</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>0,8</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0062",
+    "question": "Quelle est la mesure d'un angle dans un triangle équilatéral\u00a0?",
+    "right": "<math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>45</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>30</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0063",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> isocèle en <math><mi>A</mi></math>, si <math><mover><mi>A</mi><mo>^</mo></mover><mo>=</mo><mn>40</mn><mtext>\u00a0</mtext><mo>°</mo></math>, quelle est la mesure de l'angle <math><mover><mi>B</mi><mo>^</mo></mover></math>\u00a0?",
+    "right": "<math><mn>70</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>40</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>140</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>50</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0064",
+    "question": "On considère deux droites sécantes en <math><mi>O</mi></math> coupées par deux droites parallèles. Si <math><mi>OA</mi><mo>=</mo><mn>4</mn><mtext>\u00a0cm</mtext></math>, <math><mi>OM</mi><mo>=</mo><mn>6</mn><mtext>\u00a0cm</mtext></math> et <math><mi>OB</mi><mo>=</mo><mn>10</mn><mtext>\u00a0cm</mtext></math> (avec <math><mi>A</mi><mo>∈</mo><mrow><mo>[</mo><mi>OB</mi><mo>]</mo></mrow></math>), quelle est la longueur <math><mi>ON</mi></math>\u00a0?",
+    "right": "<math><mn>15</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>6,67</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>2,4</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0065",
+    "question": "Vrai ou faux\u00a0? Dans un triangle <math><mi>ABC</mi></math>, si <math><mi>M</mi></math> est le milieu de <math><mrow><mo>[</mo><mi>AB</mi><mo>]</mo></mrow></math> et <math><mi>N</mi></math> le milieu de <math><mrow><mo>[</mo><mi>AC</mi><mo>]</mo></mrow></math>, alors <math><mi>MN</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>BC</mi></math> et <math><mrow><mo>(</mo><mi>MN</mi><mo>)</mo></mrow><mo>∥</mo><mrow><mo>(</mo><mi>BC</mi><mo>)</mo></mrow></math>.",
+    "right": "Vrai",
+    "wrong": ["Faux"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0066",
+    "question": "Quelle est la diagonale d'un carré de côté <math><mn>1</mn><mtext>\u00a0cm</mtext></math>\u00a0?",
+    "right": "<math><msqrt><mn>2</mn></msqrt><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>2</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>1</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><msqrt><mn>3</mn></msqrt><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0067",
+    "question": "Dans un repère orthogonal du plan, quel est le nom du premier axe (horizontal)\u00a0?",
+    "right": "L'axe des abscisses",
+    "wrong": ["L'axe des ordonnées", "L'axe des altitudes", "L'axe des cotes"]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0068",
+    "question": "Quelle transformation conserve les longueurs et transforme une droite en une droite qui lui est parallèle\u00a0?",
+    "right": "La translation (ou la symétrie centrale)",
+    "wrong": [
+      "La symétrie axiale (cas général)",
+      "Une rotation de <math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "Une homothétie de rapport <math><mn>2</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0069",
+    "question": "On applique une homothétie de centre <math><mi>O</mi></math> et de rapport <math><mi>k</mi><mo>=</mo><mo>-</mo><mn>3</mn></math> à un point <math><mi>A</mi></math> situé à <math><mn>4</mn><mtext>\u00a0cm</mtext></math> de <math><mi>O</mi></math>. À quelle distance de <math><mi>O</mi></math> se trouve le point image <math><mi>A'</mi></math>\u00a0?",
+    "right": "<math><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mo>-</mo><mn>12</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>7</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>1</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-espace-geometrie-0070",
+    "question": "Dans un triangle <math><mi>ABC</mi></math> rectangle en <math><mi>C</mi></math>, si <math><mi>tan</mi><mrow><mo>(</mo><mover><mi>A</mi><mo>^</mo></mover><mo>)</mo></mrow><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math> et <math><mi>AC</mi><mo>=</mo><mn>8</mn><mtext>\u00a0cm</mtext></math>, quelle est la longueur <math><mi>BC</mi></math>\u00a0?",
+    "right": "<math><mn>6</mn><mtext>\u00a0cm</mtext></math>",
+    "wrong": [
+      "<math><mn>10</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>10,7</mn><mtext>\u00a0cm</mtext></math>",
+      "<math><mn>3</mn><mtext>\u00a0cm</mtext></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0071",
+    "question": "Qu'est-ce qu'un parallélogramme\u00a0?",
+    "right": "Un quadrilatère dont les côtés opposés sont parallèles deux à deux",
+    "wrong": [
+      "Un quadrilatère ayant quatre angles droits",
+      "Un quadrilatère dont les quatre côtés ont la même longueur",
+      "Un quadrilatère ayant uniquement deux côtés parallèles"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0072",
+    "question": "Quelle définition caractérise un rectangle\u00a0?",
+    "right": "Un quadrilatère qui possède quatre angles droits",
+    "wrong": [
+      "Un parallélogramme dont les diagonales sont perpendiculaires",
+      "Un quadrilatère dont les côtés opposés sont de même longueur sans angle droit",
+      "Un triangle possédant un angle droit"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0073",
+    "question": "Comment définit-on un losange\u00a0?",
+    "right": "Un quadrilatère dont les quatre côtés ont la même longueur",
+    "wrong": [
+      "Un parallélogramme possédant quatre angles droits",
+      "Un quadrilatère dont les côtés consécutifs sont perpendiculaires",
+      "Un trapèze dont les bases sont égales"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0074",
+    "question": "Quelle définition correspond à un carré\u00a0?",
+    "right": "Un quadrilatère qui a quatre côtés de même longueur et quatre angles droits",
+    "wrong": [
+      "Un parallélogramme dont les diagonales ont la même longueur mais ne sont pas perpendiculaires",
+      "Un losange qui n'a aucun angle droit",
+      "Un quadrilatère dont seuls deux côtés opposés sont égaux"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0075",
+    "question": "Vrai ou faux\u00a0? Tout carré est à la fois un rectangle et un losange.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0076",
+    "question": "Qu'est-ce qu'un trapèze en géométrie plane\u00a0?",
+    "right": "Un quadrilatère qui possède au moins deux côtés parallèles",
+    "wrong": [
+      "Un quadrilatère dont les diagonales se coupent en leur milieu",
+      "Un polygone à cinq côtés de même longueur",
+      "Un quadrilatère dont tous les angles sont obtus"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0077",
+    "question": "Quelle est la définition d'un triangle isocèle en <math><mi>A</mi></math>\u00a0?",
+    "right": "Un triangle qui a deux côtés de même longueur issus de <math><mi>A</mi></math>",
+    "wrong": [
+      "Un triangle dont les trois côtés ont la même longueur",
+      "Un triangle possédant un angle droit en <math><mi>A</mi></math>",
+      "Un triangle dont tous les angles mesurent <math><mn>60</mn><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0078",
+    "question": "Comment définit-on un triangle équilatéral\u00a0?",
+    "right": "Un triangle dont les trois côtés ont la même longueur",
+    "wrong": [
+      "Un triangle dont deux côtés seulement ont la même longueur",
+      "Un triangle qui possède un angle obtus",
+      "Un triangle dont les diagonales sont perpendiculaires"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0079",
+    "question": "Quelle est la différence entre un cercle et un disque de centre <math><mi>O</mi></math> et de rayon <math><mi>R</mi></math>\u00a0?",
+    "right": "Le cercle est l'ensemble des points situés à la distance <math><mi>R</mi></math> de <math><mi>O</mi></math>, tandis que le disque inclut aussi l'intérieur (distance inférieure ou égale à <math><mi>R</mi></math>)",
+    "wrong": [
+      "Le cercle inclut l'intérieur de la figure, alors que le disque n'est que le contour",
+      "Un disque est forcément délimité par un diamètre, alors qu'un cercle ne l'est pas",
+      "Il n'y a aucune différence : ce sont deux synonymes"
+    ]
+  },
+  {
+    "id": "maths-3e-geometrie-plane-0080",
+    "question": "Vrai ou faux\u00a0? Tout rectangle est un parallélogramme.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  }
+]

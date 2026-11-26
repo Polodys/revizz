@@ -45,6 +45,11 @@ export const quizCatalog = [
                 id: "maths-3e-grandeurs-mesures",
                 label: "Grandeurs et mesures",
                 file: dataFile("maths-3e/grandeurs-mesures.json")
+            },
+            {
+                id: "maths-3e-espace-geometrie",
+                label: "Espace et géométrie",
+                file: dataFile("maths-3e/espace-geometrie.json")
             }
         ]
     },
