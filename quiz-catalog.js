@@ -50,6 +50,11 @@ export const quizCatalog = [
                 id: "maths-3e-espace-geometrie",
                 label: "Espace et géométrie",
                 file: dataFile("maths-3e/espace-geometrie.json")
+            },
+            {
+                id: "maths-3e-algorithmique-programmation",
+                label: "Algorithmique et programmation",
+                file: dataFile("maths-3e/algorithmique-programmation.json")
             }
         ]
     },

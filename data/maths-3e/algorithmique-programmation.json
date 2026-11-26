@@ -1,0 +1,396 @@
+[
+  {
+    "id": "maths-3e-algorithmique-programmation-0001",
+    "question": "Qu'est-ce qu'un algorithme\u00a0?",
+    "right": "Une suite finie et ordonnée d'instructions permettant de résoudre un problème",
+    "wrong": [
+      "Un logiciel spécifique de dessin géométrique",
+      "Une case mémoire contenant un nombre fixe",
+      "Un composant électronique d'un ordinateur"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0002",
+    "question": "En programmation par blocs (type Scratch), à quoi sert une variable informatique\u00a0?",
+    "right": "À stocker une valeur en mémoire qui peut être modifiée au cours du programme",
+    "wrong": [
+      "À déclencher automatiquement le programme au démarrage",
+      "À arrêter définitivement toutes les boucles en cours",
+      "À dessiner uniquement des polygones réguliers"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0003",
+    "question": "Dans Scratch, on exécute la séquence suivante\u00a0: «\u00a0mettre <math><mi>x</mi></math> à <math><mn>4</mn></math>\u00a0», puis «\u00a0ajouter <math><mn>3</mn></math> à <math><mi>x</mi></math>\u00a0», puis «\u00a0mettre <math><mi>x</mi></math> à <math><mi>x</mi><mo>×</mo><mn>2</mn></math>\u00a0». Quelle est la valeur finale de <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>14</mn></math>",
+    "wrong": [
+      "<math><mn>11</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>24</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0004",
+    "question": "Dans Scratch, quelle est la différence entre «\u00a0mettre <math><mi>score</mi></math> à <math><mn>5</mn></math>\u00a0» et «\u00a0ajouter <math><mn>5</mn></math> à <math><mi>score</mi></math>\u00a0»\u00a0?",
+    "right": "L'instruction «\u00a0mettre\u00a0» remplace l'ancienne valeur par <math><mn>5</mn></math>, alors que «\u00a0ajouter\u00a0» additionne <math><mn>5</mn></math> à la valeur existante",
+    "wrong": [
+      "L'instruction «\u00a0mettre\u00a0» additionne <math><mn>5</mn></math>, alors que «\u00a0ajouter\u00a0» multiplie par <math><mn>5</mn></math>",
+      "Il n'y a aucune différence entre ces deux instructions",
+      "L'instruction «\u00a0ajouter\u00a0» crée une nouvelle variable nommée <math><mn>5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0005",
+    "question": "On exécute\u00a0: «\u00a0mettre <math><mi>a</mi></math> à <math><mn>10</mn></math>\u00a0», «\u00a0mettre <math><mi>b</mi></math> à <math><mn>3</mn></math>\u00a0», «\u00a0mettre <math><mi>a</mi></math> à <math><mi>b</mi></math>\u00a0», «\u00a0mettre <math><mi>b</mi></math> à <math><mi>a</mi></math>\u00a0». Quelles sont les valeurs finales de <math><mi>a</mi></math> et <math><mi>b</mi></math>\u00a0?",
+    "right": "<math><mi>a</mi><mo>=</mo><mn>3</mn></math> et <math><mi>b</mi><mo>=</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mi>a</mi><mo>=</mo><mn>3</mn></math> et <math><mi>b</mi><mo>=</mo><mn>10</mn></math>",
+      "<math><mi>a</mi><mo>=</mo><mn>10</mn></math> et <math><mi>b</mi><mo>=</mo><mn>10</mn></math>",
+      "<math><mi>a</mi><mo>=</mo><mn>13</mn></math> et <math><mi>b</mi><mo>=</mo><mn>13</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0006",
+    "question": "Pour échanger les valeurs de deux variables <math><mi>A</mi></math> et <math><mi>B</mi></math> sans perdre de donnée, de quoi a-t-on besoin\u00a0?",
+    "right": "D'une troisième variable temporaire",
+    "wrong": [
+      "D'une boucle «\u00a0répéter <math><mn>2</mn></math> fois\u00a0»",
+      "D'une instruction «\u00a0si … alors\u00a0»",
+      "De remettre <math><mi>A</mi></math> et <math><mi>B</mi></math> à <math><mn>0</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0007",
+    "question": "Dans Scratch, lequel de ces blocs constitue un événement déclencheur d'un script\u00a0?",
+    "right": "«\u00a0quand la touche espace est pressée\u00a0»",
+    "wrong": [
+      "«\u00a0avancer de <math><mn>10</mn></math> pas\u00a0»",
+      "«\u00a0répéter <math><mn>4</mn></math> fois\u00a0»",
+      "«\u00a0ajouter <math><mn>1</mn></math> à points\u00a0»"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0008",
+    "question": "Dans un repère Scratch centré en <math><mrow><mo>(</mo><mn>0</mn><mo>\u00a0;</mo><mn>0</mn><mo>)</mo></mrow></math>, un lutin est en <math><mrow><mo>(</mo><mn>10</mn><mo>\u00a0;</mo><mn>20</mn><mo>)</mo></mrow></math>. On exécute «\u00a0ajouter <math><mo>-</mo><mn>30</mn></math> à <math><mi>x</mi></math>\u00a0» puis «\u00a0mettre <math><mi>y</mi></math> à <math><mn>50</mn></math>\u00a0». Quelles sont ses nouvelles coordonnées\u00a0?",
+    "right": "<math><mrow><mo>(</mo><mo>-</mo><mn>20</mn><mo>\u00a0;</mo><mn>50</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mrow><mo>(</mo><mo>-</mo><mn>30</mn><mo>\u00a0;</mo><mn>70</mn><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><mn>40</mn><mo>\u00a0;</mo><mn>50</mn><mo>)</mo></mrow></math>",
+      "<math><mrow><mo>(</mo><mo>-</mo><mn>20</mn><mo>\u00a0;</mo><mn>70</mn><mo>)</mo></mrow></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0009",
+    "question": "Dans Scratch, quelle instruction permet de tracer un trait derrière le lutin lorsqu'il se déplace\u00a0?",
+    "right": "«\u00a0stylo en position d'écriture\u00a0»",
+    "wrong": [
+      "«\u00a0relever le stylo\u00a0»",
+      "«\u00a0effacer tout\u00a0»",
+      "«\u00a0estampiller\u00a0»"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0010",
+    "question": "Dans Scratch, un lutin est orienté vers la droite (<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>). Il exécute «\u00a0tourner à gauche de <math><mn>90</mn></math> degrés\u00a0». Vers quelle direction est-il maintenant orienté\u00a0?",
+    "right": "Vers le haut (<math><mn>0</mn><mtext>\u00a0</mtext><mo>°</mo></math>)",
+    "wrong": [
+      "Vers le bas (<math><mn>180</mn><mtext>\u00a0</mtext><mo>°</mo></math>)",
+      "Vers la gauche (<math><mo>-</mo><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>)",
+      "Toujours vers la droite (<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>)"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0011",
+    "question": "Dans Scratch, pour tracer un carré de côté <math><mn>100</mn></math> pixels avec un stylo posé, quelle séquence faut-il répéter <math><mn>4</mn></math> fois\u00a0?",
+    "right": "«\u00a0avancer de <math><mn>100</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>90</mn></math> degrés\u00a0»",
+    "wrong": [
+      "«\u00a0avancer de <math><mn>100</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>45</mn></math> degrés\u00a0»",
+      "«\u00a0avancer de <math><mn>25</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>90</mn></math> degrés\u00a0»",
+      "«\u00a0avancer de <math><mn>100</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>60</mn></math> degrés\u00a0»"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0012",
+    "question": "Dans Scratch, pour tracer un triangle équilatéral de côté <math><mn>80</mn></math> pixels en répétant <math><mn>3</mn></math> fois «\u00a0avancer de <math><mn>80</mn></math>\u00a0» et «\u00a0tourner à gauche de … degrés\u00a0», de quel angle le lutin doit-il tourner à chaque sommet\u00a0?",
+    "right": "<math><mn>120</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>60</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>30</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0013",
+    "question": "Dans Scratch, un lutin répète <math><mn>6</mn></math> fois\u00a0: «\u00a0avancer de <math><mn>50</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>60</mn></math> degrés\u00a0». Quelle figure géométrique trace-t-il\u00a0?",
+    "right": "Un hexagone régulier",
+    "wrong": [
+      "Un triangle équilatéral",
+      "Un pentagone régulier",
+      "Un octogone régulier"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0014",
+    "question": "Dans Scratch, un lutin répète <math><mn>5</mn></math> fois\u00a0: «\u00a0avancer de <math><mn>40</mn></math>\u00a0» puis «\u00a0tourner de <math><mn>72</mn></math> degrés\u00a0». Quelle figure géométrique trace-t-il\u00a0?",
+    "right": "Un pentagone régulier",
+    "wrong": [
+      "Un hexagone régulier",
+      "Un carré",
+      "Un cercle"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0015",
+    "question": "Dans Scratch, quelle est la somme totale des angles dont tourne un lutin lorsqu'il trace un polygone régulier fermé (carré, triangle équilatéral, hexagone…)\u00a0?",
+    "right": "<math><mn>360</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+    "wrong": [
+      "<math><mn>180</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>90</mn><mtext>\u00a0</mtext><mo>°</mo></math>",
+      "<math><mn>540</mn><mtext>\u00a0</mtext><mo>°</mo></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0016",
+    "question": "Vrai ou faux\u00a0? Dans une boucle «\u00a0répéter <math><mn>8</mn></math> fois\u00a0», les instructions placées à l'intérieur sont exécutées exactement <math><mn>8</mn></math> fois.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0017",
+    "question": "On exécute\u00a0: «\u00a0mettre <math><mi>S</mi></math> à <math><mn>0</mn></math>\u00a0», puis «\u00a0répéter <math><mn>5</mn></math> fois\u00a0: ajouter <math><mn>3</mn></math> à <math><mi>S</mi></math>\u00a0». Quelle est la valeur de <math><mi>S</mi></math> à la fin\u00a0?",
+    "right": "<math><mn>15</mn></math>",
+    "wrong": [
+      "<math><mn>8</mn></math>",
+      "<math><mn>3</mn></math>",
+      "<math><mn>243</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0018",
+    "question": "On exécute\u00a0: «\u00a0mettre <math><mi>n</mi></math> à <math><mn>1</mn></math>\u00a0», puis «\u00a0répéter <math><mn>4</mn></math> fois\u00a0: mettre <math><mi>n</mi></math> à <math><mi>n</mi><mo>×</mo><mn>2</mn></math>\u00a0». Quelle est la valeur finale de <math><mi>n</mi></math>\u00a0?",
+    "right": "<math><mn>16</mn></math>",
+    "wrong": [
+      "<math><mn>8</mn></math>",
+      "<math><mn>9</mn></math>",
+      "<math><mn>32</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0019",
+    "question": "Dans Scratch, quand utilise-t-on une boucle «\u00a0répéter jusqu'à ce que [condition]\u00a0» plutôt que «\u00a0répéter … fois\u00a0»\u00a0?",
+    "right": "Lorsque l'on ne connaît pas à l'avance le nombre exact de répétitions nécessaires",
+    "wrong": [
+      "Uniquement lorsque le programme ne contient aucune variable",
+      "Pour n'exécuter l'instruction qu'une seule fois au maximum",
+      "Uniquement pour arrêter le logiciel"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0020",
+    "question": "Dans Scratch, on exécute\u00a0: «\u00a0mettre <math><mi>x</mi></math> à <math><mn>2</mn></math>\u00a0», puis «\u00a0répéter jusqu'à ce que <math><mi>x</mi><mo>&gt;</mo><mn>20</mn></math>\u00a0: mettre <math><mi>x</mi></math> à <math><mi>x</mi><mo>×</mo><mn>3</mn></math>\u00a0». Quelle est la valeur finale de <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>54</mn></math>",
+    "wrong": [
+      "<math><mn>18</mn></math>",
+      "<math><mn>21</mn></math>",
+      "<math><mn>6</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0021",
+    "question": "Dans Scratch, dans une structure conditionnelle «\u00a0si [condition] alors [Bloc A] sinon [Bloc B]\u00a0», que se passe-t-il si la condition est fausse\u00a0?",
+    "right": "Seul le Bloc B est exécuté",
+    "wrong": [
+      "Seul le Bloc A est exécuté",
+      "Les Blocs A et B sont exécutés tous les deux",
+      "Aucun des deux blocs n'est exécuté"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0022",
+    "question": "On considère le test\u00a0: «\u00a0si <math><mi>note</mi><mo>≥</mo><mn>10</mn></math> alors dire Admis sinon dire Refusé\u00a0». Qu'affiche le programme si <math><mi>note</mi><mo>=</mo><mn>10</mn></math>\u00a0?",
+    "right": "Admis",
+    "wrong": [
+      "Refusé",
+      "Admis puis Refusé",
+      "Rien du tout"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0023",
+    "question": "Dans Scratch, quelle condition permet de tester si un entier naturel <math><mi>N</mi></math> est pair en utilisant l'opérateur «\u00a0modulo\u00a0» (reste de la division euclidienne)\u00a0?",
+    "right": "<math><mi>N</mi><mtext>\u00a0modulo\u00a0</mtext><mn>2</mn><mo>=</mo><mn>0</mn></math>",
+    "wrong": [
+      "<math><mi>N</mi><mtext>\u00a0modulo\u00a0</mtext><mn>2</mn><mo>=</mo><mn>1</mn></math>",
+      "<math><mfrac><mi>N</mi><mn>2</mn></mfrac><mo>=</mo><mn>0</mn></math>",
+      "<math><mn>2</mn><mtext>\u00a0modulo\u00a0</mtext><mi>N</mi><mo>=</mo><mn>0</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0024",
+    "question": "Dans Scratch, que renvoie l'expression «\u00a0<math><mn>17</mn><mtext>\u00a0modulo\u00a0</mtext><mn>5</mn></math>\u00a0»\u00a0?",
+    "right": "<math><mn>2</mn></math>",
+    "wrong": [
+      "<math><mn>3</mn></math>",
+      "<math><mn>3,4</mn></math>",
+      "<math><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0025",
+    "question": "Pour que la condition composée «\u00a0<math><mrow><mo>(</mo><mi>x</mi><mo>&gt;</mo><mn>5</mn><mo>)</mo></mrow><mtext> et </mtext><mrow><mo>(</mo><mi>x</mi><mo>&lt;</mo><mn>10</mn><mo>)</mo></mrow></math>\u00a0» soit vraie, quelle valeur peut prendre <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mn>7</mn></math>",
+    "wrong": [
+      "<math><mn>5</mn></math>",
+      "<math><mn>10</mn></math>",
+      "<math><mn>12</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0026",
+    "question": "Pour que la condition composée «\u00a0<math><mrow><mo>(</mo><mi>x</mi><mo>&lt;</mo><mn>0</mn><mo>)</mo></mrow><mtext> ou </mtext><mrow><mo>(</mo><mi>x</mi><mo>&gt;</mo><mn>10</mn><mo>)</mo></mrow></math>\u00a0» soit vraie, quelle valeur peut prendre <math><mi>x</mi></math>\u00a0?",
+    "right": "<math><mo>-</mo><mn>3</mn></math>",
+    "wrong": [
+      "<math><mn>0</mn></math>",
+      "<math><mn>5</mn></math>",
+      "<math><mn>10</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0027",
+    "question": "Vrai ou faux\u00a0? Si la condition <math><mi>A</mi></math> est vraie et la condition <math><mi>B</mi></math> est fausse, alors «\u00a0<math><mi>A</mi><mtext>\u00a0ou\u00a0</mtext><mi>B</mi></math>\u00a0» est vraie.",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0028",
+    "question": "Dans Scratch, quel est l'intérêt principal de créer un «\u00a0bloc personnalisé\u00a0» (ou sous-programme / fonction) en programmation\u00a0?",
+    "right": "Décomposer un problème complexe et réutiliser facilement une même suite d'instructions",
+    "wrong": [
+      "Augmenter artificiellement la taille du fichier",
+      "Empêcher l'utilisation de variables dans le script",
+      "Remplacer obligatoirement toutes les boucles"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0029",
+    "question": "Dans Scratch, un bloc personnalisé «\u00a0motif\u00a0» trace un triangle et revient à son point de départ. Dans le script principal, on exécute «\u00a0répéter <math><mn>12</mn></math> fois\u00a0: motif, puis tourner de <math><mn>30</mn></math> degrés\u00a0». Qu'obtient-on\u00a0?",
+    "right": "Une rosace composée de <math><mn>12</mn></math> triangles",
+    "wrong": [
+      "Un seul triangle agrandi <math><mn>12</mn></math> fois",
+      "Une frise rectiligne de <math><mn>12</mn></math> triangles",
+      "Un polygone régulier à <math><mn>12</mn></math> côtés"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0030",
+    "question": "Dans Scratch, que renvoie l'instruction «\u00a0nombre aléatoire entre <math><mn>1</mn></math> et <math><mn>6</mn></math>\u00a0»\u00a0?",
+    "right": "Un nombre entier pris au hasard parmi <math><mn>1</mn><mo>\u00a0;</mo><mn>2</mn><mo>\u00a0;</mo><mn>3</mn><mo>\u00a0;</mo><mn>4</mn><mo>\u00a0;</mo><mn>5</mn><mo>\u00a0;</mo><mn>6</mn></math>",
+    "wrong": [
+      "Un nombre décimal quelconque entre <math><mn>1</mn></math> et <math><mn>6</mn></math>",
+      "Un nombre entier pris au hasard parmi <math><mn>2</mn><mo>\u00a0;</mo><mn>3</mn><mo>\u00a0;</mo><mn>4</mn><mo>\u00a0;</mo><mn>5</mn></math> uniquement",
+      "Toujours la moyenne <math><mn>3,5</mn></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0031",
+    "question": "Pour simuler le lancer de deux dés équilibrés et calculer leur somme, quelle expression faut-il utiliser dans Scratch\u00a0?",
+    "right": "«\u00a0nombre aléatoire entre <math><mn>1</mn></math> et <math><mn>6</mn></math>\u00a0» <math><mo>+</mo></math> «\u00a0nombre aléatoire entre <math><mn>1</mn></math> et <math><mn>6</mn></math>\u00a0»",
+    "wrong": [
+      "«\u00a0nombre aléatoire entre <math><mn>2</mn></math> et <math><mn>12</mn></math>\u00a0»",
+      "<math><mn>2</mn><mo>×</mo></math> «\u00a0nombre aléatoire entre <math><mn>1</mn></math> et <math><mn>6</mn></math>\u00a0»",
+      "«\u00a0nombre aléatoire entre <math><mn>1</mn></math> et <math><mn>12</mn></math>\u00a0»"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0032",
+    "question": "Dans un programme de simulation, on lance une pièce <math><mn>10\u00a0000</mn></math> fois et la variable <math><mi>Pile</mi></math> compte le nombre de fois où «\u00a0Pile\u00a0» sort. Comment calcule-t-on la fréquence d'apparition de «\u00a0Pile\u00a0»\u00a0?",
+    "right": "<math><mfrac><mi>Pile</mi><mrow><mn>10\u00a0000</mn></mrow></mfrac></math>",
+    "wrong": [
+      "<math><mfrac><mrow><mn>10\u00a0000</mn></mrow><mi>Pile</mi></mfrac></math>",
+      "<math><mi>Pile</mi><mo>×</mo><mn>10\u00a0000</mn></math>",
+      "<math><mn>10\u00a0000</mn><mo>-</mo><mi>Pile</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0033",
+    "question": "On programme le calcul algébrique suivant\u00a0: demander un nombre <math><mi>x</mi></math>, mettre <math><mi>a</mi></math> à <math><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></math>, mettre <math><mi>b</mi></math> à <math><mi>a</mi><mo>×</mo><mi>x</mi></math>, puis dire <math><mi>b</mi></math>. Quelle expression littérale ce programme calcule-t-il\u00a0?",
+    "right": "<math><mi>x</mi><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>",
+    "wrong": [
+      "<math><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></math>",
+      "<math><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></math>",
+      "<math><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0034",
+    "question": "On souhaite écrire un script qui affiche «\u00a0Triangle rectangle\u00a0» si un triangle de côtés <math><mi>a</mi></math>, <math><mi>b</mi></math> et <math><mi>c</mi></math> (avec <math><mi>c</mi></math> le plus grand côté) est rectangle. Quelle condition doit-on tester\u00a0?",
+    "right": "<math><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>",
+    "wrong": [
+      "<math><mi>c</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi></math>",
+      "<math><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup></math>",
+      "<math><mi>c</mi><mo>&lt;</mo><mi>a</mi><mo>+</mo><mi>b</mi></math>"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0035",
+    "question": "Que signifie «\u00a0déboguer\u00a0» un programme informatique\u00a0?",
+    "right": "Rechercher, identifier et corriger les erreurs de fonctionnement du programme",
+    "wrong": [
+      "Supprimer toutes les variables utilisées",
+      "Traduire un programme en langue anglaise",
+      "Exécuter le programme sans ordinateur"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0036",
+    "question": "Vrai ou faux\u00a0? Deux scripts différents d'un même lutin peuvent s'exécuter en parallèle s'ils sont déclenchés par le même événement (par exemple «\u00a0quand le drapeau vert est cliqué\u00a0»).",
+    "right": "Vrai",
+    "wrong": [
+      "Faux"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0037",
+    "question": "Dans Scratch, dans un jeu de labyrinthe, quel bloc permet de détecter si le personnage touche un mur de couleur noire\u00a0?",
+    "right": "«\u00a0couleur [noir] touchée\u00a0?\u00a0»",
+    "wrong": [
+      "«\u00a0mettre la couleur du stylo à [noir]\u00a0»",
+      "«\u00a0attendre <math><mn>1</mn></math> seconde\u00a0»",
+      "«\u00a0montrer la variable mur\u00a0»"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0038",
+    "question": "Dans Scratch, un lutin exécute\u00a0: «\u00a0mettre <math><mi>L</mi></math> à <math><mn>10</mn></math>\u00a0», puis «\u00a0répéter <math><mn>4</mn></math> fois\u00a0: avancer de <math><mi>L</mi></math>, tourner de <math><mn>90</mn></math> degrés, ajouter <math><mn>10</mn></math> à <math><mi>L</mi></math>\u00a0». Quelle figure obtient-on\u00a0?",
+    "right": "Une spirale carrée ouverte (les côtés mesurent successivement <math><mn>10</mn><mo>\u00a0;</mo><mn>20</mn><mo>\u00a0;</mo><mn>30</mn><mo>\u00a0;</mo><mn>40</mn></math>)",
+    "wrong": [
+      "Un carré fermé de côté <math><mn>40</mn></math>",
+      "Quatre carrés concentriques fermés",
+      "Un triangle rectangle"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0039",
+    "question": "Combien de fois le message «\u00a0Bonjour\u00a0» est-il affiché lorsqu'on imbrique une boucle «\u00a0répéter <math><mn>3</mn></math> fois\u00a0» à l'intérieur d'une boucle «\u00a0répéter <math><mn>4</mn></math> fois\u00a0»\u00a0?",
+    "right": "<math><mn>12</mn></math> fois",
+    "wrong": [
+      "<math><mn>7</mn></math> fois",
+      "<math><mn>4</mn></math> fois",
+      "<math><mn>81</mn></math> fois"
+    ]
+  },
+  {
+    "id": "maths-3e-algorithmique-programmation-0040",
+    "question": "Dans Scratch, à quoi sert le bloc «\u00a0envoyer à tous [message1]\u00a0»\u00a0?",
+    "right": "À synchroniser et déclencher des scripts sur d'autres lutins ou sur la scène",
+    "wrong": [
+      "À afficher une bulle de dialogue à l'écran pendant <math><mn>2</mn></math> secondes",
+      "À demander à l'utilisateur de saisir un nombre au clavier",
+      "À effacer tous les tracés du stylo"
+    ]
+  }
+]
